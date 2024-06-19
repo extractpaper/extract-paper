@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Effect of Cryogenic Mechanical Alloying and Milling Duration on Powder Particles’ Microstructure of an Oxide Dispersion Strengthened FeCrMnNiCo High-Entropy Alloy</title>
+				<funder ref="#_9NsfA4e">
+					<orgName type="full">Austrian Federal Ministries for Climate Action, Environment, Energy, Mobility, Innovation and Technology (BMK) and for Digital and Economic Affairs (BMDW)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Styria, Upper Austria and Tyrol</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Austrian research funding association (FFG)</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability status="unknown"><p>Copyright Springer Science and Business Media LLC</p>
+				</availability>
+				<date type="published" when="2021-11-22">November 22, 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Michael</forename><surname>Mayer</surname></persName>
+							<email>michael.mayer@mcl.at</email>
+						</author>
+						<author>
+							<persName><forename type="first">Gerald</forename><surname>Ressel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jiri</forename><surname>Svoboda</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Materials Center Leoben Forschung GmbH</orgName>
+								<address>
+									<addrLine>Roseggerstraße 12</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Physics of Materials</orgName>
+								<orgName type="institution">Academy of Sciences of the Czech Republic</orgName>
+								<address>
+									<addrLine>Zizkova 22</addrLine>
+									<postCode>616 62</postCode>
+									<settlement>Brno</settlement>
+									<country key="CZ">Czech Republic</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Effect of Cryogenic Mechanical Alloying and Milling Duration on Powder Particles’ Microstructure of an Oxide Dispersion Strengthened FeCrMnNiCo High-Entropy Alloy</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Metallurgical and Materials Transactions A</title>
+						<title level="j" type="abbrev">Metall Mater Trans A</title>
+						<idno type="ISSN">1073-5623</idno>
+						<idno type="eISSN">1543-1940</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">53</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="573" to="584"/>
+							<date type="published" when="2021-11-22">November 22, 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DC689DB2DB7214869990401EF09DC0FA</idno>
+					<idno type="DOI">10.1007/s11661-021-06532-x</idno>
+					<note type="submission">Manuscript submitted August 17, 2021; accepted November 1, 2021.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-14T14:23+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Oxide dispersion strengthened materials are commonly used for high-temperature applications. Among other possibilities, these oxides are mostly introduced by mechanical alloying comprising cold welding and fracturing of powders by high-impact loads during milling. However, despite their outstanding high-temperature performance, these materials are still not established because of their laborious and thus expensive processing. Therefore, to improve mechanical alloying's efficiency, the effect of lower milling temperatures is investigated on an oxide-dispersion strengthened high-entropy-alloy in the proposed study. To this end, prealloyed FeCrMnNiCo powders were milled together with yttria at cryogenic and room temperature by using a novel attritor cryomill. Powders milled at both temperatures were subsequently compared regarding their macroscopic morphology, amount and size distribution of detectable yttria as well as defect structure by means of high-resolution scanning electron microscopy and X-ray diffraction, respectively. Investigations showed a significant decrease of powder particle size and an insignificant influence on their aspect-ratio at cryogenic conditions. Furthermore, the phase fraction of detectable yttria got reduced by cryomilling, indicating increased dissolution or at least refinement. Additionally, a higher full width at half maximum accompanied by increased stacking fault probability of the fcc FeCrMnNiCo matrix gained by X-ray diffraction measurements suggests an improved milling efficiency during cryomilling intensified by higher defect density as well as strength of FeCrMnNiCo powders.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>THE efficiency of thermodynamic cyclic processes present in energy conversion or propulsion systems is increased with higher operation temperatures. <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref> Consequently, as these operation temperatures are limited exceptionally by the materials applied, this means in turn that materials with increased load-bearing capacity at elevated or high temperatures lead to improved fuel efficiencies of these systems. <ref type="bibr" target="#b0">[1]</ref> Nowadays, commonly used materials for these applications are Ni-based superalloys, which are already getting close to their limit as intermetallic particles coarsen and dissolve. Therefore, new material concepts are in focus of research to overcome this limit with high potential for enormous environmental as well as economic impact. One concept is high entropy alloys (HEA) as a new class of materials. Especially the so-called Cantor alloy, i.e., an equiatomic FeCrMnNiCo alloy, is already considered a promising candidate for applications at elevated temperatures because of its highly distorted, face-centered cubic (fcc) matrix and thus probably reduced diffusivity. <ref type="bibr" target="#b1">[2]</ref> This so-called sluggish diffusion effect is one of the core effects of this class of alloys. It is expected that in HEAs, due to the mixed atomic structure and therefore locally different energetic sites, diffusing atoms become trapped at low energy sites and diffusion is slowed down. <ref type="bibr" target="#b1">[2]</ref> However, other studies report contradictory results as no significant change of the diffusion coefficient compared to the elemental metals is found when the data are normalized to the melting temperature T m . <ref type="bibr" target="#b2">[3]</ref> The deformation behavior of this single-phase fcc FeCrMnNiCo alloy is already intensively studied and shows strong temperature-dependent mechanical properties with a low stacking fault energy. <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> Stepanov et al. showed that upon cryo-deformation the number of twinned grains increases but the dislocation density decreases compared to room temperature deformation, <ref type="bibr" target="#b10">[11]</ref> which results in an increased strain hardening and a higher yield strength. <ref type="bibr" target="#b11">[12]</ref> However, at elevated temperatures, the yield strength of this alloy is relatively low compared to Ni-based superalloys, which is, however, essential for application at these temperatures.</p><p>Therefore, one way to overcome this limit is the incorporation of nanometer-scaled oxidic particles, also known as oxide dispersion strengthening (ODS), which has proven to be an effective high-temperature strengthening mechanism. Among others, <ref type="bibr" target="#b12">[13]</ref> these oxides are mostly introduced by mechanical alloying comprising cold welding and fracturing of at least two different types of input powders by high-impact loads during milling. Recently, also ODS FeCrMnNiCo alloys were produced via mechanical alloying at room temperature <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> as well as cryogenic temperatures <ref type="bibr" target="#b16">[17]</ref> showing improved tensile properties at room and high temperatures <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b16">17]</ref> as well as lower compressive creep strain rates than the base alloy without dispersion strengthening. <ref type="bibr" target="#b15">[16]</ref> However, the process of incorporating these small oxides via mechanical alloying is still time-consuming and therefore expensive.</p><p>Suryanarayana <ref type="bibr" target="#b17">[18]</ref> described three stages of mechanical alloying of ODS materials. During the first stage, the ductile matrix gets flattened while the brittle oxide particles fracture and become occluded by the ductile constituents forming a lamellae structure with the oxide particles in between. During the second stage, work hardening of the ductile component promotes the fracture of the particles leading to a refinement of the lamella structure, <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref> and the oxides become more finely distributed. <ref type="bibr" target="#b17">[18]</ref> Depending on whether the oxides are soluble in the ductile constituent, during the third milling stage, alloying occurs and homogeneity is achieved or the oxide particles are very finely distributed without being dissolved. Miller et al. <ref type="bibr" target="#b20">[21]</ref> used atom probe tomography to analyze the oxide clusters in consolidated ODS steels and described different O:Y ratios compared to the added yttria concluding that the found oxide particles are not crushed remnants of the initial yttria. <ref type="bibr" target="#b20">[21]</ref> Furthermore, other studies showed for mechanically alloyed body-centered cubic (bcc) steels that yttria dissolves at defects during milling, <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref> and Ressel et al. <ref type="bibr" target="#b22">[23]</ref> as well as Alinger et al. <ref type="bibr" target="#b23">[24]</ref> found vacancies to play an important role in the dissolution of yttria in bcc steels. Upon subsequent consolidation, these metastable phases precipitate forming finely dispersed nanoparticles. However, Phaniraj et al. <ref type="bibr" target="#b26">[27]</ref> concluded for fcc austenitic steels that yttria does not get dissolved but is finely dispersed in the matrix.</p><p>As a result of this repeated fracturing and cold welding of the powders during mechanical alloying, severe plastic deformation takes place in the powder particles. <ref type="bibr" target="#b17">[18]</ref> In literature, studies <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref> report on high densities of vacancy clusters-so-called stacking fault tetrahedrons-in fcc metals produced by severe plastic deformation and that their formation is further promoted at lower stacking fault energies (SFEs). These clusters are highly stable and can grow to extend up to 18 nm in Al <ref type="bibr" target="#b28">[29]</ref> or even 100 nm <ref type="bibr" target="#b29">[30]</ref> in Au. It is further assumed that the defect density is increased by lowering the deformation temperature as recovery and recrystallization processes are suppressed. As a result, milling at lower temperatures reduces the particle sizes because of a shift of the balance between fracturing and cold welding by incorporating more defects. <ref type="bibr" target="#b18">[19]</ref> Furthermore, calculations on the interaction kinetics of interstitials at dislocation showed a T À3 dependence, leading to more interstitials being attracted by dislocations at lower temperatures. <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref> Although cryomilling has been investigated over the last decades, especially for bcc steels, <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b34">35,</ref><ref type="bibr" target="#b35">36]</ref> a direct investigation of the influence of the milling temperature during the mechanical alloying of ODS-HEAs has not been reported in the literature so far. Therefore, to close this gap and to get a fundamental understanding of increased milling efficiency, this study focuses on the effect of cryogenic mechanical alloying on the powder particle's microstructure and the evolution of yttria dispersions in an fcc FeCrMnNiCo HEA. The microstructure and defect structure of the milled powders are analyzed by X-ray diffraction (XRD). Additionally, scanning electron microscope (SEM) investigations reveal the powder particle's size and morphology whereas high-resolution SEM (HR-SEM) resolves the phase fraction and size of yttria particles at cross sections of the milled powders to obtain insights into the refinement process of these oxide particles. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. METHODS</head><p>For mechanical alloying, pre-alloyed, gas-atomized FeCrMnNiCo powders with a nominal composition of 20Fe-20Cr-20Mn-20Ni-20Co (at pct) were mechanically alloyed with 1 mol pct of Y 2 O 3 in a stainless steel (X6CrNiMoTi17-12-2) grinding vial. The FeCrMnNiCo powders had a mean particle size of 4 lm while the Y 2 O 3 particles showed a d 90 of 1.16 lm. Milling was carried out using a novel high-energy attritor ball mill with an operation speed of 300 rpm. Furthermore, the milling setup comprised Inconel 825 balls with a diameter of 6.35 mm and a ball-to-powder weight ratio (BPR) of 10:1 (5 kg ball mass and 0.5 kg powder mass). To prevent the final powder from contamination of atmosphere, a vacuum of 10 À3 mbar was applied. To investigate the influence of the milling time and the milling temperature, individual experiments with alternating milling times (10, 18, 48 and 168 hours) and milling temperatures (room temperature RT and cryogenic temperature CT) were performed as well as the combination of both temperatures (6 hours milling at CT added to 48 hours milled at RT). The RT experiments were water cooled, whereas for cryomilling experiments liquid nitrogen was used to maintain a temperature of approximately À 150 °C outside the grinding vial.</p><p>The powder morphology was investigated using a Zeiss Evo MA25 and the captured images analyzed by applying an in-house programmed python code (Python 3.7) using image detection. Therein, powder particles are detected, and a circle-and an ellipse-fit is conducted onto each particle exhibiting the same area as the projection of the particle. By using the diameter of the fitted circle as well as the breadth and length of the ellipse, the particle size and the aspect ratio of the particles were calculated, respectively.</p><p>To analyze the chemical composition, the microstructure and the yttria dispersions, the milled powders were hot mounted and cross sections were prepared using standard metallographic methods including active oxide suspensions (OPS). To determine the overall chemistry, EDX measurements were conducted at 20 kV using a Zeiss GeminiSEM 450 and an Oxford Instruments Ultim Extreme detector. To enhance the statistical power, area measurements at six images were carried out and the mean values calculated. Evaluation of the yttria particle size distribution and phase fraction was conducted at 5 kV and at three magnifications (1 kX, 3 kX, 10 kX) to detect enough yttria particles using the InLens SE detector, where the yttria particles appeared as bright white spots. These images were analyzed by means of the same python software used for the powder morphology where particle dimensions below three pixels were generally excluded as they have a high chance of being incorrectly detected. To consider the different observed areas for each magnification, the particle size distributions were corrected using an area factor.</p><p>XRD measurements of the powders were carried out using a Bruker D8 Discovery with Cu-Ka radiation. The instrumental breadth was defined directly before the experiments by using a LaB 6 powder according to the National Institute of Standards and Technology. <ref type="bibr" target="#b36">[37]</ref> The diffraction patterns were fitted using a Pseudo-Voight model and analyzed by using an in-house programmed python script (Python 3.7). Thereby, the full width at half maximum (FWHM) was measured. Evaluation regarding stacking fault probability was done from the asymmetric peak shift of the milled powders according to Warren <ref type="bibr" target="#b38">[38]</ref> for the (111) and (200) neighboring peaks using the unmilled sample as a reference. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Temperature Effect on Powder Morphology and the Global Chemical Composition</head><p>As mechanically alloying causes repeated cold welding and fracturing of the powders, the morphology and size are expected to be strongly milling time and temperature dependent. Figure <ref type="figure" target="#fig_1">1</ref> shows a representative image of the macroscopic shape of the 48 hours/CT milled powder with a rather spherical shape of the particles comparable to all other specimens.</p><p>Evaluation regarding particle size evolution during milling of the FeCrMnNiCo HEA with 1 mol pct Y 2 O 3 at RT as presented in Figure <ref type="figure" target="#fig_2">2</ref>(a) showed an increase of the particle size upon increasing milling time up to 400 lm. Milling at CT, however, also showed an increase of the particle size within the first 10 hours of milling similarly to the room temperature milled specimens, but lower particle sizes at longer milling times compared to the powders milled at RT. The temperature effect of lowering the particle size can also be seen at the specimen milled for 48 hours at RT followed by a 6 hours cryomilling experiment where the mean particle size decreases from approximately 400 to 300 lm. It should be mentioned that all cryogenically milled powders were smaller in mean size than the powder milled for 168 hours at RT.</p><p>As the aspect ratio presented in Figure <ref type="figure" target="#fig_2">2</ref>(b) is a fundamental parameter of the flow ability of powders, the influence of the milling time and of the milling temperature is investigated in detail. It can be proposed that by applying the novel milling device the aspect ratio decreases during the first hours of milling from 0.84 to 0.7 and increases again to 0.8 with proceeding milling times up to 168 hours. Lower milling temperatures cause a somewhat, however, insignificant increased steady state aspect ratio as depicted in Figure <ref type="figure" target="#fig_2">2</ref>   Regarding milling times, the visible yttria phase fractions decrease and the dispersions seem more uniformly distributed for both temperatures at longer milling times whereas the 18-h milled specimens exhibit a typical lamella structure, indicating the second stage of mechanical alloying. It should be mentioned that due to the use of pre-alloyed powders, the matrix elements are homogeneously distributed, which was proven by EDS mappings (not presented in this article). The effect of the milling temperature can be seen by comparing the 48 hours/RT microstructure shown in Figure <ref type="figure" target="#fig_5">4</ref>(c) with the states 48 hours/RT + 6 hours/CT and 48 hours/CT shown in Figures <ref type="figure" target="#fig_5">4(h</ref>) and (g), respectively. By visual inspection, a decrease in the detectable phase fraction at comparable overall yttria contents shown in Figure <ref type="figure" target="#fig_4">3(b)</ref> indicates an increased dissolution of yttria or at least smaller particles below the HR-SEM detection limit and a more uniform distribution of yttria upon milling at cryogenic temperatures.</p><p>To quantify the yttria dispersions, the measured phase fractions of the detectable yttria are shown in Figure <ref type="figure" target="#fig_6">5</ref>(a), indicating a lower amount of yttria particles detectable by HR-SEM, i.e., &gt; 17 nm or 3 pixels at a magnification of 10 kX, for longer milling times. Thus, an increased amount of yttria particles is below the before-mentioned detection limit as well as supersaturated in the FeCrMnNiCo matrix. This trend can be seen more clearly if the visible phase fraction is compared with the overall yttria as obtained by EDX, resulting in a percentage of undetected yttria of up to 87 vol pct for the 48 hours/CT specimen. Furthermore,  the standard deviation of the phase fraction significantly decreases upon longer milling times, indicating a more homogeneous yttria distribution. Comparing the RT with CT experiments reveals a slight tendency to lower phase fractions for the cryomilled samples suggesting a faster and more effective refinement or dissolution of yttria while at RT even milling for 168 hours does not reach the same amount of yttria below 17 nm as milling at CT.</p><p>For a detailed investigation on the fragmentation or dissolution behavior of yttria, Figures <ref type="figure" target="#fig_6">5(b</ref>) and (c) shows the relative particle size distribution for all samples where each data point represents a range of 10 nm starting from the resolution limit of 17 nm toward larger dimensions. For shorter milling times up to 18 hours shown in Figure <ref type="figure" target="#fig_6">5</ref>(b), no difference between the relative particle size distributions was found implying that the yttria particles get refined at all sizes at a comparable rate. However, at the longer milling times presented in Figure <ref type="figure" target="#fig_6">5</ref>(c), cryomilling seems to reduce mainly oxide particles close to the detection limit as can be seen in the comparison between the 48, 168 and 48 hours/CT specimens (marked by arrows) where the fraction of oxide particles between 17 and 27 nm is significantly reduced for the cryomilled specimen. The 48 hours/RT + 6 hours/CT sample confirms this trend by lowering the fraction of small particles while milling at RT for 168 hours has a similar fraction close to the detection limit as the 48 hours/RT specimen but refines particles &gt; 27 nm. Nevertheless, no pronounced temperature effect can be seen for particles &gt; 27 nm for all specimens. Note that a lower particle number fraction of fine particles results in a proportionate higher fraction of larger particles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Defect Evolution as a Function of Temperature and Milling Duration</head><p>Besides the evolution of the detectable particle sizes, the defect structure and sizes are highly relevant to obtain information on the effect of cryomilling on the ability to refine or dissolve yttria in the FeCrMnNiCo matrix. To obtain insights into temperature dependency on governing deformation mechanisms and thus to derive defect densities and formation mechanisms of the respective alloy, the stacking fault probability (SFP) of the cryomilled and room temperature milled powders is compared in Figure <ref type="figure" target="#fig_7">6</ref> and depicted as a function of milling time. Note: The SFP is the probability of finding a stacking fault between any two layers in the fcc stacking sequence and is therefore a measure for the formation of deformation-induced stacking faults. <ref type="bibr" target="#b38">[38]</ref> Evaluation reveals increased SFPs in all milling durations for the cryomilled powders compared to the powders milled at RT. Upon milling at CT, the SFP increases rapidly but stays rather constant at all performed milling durations at around 0.025, suggesting a stacking fault at every 40th atomic (111) plane. Conversely, milling at RT shows a lower increase of the SFP as a function of the milling time but reaches the same SFP as the cryomilled samples at 168 hours milling time. The tendency to a higher SFP with lower temperatures is corroborated by evaluation of the 48 hours/RT + 6 hours/CT sample, which shows an accelerated increase of the SFP compared to the powder milled for 48 hours at RT. Hence, it can be concluded that cryomilling as well as longer milling durations at RT promote the formation of an increased number of stacking faults. XRD experiments further reveal an increased FWHM in the cryomilled samples compared to the RT milled specimens, as it shown in Figure <ref type="figure" target="#fig_8">7</ref>(a) suggesting a higher defect density. According to the literature, <ref type="bibr" target="#b39">[39]</ref> an increasing FWHM indicates a lower domain size or higher lattice strains (both indications for lattice defects) causing peak broadening in XRD diffraction patterns. During the first hours of milling, the FWHM increases rapidly up to 18 hours milling time continued by a lower increase for longer milling times. However, comparing the same milling times, milling at RT showed a lower FWHM compared to the cryomilled specimens resulting in comparable FWHM values for 48 hours milling at CT than 168 hours milling at RT, indicating a strong temperature effect on the peak broadening and thus defect densities of the investigated alloys. Furthermore, this is again supported by cryomilling for 6 hours subsequently to milling for 48 hours at RT as it causes a significantly steeper increase of the FWHM.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. DISCUSSION</head><p>To analyze the effect of cryogenic temperatures during attrition milling of an ODS HEA, in this work, series of advanced experiments were carried out. Powders were produced via mechanical alloying at room temperature as well as À 150 °C. The macroscopic powder morphology and the microscopic evolution of detectable yttria were analyzed by means of HR-SEM whereas XRD experiments reveal hints on the defect structure and deformation mechanisms, i.e., formation of deformation-induced twinning, of investigated alloys.</p><p>According to Figure <ref type="figure" target="#fig_2">2</ref>(a), the mean particle size increases upon milling at CT but also at RT in respective alloys agreeing with other studies dealing with milling of other fcc materials. <ref type="bibr" target="#b40">[40]</ref> However, analysis of the aspect ratio reveals a decrease during milling, reaching a comparably high mean value between 0.65 and 0.8 after all milling durations, implying rather spherical shapes that qualify for potential additive manufacturing processes. <ref type="bibr" target="#b41">[41,</ref><ref type="bibr" target="#b42">42]</ref> In literature some studies describe a flat or flaky powder shape <ref type="bibr" target="#b43">[43,</ref><ref type="bibr" target="#b44">44]</ref> whereas others describe the opposite of achieving spherical particles <ref type="bibr" target="#b45">[45]</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref> or in some cases a combination of both types of morphologies. <ref type="bibr" target="#b48">[48,</ref><ref type="bibr" target="#b49">49]</ref> According to Surayanana, <ref type="bibr" target="#b17">[18]</ref> the morphology is affected by the BPR. He proposed a dependency on the BPR, proposing that beyond a BPR of 10:1 milled powders tend to a spherical shape, whereas lower BPRs cause more flaky shapes. However, results of some other references <ref type="bibr" target="#b43">[43,</ref><ref type="bibr" target="#b44">44]</ref> disagree with this assumption as in these experiments a BPR of 10:1 or higher was used achieving flaky particles. Consequently, a stronger effect of the ductility of the processed material as well as applied rotational speed combined with the design of the milling apparatus such as length of the milling pins and the distance to the milling container is suggested as the main factors influencing the powder's aspect ratio as they force the milling balls to rotate along the surface of the container.</p><p>Although the particle size increases during milling at cryogenic temperatures, the obtained cryomilled powders tend to be smaller than the room temperature milled powders allowing assumptions about the temperature-dependent deformation mechanism of this alloy. Generally, cold welding of powder particles upon the collision between the grinding balls causes an increase of the particle size while the continuous work hardening promotes their fracture. <ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> As the cryomilled powders have a lower particle size compared to the room temperature milled specimens, it can be assumed that the repetitive and alternating processes of cold welding and fracturing shift more toward fracturing of the particles, resulting in smaller particles. Consequently, an increased work hardening ability and increasing yield strength of the investigated FeCrMnNiCo alloy at lower temperatures is implied, which is also found in References 7 and 8 and can also be directly related to deformation twinning as reported in Reference 12.</p><p>The proposed higher yield strength of the FeCrMn-NiCo powder deformed at lower temperatures also suggests an accelerated refinement of yttria particles during mechanical alloying, resulting in a lower fraction of yttria&gt;17 nm detectable by HR-SEM as presented in Figure <ref type="figure" target="#fig_6">5</ref>(a). The obtained temperature-independent particle size distribution for shorter milling times implies a refinement of the oxide particles at all sizes simultaneously, indicating the second stage of milling as suggested by Surayanana. <ref type="bibr" target="#b17">[18]</ref> Therefore, considering the lower phase fraction of the cryomilled specimens, this refinement process is faster at lower temperatures and might be-as already discussed before-related to the higher yield strength of the cryomilled samples promoting oxide particle fracture.</p><p>Additionally, besides the direct evidence that lower temperatures seem to foster a dissolution of yttria or at least a refinement below the HR-SEM detection limit, Figure <ref type="figure" target="#fig_6">5</ref>(b) supports this assumption as especially at longer milling times a decrease of the particle fraction close to the detection limit for the cryogenic milled powders was observed (marked by arrows). The further refinement of the smallest particle fraction is also the main root cause of the reduced phase fraction of the 48 hours/CT and the 48 hours/RT + 6 hours/CT samples compared to the 48 and 168 hours/RT samples. The particle size distributions shown in Figure <ref type="figure" target="#fig_6">5</ref>(c) of the latter samples processed at RT seem to pile up close to the detection limit even more strongly than the CT samples, suggesting a stronger barrier-like effect preventing further refinement or dissolution during the third stage of mechanical alloying at RT. These results imply an increased amount of yttria being substantially refined or dissolved in the matrix at lower milling temperatures and longer milling times. However, whether yttria gets dissolved or just very finely dispersed (below the HR-SEM detection limit) cannot be evidenced by the used methods, which will be, however, the focus of future work.</p><p>Besides the increased strength of the FeCrMnNiCo alloy, the accelerated refinement and possible subsequent increased solubility of Y 2 O 3 can be explained by the formation of different defect structures at CT and RT. Previous studies on bcc steels proved defects such as vacancies or grain boundaries play an essential role in dissolution of yttria during mechanical alloying. <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b25">26]</ref> However, regarding fcc austenitic steels, studies, e.g., Phaniraj et al., <ref type="bibr" target="#b26">[27]</ref> report a fine dispersion of yttria and an impossibility of dissolution. Nevertheless, this conclusion is based on the observation of undissolved yttria in the milled powders after milling for 16 hours using XRD and X-ray photoelectron spectroscopy (XPS). However, from findings of this work it can be concluded that after 18 hours milling merely the second stage of milling was achieved where approximately 20 vol pct of the added yttria was refined below the detection limit at RT, suggesting that longer milling times or lower milling temperatures, i.e., increased defect densities and higher yield strengths, are needed to be able to detect a possible dissolution of yttria.</p><p>Therefore, to obtain detailed insights into the defect evolution during milling and their dependencies, this work investigated the FWHM and SFP as a function of milling duration and temperature by means of XRD. Analysis of the SFP as presented in Figure <ref type="figure" target="#fig_7">6</ref> reveals more stacking faults in both cryomilled samples-48 hours/CT and 48 hours/RT + 6 hours/CT-implying that deformation twinning is promoted at lower temperatures. This is in good agreement with studies proposed in the literature <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref> suggesting that either low temperatures below RT or high stresses activate twinning deformation of the FeCrMnNiCo alloy. A higher SFP at lower deformation temperatures further confirms a low and temperature-dependent SFE as calculated by Huang et al. <ref type="bibr" target="#b4">[5]</ref> According to Zhang et al., <ref type="bibr" target="#b29">[30]</ref> low SFEs in fcc metals promote the formation of stable vacancy cluster or so-called stacking fault tetrahedron. These clusters are reported to be highly stable and can hinder the motion of dislocations, thus effectively strengthening the material. <ref type="bibr" target="#b29">[30]</ref> Supporting prior results, also subsequent milling for 6 hours at CT after 48 hours milling at RT increases the stacking fault probability; as a result, the powder particle size decreases more strongly, presumably because of increased twinning, possibly higher densities of the stacking fault cluster and hence increased work hardening and yield strength.</p><p>As the FWHM is a measure of the crystallite's domain size or lattice strains causing peak broadening in XRD diffraction patterns, it can give, besides the SFP, a fundamental indication for lattice defects. Therefore, also the FWHM is evaluated and presented in Figure <ref type="figure" target="#fig_8">7</ref>, showing an increased FWHM in the cryomilled specimens, implying more defects present such as a lower domain size or higher lattice strains. Generally, lattice strains are caused by dislocations, vacancies, stacking faults or substitutional or interstitial elements. <ref type="bibr" target="#b39">[39]</ref> As already discussed, more stacking faults are present in the cryomilled samples but their influence on the peak broadening could not be determined quantitatively, and it can be assumed that dislocations and vacancies are present as well. Stepanov et al. <ref type="bibr" target="#b10">[11]</ref> found a higher fraction of twinned grains but lower dislocation densities upon cryogenic deformation of a FeCrMnNiCo alloy whereas other studies reported high densities of vacancy clusters in heavily deformed fcc materials. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b31">32]</ref> Therefore, the higher FWHM for the cryomilled specimens probably indicates smaller domain sizes as well as higher vacancy densities while especially vacancies are reported to play an important role in the dissolution of yttria into the matrix during milling as shown by Ressel et al. for bcc steels. <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref> The beneficial effect of cryomilling can be corroborated by calculations conducted by Svoboda et al. <ref type="bibr" target="#b32">[33]</ref> and Fischer et al. <ref type="bibr" target="#b33">[34]</ref> Although these calculations were done on the segregation of interstitials at edge dislocations in bcc steels, they are based on their molar volume and the strain field of dislocations and can be consequently adapted for the material in this study. It was found that the segregation capacity of interstitial atoms at edge dislocations depends as T -3 on the temperature, and, as a result, lowering the temperature enhances the segregation capability of interstitials at open volumes provided by defects. Considering the increase of lattice defects, this might explain the higher fraction of yttria below the resolution limit in the cryomilled specimens as presented in Figure <ref type="figure" target="#fig_6">5</ref>(a), implying an increased amount of yttria being dissolved at lattice defects during milling at low temperatures. Thus, the lower temperature during cryomilling might reduce the time to achieve a certain amount of dissolved yttria, but no evidence was found that milling at room temperature does not reach the same amount of dissolved yttria upon milling for much longer times than the already investigated 168 hours.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. CONCLUSIONS</head><p>The current work presents novel findings regarding the effect of cryogenic temperatures on the milling behavior of ODS FeCrMnNiCo HEA powders. Generally, it can be proposed that cryomilling might enhance the milling process of fcc FeCrMnNiCo and yttria resulting in an increased time efficiency of this generally long-lasting alloying process. The following detailed conclusions can be drawn:</p><p>The powder particle size generally increased with milling time independently from milling temperature, whereas cryomilling resulted in smaller particles compared to RT milling, indicating a shift from cold welding to fracturing in conjunction with a higher yield strength at lower temperatures.</p><p>Cryomilling resulted in an enhanced refinement of especially small yttria particles allowing shorter milling times to achieve a similar fraction of finely dispersed or dissolved yttria compared to the RT milled powders. XRD revealed increased FWHM values for cryomilled specimens, implying higher defect densities such as twins (corroborated by increased stacking fault probability) and presumably higher densities of vacancies and vacancy cluster.</p><p>It is implied that the increased density of lattice defects during cryomilling promotes the refinement or dissolution of especially the smallest fraction of yttria, as cryomilled specimens show a lower fraction of yttria particles between 17 and 27 nm (near the HR-SEM resolution limit).</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>https://doi.org/10.1007/s11661-021-06532-x Ó The Minerals, Metals &amp; Materials Society and ASM International 2021 I. INTRODUCTION</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 -</head><label>1</label><figDesc>Fig. 1-Representative SEM images of the (a) unmilled powder and the (b) 48 h/RT, (c) 48 h/CT and (d) 48 h/RT + 6 h/CT milled powders showing a particle size increase with milling time and a decrease at lower milling temperatures.</figDesc><graphic coords="3,103.01,359.15,425.95,298.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 -</head><label>2</label><figDesc>Fig. 2-(a) Powder particle size for the room temperature and cryomilled powders as a function of the milling time, indicating an increase with milling time and a decrease at lower milling temperatures. (b) Aspect ratio against the milling time showing no significant temperature dependence.</figDesc><graphic coords="4,33.90,35.89,488.38,196.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>(b). Furthermore, to analyze the global chemical composition of the powders and to show their comparability, EDX measurements on cross sections of the powders were done and are summarized in Figure3. The main elements of the FeCrMnNiCo alloy (Figure3(a)) show minor differences beside noticeably higher Ni and lower Mn and Cr content of the room temperature samples. This can be attributed to the incorporation of Inconel 718 and Inconel 825 as minor contaminations from former milling experiments as well as from the abrasion of the milling balls, respectively. This is also the reason for the existence of Nb and Mo in the same samples, which are alloying elements for Inconel 718 and Mo for Inconel 825 (Figure3(b)). However, all chemical variations of FeCrMnNiCo show lower standard variations than the unmilled specimens and are insignificant.Regarding the global Y content, it must be noted that variation of the overall Y content might be present because of measurement errors during the blending of the powders. The 10-hour CT sample and the 10-hour RT milled sample show an insignificantly lower and a higher Y mean content, respectively, but it is well met in the other specimens reaching a mean value of approximately 0.55 at pct Y, which is the equivalent Y content of 1 mol pct yttria. The associated low standard deviations indicate a homogeneous distribution of Y within all milled powders. Oxygen differs noticeably as well in the EDX measurements; nevertheless, it must be mentioned that the determination of oxygen by EDX is imprecise.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 3 -</head><label>3</label><figDesc>Fig. 3-Global chemistry measured with 20 kV EDX on cut sections of the powders for the (a) matrix elements and (b) yttria and other detected elements showing a nearly equiatomic matrix composition and similar Y contents in the milled powders.</figDesc><graphic coords="5,71.77,35.89,488.38,217.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 -</head><label>4</label><figDesc>Fig. 4-SE-InLens HR-SEM images indicating the distribution of yttria as bright white spots for the (a) 10 h, (b) 18 h, (c) 48 h and (d) 168 h samples milled at RT, (e) 10 h (f) 18 h and (g) 48 h samples milled at CT and (h) the sample milled for 48 h at RT and a subsequent milling for 6 h at CT. The detectable fraction of yttria decreases at longer milling times and cryogenic milling temperatures.</figDesc><graphic coords="6,65.14,35.83,425.95,587.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 5 -</head><label>5</label><figDesc>Fig. 5-(a) Phase fraction of detectable yttria by HR-SEM and percent of yttria below the detection limit of HR-SEM (&lt; 17 nm) shown as a function of the milling time for specimens milled at room and cryogenic temperatures. The phase fraction of added yttria was calculated from the associated overall Y content measured by EDX and indicates a decrease upon longer milling times and cryogenic milling temperatures. (b) Milling time and temperature independent particle size distributions of 10 h and 18 h samples milled at RT and CT and (c) the particle size distributions of the 48 h/CT, 48 h/RT + 6 h/CT, 48 h/RT and 168 h/RT milled samples showing a decrease of the smallest particle fraction at lower milling temperatures.</figDesc><graphic coords="7,71.77,35.89,488.38,224.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6 -</head><label>6</label><figDesc>Fig. 6-Stacking fault probability calculated from the asymmetric peak shift of the (111) and (200) fcc reflections of FeCrMnNiCo as a function of milling duration at RT and CT as well as its combination showing a higher SFP for the cryomilled specimen.</figDesc><graphic coords="7,68.03,345.71,232.99,175.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 -</head><label>7</label><figDesc>Fig. 7-(a) Full width at half maximum of the (111) reflection for all samples as a function of milling duration at RT and CT as well as its combination; (b) X-ray diffraction pattern of the unmilled, gas-atomized powder and the powders milled for 48 h at RT, 48 h at CT and the combination of both milling temperatures, respectively. Both figures confirm broader peaks after milling at CT compared to RT milling.</figDesc><graphic coords="8,33.90,35.89,488.38,199.28" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>574-VOLUME 53A, FEBRUARY 2022 METALLURGICAL AND MATERIALS TRANSACTIONS A</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>576-VOLUME 53A, FEBRUARY 2022 METALLURGICAL AND MATERIALS TRANSACTIONS A</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>580-VOLUME 53A, FEBRUARY 2022 METALLURGICAL AND MATERIALS TRANSACTIONS A</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>584-VOLUME 53A, FEBRUARY 2022 METALLURGICAL AND MATERIALS TRANSACTIONS A</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>The authors gratefully acknowledge the financial support under the scope of the <rs type="programName">COMET program</rs> within the <rs type="projectName">K2 Center ''Integrated Computational Material, Process and Product Engineering (IC-MPPE)</rs>'' (project no. <rs type="grantNumber">859480</rs>). This program is supported by the <rs type="funder">Austrian Federal Ministries for Climate Action, Environment, Energy, Mobility, Innovation and Technology (BMK) and for Digital and Economic Affairs (BMDW)</rs>, represented by the <rs type="funder">Austrian research funding association (FFG)</rs> and the federal states of <rs type="funder">Styria, Upper Austria and Tyrol</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_9NsfA4e">
+					<idno type="grant-number">859480</idno>
+					<orgName type="project" subtype="full">K2 Center &apos;&apos;Integrated Computational Material, Process and Product Engineering (IC-MPPE)</orgName>
+					<orgName type="program" subtype="full">COMET program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONFLICT OF INTEREST</head><p>On behalf of all authors, the corresponding author states that there is no conflict of interest.</p><p>Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><surname>Rolls-Royce</surname></persName>
+		</author>
+		<title level="m">The Jet Engine</title>
+		<meeting><address><addrLine>Rolls-Royce, London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+	<note>5th ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/21663831.2014.912690</idno>
+		<ptr target="https://doi.org/10.1080/21663831.2014.912690" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="107" to="123" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.08.081" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Naeem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harjo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2020.07.004</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2020.07.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="21" to="25" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Holmstro¨m</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2015.05.041</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2015.05.041" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="44" to="47" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V S</forename><surname>Thurston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2019.04.012</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2019.04.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution and critical stress for twinning in the CrMnFeCoNi high-entropy alloyActa</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kostka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Horst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.07.038</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.07.038" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="152" to="163" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhy´</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Somsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.06.018</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2013.06.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5743" to="5755" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">G</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.12.022</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.12.022" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="603" to="607" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Won</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.11.081</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.11.081" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="108" to="113" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zyabkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klimova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Efimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2014.12.004</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2014.12.004" />
+	</analytic>
+	<monogr>
+		<title level="j">termetallics</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="8" to="17" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bouaziz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2011.11.029</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2011.11.029" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="982" to="985" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bergner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hilger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Virta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lagerbom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gerbeth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weissga¨rber</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-016-3616-2</idno>
+		<ptr target="https://doi.org/10.1007/s11661-016-3616-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A Phys. Metall. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="5313" to="5324" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Waseem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.12.021</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2018.12.021" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="477" to="481" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hadraba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chlup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dobes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Roupcova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vilemova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Matejicek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.02.068</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.02.068" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">689</biblScope>
+			<biblScope unit="page" from="252" to="256" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dobesˇ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hadraba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chlup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhy´</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vile´mova´</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mateˇjı´cˇek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2018.06.108</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2018.06.108" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">732</biblScope>
+			<biblScope unit="page" from="99" to="104" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Do</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmst.2020.11.081</idno>
+		<ptr target="https://doi.org/10.1016/j.jmst.2020.11.081" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="62" to="75" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Suryanarayana</surname></persName>
+		</author>
+		<title level="m">Mechanical Alloying and Milling</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Marcel Dekker</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Witkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lavernia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2005.04.004</idno>
+		<ptr target="https://doi.org/10.1016/j.pmatsci.2005.04.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1" to="60" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Topping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Isheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Seidman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lavernia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2012.09.036</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2012.09.036" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="2769" to="2782" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jemt.20291</idno>
+		<ptr target="https://doi.org/10.1002/jemt.20291" />
+	</analytic>
+	<monogr>
+		<title level="j">Microsc. Res. Tech</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="359" to="365" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ressel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mendez-Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leitner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00339-013-7877-y</idno>
+		<ptr target="https://doi.org/10.1007/s00339-013-7877-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. A Mater. Sci. Process</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="851" to="858" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ressel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Parz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Primig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leitner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Puff</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4869787</idno>
+		<ptr target="https://doi.org/10.1063/1.4869787" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Alinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Glade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Wirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Odette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Toyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nagai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2009.04.040</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2009.04.040" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">518</biblScope>
+			<biblScope unit="page" from="150" to="157" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ukai</surname></persName>
+		</author>
+		<idno type="DOI">10.2320/matertrans.M2018110</idno>
+		<ptr target="https://doi.org/10.2320/matertrans.M2018110" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1651" to="1658" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Hsiung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Fluss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Tumey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Serruys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Willaime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kimura</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevB.82.184103</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevB.82.184103" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B Condens. Matter Mater. Phys</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Phaniraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Shim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Cho</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2008.12.026</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2008.12.026" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1856" to="1864" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kiritani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Satoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kizuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arakawai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ogasawara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shimomura</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/095008399176616</idno>
+		<ptr target="https://doi.org/10.1080/095008399176616" />
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Mag. Lett</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="797" to="804" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2794416</idno>
+		<ptr target="https://doi.org/10.1063/1.2794416" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Michal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tieu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2017.04.019</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2017.04.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page" from="78" to="82" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Satoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Taoka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yoshiie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kiritani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kiritani</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01418618908229782</idno>
+		<ptr target="https://doi.org/10.1080/01418618908229782" />
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Mag. A Phys. Condens. Matter Struct. Defects Mech. Prop</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="519" to="532" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schiotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leffers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/09500830110041657</idno>
+		<ptr target="https://doi.org/10.1080/09500830110041657" />
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Mag. Lett</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="301" to="309" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Svoboda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Razumovskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Zickler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Fischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2018.10.001</idno>
+		<ptr target="https://doi.org/10.1016/j.pmatsci.2018.10.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Svoboda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kozeschnik</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0965-0393/21/2/025008</idno>
+		<ptr target="https://doi.org/10.1088/0965-0393/21/2/025008" />
+	</analytic>
+	<monogr>
+		<title level="j">Model. Simul. Mater. Sci. Eng</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.09.085</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2013.09.085" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="page" from="69" to="74" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Byun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Seol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Reddy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2015.08.100</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2015.08.100" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">651</biblScope>
+			<biblScope unit="page" from="363" to="374" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">NIST: Line Position and Line Shape Standard for Powder Diffraction (Lanthanum Hexaboride Powder)</title>
+		<imprint>
+			<publisher>Natl. Inst. Stand. Technol. US Dep</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Commer</surname></persName>
+		</author>
+		<idno>2CF208</idno>
+		<ptr target="https://www-s.nist.gov/srmors/certificates/660C.pdf?CFID=35608137&amp;CFTOKEN=7e602cd95cb32152-D56C3582-CDD9-" />
+	</analytic>
+	<monogr>
+		<title level="j">FDB</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2015">2015. D727-1A32D 16</date>
+			<pubPlace>Gaithersburg, MD</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Warren</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0502-8205(59)90015-2</idno>
+		<ptr target="https://doi.org/10.1016/0502-8205(59)90015-2" />
+	</analytic>
+	<monogr>
+		<title level="j">XProg. Met. Phys</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="147" to="202" />
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unga´r</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2019.106674</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2004.05.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="777" to="781" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1371" to="1377" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wimler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kardos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lindemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mayer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2017.09.013</idno>
+		<ptr target="https://doi.org/10.3139/147.110547" />
+	</analytic>
+	<monogr>
+		<title level="j">Prakt. Metallogr. Metallogr</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="620" to="636" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Klo¨den</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Weißga¨rber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kieback</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-002-0011-y</idno>
+		<ptr target="https://doi.org/10.1007/s40964-019-00078-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="383" to="397" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<title level="m">Charakterisierung von Verteilungs-, Legierungs und Homogenisierungsprozessen beim mechanischen Legieren, Technische Universita¨t Wien</title>
+		<meeting><address><addrLine>Vienna</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schoenung</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0921-5093(02)00833-X</idno>
+		<ptr target="https://doi.org/10.1016/S0921-5093(02)00833-X" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page" from="23" to="31" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2020.106819</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2020.106819" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2019.106674</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2019.106674" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2017.09.013</idno>
+		<ptr target="https://doi.org/10.1016/j.matchemphys.2017.09.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="62" to="70" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lavernia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-002-0011-y</idno>
+		<ptr target="https://doi.org/10.1007/s11661-002-0011-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A Phys. Metall. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="125" to="134" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Joo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2016.12.010</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2016.12.010" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">698</biblScope>
+			<biblScope unit="page" from="591" to="604" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

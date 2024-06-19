@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve"
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Element redistribution during early stages of oxidation in a Ni38Cr22Fe20Mn10Co10 multi-principal element alloy</title>
+				<funder>
+					<orgName type="full">DOE Office of Biological and Environmental Research</orgName>
+				</funder>
+				<funder ref="#_DZtCJ9T">
+					<orgName type="full">U.S. Department of Energy, Office of Science, Basic Energy Sciences</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Elizabeth</forename>
+								<forename type="middle">J</forename>
+								<surname>Kautz</surname>
+							</persName>
+							<email>elizabeth.kautz@pnnl.gov</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">National Security Directorate</orgName>
+								<orgName type="institution" key="instit2">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">V</forename>
+								<surname>Sten</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<surname>Lambeets</surname>
+							</persName>
+							<affiliation key="aff1">
+								<orgName type="department">Earth and Biological Sciences Directorate</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Daniel</forename>
+								<forename type="middle">E</forename>
+								<surname>Perea</surname>
+							</persName>
+							<affiliation key="aff1">
+								<orgName type="department">Earth and Biological Sciences Directorate</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Angela</forename>
+								<forename type="middle">Y</forename>
+								<surname>Gerard</surname>
+							</persName>
+							<affiliation key="aff2">
+								<orgName type="department">Materials Science and Engineering Department</orgName>
+								<orgName type="institution">University of Virginia</orgName>
+								<address>
+									<postCode>22904</postCode>
+									<settlement>Charlottesville</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Junsoo</forename>
+								<surname>Han</surname>
+							</persName>
+							<affiliation key="aff2">
+								<orgName type="department">Materials Science and Engineering Department</orgName>
+								<orgName type="institution">University of Virginia</orgName>
+								<address>
+									<postCode>22904</postCode>
+									<settlement>Charlottesville</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">John</forename>
+								<forename type="middle">R</forename>
+								<surname>Scully</surname>
+							</persName>
+							<affiliation key="aff2">
+								<orgName type="department">Materials Science and Engineering Department</orgName>
+								<orgName type="institution">University of Virginia</orgName>
+								<address>
+									<postCode>22904</postCode>
+									<settlement>Charlottesville</settlement>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">James</forename>
+								<forename type="middle">E</forename>
+								<surname>Saal</surname>
+							</persName>
+							<affiliation key="aff3">
+								<orgName type="department">Citrine Informatics</orgName>
+								<address>
+									<postCode>94063</postCode>
+									<settlement>Redwood City</settlement>
+									<region>CA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Daniel</forename>
+								<forename type="middle">K</forename>
+								<surname>Schreiber</surname>
+							</persName>
+							<email>daniel.schreiber@pnnl.gov</email>
+							<affiliation key="aff4">
+								<orgName type="department">Energy and Environment Directorate</orgName>
+								<orgName type="institution">Pacific Northwest National Laboratory</orgName>
+								<address>
+									<postCode>99352</postCode>
+									<settlement>Richland</settlement>
+									<region>WA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Element redistribution during early stages of oxidation in a Ni38Cr22Fe20Mn10Co10 multi-principal element alloy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C414673DF4D379BBDA6643149C6263E5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-28T15:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>Element redistributions after initial oxidation of a Ni38Cr22Fe20Mn10Co10 (at. %) multi-principle element alloy at 120 °C and 300 °C is captured via in situ atom probe tomography. All cations contribute to the oxide in both conditions, consisting of Cr-rich inner oxide and Fe, Mn, Co and Ni-rich outer oxide. At lower temperature, Ni tends to be trapped at the outer/inner oxide interface, while Ni enriches at the oxide/metal interface at higher temperature in tandem with Cr metal depletion. These observations confirm oxidation of complex alloys involves the formation of metastable, multi-layered oxide films, with a distinct tendency for solute trapping.</p>
+				</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<p>An expansive composition space for alloy design has been created by the advent of multiprincipal element alloys (MPEAs) <ref type="bibr" target="#b0">[1]</ref>
+					<ref type="bibr" target="#b1">[2]</ref>
+					<ref type="bibr" target="#b2">[3]</ref>. MPEAs are typically comprised of five or more elements between 5 and 35 at. %, and are currently being considered for a wide range of structural applications due their exceptional mechanical properties, irradiation resistance, and thermodynamic stability <ref type="bibr" target="#b1">[2]</ref>. Unique characteristics of these alloys, namely the formation of a single-phase solid solution with a low tendency for precipitation of intermetallic compounds and sluggish solid state diffusion <ref type="bibr" target="#b1">[2]</ref>, make MPEAs intriguing candidates for use in corrosive and oxidizing environments <ref type="bibr" target="#b3">[4,</ref>
+					<ref type="bibr" target="#b4">5]</ref>.
+				</p>
+				<p>Many MPEAs have demonstrated favorable corrosion characteristics, which are highly dependent on alloy composition. In conventional alloys, Cr additions (often &gt; 11 at. %) oftentimes aid corrosion resistance, although the Cr content needed for passivation may vary for different alloy systems and environments. These critical Cr additions are responsible for the 'stainless' properties of several conventional alloys (e.g. Ni-Cr, Fe-Cr-Ni, Fe-Cr, and Ni-based super alloys) through the formation of a continuous, protective Cr-rich oxide <ref type="bibr" target="#b5">[6]</ref>
+					<ref type="bibr" target="#b6">[7]</ref>
+					<ref type="bibr" target="#b7">[8]</ref>. Numerous MPEAs have Cr concentrations above this threshold, but the presence of several other principal alloying elements could significantly impact passivation behavior, including the critical Cr concentration for passivation, and must be considered.</p>
+				<p>Recently, oxide compositions and structures have been explored in various alloys, including the well-known Cantor alloy, a single solid solution FCC phase, equiatomic Fe20Cr20Mn20Ni20Co20 alloy <ref type="bibr" target="#b8">[9]</ref>
+					<ref type="bibr" target="#b9">[10]</ref>
+					<ref type="bibr" target="#b10">[11]</ref>
+					<ref type="bibr" target="#b11">[12]</ref>
+					<ref type="bibr" target="#b12">[13]</ref>
+					<ref type="bibr" target="#b13">[14]</ref>. Oxidation of FeCrMnNiCo-containing alloys in atmospheric conditions leads to the formation of a layered oxide film, typically comprised of Cr-rich inner and Mn-rich outer oxides <ref type="bibr" target="#b10">[11]</ref>
+					<ref type="bibr" target="#b11">[12]</ref>
+					<ref type="bibr" target="#b12">[13]</ref>, primarily attributed to the outward diffusion of cations <ref type="bibr" target="#b9">[10]</ref>. In a study by Kim et al, high temperature oxidation of FeCrMnNiCo (900-1100 °C in 20% O2/80% This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d N2 for 24 h) revealed the formation of an inner Cr2O3 and outer Mn2O3 oxide layers at 900 °C was accompanied by enrichment of Ni, Fe, and Co in the adjacent base alloy. At higher temperatures (1000-1100 °C), the outer oxide transformed from Mn2O3 to Mn3O4, and an intermediate (Mn,Cr)3O4 ternary oxide was formed, in which Ni, Fe, and Co were in solid solution <ref type="bibr" target="#b10">[11]</ref>. The presence of Mn in particular is considered detrimental to oxidation resistance due to its high mobility and low energy of formation for several Mn oxides <ref type="bibr" target="#b11">[12,</ref>
+					<ref type="bibr" target="#b14">15,</ref>
+					<ref type="bibr" target="#b15">16]</ref>. Rapid Mn transport to the oxide/metal interface can result in corresponding depletion of Mn in the base alloy, ultimately leading to formation of vacancies above saturation and subsequently pores that function as short circuit diffusion paths for ions, accelerating the oxide growth rate <ref type="bibr" target="#b10">[11,</ref>
+					<ref type="bibr" target="#b11">12]</ref>.
+				</p>
+				<p>Within the oxide, the multivalent nature of Mn could also stabilize charged defects. Together these localized regions of modified alloy and oxide chemistries may accelerate sluggish diffusivity typical in MPEAs and passive films, and thus have implications for oxidation resistance <ref type="bibr" target="#b10">[11]</ref>.
+				</p>
+				<p>Despite several prior studies detailing compositions of oxide films and associated kinetics, results vary significantly with regard to alloy chemistry, environmental conditions, and characterization techniques used <ref type="bibr" target="#b11">[12]</ref>
+					<ref type="bibr" target="#b12">[13]</ref>
+					<ref type="bibr" target="#b13">[14]</ref>
+					<ref type="bibr" target="#b16">[17]</ref>
+					<ref type="bibr" target="#b17">[18]</ref>
+					<ref type="bibr" target="#b18">[19]</ref>
+					<ref type="bibr" target="#b19">[20]</ref>. Many studies have investigated (near) equiatomic alloys that may not be optimal for corrosion resistance <ref type="bibr" target="#b2">[3]</ref>. Due to the diversity of the literature on MPEA corrosion, the composition and nature of oxide films formed on compositionally complex alloy surfaces is not well-established <ref type="bibr" target="#b3">[4]</ref>. To gain further insight into initial stages of oxide formation in such systems, an in situ atom probe tomography (APT) approach was applied <ref type="bibr" target="#b20">[21,</ref>
+					<ref type="bibr" target="#b21">22]</ref> to investigate elemental redistributions accompanying oxidation in a Ni38Cr22Fe20Mn10Co10 (at. %) alloy. This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d</p>
+				<p>The Ni38Cr22Fe20Mn10Co10 (at. %) alloy was arc melted, cast, and homogenized at 1100 °C for 96 h <ref type="bibr" target="#b22">[23]</ref>. APT needle specimens were made using the focused ion beam lift-out method <ref type="bibr" target="#b23">[24]</ref>, then analyzed (via field evaporation) to remove Ga ion damage, exposing a pristine alloy surface for oxidation. Pristine samples were transferred under ultra-high vacuum (UHV) (10 -7 -10 -8 mbar) to a gas-phase reactor chamber preheated to the desired temperature, where specimens were exposed to O2 gas (99.993% purity) at 10 mbar for 120 °C for 5 minutes and 300 °C for 2 minutes. Specimens were transferred back to the analysis chamber under UHV, where composition across the oxide/metal interface was analyzed. Pressure-temperature-time conditions were selected to develop nanoscale oxides ~2-4 nm thick. A CAMECA local electrode atom probe (LEAP) 4000X HR system operated in laser-pulsing mode was used for data collection. Data were reconstructed and analyzed using the Integrated Visualization and Analysis Software (IVAS), version 3.8.4 by CAMECA. Further details on APT analysis conditions and peak identification within the APT mass spectra are provided in Supplementary Information Figures <ref type="figure" target="#fig_1">S1-S2</ref>. This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d APT atom maps of a single specimen before and after two different oxidation exposures are shown in Figure <ref type="figure" target="#fig_0">1</ref>. Oxidation results in a thin layer of mixed metal-oxygen ion complexes of all base alloy components within the first ~5 nm of the specimen apex. Oxidation also occurs along the sides of the specimen, but those features are outside the field of view of the APT reconstruction. Elemental and cation fractions in the base alloy oxides formed after both oxidation conditions are presented in Table <ref type="table">1</ref> and compared to the nominal and APT-measured base alloy composition. Fractions of alloying elements and their cations are the focus of results presented herein, due to the known oxygen deficits in laser-assisted APT of oxide materials <ref type="bibr" target="#b24">[25]</ref>.
+				</p>
+				<p>Results reported in Table <ref type="table">1</ref> are averages and standard deviations from duplicate APT data sets, and highlight trends in elemental partitioning before/after oxidation. A significant change in the Cr atomic fraction in the base alloy (0.23) versus oxides (0.26 and 0.32 after oxidation at 120 °C and 300 °C, respectively) is measured. In contrast, Co and Fe content decrease in the oxide with increasing oxidation temperature. We also find significant Ni in the oxide (≥ 0.36). Interestingly, Ni and Mn concentrations are approximately equal to their base alloy concentrations. Table <ref type="table">1</ref>. Summary of elemental and cation fractions for the nominal alloy composition, the APTmeasured base alloy (before oxidation), and in the oxide layers formed at 120 °C-5 minutes and 300 °C-2 minutes in 10mbar O2 gas. Fractions reported are averages and standard deviations determined from 3-4 duplicate APT needle specimens per oxidation condition. A 14 at. % O isoconcentration surface was used to delineate oxide from base alloy when quantifying the oxide composition. </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head>P r e p r i n t n o t p e e r r e v i e w e d</head>
+				<p>From Table <ref type="table">1</ref>, the oxide cation fractions are self-similar and comparable to elemental fractions in the base alloy, which may be attributable to the phenomena of nonequilibrium solute capture <ref type="bibr" target="#b25">[26]</ref>. However, Table <ref type="table">1</ref> does not detail any differences in spatial arrangement of elements, which requires further consideration. 2D compositional contour plots were generated from a sub-volume of APT specimens and are presented in Figure <ref type="figure" target="#fig_1">2</ref>(a) and (b) for both oxidation exposures, respectively. The thermal scale uses the same concentration ranges for each oxidation condition to enable a direct visual comparison of the elemental partitioning between oxidation conditions. After oxidation at both temperatures, Ni is present in the oxide, with slight enrichment on the alloy side of the oxide/alloy interface. Cr enrichment is found in the inner oxide for both 120 °C and 300 °C exposures, although to a greater extent in the oxide formed at 300 °C. Fe, Mn, and Co maps all highlight a similar trend for both temperatures of depletion in the inner oxide. Fe, Mn, and Co are also found in the outer oxide after 120 °C oxidation, however this trend was not observed in the contour plots for the oxide formed at 300 °C. It is presumed that the outermost oxide was not captured in the APT reconstruction, resulting in the absence of a clear Fe, Mn, and Co enriched outer oxide that is expected to be present. This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d To further probe the elemental partitioning accompanying oxidation, the proximity histogram method <ref type="bibr" target="#b26">[27]</ref> was used to quantify local concentration across oxide/metal interfaces.</p>
+				<p>The zero position in concentration profiles indicates the approximate inflection point in the Cr concentration curve, which is a consistent and repeatable indicator of the oxide/metal interface.</p>
+				<p>Concentration profiles given in Figure <ref type="figure" target="#fig_3">3</ref> provide fractions of all major alloying elements for 120 °C and 300 °C oxides, respectively. Error bars in concentration profiles represent 1σ from standard counting error, defined as: 𝜎 = √𝑐 𝑖 (100 -𝑐 𝑖 )/𝑁 𝑇 , where 𝑐 𝑖 is the local concentration of species i and 𝑁 𝑇 is the total number of atoms in the concentration measurement. Results presented here are repeatable between similar needle specimens and exposure conditions, as shown in Supplemental Information Figure <ref type="figure" target="#fig_3">S3</ref>, which also reports as-measured oxygen concentration for reference. Cation fractions for the 120 °C oxide show slight Ni enrichment in the base alloy adjacent to the oxide/metal interface, followed by a decrease in Ni in the Cr-rich inner oxide, and then an increase in Ni (referred to as Ni 'trapping', indicated by the black arrow in Fig. <ref type="figure" target="#fig_3">3a</ref>). Fe, Mn, and Co concentrations are depleted (relative to the base alloy) in the inner oxide, and enriched in the outer oxide. A significant cation fraction of Ni (~0.25) is also found in the outer oxide, where Cr fraction drops from &gt; 0.3 in the inner oxide to &lt; 0.1 in the outer oxide.</p>
+				<p>The profile for the oxide formed after oxidation at 300 °C-2 minutes (Figure <ref type="figure" target="#fig_3">3 (d)</ref>) shows similar trends in alloy element distribution. Ni is again enriched at in the base alloy adjacent to the oxide, some Ni trapping persists in Cr-rich inner oxide and significant Ni exists in the outer oxide. Important differences are that Ni enrichment in the base alloy is higher and peak Cr enrichment in the inner oxide is greater after 300 °C oxidation (0.48 Ni, 0.39 Cr) versus 120 °C (0.42 Ni, 0.32 Cr). Although a portion of the 300 °C outer oxide was lost in the destructive APT This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d analysis, the small amount of the outer oxide from which data was acquired shows a similar trend of increasing Fe, Mn, and Co cation fractions, with significant Ni (~ 0.35) present.</p>
+				<p>Complementary visualization of the relative contribution of each alloying element to inner and outer oxides is demonstrated in the stacked area plots given in Figure <ref type="figure" target="#fig_3">3</ref>  Examination of 2D contour plots and concentration profiles reveals that compositionally layered oxide films are formed containing all alloying elements, and are comprised of two primary layers: inner Cr-rich, and outer Fe, Ni, Mn, Co-rich oxides. Ni redistribution in the oxide and adjacent base alloy accompanies the formation of this layered oxide. Additionally, a This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d region of Cr depletion in the metal is observed. Ni is 'trapped' in the 120 °C oxide and at the oxide/metal interface up to an atomic fraction of 0.42 (in comparison to the nominal ~0.38).</p>
+				<p>After oxidation at 300 °C, Ni trapping is still present in the oxide, but a much higher Ni enrichment at the oxide/metal interface (up to 0.48) is measured. Cr enrichment and Ni depletion are observed in the inner oxide. The Cr concentration consistently drops in the outer oxide, whereas Fe, Mn, Co, and Ni content increase.</p>
+				<p>Schematics in Figure <ref type="figure" target="#fig_4">4</ref> highlight the initial elemental partitioning accompanying oxidation of Ni38Fe20Cr22Mn10Co10 at 120 °C and 300 °C in 10 mbar O2 gas compared to our prior work on aqueous corrosion of the same alloy <ref type="bibr" target="#b27">[28]</ref>. During room temperature corrosion in an aqueous NaCl environment at pH 4 for 10 ks, the formation of a Cr-rich oxide with small amounts of Ni, Fe, and Mn are observed. One major difference is that the chemical dissolution of Ni, Fe, and Co was observed because single element and spinel type oxides containing these elements are unstable at pH 4 <ref type="bibr" target="#b27">[28]</ref>. The presence of a Cr-rich inner oxide, with Ni, Fe, and Mn also present is consistent with our findings. However, dissolution of some elements in aqueous corrosion leads to the formation of a distinctive outer oxide layer in comparison to that formed in a dry oxidation environment. This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d Thermodynamically, the oxide formed on the Ni38Fe20Cr22Mn10Co10 MPEA is expected to consist of distinct phases, such as NiO, Cr2O3, Fe2O3, Mn2O3 , (Co, Fe)2O3 and mixed spinels (e.g. (NiFeMnCo)Cr2O4 or NiFe2O4) <ref type="bibr" target="#b28">[29]</ref>. Such elaborate phase separation from a complex but single phase MPEA requires significant element redistributions that are prohibitive by the short times and low temperatures used here. Hence, the initial oxide is likely a combination of metastable oxides, the formation of which is driven by both thermodynamic and kinetic (e.g. This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d mobility) factors. In particular, the diffusivity of elements in the alloy relative to their cation diffusivities in the oxide scale is critical to understanding oxide scale development <ref type="bibr" target="#b29">[30]</ref>.
+				</p>
+				<p>Prior work studying diffusivity of alloying elements in MPEAs has established fastest to slowest diffusers (in the base alloy) are: Mn, Cr, Fe, Co, Ni <ref type="bibr" target="#b30">[31]</ref>. However, mobility of these species in complex oxides is an important consideration that is not yet established, where diffusion of cations depends strongly on charge state and local defects, in addition to oxide structure and composition <ref type="bibr" target="#b31">[32]</ref>. A study on aqueous corrosion of the same MPEA suggested Cr enrichment in the oxide may be attributed to faster diffusion of Cr in the base alloy in comparison to other alloying elements, and the lower free energy of formation for Cr2O3 versus other transition metal oxides <ref type="bibr" target="#b27">[28]</ref>. The mismatch in element mobilities can partially explain the Cr depletion is found in the metal adjacent to the oxide/metal interface <ref type="bibr" target="#b32">[33]</ref>, but other thermodynamic factors of selective oxidation behavior likely contribute. In this work, Cr enrichment and present of all alloying elements is observed in the inner oxide, however not in sufficient amounts to support consumption of all Cr 3+ as a mixed spinel or corundum <ref type="bibr" target="#b28">[29]</ref>. The distinctly different outer oxide could be formed via diffusion of other alloying elements through and reaction with the Cr-rich inner oxide layer. Ni trapping in the oxide could be related to sluggish diffusivity of Ni relative to other alloying elements in the oxide, and may suggest early stages of spinel formation. In addition, morphology and presence of high diffusivity paths (e.g. pores, grain boundaries) may also influence element redistributions. The presence of nanocrystalline oxide grains formed on needle specimens <ref type="bibr" target="#b21">[22]</ref> may facilitate local short-circuit diffusion of oxygen to the base alloy, and also the outward diffusion of cations, particularly Mn, as demonstrated in prior work on Cantor alloy <ref type="bibr" target="#b11">[12]</ref>. This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d </p>
+			</div>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0">
+				<head>Figure 1 .</head>
+				<label>1</label>
+				<figDesc>Figure 1. 3D ion maps of all major alloying elements (and their oxides) before and after oxidation at either 120 °C-10 mbar O2-5 minutes or 300 °C-10 mbar O2-2 minutes in high purity O2 gas. APT reconstructions shown are cropped to ~10 nm thick to clearly show the oxide/metal interface.</figDesc>
+				<graphic coords="7,200.28,72.00,247.32,327.00" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1">
+				<head>Figure 2 .</head>
+				<label>2</label>
+				<figDesc>Figure 2. Two-dimensional compositional contour plots illustrating elemental fractions across the Ni38Fe20Cr22Mn10Co10 alloy/oxide interface after oxidation at (a) 120°C-10 mbar-5 minutes, and (b) 300 °C-10 mbar-2 minutes. The approximate location of the oxide/metal interface is indicated by a black dashed line in each plot. Contour plots were generated from reconstructed APT data using a cubic region of interest 1 nm thick. The red/white/blue color scale indicates the composition (in elemental fraction), where black denotes a concentration below the minimum value noted of the color scale.</figDesc>
+				<graphic coords="9,177.00,72.00,257.28,536.52" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2">
+				<head></head>
+				<label></label>
+				<figDesc>Figure 3 (c) and (d) highlights that the inner oxide is more well-defined and Cr-rich with</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3">
+				<head>Figure 3 .</head>
+				<label>3</label>
+				<figDesc>Figure 3. Proximity histograms across the oxide/metal interface after oxidation at (a, c) 120 o C-10 mbar-5 minutes, and (b, d) 300 °C-10 mbar-2 minutes. Fractions are provided on a scale of 0 to 1, where error bars represent 1σ from standard counting error. The zero position of the profiles was based on the inflection point of the Cr profile. The nominal base alloy composition, as determined by APT, is given by horizontal lines to the left of the concentration profile. Black arrows indicate apparent Ni trapping near the inner oxide layer. Note that the 300 o C outer oxide was not captured in the APT analysis, and hence is cut-off in sub-figures (b) and (d).</figDesc>
+				<graphic coords="11,92.28,237.60,427.44,237.00" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4">
+				<head>Figure 4 .</head>
+				<label>4</label>
+				<figDesc>Figure 4. Schematic illustration of element redistribution across the base alloy/oxide metal interface for room temperature aqueous corrosion in 0.1 M NaCl (pH 40 for 10,000 seconds, or ~167 minutes) compared to dry oxidation experiments performed here (120 °C-10 mbar-5 minutes, and 300 °C-10 mbar-2 minutes). Schematics are not drawn to scale.</figDesc>
+				<graphic coords="13,138.00,72.00,336.00,393.60" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5">
+				<head>(</head>
+				<label></label>
+				<figDesc>PNNL). PNNL is operated for the U.S. DOE by Battelle Memorial Institute under Contract No. DE-AC05-76RLO1830.</figDesc>
+			</figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">
+				<p>This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d</p>
+			</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+				<div>
+					<p>Acknowledgements: This work was supported as part of the <rs type="institution">Center for Performance and Design of Nuclear Waste Forms and Containers (WastePD)</rs>, an <rs type="grantName">Energy Frontier Research Center</rs> funded by the <rs type="funder">U.S. Department of Energy, Office of Science, Basic Energy Sciences</rs> under Award #<rs type="grantNumber">DE-SC0016584</rs>. A portion of this research was performed using facilities at the <rs type="institution">Environmental Molecular Sciences Laboratory</rs>, a national scientific user facility sponsored by the <rs type="funder">DOE Office of Biological and Environmental Research</rs> and located at <rs type="institution">Pacific Northwest National Laboratory</rs> This preprint research paper has not been peer reviewed. Electronic copy available at: https://ssrn.com/abstract=3675957 P r e p r i n t n o t p e e r r e v i e w e d</p>
+				</div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_DZtCJ9T">
+					<idno type="grant-number">DE-SC0016584</idno>
+					<orgName type="grant-name">Energy Frontier Research Center</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>To summarize, we measured in 3D and at the nanoscale the elemental redistributions that accompany early stages of oxidation in a non-equiatomic, single phase Ni38Fe20Cr22Mn10Co10 (at. %) MPEA. An in situ APT approach was used to track changes in elemental and cation fractions in the alloy and oxide, respectively, for 120 °C-5 minute and 300 °C-2 minute exposures in 10 mbar O2. A layered oxide film is formed for both conditions, comprised of an inner Cr-rich oxide and an outer Fe, Ni, Mn, Co, and Ni-rich oxide. At lower temperatures, stronger Ni trapping is found in the inner oxide, whereas at higher temperatures, stronger Ni-enrichment at the oxide/metal interface occurs. Neither the inner nor outer oxides can be defined as a stoichiometric oxide phase, but more likely consists of metastable oxides that have not yet reached a thermodynamically stable form. The observed Ni-enrichment in the base alloy and the formation of a layered oxide is consistent with the composition of the passive film formed on the same alloy during longer-term corrosion in an aqueous NaCl environment. Our work has implications for alloy design, in which evaluating oxidation or corrosion behavior with higher fidelity than traditional methodologies is needed.</p>
+				</div>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>Declaration of Competing Interest</head>
+					<p>The authors declare that they have no known competing interests.</p>
+				</div>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+					<biblStruct xml:id="b0">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">J</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">S</forename>
+									<surname>Chin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">T</forename>
+									<surname>Shun</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">H</forename>
+									<surname>Tsau</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">Y</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Advanced Engineering Materials</title>
+							<imprint>
+								<biblScope unit="volume">6</biblScope>
+								<biblScope unit="issue">5</biblScope>
+								<biblScope unit="page" from="299" to="303" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b1">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">B</forename>
+									<surname>Miracle</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">N</forename>
+									<surname>Senkov</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Materialia</title>
+							<imprint>
+								<biblScope unit="volume">122</biblScope>
+								<biblScope unit="page" from="448" to="511" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b2">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Lu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">E</forename>
+									<surname>Saal</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">B</forename>
+									<surname>Olson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">J</forename>
+									<surname>Swanson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">S</forename>
+									<surname>Frankel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gerard</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">F</forename>
+									<surname>Quiambao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Scully</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Scripta Materialia</title>
+							<imprint>
+								<biblScope unit="volume">153</biblScope>
+								<biblScope unit="page" from="19" to="22" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b3">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Qiu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Thomas</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Gibson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">L</forename>
+									<surname>Fraser</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">N. Birbilis, npj Materials Degradation</title>
+							<imprint>
+								<biblScope unit="volume">1</biblScope>
+								<biblScope unit="issue">1</biblScope>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b4">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">V</forename>
+									<surname>Ayyagari</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Gwalani</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Muskeri</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Mukherjee</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Banerjee</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">npj Materials Degradation</title>
+							<imprint>
+								<biblScope unit="volume">2</biblScope>
+								<biblScope unit="issue">1</biblScope>
+								<biblScope unit="page" from="1" to="10" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b5">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Gardin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Zanna</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Seyeux</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Allion-Maurer</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Marcus</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">143</biblScope>
+								<biblScope unit="page" from="403" to="413" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b6">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Sieradzki</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">C</forename>
+									<surname>Newman</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Electrochem. Soc</title>
+							<imprint>
+								<biblScope unit="volume">133</biblScope>
+								<biblScope unit="issue">9</biblScope>
+								<biblScope unit="page" from="1979" to="1980" />
+								<date type="published" when="1986">1986</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b7">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Thomas</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Birbilis</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">S</forename>
+									<surname>Venkatraman</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">S</forename>
+									<surname>Cole</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">69</biblScope>
+								<biblScope unit="page" from="11" to="22" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b8">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">T H</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Materials Science and Engineering: A</title>
+							<imprint>
+								<biblScope unit="volume">375</biblScope>
+								<biblScope unit="page" from="213" to="218" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b9">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Kai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">C</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<forename type="middle">P</forename>
+									<surname>Cheng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">P</forename>
+									<surname>Chu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">T</forename>
+									<surname>Huang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">W</forename>
+									<surname>Tsay</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">J</forename>
+									<surname>Kai</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">108</biblScope>
+								<biblScope unit="page" from="209" to="214" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b10">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">Y.-K</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y.-A</forename>
+									<surname>Joo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">S</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K.-A</forename>
+									<surname>Lee</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Intermetallics</title>
+							<imprint>
+								<biblScope unit="volume">98</biblScope>
+								<biblScope unit="page" from="45" to="53" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b11">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Laplanche</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">U</forename>
+									<surname>Volkert</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Eggeler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>George</surname>
+								</persName>
+							</author>
+							<ptr target="https://ssrn.com/abstract=3675957" />
+						</analytic>
+						<monogr>
+							<title level="j">Oxidation of Metals</title>
+							<imprint>
+								<biblScope unit="volume">85</biblScope>
+								<biblScope unit="issue">5-6</biblScope>
+								<biblScope unit="page" from="629" to="645" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+						<note>This preprint research paper has not been peer reviewed. Electronic copy available at</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b12">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">R</forename>
+									<surname>Holcomb</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Tylczak</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Carney</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">JOM</title>
+							<imprint>
+								<biblScope unit="volume">67</biblScope>
+								<biblScope unit="issue">10</biblScope>
+								<biblScope unit="page" from="2326" to="2339" />
+								<date type="published" when="2015">2015</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b13">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">M</forename>
+									<surname>Butler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">L</forename>
+									<surname>Weaver</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Journal of Alloys and Compounds</title>
+							<imprint>
+								<biblScope unit="volume">674</biblScope>
+								<biblScope unit="page" from="229" to="244" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b14">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">K</forename>
+									<surname>Wild</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">17</biblScope>
+								<biblScope unit="issue">2</biblScope>
+								<biblScope unit="page" from="87" to="104" />
+								<date type="published" when="1977">1977</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b15">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<forename type="middle">H</forename>
+									<surname>Stott</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<forename type="middle">I</forename>
+									<surname>Wei</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">A</forename>
+									<surname>Enahoro</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Materials and Corrosion</title>
+							<imprint>
+								<biblScope unit="volume">40</biblScope>
+								<biblScope unit="issue">4</biblScope>
+								<biblScope unit="page" from="198" to="205" />
+								<date type="published" when="1989">1989</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b16">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Kai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">C</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<forename type="middle">P</forename>
+									<surname>Cheng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">P</forename>
+									<surname>Chu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">T</forename>
+									<surname>Huang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">W</forename>
+									<surname>Tsay</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">J</forename>
+									<surname>Kai</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">121</biblScope>
+								<biblScope unit="page" from="116" to="125" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b17">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Xia</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">M</forename>
+									<surname>Lousada</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Mao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">C</forename>
+									<surname>Maier</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">A</forename>
+									<surname>Korzhavyi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Sandström</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Frontiers in Materials</title>
+							<imprint>
+								<biblScope unit="volume">5</biblScope>
+								<biblScope unit="page">53</biblScope>
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b18">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">S</forename>
+									<surname>Grewal</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">M</forename>
+									<surname>Sanjiv</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">S</forename>
+									<surname>Arora</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Kumar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Ayyagari</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Mukherjee</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Singh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Advanced Engineering Materials</title>
+							<imprint>
+								<biblScope unit="volume">19</biblScope>
+								<biblScope unit="issue">11</biblScope>
+								<biblScope unit="page">1700182</biblScope>
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b19">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Qiu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Thomas</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Gibson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">L</forename>
+									<surname>Fraser</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Pohl</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Birbilis</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">133</biblScope>
+								<biblScope unit="page" from="386" to="396" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b20">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">V</forename>
+									<surname>Lambeets</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Visart De Bocarmé</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">E</forename>
+									<surname>Perea</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Kruse</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">The Journal of Physical Chemistry Letters</title>
+							<imprint>
+								<biblScope unit="volume">11</biblScope>
+								<biblScope unit="issue">8</biblScope>
+								<biblScope unit="page" from="3144" to="3151" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b21">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">J</forename>
+									<surname>Kautz</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Gwalani</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">V M</forename>
+									<surname>Lambeets</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Kovarik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">K</forename>
+									<surname>Schreiber</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">E</forename>
+									<surname>Perea</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Senor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y.-S</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">K</forename>
+									<surname>Battu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K.-P</forename>
+									<surname>Tseng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Thevuthasan</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">A. Devaraj, under review</title>
+							<imprint>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b22">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Lu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">E</forename>
+									<surname>Saal</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">B</forename>
+									<surname>Olson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Sahu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">J</forename>
+									<surname>Swanson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">S</forename>
+									<surname>Frankel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gerard</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Scully</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Scripta Materialia</title>
+							<imprint>
+								<biblScope unit="volume">172</biblScope>
+								<biblScope unit="page" from="12" to="16" />
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b23">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Thompson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Lawrence</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">J</forename>
+									<surname>Larson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">D</forename>
+									<surname>Olson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">F</forename>
+									<surname>Kelly</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Gorman</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Ultramicroscopy</title>
+							<imprint>
+								<biblScope unit="volume">107</biblScope>
+								<biblScope unit="issue">2</biblScope>
+								<biblScope unit="page" from="131" to="139" />
+								<date type="published" when="2007">2007</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b24">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Gault</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">W</forename>
+									<surname>Saxey</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">W</forename>
+									<surname>Ashton</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">B</forename>
+									<surname>Sinnott</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">N</forename>
+									<surname>Chiaramonti</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">P</forename>
+									<surname>Moody</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">K</forename>
+									<surname>Schreiber</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">New Journal of Physics</title>
+							<imprint>
+								<biblScope unit="volume">18</biblScope>
+								<biblScope unit="issue">3</biblScope>
+								<biblScope unit="page">33031</biblScope>
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b25">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">X.-X</forename>
+									<surname>Yu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Gulec</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Sherman</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">L</forename>
+									<surname>Cwalina</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Scully</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">H</forename>
+									<surname>Perepezko</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">W</forename>
+									<surname>Voorhees</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">D</forename>
+									<surname>Marks</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Physical Review Letters</title>
+							<imprint>
+								<biblScope unit="volume">121</biblScope>
+								<biblScope unit="issue">14</biblScope>
+								<biblScope unit="page">145701</biblScope>
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b26">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">C</forename>
+									<surname>Hellman</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">A</forename>
+									<surname>Vandenbroucke</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Rüsing</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Isheim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">N</forename>
+									<surname>Seidman</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Microscopy and Microanalysis</title>
+							<imprint>
+								<biblScope unit="volume">6</biblScope>
+								<biblScope unit="issue">5</biblScope>
+								<biblScope unit="page" from="437" to="444" />
+								<date type="published" when="2000">2000</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b27">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gerard</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Han</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">J</forename>
+									<surname>Mcdonnell</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Oglec</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">J</forename>
+									<surname>Kautz</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">K</forename>
+									<surname>Schreiber</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Lu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">E</forename>
+									<surname>Saal</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">S</forename>
+									<surname>Frankel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Scully</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Materialia in-press</title>
+							<imprint>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b28">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Han</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gerard</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Scully</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B.-C</forename>
+									<surname>Zhou</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Materials Degradation under review</title>
+							<imprint>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b29">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Gesmundo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Nanni</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">P</forename>
+									<surname>Whittle</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion Science</title>
+							<imprint>
+								<biblScope unit="volume">19</biblScope>
+								<biblScope unit="issue">10</biblScope>
+								<biblScope unit="page" from="675" to="691" />
+								<date type="published" when="1979">1979</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b30">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">K.-Y</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M.-H</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J.-W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Materialia</title>
+							<imprint>
+								<biblScope unit="volume">61</biblScope>
+								<biblScope unit="issue">13</biblScope>
+								<biblScope unit="page" from="4887" to="4897" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b31">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Unutulmazsoy</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Merkle</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Mannhart</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Maier</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Solid State Ionics</title>
+							<imprint>
+								<biblScope unit="volume">309</biblScope>
+								<biblScope unit="page" from="110" to="117" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b32">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Desgranges</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Lequien</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Aublant</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Nastar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Monceau</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxidation of Metals</title>
+							<imprint>
+								<biblScope unit="volume">79</biblScope>
+								<biblScope unit="issue">1</biblScope>
+								<biblScope unit="page" from="93" to="105" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

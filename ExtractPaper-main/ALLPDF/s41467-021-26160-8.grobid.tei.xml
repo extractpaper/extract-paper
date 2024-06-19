@@ -1,0 +1,1728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Self-regeneration of supported transition metals by a high entropy-driven principle</title>
+				<funder>
+					<orgName type="full">Inner Mongolia Erdos Group</orgName>
+				</funder>
+				<funder ref="#_dRRtPxF">
+					<orgName type="full">Shanghai Rising Star Program</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Chemical Sciences, Geosciences, and Biosciences Division, Catalysis Science program</orgName>
+				</funder>
+				<funder ref="#_jYeGbxA">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_GunkMM8">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability status="unknown"><p>Copyright Springer Science and Business Media LLC</p>
+				</availability>
+				<date type="published" when="2021-10-11">2021-10-11</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shengtai</forename><surname>Hou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<postCode>200240</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xuefeng</forename><surname>Ma</surname></persName>
+							<idno type="ORCID">0000-0002-6645-6719</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<postCode>200240</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yuan</forename><surname>Shu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<postCode>200240</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jiafeng</forename><surname>Bao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<postCode>200240</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qiuyue</forename><surname>Zhang</surname></persName>
+							<idno type="ORCID">0000-0003-0953-5880</idno>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">College of Chemistry and Chemical Engineering</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Physical Chemistry of Solid Surfaces</orgName>
+								<orgName type="laboratory" key="lab2">National Engineering Laboratory for Green Chemical Productions of Alcohols-Ethers-Esters</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361005</postCode>
+									<settlement>Xiamen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mingshu</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0002-4923-9632</idno>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Department of Chemistry</orgName>
+								<orgName type="department" key="dep2">College of Chemistry and Chemical Engineering</orgName>
+								<orgName type="laboratory" key="lab1">State Key Laboratory of Physical Chemistry of Solid Surfaces</orgName>
+								<orgName type="laboratory" key="lab2">National Engineering Laboratory for Green Chemical Productions of Alcohols-Ethers-Esters</orgName>
+								<orgName type="institution">Xiamen University</orgName>
+								<address>
+									<postCode>361005</postCode>
+									<settlement>Xiamen</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pengfei</forename><surname>Zhang</surname></persName>
+							<idno type="ORCID">0000-0001-7559-7348</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Chemistry and Chemical Engineering</orgName>
+								<orgName type="institution">Shanghai Jiao Tong University</orgName>
+								<address>
+									<postCode>200240</postCode>
+									<settlement>Shanghai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sheng</forename><surname>Dai</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Chemical Sciences Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<postCode>37831</postCode>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Self-regeneration of supported transition metals by a high entropy-driven principle</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Nature Communications</title>
+						<title level="j" type="abbrev">Nat Commun</title>
+						<idno type="eISSN">2041-1723</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">12</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2021-10-11" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">366869E3F14A39B2287526D3824D3FDB</idno>
+					<idno type="DOI">10.1038/s41467-021-26160-8</idno>
+					<note type="submission">Received: 17 February 2021; Accepted: 13 September 2021;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-14T14:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The sintering of Supported Transition Metal Catalysts (STMCs) is a core issue during high temperature catalysis. Perovskite oxides as host matrix for STMCs are proven to be sinteringresistance, leading to a family of self-regenerative materials. However, none other design principles for self-regenerative catalysts were put forward since 2002, which cannot satisfy diverse catalytic processes. Herein, inspired by the principle of high entropy-stabilized structure, a concept whether entropy driving force could promote the self-regeneration process is proposed. To verify it, a high entropy cubic Zr 0.5 (NiFeCuMnCo) 0.5 O x is constructed as a host model, and interestingly in situ reversible exsolution-dissolution of supported metallic species are observed in multi redox cycles. Notably, in situ exsolved transition metals from high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x support, whose entropic contribution (TΔS con®g = T⋆12.7 J mol -1 K -1 ) is predominant in ΔG, affording ultrahigh thermal stability in long-term CO 2 hydrogenation (400 °C, &gt;500 h). Current theory may inspire more STWCs with excellent sintering-resistance performance.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>S</head><p>upported metal catalysts are of great importance in both industrial and fundamental catalysis <ref type="bibr" target="#b0">1</ref> . The methods for generating active sites on metal oxide carriers include chemical or physical deposition techniques (e.g., impregnation method <ref type="bibr" target="#b1">2</ref> , deposition-precipitation method <ref type="bibr" target="#b2">3</ref> , co-precipitation process <ref type="bibr" target="#b3">4</ref> , atomic layer deposition <ref type="bibr" target="#b4">5</ref> , spraying <ref type="bibr" target="#b5">6</ref> and so on <ref type="bibr" target="#b6">7</ref> . Needless to say, those methods have significantly promoted the synthetic chemistry of supported metal catalysts. For example, the control of metal nanocrystal size by modified deposition method reveals the attractive role of corner atoms, which offers a theoretical guidance for catalyst design <ref type="bibr" target="#b7">8</ref> . Nevertheless, the deactivation of supported metal catalysts, especially those metal nanoparticles (NPs) with low tamman temperatures (e.g., Cu <ref type="bibr" target="#b8">9</ref> , Ag 10 , Au <ref type="bibr" target="#b10">11</ref> ) and high surface energies <ref type="bibr" target="#b11">12</ref> , is often inevitable by sintering <ref type="bibr" target="#b12">13</ref> under long-term exposure to the high temperature or redox environments. For example, Au/TiO 2 catalysts afforded an ultralow temperature for CO oxidation <ref type="bibr" target="#b13">14</ref> , while particle growth leading to the activity loss often occurred during high temperature operation <ref type="bibr" target="#b14">15</ref> .</p><p>Early in this century, a self-regenerative strategy by in situ exsolution of active species from host matrix was presented by Nishihatas' group <ref type="bibr" target="#b15">16</ref> , which can greatly prolong the lifetime of three-way catalysts. The emergence of perovskite-based (ABO 3 ) self-regenerative catalysts exploits a useful approach to optimize catalyst activity and stability <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b21">[18]</ref><ref type="bibr" target="#b22">[19]</ref><ref type="bibr" target="#b23">[20]</ref><ref type="bibr" target="#b24">[21]</ref> . To our knowledge, the control of nonstoichiometry <ref type="bibr" target="#b21">18</ref> (A-site defect interactions), judicious choice of B-site composition (e.g., Pd <ref type="bibr" target="#b16">17</ref> , Pt <ref type="bibr" target="#b25">22</ref> , Ni <ref type="bibr" target="#b26">23</ref> , CoFe alloy <ref type="bibr" target="#b27">24</ref> ) and the surface modification (polished or pretreated perovskite) are frequently used to tailor B-site metals exsolution. This type of catalytic materials can not only in situ generate active sites, but also accomplish reintegration of those species back to parent perovskites during oxidation-reduction cycles <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b21">[18]</ref><ref type="bibr" target="#b22">[19]</ref><ref type="bibr" target="#b23">[20]</ref><ref type="bibr" target="#b24">[21]</ref> . Meanwhile, introducing high-valence cations (Nb <ref type="bibr" target="#b28">25</ref> , Ti <ref type="bibr" target="#b29">26</ref> , Ga 27 , etc.) into ABO 3 structure can improve the structural stability of the parent perovskites, which contributes to the reintegration process during catalysis <ref type="bibr" target="#b22">19</ref> . This process effectively suppresses the sintering or agglomeration of the supported metals <ref type="bibr" target="#b15">16</ref> . However, these types of host matrix are limited to perovskite crystal structures and the state-of-art self-generation systems are perovskite-based catalysts <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b21">[18]</ref><ref type="bibr" target="#b22">[19]</ref> (Fig. <ref type="figure" target="#fig_0">1a</ref>), which cannot meet the broad requirements by different catalytic processes. To date, the proposal of a selfregenerative principle for the design of sintering-resistance catalysts is still desired.</p><p>Since the discovery of high entropy alloys in 2004 <ref type="bibr" target="#b31">28</ref> and the pioneering introduction of high-entropy oxides (HEOs: oxide solid solutions contain five or more distinct metal cations) in 2015 <ref type="bibr" target="#b32">29</ref> , entropy-stabilized materials such as oxides <ref type="bibr" target="#b33">30</ref> , sulfides <ref type="bibr" target="#b34">31</ref> , phosphide <ref type="bibr" target="#b35">32</ref> , nitrides <ref type="bibr" target="#b36">33</ref> , carbides <ref type="bibr" target="#b37">34</ref> , and borides <ref type="bibr" target="#b38">35</ref> , are flourishing in the library of advanced materials during past five years. Inspired by the principle of thermodynamics <ref type="bibr" target="#b32">29,</ref><ref type="bibr" target="#b33">30</ref> (Entropic contribution could predominate the thermodynamic landscape), applying the theory of high entropy materials to trigger the selfregeneration during catalytic redox processes may be a choice. First, based on the configurational entropy <ref type="bibr" target="#b37">34</ref> (it refers to the number of conformations of a molecule and the number of ways that atoms or molecules pack together in the oxide) formula (Fig. <ref type="figure" target="#fig_0">1</ref>.bi), more disorder of system and higher randomness of structure with a lower Gibbs free energy can contribute to the stability of host structure, especially during high temperature catalysis (ΔG = H-TΔS) <ref type="bibr" target="#b34">31,</ref><ref type="bibr" target="#b39">36</ref> (Fig. <ref type="figure" target="#fig_0">1bii</ref>). From another perspective, the reintegration process can be promoted due to an entropy-added motivation by the oxidative transformation of isolated metals back into parent metal oxides. The theoretical conjecture stimulates us to carry out a number of representative experiments.</p><p>In this work, we verify the entropy-driven principle for selfregenerative catalyst by high entropy ZrO 2 . A single-phase cubic Zr 0.5 (NiFeCuMnCo) 0.5 O x , whose entropic contribution (TΔS config = T*12.7 J mol -1 K -1 ) is predominant in ΔG <ref type="bibr" target="#b31">28,</ref><ref type="bibr" target="#b32">29,</ref><ref type="bibr" target="#b34">31</ref> , was prepared and rationally selected as a model catalyst. Interestingly, reductive H 2 treatment could induce the exsolution of CoFeCuNi alloy NPs on the surface of parent high entropy ZrO 2 NPs. With high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x as the host matrix, the exsolution and reintegration of CoFeCuNi alloy were observed during three redox cycles (H 2 600 °C + Air 550 °C), an interesting feature that may confine metal species under dynamics catalysis (Fig. <ref type="figure" target="#fig_0">1biii</ref>). As a proof of principle, the entropy-driven self-regenerative property endows Zr 0.5 (NiFeCuMnCo) 0.5 O x catalyst good stability during CO 2 hydrogenation reaction. The Zr 0.5 (NiFeCuMnCo) 0.5 O x catalyst functioned well at 400 °C during 500 h continuous hydrogenation, and at the same time no phase separation or sintering were found on the reused catalyst. The self-regenerative talent of high entropy material may open an alternative for the design of sintering-resistance catalysts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The formation of high entropy cubic Zr 0.5 (NiFeCuMnCo) 0.5 O x . Inspired by the principle of the high entropy-stabilized structure, the synthesis of high entropy ZrO 2 catalyst was carefully investigated by a mechanochemical process (Fig. <ref type="figure" target="#fig_1">2</ref>). Five common transition metal salts (Ni, Fe, Cu, Mn, Co) were mixed with ZrCl 4 and NaOH, followed by calcination in air and sodium salt removal. Definitely, for transition metal dopants, the matching radius (the rationally selected five metals j r Zr -r x r Zr j &lt; 20% 37 : Ni, Fe, Cu, Mn, Co) was a crucial factor for achieving the highly doped ZrO 2 solid solution. Binary doped ZrO 2 samples were initially prepared. Impure phases were found (Supplementary Fig. <ref type="figure" target="#fig_0">1</ref>) in Zr 0.5 Cu 0.5 O x , Zr 0.5 Mn 0.5 O x , Zr 0.5 Co 0.5 O x , and Zr 0.5 Ni 0.5 O x , presumably due to the limited solubility of the dopants in ZrO 2 <ref type="bibr" target="#b41">38</ref> . At current stage, it is still difficult to incorporate 50 mol% dopants into monocrystalline ZrO 2 <ref type="bibr" target="#b42">39</ref> . In addition, a series of Zr 0.9 M 0.1 O x (M: Co, Ni, Mn, Cu, Fe) materials were constructed by the same synthesis conditions. Meanwhile, the doped metal content is the same as Zr 0.5 Ni 0.1 Fe 0.1 Cu 0.1 Mn 0.1 Co 0.1 O x sample. Deserved to be mentioned, the Zr 0.9 Cu 0.1 O x , Zr 0.9 Ni 0.1 O x exhibited obvious impurity peaks, which could be ascribed to the CuO, NiO, respectively (Supplementary Fig. <ref type="figure" target="#fig_1">2a,</ref><ref type="figure">b</ref>). It seems reasonable that 10% Cu-doped and 10% Ni-doped ZrO x materials would present obvious diffraction peaks of NiO and CuO. The enhancement of entropic contribution may compensate the formation enthalpy <ref type="bibr" target="#b43">40</ref> , and then a detailed study for constructing high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x was carried out. Firstly, the calcination temperature was adjusted to explore the phase evolution of Zr 0.5 (NiFeCuMnCo) 0.5 O x precursors. As shown in the Fig. <ref type="figure" target="#fig_2">3a</ref>, obvious diffraction peaks for the typical cubic ZrO 2 phase started to form at 550 °C. Notably, no other impurity peaks were observed at an elevated temperature (e.g., 600 °C). This phenomenon indicated the possible formation of a high entropy cubic Zr 0.5 (NiFeCuMnCo) 0.5 O x . Then, the solubility of five metals (Ni, Fe, Cu, Mn, Co) within ZrO 2 solid solution was carefully investigated by adjusting their total ratio (0.3-0.9) (Fig. <ref type="figure" target="#fig_2">3b</ref>). The single cubic structure of ZrO 2 was well maintained in Zr 0.7 (NiFeCuMnCo) 0.3 O x and Zr 0.5 (NiFeCuMnCo) 0.5 O x , while impure reflections of other crystal structures were detected with a higher ratio (0.7-0.9) of doped metals (Fig. <ref type="figure" target="#fig_2">3b</ref>). The molar ratio (Zr:Ni:Fe:Cu:Mn:Co= 5:1:1:1:1:1) was then fixed, and a relative high configurational entropy (S config = 12.47 J mol -1 K -1 ) could be expected.</p><p>Rietveld refinement was then performed to determine the structural parameters of Zr 0.5 (NiFeCuMnCo) 0.5 O x . The initial structural model was built based on the cubic ZrO 2 (a = b = c = 5.100 Å). The calculated lattice constant of Zr 0.5 (NiFeCuMn-Co) 0.5 O x was a = b = c = 5.097 Å (Fig. <ref type="figure" target="#fig_2">3c,</ref><ref type="figure">d</ref>). The difference in atomic sizes between Zr and transition metals would cause the shrinkage of the lattice of ZrO 2 matrix <ref type="bibr" target="#b44">41</ref> . However, it should be noted that the abundance of oxygen vacancies in doped ZrO 2 may enlarge the ZrO 2 lattice <ref type="bibr" target="#b45">42</ref> . Meanwhile, the R-factor (Rp (%)=4.6), weighted profiles R-factor (Rwp (%)=4.7) and chi square (χ 2 = 1.330) of the HE ZrO 2 were quite good (Fig. <ref type="figure" target="#fig_2">3c</ref>). The simulated PXRD pattern of the high entropy ZrO 2 was in good agreement with the experimental one. Those XRD results suggest the formation of cubic Zr 0.5 (NiFeCuMnCo) 0.5 O x .</p><p>With the option temperature (550 °C) and composition in hand, a high specific surface area (84 m 2 g -1 ) was obtained by optimizing the dosage of NaCl additive (Supplementary Table <ref type="table">1</ref>. Supplementary Fig. <ref type="figure" target="#fig_2">3</ref>). To the best of our knowledge, the high temperature for phase transformation (e.g., 900-1300 °C) in entropy-driving force (TΔS) would cause the collapse of pores, leading to HEOs with low surface areas, such as, NiMgCuZn-CoOx by solid-state combustion (2 m 2 g -1 ) <ref type="bibr" target="#b46">43</ref> , NiMgCuZnCoO x by citric acid-based sol-gel method (28 m 2 g -1 ) 43 , (MgTiZnCu-Fe) 3 O 4 by solid-state combustion (12 m 2 g -1 ) <ref type="bibr" target="#b47">44</ref> , CoNiCuMgZ-nO x with graphene oxide as a sacrificial template (42 m 2 g -1 ) <ref type="bibr" target="#b48">45</ref> . The current porosity (84 m 2 g -1 ) may be attributed to the particle breakage by mechanochemistry <ref type="bibr" target="#b49">46</ref> , and meanwhile a mild crystallization temperature (550 °C) could effectively avoid the excessive growth of fine NPs and interstitial porosity was retained <ref type="bibr" target="#b50">47</ref> .</p><p>In order to observe the morphology of the Zr 0.5 (NiFeCuMn-Co) 0.5 O x sample, the high-angle annular dark-field signal (HAADF) and energy dispersive spectrometer (EDS) elemental maps were performed (Fig. <ref type="figure" target="#fig_3">4</ref>). Zr 0.5 (NiFeCuMnCo) 0.5 O x was composed of small NPs (e.g., 10-30 nm), which aggregated together and resulted in abundant interstitial porosity. This feature was in agreement with the found N 2 sorption isotherm of Zr 0.5 (NiFeCuMnCo) 0.5 O x (S BET = 84 m 2 g -1 ). Moreover, the EDS elemental maps of individual metals showed that the five dopants were homogeneously distributed in the ZrO 2 backbone, suggesting that five metals-doped ZrO 2 solid solution was constructed.  Meanwhile, the molar ratio of elements (Zr:Ni:Fe:Cu:Mn:Co) in Zr 0.5 (NiFeCuMnCo) 0.5 O x material was confirmed to be 5.7:1:1.1:1.1:1.1:1.1 by inductively coupled plasma mass spectrometer (Supplementary Table <ref type="table">2</ref>), which matched well with the theoretical formula. These investigations encouraged us to explore its self-regeneration possibility during redox cycles.</p><p>The exploration of self-regeneration process. To verify the exsolution and reintegration behavior, several exploratory experiments were carried out with high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x as a model. The exsolution of metals was determined by the reducibility of transition metal oxides <ref type="bibr" target="#b51">48</ref> , and it was closely related to co-segregation energy (transition metal accompanying with oxygen vacancies) <ref type="bibr" target="#b52">49</ref> . The ZrO 2 doped with low valence metals could contribute to produce oxygen vacancies <ref type="bibr" target="#b53">50</ref> , which promoted the exsolution of metals 51 under reductive atmosphere. Subsequently, the H 2 -TPR spectrum was tested to probe the reduction behavior of Zr 0.5 Co 0.5 O x , Zr 0.5 Ni 0.5 O x , Zr 0.5 Cu 0.5 O x , Zr 0.5 Fe 0.5 O x , Zr 0.5 Mn 0.5 O x , Zr 0.5 Mn 0.25 Cu 0.25 O x (Supplementary Fig. <ref type="figure" target="#fig_3">4</ref>) and pristine Zr 0.5 (Ni-FeCuMnCo) 0.5 O x samples (Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>). As shown in Supplementary Fig. <ref type="figure" target="#fig_3">4a</ref>, the peak at 256 °C resulted from the reduction of CuO to Cu <ref type="bibr" target="#b55">52</ref> . For Zr 0.5 Mn 0.5 O x sample (Supplementary Fig. <ref type="figure" target="#fig_3">4b</ref>), the two reduction peaks were considered as MnO 2 or Mn 2 O 3 to Mn 3 O 4 (318 °C), and Mn 3 O 4 to MnO (420 °C) <ref type="bibr" target="#b56">53</ref> . For Zr 0.5 Mn 0.25 Cu 0.25 O x sample (Supplementary Fig. <ref type="figure" target="#fig_3">4c</ref>), the reduction peaks at 269 °C and 325 °C were attributed to the reduction of the CuO to Cu 0 and manganese oxides to MnO, respectively <ref type="bibr" target="#b57">54</ref> . All three types of nickel oxide (363, 467, 570 °C) were reduced to the Ni 0 (Supplementary Fig. <ref type="figure" target="#fig_3">4d</ref>) <ref type="bibr" target="#b58">55</ref> . For Zr 0.5 Fe 0.5 O x sample (Supplementary Fig. <ref type="figure" target="#fig_3">4e</ref>), the TPR profile showed two distinct reduction peaks. The peak centered at 401 °C was assigned to the reduction of Fe 2 O 3 to Fe 3 O 4 and the peak at 566 °C was ascribed to the reduction of Fe 3 O 4 to Fe 0 56 . For cobalt-doped sample (Supplementary Fig. <ref type="figure" target="#fig_3">4f</ref>), the reduction peaks around 295 °C and 408 °C were attributed to the transitions from Co 3+ to Co 2+ and Co 2+ to Co 0 57 . Indeed, the addition of CuO could decrease the reduction temperature (Supplementary Fig. <ref type="figure" target="#fig_3">4a,</ref><ref type="figure">b,</ref><ref type="figure">c</ref>) <ref type="bibr" target="#b57">54</ref> . Interestingly, only one strong reduction peak was observed at ~279 °C for Zr 0.5 (NiFeCuMnCo) 0.5 O x sample (Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>). Then, with CuO as the standard reference, the H 2 consumption of Zr 0.5 (NiFeCuMnCo) 0.5 O 1.1+y sample (1.1 ascribes to unreducible ZrO 2 <ref type="bibr" target="#b61">58</ref> , and MnO 49 ) can reach 3.63 mmol g -1 . Then, the y value is calculated to be 0.36 <ref type="bibr" target="#b62">59</ref> . In addition, the y values of other samples were provided (Supplementary Table <ref type="table">3</ref>). Based on this result, the Zr 0.5 (NiFeCuMnCo) 0.5 O 1.46 formula suggests that significant amount of oxygen vacancies were created. Hence, these preliminary studies encourage further research about the exsolution process.</p><p>Subsequently, the pristine high entropy Zr 0.5 (NiFeCuMn-Co) 0.5 O x was treated in reduction condition (H 2 ) at appointed temperatures for 2 h. As shown in Fig. <ref type="figure" target="#fig_4">5a</ref>, the early stage of phase transformation was not clear at 400 °C. When the reduction temperature raised to 500-600 °C, the diffraction pattern of the exsolution phase showed a broad peak at 44 °C, which could be assigned to the reflection of transition metals (111). At the same time, typical peaks for cubic ZrO 2 were still preserved during H 2 treatment. In sharp contrast, the exsolution diffraction peaks of as-prepared binary Zr 0.5 Cu 0.5 O x were sharp, revealing the excessive growth of Cu particles (average particle size by Reitveld refinement analysis: 37.7 nm) <ref type="bibr" target="#b63">60</ref> (Fig. <ref type="figure" target="#fig_4">5b</ref>, Supplementary Fig. <ref type="figure">6</ref>). Meanwhile, the exsolution peaks of quaternary Zr 0.5 (NiCu-Co) 0.5 O x presented two different phases (Fig. <ref type="figure" target="#fig_4">5b</ref>). The multi redox behavior of Zr 0.5 (NiFeCuMnCo) 0.5 O x was detailedly studied in the following (Fig. <ref type="figure" target="#fig_4">5c</ref>). Therefore, high-entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x as a host matrix could somewhat suppress the growth or agglomeration of exsolved metal NPs even under harsh reductive conditions (e.g., 600 °C), which stood on the surface of parent high entropy ZrO 2 NPs.</p><p>Then, the Zr 0.5 (NiFeCuMnCo) 0.5 O x (treated at 400 °C, H 2 ) was investigated by STEM and elemental mapping analysis. Firstly, STEM was employed to provide insights into the exsolved NPs in Zr 0.5 (NiFeCuMnCo) 0.5 O x under reducing atmosphere. As shown in Supplementary Fig. <ref type="figure">7</ref>, reductive H 2 treatment induced the exsolution of grains growing on the surface of parent high entropy ZrO 2 NPs. Meanwhile, elemental mapping analysis exhibited aggregation of some elements (Supplementary Fig. <ref type="figure">7b</ref>). To further confirm the exsolved metal species, the high resolution elemental mapping images at the edge of the sample revealed the formation of the CoFeCuNi alloy NPs (Fig. <ref type="figure">6</ref>). To further study clearly the metal exsolution, the O elemental mapping was added (Supplementary Fig. <ref type="figure" target="#fig_6">8</ref>). A typical particle on the edge was highlighted by yellow cycle. It showed a relatively low O content, close to the background. This result somewhat demonstrated the formation of the metallic CoFeCuNi particle.</p><p>To further understand current observation, in situ highresolution XPS (Fig. <ref type="figure">7a,</ref><ref type="figure">b</ref>) was carried out to investigate the surface state of the Zr 0.5 (NiFeCuMnCo) 0.5 O x during H 2 treatment from RT to 873 K. As shown in Fig. <ref type="figure">7c</ref>, the peak centered at 778.3 eV was assigned to the characteristic Co 2P 3/2 peak of Co 0 61 . Meanwhile, the sharp peak at 852.7 eV resulted from surface Ni 0 (Fig. <ref type="figure">7d</ref>) <ref type="bibr" target="#b64">61</ref> . Since the Binding Energy of Cu + generally overlaps with Cu 0 in the Cu 2 P core level (Fig. <ref type="figure">7e</ref>, peak at 932.6 eV), the X-ray induced Auger electron spectra in the kinetic energy region of 928-906 eV is provided in Fig. <ref type="figure">7f</ref>. As shown in Fig. <ref type="figure">7f</ref>, the kinetic energy at 918.6 eV could be contributed to Cu 0 61 . A signal peak is located at 706.9 eV, which is ascribed to the Fe 2P 3/2 metal (Fig. <ref type="figure">7g</ref>) <ref type="bibr" target="#b64">61</ref> . As expected, there is no peak for Mn 0 at 638.8 eV <ref type="bibr" target="#b64">61</ref> . Meanwhile, MnO 2P 3/2 (at 641.0 eV) peaks show their characteristic satellite peak at 636.9 eV (Fig. <ref type="figure">7h</ref>) <ref type="bibr" target="#b65">62</ref> . Indeed, manganic oxide is more difficult to be reduced to Mn 0 63 . Under H 2 treatment, several transition metal ions (Co, Ni, Cu, Fe) seem to in situ migrate and separate from the bulk of high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x , while the original cubic ZrO 2 matrix was well maintained (Fig. <ref type="figure" target="#fig_4">5a</ref>). The H 2 -induced formation of exsolved CoNiCuFe NPs is different with the Cantor alloy (FeCrMnNiCo) by melting process <ref type="bibr" target="#b67">64</ref> and those CoNiCuFe NPs could not be described as high entropy alloys <ref type="bibr" target="#b68">65</ref> . As illustrated in Supplementary Fig. <ref type="figure" target="#fig_4">5</ref>, only one strong reduction peak was observed at ~279 °C, which could be assigned to the produce of the CoFeCuNi alloy. Based on these results, the exsolution phenomenon of alloys occurred under reductive atmosphere, which was just the first step of self-regenerative process. high entropy structure indeed promoted the thermal stability of doped ZrO 2 catalysts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>In summary, a cubic high-entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x was designed and simply prepared. The contribution of high entropy for the sintering-resistance ability of supported transition metals was figured out, while severe particle growth occurred on Zr 0.5 Cu 0.5 O x and Zr 0.5 (CuCoNi) 0.5 O x treated in H 2 . Meanwhile, the reversible exsolution-dissolution of fine CoFeCuNi alloys on high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x was observed in H 2 /Air treatments. Those results somewhat validate that entropy-driving force may contribute to selfregenerative process and sintering-resistance performance of supported transition metals. During high temperature catalysis (400 °C), no obvious loss of catalytic activity and little tendency towards segregation were found during continuous CO 2 hydrogenation for 500 h, once again arguing for the excellent sintering-resistance ability of high entropy catalysts.</p><p>The high entropy oxide was invented in 2015 <ref type="bibr" target="#b32">29</ref> and related catalysis has been unveiled in around 2018 <ref type="bibr" target="#b73">70</ref> , and their unexpected talent for heterogeneous catalysis is a young topic <ref type="bibr" target="#b66">63</ref> , yet full of promise. The idea of considering entropic contribution for stabilized catalyst is just the beginning, and more unique materials for heterogeneous catalysis would be inspired in the near future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head><p>Chemicals involved in the manuscript are used directly without purification. ZrCl 4 (&gt;99.9%, Aladdin), NiCl 2 (&gt;99%, Adamas), FeCl 3 (&gt;99%, Adamas), CuCl 2 •2H 2 O ( &gt; 99%, Greagent), MnCl 2 (&gt;99%, Greagent), CoCl 2 •6H 2 O ( &gt; 98%, Adamas), NaOH (&gt;96%, Greagent), NaCl (&gt;99.5%, Greagent).</p><p>The preparation of entropy-stabilized, highly doped microstructure Zr 0.5 (NiFe-CuMnCo) 0.5 O x is as follows. ZrCl 4 (2.5 mmol, 5 eq.), NiCl 2 (0.5 mmol, 1 eq.), FeCl 3 (0.5 mmol, 1 eq.), CuCl 2 •2H 2 O (0.5 mmol, 1 eq.), MnCl 2 (0.5 mmol, 1 eq.), CoCl 2 •6H 2 O (0.5 mmol, 1 eq.), and NaCl (2 g) were whisked together in a 50 mL ZrO 2 -milling equipment with three ball-bearings (1× diameter 1.2 cm, 2× diameter 0.8 cm). The mixtures were ball milled for 1 h. Then the NaOH (15.5 mmol) was added into the system and the mixtures were ball milled for another 1 h. Calcination of the as-synthesized powder was performed into a muffle oven in air at 400 °C, 500 °C, 550 °C, 600 °C for 3 h (2 K min -1 to appointed temperature) and then cooled down to room temperature. The powder was washed three times by deionized water, and then washed with ethanol. Then as-made samples (Zr 0.5 (NiFeCuMnCo) 0. The powder X-ray diffraction (D8 Advance, Bruker) operated at 40 kV and 40 mA and the pattern was recorded in the range of 20-80°. The material was characterized by N 2 adsorption isotherms (Tristar II 3020 S1N1878) at 77 K. NAPXPS measurements were carried out on an SPECS system equipped with a differentially pumped Phoibos hemispherical electron energy analyzer using monochromatic Al Kα radiation (1486.6 eV). The in situ characterization was performed in the 873 K 0.2 mbar H 2 reduction condition. The heating rate was 5 K min -1 from 301 K to 873 K. HAADF-STEM (Talos F200X G2, FEI). Leica EM TXP (Mingrui GC2060, China). Inductive Coupled Plasma Emission Spectrometer (iCAP7600, made by Thermo., USA).</p><p>The as-made catalysts (75 or 50 mg) were used for the H 2 -TPR experiments (Micromeritics Autochem II 2920). The material was pretreated in Ar (30 mL min -1 ) at 300 °C for 60 min and then cooled to the room temperature. Then, the 5% H 2 in Ar (30 mL min -1 ) was switched on in a heating rate of 10 °C min -1 . Finally, the H 2 consumption of the as-made materials was monitored by a TCD detector.</p><p>The RWGS reaction worked at atmospheric pressure in a fixed-bed quartz reactor. Firstly, 30 mg catalyst and 100 mg quartz sand were mixed together well. Then, the catalyst with quartz was exposed to a stream of feed gas (H 2 :CO 2 = 3:1, 10 mL min -1 ). When the catalyst reached the appointed temperature, the gaseous products were analyzed by gas chromatograph with a TCD and FID detector.</p><p>Detailed procedures are in the Supplementary Methods section.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Comparison of self-regenerative materials. a Representative perovskite-based self-regenerative materials. b i. The configurational entropy formula, and the selected metals for high entropy ZrO 2 . ii. Calculated values of configurational entropy for Zr 0.5 (M 1 -M n ) 0.5 O x , n = 1-5 (for example, n = 2, Zr 0.5 (M 1 M 2 ) 0.5 O x ). iii. Schematic representation of in situ exsolution and dissolution of CoFeCuNi alloys in the Zr 0.5 (NiFeCuMnCo) 0.5 O x during redox processes. For simple, oxygen ions were omitted.</figDesc><graphic coords="3,73.90,310.97,463.24,152.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 The synthetic route of entropy-stabilized Zr 0.5 (NiFeCuMnCo) 0.5 O x. i Mixing metal chlorates ZrCl 4 , MnCl 2, NiCl 2 , FeCl 3 , CoCl 2 , CuCl 2 , NaCl and NaOH by ball milling. ii Calcination of the intermediate in air. iii Sodium salt removal from the composite by washing.</figDesc><graphic coords="4,57.61,50.78,480.04,260.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 The synthesis of a cubic phase Zr 0.5 (NiFeCuMnCo) 0.5 O x . a The phase evolution of Zr 0.5 (NiFeCuMnCo) 0.5 O x precursors under different calcination temperatures. b The P-XRD patterns of ZrO 2 doped with different total ratio (0.3-0.9) of five metals. c P-XRD patterns together with Rietveld fits of the Zr 0.5 (NiFeCuMnCo) 0.5 O x sample prepared at 550 °C. d Structural view of cubic Zr 0.5 (NiFeCuMnCo) 0.5 O x . arb. units: arbitrary unit.</figDesc><graphic coords="4,304.90,511.88,145.96,105.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 The characterization of freshly made Zr 0.5 (NiFeCuMnCo) 0.5 O x . STEM-HAADF image and EDS elemental maps of Zr 0.5 (NiFeCuMnCo) 0.5 O x . Scale bar, 200 nm.</figDesc><graphic coords="5,117.79,50.78,359.80,157.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 The XRD patterns of doped ZrO x samples during redox processes. a The P-XRD patterns of Zr 0.5 (NiFeCuMnCo) 0.5 O x treated at 10% H 2 balance with N 2 at appoint temperature (400, 500, 600 °C) for 2 h. b The P-XRD patterns of Zr 0.5 Cu 0.5 O x , Zr 0.5 (CuCoNi) 0.5 O x , and 0.5 (NiFeCuMnCo) 0.5 O x treated at 10% H 2 balance with N 2 at 600 °C for 2 h. c the P-XRD patterns of phase evolution in multi cycles between reductive and oxidative conditions. arb. units: arbitrary</figDesc><graphic coords="6,117.61,343.70,360.04,240.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>5 O x ) were put into a vacuum drying oven and dried at 70 °C for 12 h. The synthesis of other doped ZrO 2 materials for comparative experiments can be found in Supplementary Methods section. The obtained samples were referred to as Zr 0.5 Cu 0.5 O x , Zr 0.5 Mn 0.5 O x , Zr 0.5 Co 0.5 O x , Zr 0.5 Ni 0.5 O x, Zr 0.5 Fe 0.5 O x, Zr 0.5 (CuMn) 0.5 O x , Zr 0.5 (NiFeCuMnCo) 0.5 O x .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 The characterization of Zr 0.5 (NiFeCuMnCo) 0.5 O x after three redox cycles (600 °C H 2 /550 °C, Air). a-h STEM-HAADF image and EDS elemental maps of Zr 0.5 (NiFeCuMnCo) 0.5 O x after three redox cycles. Scale bar, 200 nm. i-p STEM-HAADF image and EDS elemental maps of Zr 0.5 (NiFeCuMnCo) 0.5 O x after three redox cycles. Scale bar, 50 nm.</figDesc><graphic coords="8,120.85,50.78,353.56,352.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,126.58,52.97,343.72,227.80" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>NATURE COMMUNICATIONS | (2021) 12:5917 | https://doi.org/10.1038/s41467-021-26160-8 | www.nature.com/naturecommunications</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="funder">National Key R&amp;D Program of China</rs> (<rs type="grantNumber">2020YFB0606401</rs>), <rs type="funder">National Natural Science Foundation of China</rs> (Grant No. <rs type="grantNumber">21776174</rs>), <rs type="funder">Shanghai Rising Star Program</rs> (<rs type="grantNumber">20QA1405200</rs>), and <rs type="funder">Inner Mongolia Erdos Group</rs>. S.D. was supported by the <rs type="funder">U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Chemical Sciences, Geosciences, and Biosciences Division, Catalysis Science program</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_jYeGbxA">
+					<idno type="grant-number">2020YFB0606401</idno>
+				</org>
+				<org type="funding" xml:id="_GunkMM8">
+					<idno type="grant-number">21776174</idno>
+				</org>
+				<org type="funding" xml:id="_dRRtPxF">
+					<idno type="grant-number">20QA1405200</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The authors declare data supporting the findings of this study are available within the paper and its Supplementary Information. All data are available from the authors on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To figure out the self-regeneration possibility of high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x , the dissolution process was subsequently explored. The reduced Zr 0.5 (NiFeCuMnCo) 0.5 O x (treated at 600 °C, H 2 ) was further exposed to oxidative environment (550 °C, air). After this cycle, the obvious XRD peaks for CoFeCuNi alloy phase disappeared (Fig. <ref type="figure">5c</ref>). The interesting exsolution-reintegration behavior of the high entropy ZrO 2 material was further proved by three redox cycles (Fig. <ref type="figure">5c</ref>). The oxidized sample after three cycles was observed by STEM images. The elemental mapping images in different scale bars, such as 50 nm, 200 nm, 50 μm, have been taken. As shown in Fig. <ref type="figure">8</ref> and Supplementary Fig. <ref type="figure">9</ref>, all five heterometal species were evenly distributed in ZrO 2 matrix, which was the same as the pristine Zr 0.5 (NiFeCuMnCo) 0.5 O x (Fig. <ref type="figure">4</ref>). As expected, the entropyadded motivation may drive the reintegration of CoFeCuNi alloy NPs into the parent ZrO 2 matrix in air, which contributed to the reversible self-regenerative process. All those results above suggested the feasibility of the high entropy ZrO 2 as a host matrix for self-regenerative process.</p><p>The catalytic performance of high entropy ZrO 2 catalyst. Then, the activity and thermal stability of high entropy Zr 0.5 (NiFe-CuMnCo) 0.5 O x were explored in high temperature catalysis (Fig. <ref type="figure">9</ref>). CO 2 hydrogenation (reverse water gas shift, RWGS), with an enthalpy ΔH of 41.3 kJ mol -1 , is a typical endothermic reaction <ref type="bibr" target="#b69">66</ref> . From the sight of both kinetics and thermodynamic, high temperature is more conducive to accelerating the reaction rate and moving the equilibrium in the direction of CO generation <ref type="bibr" target="#b70">67</ref> . In other words, RWGS reaction is usually performed at high temperatures (e.g., 300-500 °C), whose catalysts are easy to be sintered <ref type="bibr" target="#b71">68</ref> . In addition, a redox reaction mechanism of active sites was proposed to explain this process <ref type="bibr" target="#b72">69</ref> . Therefore, RWGS reaction was applied as a model process to evaluate the high entropy ZrO 2 catalyst.</p><p>Compared with binary and ternary doped ZrO 2 catalysts (Zr 0.5 Cu 0.5 O x , Zr 0.5 Mn 0.5 O x , Zr 0.5 Co 0.5 O x , Zr 0.5 Ni 0.5 O x, Zr 0.5 Fe 0.5 O x, Zr 0.5 (CuMn) 0.5 O x ) (Supplementary Fig. <ref type="figure">10a-d</ref>), the Zr 0.5 (NiFeCuMnCo) 0.5 O x afforded better catalytic activity during CO 2 hydrogenation (300-400 °C). When the temperature reached 400 °C, the CO 2 conversion was ~29% by Zr 0.5 (NiFeCuMn-Co) 0.5 O x and the selectivity for CO is over 90% (Fig. <ref type="figure">9a</ref>, Supplementary Fig. <ref type="figure">10e</ref>). Then, the long-term stability of Zr 0.5 (NiFeCuMnCo) 0.5 O x during CO 2 hydrogenation reaction was studied. No obvious loss of catalytic activity and selectivity was found during continuous CO 2 hydrogenation for 500 h (Fig. <ref type="figure">9b</ref>). In sharp contrast, severe deactivation by the ternary doped Zr 0.5 (MnCu) 0.5 O x catalyst was observed in relatively short reaction time (40 h) (Fig. <ref type="figure">9b</ref>). Meanwhile, the XRD pattern of spent Zr 0.5 (NiFeCuMnCo) 0.5 O x catalyst showed little tendency towards segregation or sintering, further illustrating the advantage of high (Zr 0.5 (NiFeCuMnCo) 0.5 O x ) as the host structure (Fig. <ref type="figure">9c</ref>). In addition, the dissolution of metal alloys somewhat underwent during CO 2 atmosphere (600 °C), as suggested by the diminished XRD peaks for metallic species (Fig. <ref type="figure">9d</ref>). Furthermore, control experiments were carried out for comparison. First, the 5%(NiFeCuCo)/ZrO x and 10%(NiFe-CuCo)/ZrO x were synthesized by wet-impregnation method. The long-term stability of supported NiFeCuCo catalyst during CO 2 hydrogenation reaction was studied at the same condition (Supplementary Fig. <ref type="figure">11</ref>). Unfortunately, severe deactivation was observed in relatively short reaction time (1 h and 3 h). Compared with the high entropy Zr 0.5 (NiFeCuMnCo) 0.5 O x material (&gt;500 h), 5%(NiFeCuCo)/ZrO x and 10%(NiFeCuCo)/ZrO x exhibited poor stability. Based on those results, unique properties of the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The authors declare no competing interests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional information</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplementary information</head><p>The online version contains supplementary material available at https://doi.org/10.1038/s41467-021-26160-8.</p><p>Correspondence and requests for materials should be addressed to Pengfei Zhang.</p><p>Peer review information Nature Communications thanks Ben Breitung and the other, anonymous, reviewers for their contribution to the peer review of this work.</p><p>Reprints and permission information is available at http://www.nature.com/reprints Publisher's note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Aerobic oxidations of light alkanes over solid metal oxide catalysts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Venegas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hermans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="2769" to="2815" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The simplest construction of single-site catalysts by the synergism of micropore trapping and nitrogen anchoring</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Deposition precipitation for the preparation of carbon nanofiber supported nickel catalysts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Van Der Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Dillen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Bitter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Jong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="13573" to="13582" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Stable amorphous georgeite as a precursor to a highactivity catalyst</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Kondrat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">531</biblScope>
+			<biblScope unit="page" from="83" to="87" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Extending the limits of Pt/C catalysts with passivation-gasincorporated atomic layer deposition</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Catal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="624" to="630" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">High-throughput screening of nanoparticle catalysts made by flame spray pyrolysis as hydrocarbon/NO oxidation catalysts</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Weidenhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="9207" to="9219" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Heterogeneous catalysis: understanding for designing, and designing for applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Corma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="6112" to="6113" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Control of metal nanocrystal size reveals metal-support interface role for ceria catalysts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cargnello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page" from="771" to="773" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Active sites for CO 2 hydrogenation to methanol on Cu/ZnO catalysts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kattel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Ramírez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="1296" to="1299" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Decisive role of perimeter sites in silica-supported Ag nanoparticles in selective hydrogenation of CO 2 to methyl formate in the presence of methanol</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Corral-Pérez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="13884" to="13891" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Negative charging of Au nanoparticles during methanol synthesis from CO 2 /H 2 on a Au/ZnO catalyst: insights from operando IR and near-ambient-pressure XPS and XAS measurements</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Abdel-Mageed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="10325" to="10329" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Nanomaterials of high surface energy with exceptional properties in catalysis and energy storage</title>
+		<author>
+			<persName><forename type="first">Z.-Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Broadwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-G</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Soc. Rev</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="4167" to="4185" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">New strategies for the preparation of sinter-resistant metal-nanoparticle-based catalysts</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-S</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1901905</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ultrastable Au nanocatalyst supported on surface-modified TiO 2 nanocrystals</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mahurin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Overbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="10480" to="10481" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Avoiding self-poisoning: a key feature for the high activity of Au/Mg(OH) 2 catalysts in continuous low-temperature CO oxidation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="9597" to="9602" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Self-regeneration of a Pd-perovskite catalyst for automotive emissions control</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nishihata</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">418</biblScope>
+			<biblScope unit="page" from="164" to="167" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Self-regeneration of Pd-LaFeO 3 catalysts: new insight from atomic-resolution electron microscopy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Katz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="18090" to="18093" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">9 Catalytic performance of doped ZrO 2 catalysts. a catalytic performance of Zr 0.5 Cu 0.5 O x , Zr 0.5 Mn 0.5 O x , Zr 0.5 Co 0.5 O x</title>
+		<author>
+			<persName><surname>Fig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">5 O x</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">5</biblScope>
+		</imprint>
+	</monogr>
+	<note>Zr</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">CuMn)</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">5</biblScope>
+		</imprint>
+	</monogr>
+	<note>Zr</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Zr 0.5 (NiFeCuMnCo) 0.5 O x in CO 2 hydrogenation at 400 °C. b P-XRD patterns of reused Zr 0.5 (NiFeCuMnCo) 0.5 O x samples after 100 h and 500 h on steam. c The P-XRD patterns of phase evolution between H 2 /CO 2 conditions. d Thermal stability tests of Zr 0</title>
+	</analytic>
+	<monogr>
+		<title level="j">NiFeCuMnCo)</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">5</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">O x in CO 2 hydrogenation. arb. units: arbitrary unit</title>
+	</analytic>
+	<monogr>
+		<title level="j">O x and Zr</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">5</biblScope>
+		</imprint>
+	</monogr>
+	<note>CuMn)</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">In situ growth of nanoparticles through control of non-stoichiometry</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neagu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tsekouras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Menard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Irvine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Chem</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="916" to="923" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Atomic-scale insight into exsolution of CoFe alloy nanoparticles in La0.4Sr0.6 Co0.2Fe0.7Mo0.1O3-delta with efficient CO 2 electrolysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">358</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Self-regenerating Rh-and Pt-based perovskite catalysts for automotive-emissions control</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="5998" to="6002" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">In situ investigation of reversible exsolution/dissolution of CoFe alloy nanoparticles in a Co-Doped Sr2Fe1.5Mo0.5O6-delta cathode for CO2 electrolysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1906193</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">New atomic-scale insight into self-regeneration of Pt-CaTiO 3 catalysts: incipient redox-induced structures revealed by a small-angle tilting STEM technique</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. C</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="17348" to="17353" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Nano-socketed nickel particles with enhanced coking resistance grown in situ by redox exsolution</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neagu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8120</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">In situ investigation of reversible exsolution/dissolution of CoFe alloy nanoparticles in a Co-Doped Sr2Fe1.5Mo0.5O6-δ cathode for CO 2 electrolysis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lv</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">1906193</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Electrochemical performance and stability of La0.5Sr0.5Fe0.9Nb0.1O3-δ symmetric electrode for solid oxide fuel cells</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Power Sources</title>
+		<imprint>
+			<biblScope unit="volume">399</biblScope>
+			<biblScope unit="page" from="398" to="405" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Cobalt-free perovskite cathode materials SrFe1-xTixO3-δ and performance optimization for intermediatetemperature solid oxide fuel cells</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="426" to="434" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">La0.7Sr0.3Fe0.7Ga0.3O3-δ as electrode material for a symmetrical solid oxide fuel cell</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2702" to="2705" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Entropy-stabilized oxides</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Rost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8485</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">High entropy oxides for reversible energy storage</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sarkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3400</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Data-driven design of ecofriendly thermoelectric high-entropy sulfides</title>
+		<author>
+			<persName><forename type="first">R.-Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Reece</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorg. Chem</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="13027" to="13033" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Eutectic synthesis of highentropy metal phosphides for electrocatalytic water splitting</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ChemSusChem</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2038" to="2042" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Mechanochemical-assisted synthesis of high-entropy metal nitride via a soft urea strategy</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page">1707512</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Facile electrochemical synthesis of nanoscale (TiNbTaZrHf)C high-entropy carbide powder</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sure</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sri Maha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vishnu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schwandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="11830" to="11835" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">High-entropy metal diborides: a new class of high-entropy materials and a new type of ultrahigh temperature ceramics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">37946</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">An ultrastable heterostructured oxide catalyst based on highentropy materials: a new strategy toward catalyst stabilization via synergistic interfacial interaction</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Catal. B Environ</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page">119155</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Design of high-strength refractory complex solid-solution alloys</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Comput. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">ZrO 2 -based alternatives to conventional propane dehydrogenation catalysts: active sites, design, and performance</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Otroshchenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="15880" to="15883" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A direct in situ observation of water-enhanced proton conductivity of Eu-doped ZrO 2 : Effect on WGS reaction</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>García-Moncada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Catal. B Environ</title>
+		<imprint>
+			<biblScope unit="volume">231</biblScope>
+			<biblScope unit="page" from="343" to="356" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Entropy contributions to phase stability in binary random solid solutions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Manzoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Phillpot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Aidhy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Comput. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Proton incorporation and trapping in ZrO2 grain boundaries</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1400" to="1408" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Fundamentals and catalytic applications of CeO 2 -based materials</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Montini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Melchionna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Monai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fornasiero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Rev</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="5987" to="6041" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Entropy-stabilized metal oxide solid solutions as CO oxidation catalysts with high-temperature stability</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Chem. A</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="11129" to="11133" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A new spinel high-entropy oxide (Mg0.2Ti0.2Zn0.2Cu0.2Fe0.2) 3O4 with fast reaction kinetics and excellent stability as an anode material for lithium ion batteries</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RSC Adv</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="9736" to="9744" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Holey lamellar high-entropy oxide as an ultra-high-activity heterogeneous catalyst for solvent-free aerobic oxidation of benzyl alcohol</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Feng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="19503" to="19509" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Incorporating mesoporosity into a ceria-based catalyst via mechanochemistry</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="7323" to="7329" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">High surface area Au/ CeO 2 catalysts for low temperature formaldehyde oxidation</title>
+		<author>
+			<persName><forename type="first">H.-F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-F</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Q</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Catal. B Environ</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="279" to="285" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Irreversible structural dynamics on the surface of bimetallic PtNi alloy catalyst under alternating oxidizing and reducing environments</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khalakhan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Catal. B Environ</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page">118476</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Exsolution trends and co-segregation aspects of self-grown catalyst nanoparticles in perovskites</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kwon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">15967</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Asymmetric oxygen vacancies: the intrinsic redox active sites in metal oxide catalysts</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-L</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1901970</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Increasing oxide reducibility: the role of metal/oxide interfaces in the formation of oxygen vacancies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ruiz Puigdollers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schlexer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tosoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pacchioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="6493" to="6513" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Cu-ZrO 2 nanocomposite catalyst for selective hydrogenation of levulinic acid and its ester to γ-valerolactone</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hengne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Rode</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green. Chem</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1064" to="1072" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Comparative study of Mn/TiO 2 and Mn/ZrO 2 catalysts for NO oxidation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Catal. Commun</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="36" to="40" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Alkaline wet oxidation of lignin over Cu-Mn mixed oxide catalysts for production of vanillin</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I.-H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-R</forename><surname>Hwang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Catal. Today</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="page" from="95" to="103" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Studies of surface NiO species in NiO/SiO2 catalysts using temperature-programmed reduction and X-ray diffraction</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Soc. Faraday Trans</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="2075" to="2078" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Synthesis of dimethyl carbonate from methanol and CO2 over Fe-Zr mixed oxides</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. CO 2 Util</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="33" to="39" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Effect of synthesis parameters on the catalytic activity of Co-ZrO 2 for bio-ethanol steam reforming</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Ozkan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Green. Chem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="686" to="694" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Role of ZrO 2 in promoting the activity and selectivity of Co-based Fischer-Tropsch synthesis catalysts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Bell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Catal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="100" to="114" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Mesoporous MnCeOx solid solutions for low temperature and selective oxidation of hydrocarbons</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8446</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Size dependence of structural parameters in fcc and hcp Ru nanoparticles, revealed by Rietveld refinement analysis of high-energy X-ray diffraction data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">31400</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Recommended Auger parameters for 42 elemental solids</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Powell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Spectrosc. Relat. Phenom</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Growth and characterization of ultrathin epitaxial MnO film on Ag(001)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Kundu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S R</forename><surname>Menon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Cryst. Growth</title>
+		<imprint>
+			<biblScope unit="volume">446</biblScope>
+			<biblScope unit="page" from="85" to="91" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Denary oxide nanoparticles as highly stable catalysts for methane combustion</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Catal</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="62" to="70" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page">1153</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Kinetics of CO 2 hydrogenation on a K-promoted Fe catalyst</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Riedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schaub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-W</forename><surname>Jun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-W</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Eng. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="1355" to="1363" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Cu atoms on nanowire Pd/HyWO3-x bronzes enhance the solar reverse water gas shift reaction</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="14991" to="14996" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">In situ dispersion of palladium on TiO 2 during reverse water-gas shift reaction: formation of atomically dispersed palladium</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kovarik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Szanyi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angew. Chem. Int. Ed</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="17657" to="17663" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Carbon dioxide conversion by reverse water-gas shift chemical looping on perovskite-type oxides</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Daza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Yung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kuhn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ind. Eng. Chem. Res</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="5828" to="5837" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">High-entropy ceramics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Oses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Toher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Curtarolo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="295" to="309" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

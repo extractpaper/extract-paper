@@ -1,0 +1,2191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A crucial review on recent updates of oxidation behavior in high entropy alloys</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability status="unknown"><p>Copyright Springer Science and Business Media LLC</p>
+				</availability>
+				<date type="published" when="2021-02-23">23 February 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Bhargavi</forename><forename type="middle">Rani</forename><surname>Anne</surname></persName>
+							<idno type="ORCID">0000-0002-1519-3971</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Shajahan</forename><surname>Shaik</surname></persName>
+							<email>shajahaniiit@gmail.com</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Chemistry and Green-Nano Materials Research Center</orgName>
+								<orgName type="institution">Kyungpook National University</orgName>
+								<address>
+									<postCode>41566</postCode>
+									<settlement>Daegu</settlement>
+									<country key="KR">Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Masaki</forename><surname>Tanaka</surname></persName>
+							<email>masaki@zaiko.kyushu-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">Faculty of Engineering</orgName>
+								<orgName type="institution">Kyushu University</orgName>
+								<address>
+									<postCode>819-0395</postCode>
+									<settlement>Fukuoka</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Center for Elements Strategy Initiative for Structural Materials</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anindya</forename><surname>Basu</surname></persName>
+							<email>basua@nitrkl.ac.in</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Metallurgical and Materials Engineering</orgName>
+								<orgName type="institution">National Institute of Technology</orgName>
+								<address>
+									<postCode>769008</postCode>
+									<settlement>Rourkela</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A crucial review on recent updates of oxidation behavior in high entropy alloys</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">SN Applied Sciences</title>
+						<title level="j" type="abbrev">SN Appl. Sci.</title>
+						<idno type="ISSN">2523-3963</idno>
+						<idno type="eISSN">2523-3971</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">3</biblScope>
+							<biblScope unit="issue">3</biblScope>
+							<date type="published" when="2021-02-23">23 February 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CCE2AFF049E04A0ED9CBA695E582A541</idno>
+					<idno type="DOI">10.1007/s42452-021-04374-1</idno>
+					<note type="submission">Received: 24 November 2020 / Accepted: 12 February 2021 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-14T14:24+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>High entropy alloys</term>
+					<term>Oxidation behavior</term>
+					<term>High-temperature applications</term>
+					<term>Microstructure</term>
+					<term>Oxidation kinetics</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Recently, High entropy alloys (HEAs) advanced into high-temperature applications as potential candidates by enduring high temperatures with high thermal stability, higher oxidation and corrosion resistances, thermal fatigue, and creep resistances. HEAs acquire unique characteristics called core effects of HEAs: high entropy effect, sluggish diffusion effect, severe lattice distortion, and cocktail effect. HEAs frequently exhibit remarkable properties because of having such unique core effects. Thus, the emergence of HEAs has gained significant interest in the field of materials leading to a contemporary point of discussion on their exciting nature and properties. The current review article intends to summarize the significant works on the oxidation behavior of High entropy alloys (HEAs). Also, peculiar attention has been invested in comprehending oxidation behavior of HEAs in the viewpoint of the crystal structure that is BCC-HEAs, FCC-HEAs and few case studies were compared with the conventional alloys. Current challenges and essential future directions in this field are also pointed out.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Ever since the Bronze age, alloying has been persistently emerging with many progressions. Recently, improving novel alloys that contain multi-elements became a contemporary research topic to meet the requirements of advanced applications that demands higher performances. Conventional alloys consist primarily of one or two principal elements chosen to meet the demand of specific property for a specific application, while other alloying additions to those systems further enhance their properties. On the other hand, High-entropy alloys (HEAs) which have a new concept of alloy design that contains five or more principal elements where each element mixed in equimolar ratio or near equimolar, for instance, AlCo-CrFeMnNi <ref type="bibr" target="#b0">[1]</ref>, and FeCrMnNiCo <ref type="bibr" target="#b1">[2]</ref>. Though K. F. Achard had investigated the first multi-component system with five to seven principal elements in the 18th century <ref type="bibr" target="#b2">[3]</ref>, it took almost two centuries for the notable reception on the HEAs research after Yeh et al. <ref type="bibr" target="#b1">[2]</ref> and Cantor et al. <ref type="bibr" target="#b3">[4]</ref> in 2004. Later, a detailed study on non-equiatomic multicomponent materials such as Fe 40 Mn 40 Co 10 Cr 10 <ref type="bibr" target="#b4">[5]</ref>, have been widely reported.</p><p>The unique attribute of HEA that distinguishes from conventional alloys is, HEAs mostly comprises a simple solid solution instead of forming complex phases or intermetallic compounds, which is fundamentally due to high mixing entropies and sluggish diffusion that further decreases the brittleness of the material <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b5">6]</ref>. HEAs are credibly employed in high-temperature applications due to having high thermal stability, exceptional oxidation resistance, superior mechanical properties such as hightemperature strength, and thermal fatigue <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref> that are achieved by compositional and structural features of HEAs. In recent days, much attention is given to HEAs in various research areas due to their credible applicability in many applications at extreme conditions <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> because of possessing remarkable properties. Additionally, easy implementation of HEAs' mass production is highly possible with existed equipment and technologies as HEAs do not require special processing techniques. Nearly more than 300 HEAs were reportedly processed with more than 30 elements and their combinations to date <ref type="bibr" target="#b15">[16]</ref>.</p><p>Several significant works contributed to HEAs exhibiting excellent mechanical properties, oxidation, and corrosion resistances, etc. to date. Concerning high-temperature applications, oxidation resistance is the foremost property to consider. The oxidation resistance of conventional alloys can be improved by incorporating the elements those form a stable and thick oxide layer on the surface of a material at higher temperatures; for example, Al, Si, and Cr can significantly improve the oxidation resistance. In case of HEAs, investigation of oxidation resistance was performed only on selected HEAs that are CrMnFeCoNi <ref type="bibr" target="#b16">[17]</ref>, CoCrFeNiAl x <ref type="bibr" target="#b17">[18]</ref>, CoCrCuFeNiSi x <ref type="bibr" target="#b18">[19]</ref> as they often exhibit good oxidation resistance majorly due to having Al, Cr, and Si elements. Furthermore, most of the research focused on HEAs' oxidation behavior as an effect of alloying addition. There were only limited significant works on the oxidation behavior of HEAs to date. Hence, the present review article summarizes those significant works on recent advances and developments in HEAs' oxidation study, emphasizing phase formation, and microstructural changes after the oxidation test. Current challenges and critical future directions in this field are also pointed out.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Oxidation kinetics</head><p>Oxidation kinetics are very crucial in understanding the oxidation behavior of any material that can be explained by the power law <ref type="bibr" target="#b19">[20]</ref>,</p><p>where mass gain per initial surface area after the oxidation is given by Δm , k i is the oxidation rate constant, and t is exposure time. The power-law exponent, n, defines the type of oxidation kinetics such as linear, parabolic, exponential, cubic growth rates. For example, oxidation kinetics follows linear growth when n = 1, whereas they (1) Δm = k i t n , follow parabolic kinetics when n = 0.5. The experimental oxidation kinetics will be determined by choosing the satisfactory values of R 2 (coefficient of determination) in mass gain per initial surface area (mg/cm 2 ) vs. exposure time. The equation that governs mixed kinetics of parabolic and linear has been mentioned along with the corresponding study in the later section. The various oxidation kineticslaws reviewed in this article are presented as follows:</p><p>The linear kinetics are explained with the following equation <ref type="bibr" target="#b19">[20]</ref> The parabolic kinetics are explained with Eq. 3 <ref type="bibr" target="#b19">[20]</ref> The equation used to explain cubic oxidation kinetics is given as follows <ref type="bibr" target="#b18">[19]</ref> The exponential kinetics is given by the following equation <ref type="bibr" target="#b20">[21]</ref> where, k l , k p , k c , k e are oxidation rate constants of linear, parabolic, cubic, and exponential kinetics, respectively. Few studies also calculated the experimental activation energy for oxidation given by the Arrhenius equation, as mentioned in Eq. 6. The higher the activation energy, the greater the oxidation resistance, where higher activation energies are required for higher diffusion of cations/anions. The activation energy for oxidation also signifies the thermally activated oxidation mechanisms if they existed in the system. For example, few studies indicated that solid-state diffusion and breakaway oxidation occurs at lower and higher oxidation temperatures, respectively are thermally activated processes <ref type="bibr" target="#b19">[20]</ref>.</p><p>where, k i and E a are oxidation rate constant and activation energy for oxidation, respectively. k 0 is the pre-exponential factor, R is gas constant, and T is the oxidation test temperature. The formation enthalpies are also were calculated in a few studies that determine the formation of favorable oxide scales thermodynamically and which oxide scale is favorable to form first. The oxide compounds with the lowest formation enthalpy will be the first oxide scale to be formed on the alloy's surface. The formation enthalpy (H f ) to form X n O m oxide can be calculated by <ref type="bibr" target="#b21">[22]</ref> (2)</p><formula xml:id="formula_0">Δm = k l t, (3) Δm 2 = k p t + c 0 , (4) Δm 3 = k c t + c 0 , (5) Δm = k e exp (nt) , (6) k i = k 0 exp -E a RT ,</formula><p>where, nE X solid is the total energy per X atom in a solid-state of crystal structure, E O 2 is the total energy of spin polarized O 2 molecule, E tot is the total energy of the system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Recent updates of oxidation study in HEAs</head><p>It is very crucial to choose suitable materials that ascertain mechanical and oxidation properties at higher temperatures to affirm the demand for high-temperature applications. Recently, several high entropy alloys (HEAs) have been developed and commenced using at higher temperatures that meet the demand and performance of high-temperature applications. Few HEAs typically have enhanced oxidation resistance due to sluggish diffusion and because of having specific elements such as Al, Cr, and Si <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>. Better oxidation resistance can be achieved by incorporating these elements such as Al, Cr, and Si by reducing oxygen diffusivity and solubility in the matrix and forming a denser protective oxide layer on the surface. This section briefly discusses the recent developments of oxidation study in both BCC and FCC based high entropy alloys. As mentioned earlier, Yeh et al. <ref type="bibr" target="#b1">[2]</ref> and Cantor et al. <ref type="bibr" target="#b3">[4]</ref> proposed the concept of HEAs in 2004, and several works have been carried out on HEAs latter. However, the oxidation behavior of HEAs is an essential topic, though a limited study is available till date. By considering the significance of the oxidation study in HEAs, a few research groups recently focused on this topic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">BCC (Body-centered cubic)-HEAs</head><p>Many of the HEAs investigated for the oxidation behavior among HEAs are BCC-HEAs, and most of the studied HEAs are Refractory HEAs (RHEAs). Most of the BCC-HEAs are incorporated with Al and Si addition as both act as a strong BCC stabilizer and forms the protective Al 2 O 3 and SiO 2 layers that favors the oxidation properties. Cr also benefits the oxidation properties along with Al and Si addition, which also stabilizes BCC <ref type="bibr" target="#b26">[27]</ref>. The following case studies emphasize the oxidation behavior of BCC-HEAs with a special attention dedicated to the effect of alloying addition. Senkov et al. <ref type="bibr" target="#b9">[10]</ref> reported on the isothermal oxidation behavior of HEA (Mo 0.5 Ta 0.5 TiZrNbCr) at 1273 K for 100 h in the presence of air. This particular HEA consists of a major BCC1 phase and two minor phases that are BCC1 and FCC (laves). The assigned HEA was prepared using a vacuum arc melting process, and Thermax 700 TGA unit (Cahn Instruments, Madison, WI) was used to study the oxidation behavior of the alloy. ( <ref type="formula">7</ref>)</p><formula xml:id="formula_1">H f = E tot -nE X solid -m E O 2 2 ∕(n + m),</formula><p>The entire experiment was carried out in a vertical furnace with a 15 K/min heating rate and held for 100 h at 1273 K, followed by furnace cooling with a cooling rate of approximately 10 °C/min. Weight gain was automatically registered every 20 s. Continuous weight gain of HEA was observed during the test by holding at 1273 K. Before starting the experiment, the sample weight was measured as 1381.4 mg. However, after reaching the furnace's temperature to 1273 K, the sample weight was increased to 1397.1 mg. Weight gain of the sample increased drastically with time for the first 10 h beyond which the weight gain increment became slow compared to the first 10 h, as indicated in Fig. <ref type="figure" target="#fig_3">4</ref>. Such type of behavior was described by power-law dependence, as shown in Eq. 1. Best fitting was observed with the time exponent, n = 0.6 and k 1 = 0.055 mg cm -2 s -0.6 . After completing the oxidation test for 100 h, the sample weight was measured as 1620.7 mg. During the cooling, the oxide layer was separated from the samples' surface due to different thermal expansion of the alloy and oxide.</p><p>The average density of the oxide layer has been reported as 5.06 ± 0.46 g cm -3 . Microstructure characterization after the oxidation test revealed the origin of crack formation in the region of FCC and BCC2 phases, which has been extended to the BCC1 phase. However, the BCC1 phase exhibited higher resistance to the cracking during oxidation when compared to the remaining phases. Moreover, the BCC1 phase is having larger volume expansion than the other two phases, leading distribution of tensile strains to other phases that caused cracking. Moreover, Gaussian distributions were also used to study the oxygen solubility of the existing phases using the equation, C O = A.exp -(x∕r) 2 ∕2 , where x represents the distance from the sample surface and r is the standard deviation. Obtained results demonstrated that the diffusion rate of oxygen in the BCC1 phase was almost 25 times slower than in other phases (BCC2 and FCC phases). These results confirmed that the BCC1 phase has higher oxidation resistance than the other two phases. Another point observed during the oxidation study is that limited diffusion of alloying elements in HEA leads to complex oxides formation. A slower diffusion rate could occur due to a lower concentration of free vacancies in HEAs. But it is quite different in the case of conventional alloys like Nb-based developmental alloys in which metal oxide layer forms due to decreasing of alloying elements concentration inside the metal matrix and increasing in oxygen solubility ultimately suffer with internal oxidation <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. The isothermal oxidation results of corresponding HEA alloy in comparison with Nb based developmental alloys at 1273 K were summarized in Table <ref type="table" target="#tab_0">1</ref>. The comparison evidences the excellent oxidation resistance for HEA over Nb based alloys. However, two Nb-based alloys also exhibited excellent performance where the oxidation resistance of HEA is similar to that of Nb-18Si-26Mo and slightly lower than that of Nb-12Si-15Mo alloy <ref type="bibr" target="#b9">[10]</ref>.</p><p>The effect of core effects in achieving phenomenal oxidation behavior in HEAs was elucidated in BCC HEAs. The temperature dependence of oxidation behavior in TiZ-rNbTa has been investigated by Wang et al. <ref type="bibr" target="#b30">[31]</ref> by considering the effect of severe lattice distortion. Their study emphasized that the severe lattice distortion strongly affects the diffusion rate of oxygen concerning oxidation temperatures. According to their results, TiZrNbTa exhibits two distinguishable oxidation phenomena caused by two different elemental diffusion trends: weaker lattice distortion and severe lattice distortion in TiNb-rich and TiZr-rich regions, the oxidation temperatures at which are between 1073 and 1673 K, respectively. TiZr-rich regions where severe lattice distortion exists ascertain higher oxidation rates. The diffusion rate of oxygen atoms is explained by the dislocation pipe effect <ref type="bibr" target="#b31">[32]</ref>. Figure <ref type="figure">1</ref> shows isothermal oxidation plots of TiZrNbTa; the oxidation rates are significantly different at 1273 K and above 1273 K, resulting from the lattice distortion change. The oxidation rates increase with increasing temperature above 1273 K, and it is vice-versa at 1073 K, as shown in Fig. <ref type="figure">1</ref>. The oxidation rates follow parabolic law (Eq. 3) above 1273 K, caused by the homogenous and higher diffusion of oxygen atoms attributed to the TiZr-rich region. On the contrary, inhomogeneous diffusion of oxygen atoms, which leads to severe stress concentrations and disintegration of oxide scales into powders, has been evidenced at 1073 K, resulting in a reverse trend of the oxidation rate (Fig. <ref type="figure">1</ref>). Their study proposed that the correlation between diffusion rate of oxygen atoms and severe lattice distortion can be affirmed by the degree of lattice distortion, i.e., the slower diffusion rates are inevitable when the degree of lattice distortion to generate dislocation pipe is lower than the threshold value.</p><p>Liu et al. <ref type="bibr" target="#b32">[33]</ref> studied the oxidation behavior of four different HEAs by varying alloying additions that are Al 0.5 CrNbMoTi (H-Ti), Al 0.5 CrNbMoV (H-V), Al 0.5 CrNbMoTiV (H-TiV), and Al 0.5 CrNbMoTiVSi 0.3 (H-TiVSi 0.3 ) at 1573 K in air. In this study, H-Ti, H-V, and H-TiV samples consist of single BCC phase whereas H-TiVSi 0.3 alloy composed with single BCC phase and (Nb,Ti) 5 Si 3 compound phase. Oxidation test was carried out for 20 h at 1573 K, and weight gain was recorded every 5 h for each specimen. Overall, oxidation kinetics of all the samples asserted a linear relationship (Eq. 2) between weight gain and time. The primary focus of this work is to determine the effect of alloying elements on the oxidation behavior of HEAs, and the investigated Fig. <ref type="figure">1</ref> Isothermal oxidation curves of TiZrNbTa HEA in the temperature range between 1073 and 1673 K <ref type="bibr" target="#b30">[31]</ref> results demonstrated that the addition of Si and Ti stimulates a drastic increase in oxidation resistance of the HEAs while it is vice-versa with V addition as indicated in Fig. <ref type="figure" target="#fig_11">2</ref>. A few observations were highlighted after incorporation of vanadium as follows: (i) initially, oxides of H-Ti are compacted with very little porosity as shown in Fig. <ref type="figure" target="#fig_0">3a</ref>, but the introduction of V to the alloy led to harmful nature by exceptional increase in porosity, as shown in Fig. <ref type="figure" target="#fig_0">3b,</ref><ref type="figure">c</ref>, e, f. Increase in porosity encouraged more inward diffusion of oxygen at the interface between oxide and metal. (ii) Large sized pores were observed in the microstructure of H-V (Fig. <ref type="figure" target="#fig_0">3b</ref>) and H-TiV (Fig. <ref type="figure" target="#fig_0">3c</ref>), where the oxide scales are CrNbO 4 and VO x in H-V alloy (Fig. <ref type="figure" target="#fig_0">3b</ref>) and VO x has been observed in the vicinity of the pores in both the cases. These Pores became larger owing to fusion or volatilization of the V 2 O 5 due to its low melting point. Thus, the oxidation rates will be increased in H-V and H-TiV alloys as there will be a higher chance for higher oxygen diffusion towards the metal-oxide interface. Therefore, VO x formation resulted in the evolution of large-sized pores in oxide layers of H-V and H-TiV alloys, which further led to the higher oxidation rates in both the alloys as shown in Fig. <ref type="figure" target="#fig_0">3e</ref>, f, respectively. Similarly, the effect of Si and Ti on the HEAs were discussed as follows: (i) in the case of H-TiVSi 0.3 , the oxide layer neither consists of VO x nor larger pores, as shown in Fig. <ref type="figure" target="#fig_0">3d</ref>. This accounts the enhanced oxidation resistance after introducing Si element in HEAs, which inhibits the formation of harmful VO x (ii) Nb and Ti 5 Si 3 compound phase can act as a physical diffusion-barrier for inward and outward diffusions of oxygen and metal ions, respectively in the H-TiVSi 0.3 alloy, leading to better oxidation resistance. (iii) Al 2 O 3 oxide layer formation was noticed in all the HEAs. However, a more uniformed and compacted Al 2 O 3 oxide layer formation was observed in case of H-TiVSi 0.3 that acts as a protective layer for further inward oxygen diffusion. However, there was no significant effect observed with Ti addition on the alloy's oxidation property although the surface consisted of CrNbO 4 , (TiCrNbV)O 2 . The significant effect of Ti on solid solubility and oxygen diffusivity in conventional alloys was reported earlier <ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref>.</p><p>In another study, Gorr et al. <ref type="bibr" target="#b25">[26]</ref> studied the effect of Si addition on the oxidation properties of HEAs (NbMoAlCrTiSi x ) at 1173 K, 1273 K, and 1373 K for 48 h. The HEAs are composed of a single BCC phase along with other minor phases like Cr 2 Nb. Samples were prepared via arc-melting in ~ 0.6 atmosphere of Ar. Oxidation tests were performed on NbMoAlCrTi and NbMoAlCrTiSi x at the same temperatures and time intervals. However, NbMoAlCrTi alloy obeyed the liner oxidation kinetics (Eq. 2) at 1173 and 1273 K. The oxidation rate is more at 1273 K due to the formation of non-protective oxide scales, while oxidation kinetics at 1373 K exhibited a lower oxidation rate compared to 1273 K after 48 h of exposure time. These results demonstrated that the formed oxide layer at 1373 K is partially protective after a longer oxidation time. However, NbMoAlCrTiSi x alloy obeyed the liner oxidation kinetics (Eq. 2) at 1173 K, and parabolic law (Eq. 3) at 1273 K and 1373 K up to 30 h and beyond that changed to linear rate law. From their results, it was identified that the Si addition can show some advantages on the oxidation property of NbMoAlCrTi. According to earlier literature, there are two credible factors demonstrated with the Si addition as follows: (i) Si can form the protective silica layer at the interface between the substrate and oxide resulting in the reduced inward diffusion of oxygen. (ii) SiO 2 can act as nucleation sites for forming a homogenous protective oxide scale, which abates the inward and outward diffusions of oxygen and metal cations, respectively that aids in achieving better resistance towards oxidation. The mechanisms are same in this HEA as Si addition accounted for the enhanced oxidation resistance. NbMoAlCrTiSi x alloy evidenced lower mass gain at 1273 K and 1373 K over NbMoAlCrTi, which affirms the better oxidation resistance in HEA with Si. Nevertheless, the weight gain values, and oxidation resistance are similar in case at 1173 K for both the alloys, as shown in Fig. <ref type="figure" target="#fig_3">4</ref>. Oxidation resistance has been enhanced with Si content that caused by forming continuous protective oxide layers of Cr 2 O 3 and Al 2 O 3 by increasing elemental activities of Cr and Al that rendered higher driving force to form such layers <ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b38">[39]</ref>. In contrast, HEA without Si addition evidenced the oxide layers that are porous, thick, and non-protective at 1173 K. However, the formation of partially protective oxide layers of Cr rich and Al-rich were occurred at higher temperatures of 1273 K and 1373 K, respectively. Gorr et al. <ref type="bibr" target="#b39">[40]</ref> also studied the oxidation behavior of equimolar MoWAlCrTi at 1273 K for 40 h. This HEA alloy was prepared by arc-melting in ~ 0.6 Fig. <ref type="figure" target="#fig_11">2</ref> The isothermal oxidation curves of Al 0.5 CrNbMoTiVSi HEAs at 1573 K, emphasizing the effects of Ti, Si, and V addition <ref type="bibr" target="#b32">[33]</ref> atmosphere of argon, as shown in Fig. <ref type="figure" target="#fig_3">4</ref>. Oxidation kinetics of corresponding HEA followed the parabolic rate law (Eq. 3), demonstrating the growth of oxide layer by the solid-state diffusion. Positive values and the positive slope of the graph indicating the reduction in evaporation of volatile W and Mo oxides during the oxidation tests or completely hindered by the oxide scale formed on the substrate's surface. It proposes that the catastrophic oxidation by internal oxidation was not observed in the HEA. However, the oxidation rate is still significantly high in the alloy but the formation of homogenous protective oxide layers of Al 2 O 3 or Cr 2 O 3 are expected to form on the substrate by replacing the Ti with Nb in HEA, where the oxidation resistance exceptionally enhanced by the addition of Nb and avoiding Ti that promotes the formation of nonprotective and porous TiO 2 layer. Unlike HEAs, Al 2 O 3 is not a protective layer in case of conventional alloys such as TiAl, where the formed oxide scales were combination of Ti and Al that are mainly porous, thick, and non-protective <ref type="bibr" target="#b40">[41]</ref>.</p><p>The oxidation behavior investigation was continued on the RHEAs in the most recent studies as well. Zhang et al. <ref type="bibr" target="#b41">[42]</ref> studied the oxidation behavior of NbZrTiCrAl at temperatures of 1073 K, 1273 K, and 1473 K up to 50 h in air. HEAs were prepared by vacuum arc melting under pure Ar atm that has mostly BCC phase along with minimal fractions of Al 2 Zr and Nb 2 Al precipitates. BCC phase was occupied mainly by the microstructures of dendritic, CrNbMoTiV (H-TiV) <ref type="bibr" target="#b32">[33]</ref> which has Nb, Ti elements and inter-dendritic with Al, Cr, Zr. Oxidation kinetics followed parabolic rate law (Eq. 3) at 1073 and 1273 K and linear kinetics at 1473 K. The oxidation resistance decreased as the temperature increases, and oxidation rate constants followed vice versa. The oxide scale was denser and continuous after 50 h at 1073 K. In contrast, oxidation scales are adherent to the substrate up to 25 h and cracking and spallation occurred after 25 h at the higher temperatures of 1273 and 1473 K. Mass gain was gradually increased throughout oxidation tests up to 50 h. Mass gain initially followed slow growth up to 25 h and changed to fast reaction growth between 25 and 50 h at 1273 K as shown in Fig. <ref type="figure" target="#fig_3">4</ref>. On the contrary, mass gain drastically increased from the starting at 1473 K due to cracking and spallation. However, similar oxide scales were formed in all three cases that are TiO 2 , CrNbO 4 , ZrO 2 , Al 2 O 3 , and ZrNb 2 O 7 . The oxidation mechanism of the NbZrTiCrAl-RHEA was compared with other RHEAs: the reported oxidation mechanism in NbTiZrV and NbTiZrCr is internal oxidation at higher temperatures. It was demonstrated that Ti, Nb, Zr elements have a higher affinity to oxygen at elevated temperatures in RHEAs that diminishes the protective layer's formation, such as Al After Cr addition, i.e., in MoTaTiCr alloy, the mass gain initially increased slowly for the first one hour of the exposure, beyond which it reached a plateau throughout up to 10 h (Fig. <ref type="figure" target="#fig_3">4</ref>). A similar trend of oxidation behavior as MoT-aTiCr was also observed in Al added alloy, i.e., MoTaTiAl. However, the oxidation resistance of Cr added alloy was better than Al added HEA (Fig. <ref type="figure" target="#fig_3">4</ref>). The oxidation resistance of the three alloys in descending order as follows: MoT-aTiCr &gt; MoTaTiAl &gt; MoTaTiAlCr &gt; MoTaTi as shown in Fig. <ref type="figure" target="#fig_3">4</ref>. The oxidation resistance of the HEA after simultaneous addition of both the Al and Cr was better than MoTaTi and MoTaTiAl alloys but poor than MoTaTiCr alloy (Fig. <ref type="figure" target="#fig_3">4</ref>). The poorest oxidation resistance in MoTaTi can also be affirmed by the oxide scales formed on the surface that are TiO  Al and the interface between oxidized and non-oxidized regions enriched with Ti. The addition of Al failed to form the uniform and continuous layer that correlated to the poor oxidation resistance than MoTaTiCr. The addition of Cr in MoTaTiCr alloy formed the continuous, dense CrTaO 4 layer that acted as a diffusion barrier for inward and outward diffusion of oxygen and metal cations, respectively, that accounted for the best oxidation resistance in MoT-aTiCr among all the alloys. Despite forming the CrTaO4 layer in MoTaTiAlCr alloy, the discontinuous formation of non-protective TiO 2 and Al 2 O 3 layers failed to prevent further oxygen diffusion. Thus, the study proposed that the MoTaTiCr-based HEAs exhibit better oxidation resistance for high-temperature applications by removing Al addition. A few more oxidation studies on similar BCC-HEAs are summarized in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Face-centered cubic HEAs (FCC-HEAs)</head><p>In comparison with BCC-HEAs, there are fewer studies that investigated the oxidation behavior of FCC-HEAs. This review paper suggests that there is a great necessity to extend the investigation of oxidation behavior in FCC-HEAs. In a few cases, as-cast BCC was transformed into FCC after heating the alloys to elevated temperatures for oxidation studies. In many studies, the FCC-HEAs were compared with the conventional FCC alloys. As similar to that of BCC-HEAs, the protective Al, Cr based oxides along with Fe oxide are essential to yield better oxidation resistance and Ni, Co act as FCC stabilizers <ref type="bibr" target="#b26">[27]</ref>. Liu et al. <ref type="bibr" target="#b17">[18]</ref> reported the oxidation properties of HEAs by varying Al concentrations in AlCoCrFeNi HEA (Al x CoCrFeNi (x = 0.15, 0.4)) in supercritical water. They compared the HEAs outcome with HR3C steel. The HEAs with FCC solid solution used in this study were prepared using vacuum induction smelting and casting methods. The oxidation tests of all the specimens were performed at 823 K and 873 K for 70 h in supercritical water. Spinel type oxides were detected on the oxide layer formed on the samples' surface after the oxidation test, where Al 0.15 and HR3C contain a double spinel layer of FeCr 2 O 4 and Fe 3 O 4 as inner and outer layers, respectively. In contrast, Al 0.4 only consisted of a single spinel layer, i.e., FeCr 2 O 4 . Moreover, the oxide layer formed on the surface of HEAs (Al x CoCrFeNi (x = 0.15, 0.4)) was much thinner than the oxide layer formed on HR3C steel. The comparison affirms that HEAs acquire higher oxidation resistance over HR3C steel. The augmented oxidation resistance in HEAs, especially, Al x CoCrFeNi is caused by the sluggish diffusion effect of HEAs and the formation of duplex oxide structure that consists of Cr rich inner layer and Fe rich outer layer. Though HR3C steel also consists of a duplex oxide layer, only the inner layer persists better oxidation resistance, and the outer layer is poorer to resist the oxidation, which is dissimilar from HEA with Al 0.15 <ref type="bibr" target="#b17">[18]</ref>. It has been widely reported fact that the presence of Cr and Al enhances the oxidation resistance of the HEAs as Al increases the lattice distortion in the alloy's lattice structure that results in preventing the atomic movement and elemental diffusion rate <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>. On the other hand, the existence of Cr contributes to the formation of Cr-Fe mixed oxide film that further refrains the formation of a strong Fe oxide layer on the surface of HEAs, which results in a lower oxidation rate <ref type="bibr" target="#b17">[18]</ref>.</p><p>Chen et al. <ref type="bibr" target="#b57">[58]</ref> also investigated the oxidation behavior of the same HEA, AlCrCoFeNi, with 0.6 wt% Al and Si addition. The study compared the oxidation behaviors of Al 0.6 CrCoFeNi and Al 0.6 CrCoFeNiSi 0.3 (HEA-Si) at oxidation temperatures of 1073 K, 1173 K, and 1273 K under ambient air in a furnace up to 100 h. The initial as-cast specimens have an FCC + BCC crystal structure, but the specimens have only FCC structure after the oxidation tests. The dissolution of the BCC phase is accounted due to the metastable nature of BCC in as-cast conditions. Also, the transformation of BCC to FCC after oxidation is credibly due to preferential oxidation of the BCC phase. The formation of Al 2 O 3 and AlN (Aluminum Nitride) depletes the matrix in Al that destabilizes the BCC. BCC phase has been disappeared after the oxidation at all the temperatures in HEA without Si and beyond 1073 K in HEA-Si. However, HEA-Si after oxidation at 1073 K still contains a small amount of BCC, which is due to the formation of Silicide precipitation on the surface of the alloys and weakening of Al 2 O 3 scale, which demonstrates the effect of Si addition is stronger on the oxidation kinetics at 1073 K over HEA without Si compared to other temperatures. In all the conditions of both the alloys, an Al depleted zone was found due to the formation of AlN exempting HEA-Si at 1073 K, and local spallation of oxide layers occurred at the depleted zones. Al 2 O 3 , Cr 2 O 3 , and (Ni, Co, Fe) Cr 2 O 4 spinel oxide scales were found in all the cases except additional Cr 15 Co 9 Si 6 were detected in the case of HEA-Si at 1073 K. Oxidation kinetics followed linear growth law (Eq. 2) at 1073 K in both the HEA without Si and HEA-Si alloys below 100 h oxidation times due to thin non-protective layers. It was expected that both the alloys would follow parabolic rate law (Eq. 3) beyond 100 h oxidation times by the formation of denser protective layers at 1073 K. In contrast, both the alloys followed parabolic growth law at 1173 K, as shown in Fig. <ref type="figure" target="#fig_5">5</ref> whereas they followed parabolic rate law and linear growth law in HEA without Si and HEA-Si, respectively at 1273 K. Summarily, the study suggested that Al 0.6 CrCoFeNiSi 0.3 alloy is suitable for applications up to 1073 K while Al 0.6 CrCoFeNi is not suitable for the hightemperature applications <ref type="bibr" target="#b57">[58]</ref>.</p><p>Recently, Shaik et al. <ref type="bibr" target="#b18">[19]</ref> studied the effect of Si concentration on the oxidation behavior of HEAs   (CoCrCuFeNiSi x(x=0,0.3,0.6,0.9) ) and reported some important points on the oxidation behavior of HEAs, emphasizing the effect of Si. HEAs were processed by the powder metallurgy route i.e., high energy ball milling for 10 min followed by spark plasma sintering at 1273 K for 5 min by applying uniform load of 60 MPa. HEAs were oxidized at Room temperature, 873 K, 973 K, and 1073 K for 30 h. According to their study, Si content in HEA increased the oxidation resistance of HEA up to the addition of 0.6% Si concentration beyond which oxidation resistance of the alloy decreased, as shown in the isothermal plot (mass gain vs. time) of HEAs at different temperatures (Fig. <ref type="figure" target="#fig_5">5</ref>).</p><p>The oxidation resistance of the investigated HEAs is as follows: HEA 0.6Si &gt; HEA 0.3Si &gt; HEA 0.9Si &gt; HEA(Si-free), as shown in Fig. <ref type="figure" target="#fig_5">5</ref>. In their study, oxidation kinetics followed cubic law (Eq. 4). From Fig. <ref type="figure" target="#fig_5">5</ref>, it was observed that the oxidation rate initially decreased with Si content at any tested temperature up to 0.6%, latter it increased with Si content in the HEAs investigated. The following reasons can attribute such a change in the trend. 1) F1, F2, and σ phases were detected after the spark plasma sintering process, among which the F2 phase is enriched with Cu content by which, F2 phase has been considered as highly prone to oxidization of CuO oxide. The amount of F2 phase fraction decreased with the addition of Si content due to which oxidation prone phase decreased that further reduced the oxidation rate in HEAs. 3) Concentration of sigma phase and lattice distortion increased with Si content, which helped in decreasing the oxidation rate in HEAs. However, the oxidation rate increased beyond 0.6% Si content, which was promoted by the increment in porosity with higher Si concentrations. Additionally, activation energies for oxidation were also calculated using Arrhenius equation (Eq. 6) in all the HEAs. The HEA without Si addition evidenced the lowest activation energy that indicates the higher diffusion of oxygen into the substrate, which also affirms the lowest oxidation resistance in HEA without Si. Among HEAs with Si addition, HEA 0.9Si has the lowest activation energy and thus, lowest oxidation resistance compared to HEA 0.3Si and HEA 0.6Si . HEA 0.6Si demonstrated the highest activation energy for oxidation caused by the decrement in volume fraction of F2 phase. In another study, the oxidation behavior of equimolar CoCrFeMnNi-HEA, a single solid solution of FCC, was investigated in the temperature range between 873 and 1173 K in laboratory air for 100 h <ref type="bibr" target="#b58">[59]</ref>. The oxidation kinetics in this study are in good agreement with linear rate law at initial oxidation times followed by parabolic rate law as the oxidation time increases. Hence, the study used the general parabolic equation (Eq. 8) that constitutes both linear and parabolic terms to evaluate the oxidation kinetics. The Eq. 8 comprises of the parabolic rate constant, and the linear rate constant is defined by the ratio of k p ∕k 2 .</p><p>Among both the linear and parabolic regions, the linear region at lower oxidation times denotes a non-protective oxide layer, whereas, at higher oxidation times, the oxide layer becomes protective, which is presented by the parabolic term in Eq. 8 that constitutes of thermal diffusion as a rate-limiting process. Oxidation resistance decreased as the temperature increased, as shown in Fig. <ref type="figure" target="#fig_5">5</ref>. This study emphasized the effect of temperature on the formation of different types of Cr and Mn-based oxides on the surface of HEAs. The formation oxide scales at different temperatures is as follows: α-Mn 2 O 3 along with a thin Cr 2 O 3 scale at 873 K, while it is Mn 3 O 4 at 1173 K. Thin Cr 2 O 3 was diminished as the oxidation temperatures increases, which is different from 873 K. At higher temperatures, the HEA substrate is depleted in Mn due to the formation of denser oxide scales by transforming α-Mn 2 O 3 to Mn 3 O 4 . Their study suggested that the formation of pores near oxide interfaces due to the depletion of Mn, Cr causes a significant difference to the diffusion paths that further alter the oxidation resistance of the HEAs <ref type="bibr" target="#b58">[59]</ref>. The study also compared the isothermal oxidation behavior of HEA with Mn-rich conventional alloys to emphasize the effect of Mn. The outer thick Mn layer formed by the faster diffusion of Mn in FeMnAl alloys <ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref>,which is two folds faster than Cr diffusion in Fe-Cr based alloys <ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref>. The faster diffusion of Mn over Cr in Mn-rich alloys is similar to that of HEA. Also, various studies have been reported that higher Mn concentrations exhibit detrimental oxidation</p><formula xml:id="formula_2">(8) ΔW A 2 + k 2 ΔW A = k p t,</formula><p>behavior over a wide range of Cr concentrations as a result of the oxide scale spallation <ref type="bibr" target="#b59">[60,</ref><ref type="bibr" target="#b64">65,</ref><ref type="bibr" target="#b65">66]</ref>. The depletion of Mn by forming a thick Mn oxide layer in austenitic SS steel destabilizes the FCC austenite that further consequences in forming the BCC ferrite layer below the oxide scales <ref type="bibr" target="#b66">[67,</ref><ref type="bibr" target="#b67">68]</ref>. On the contrary, selective removal of Mn in CoCrF-eMnNi-HEA cannot destabilize the FCC structure as occurs in other conventional FCC alloys due to equimolar compositional elements in CoCrFeMnNi-HEA, which are all FCC at room temperature.</p><p>A similar study has been investigated on the CrMn-FeCoNi-HEA to determine oxidation behavior at 1173 K, 1273 K, and 1373 K for 24 h under 79% N 2 and 29% O 2 atm <ref type="bibr" target="#b16">[17]</ref>. Valence Electron Concentration (VEC) values ascertain the crystal structure of the HEA to be FCC or BCC. Only the BCC phase will have existed when the VEC is less than 6.87, the VEC to yield FCC structure is ≥ 8.0, whereas it is ≥ 6.87 and &lt; 8.0 would result in FCC + BCC structure. The calculated VEC, atomic size difference (δ), and Ω are ≈ 8, &lt; 4%, and ≈ 7.4, respectively in CrMnFeCoNi alloy. Ω is defined as Ω = T m .ΔS mix ∕H mix , where T m , ΔS mix , H mix are melting point, mixing entropy, and mixing enthalpies of the alloy, respectively. Thus, CrMnFeCoNi in this study has a random FCC solid solution. The oxidation behavior results determined that oxidation kinetics followed parabolic growth law (Eq. 3) at all three temperatures where the parabolic rate constant, k p, increased with increasing oxidation temperature. The oxidation resistance of the HEA decreased as temperature increases that resulted by the rise in weight gain with an increase in oxidation temperature as shown in Fig. <ref type="figure" target="#fig_5">5</ref>. The oxidation behavior of HEA was compared with SUS 405 SS steel <ref type="bibr" target="#b68">[69]</ref>. CrMnFeCoNi HEA exhibited superior oxidation resistance over SUS 405 SS steel at 1273 K. Nevertheless, SUS 405 SS steel outperformed HEA's oxidation behavior at lower oxidation temperatures that proposes that CrMnFeCoNi alloy is suitable for high-temperature applications over SUS 405 SS steel. HEA experiences spallation, kirkendall pores, atom concentration changes, and transformation of Mn 2 O 3 to Mn 3 O 4 abates the better oxidation resistance at higher temperatures. The microstructural characterization revealed that the oxide scales at 1173 K are Mn 2 O 3 and Cr 2 O 3, whereas they are Cr 2 O 3 and (Mn, Cr) 3 O 4 . Preferential oxidation took place at some places, as shown in Fig. <ref type="figure" target="#fig_7">6a</ref> at 1173 K, due to internal diffusion of metal cations or faster oxygen diffusion via grain boundaries. The oxide scale of spinel was noticed at 1173 K, as shown in Fig. <ref type="figure" target="#fig_7">6b</ref>. Much more fast oxide growth was clearly observed at 1273 K along the grain boundaries, as shown in Fig. <ref type="figure" target="#fig_7">6c</ref>. Cracks in oxide layer and spallation were identified at 1273 K, as shown in Fig. <ref type="figure" target="#fig_7">6d</ref> instead of spinel oxide layers those observed at 1173 K. At 1373 K, the formed oxidation layers were thicker and denser by which the grain boundaries are not distinguishable as shown in Fig. <ref type="figure" target="#fig_7">6e</ref>, and non-uniform, thicker, and non-spinel-based layer was detected at 1373 K as shown in Fig. <ref type="figure" target="#fig_7">6f</ref>. In CrMnFeCoNi HEA, the oxidation behavior was strongly influenced by the existence of Mn and Cr oxides, also by the spallation of Mn and Cr oxides at higher temperatures. The study emphasized that grain boundaries are the weakest and nucleation sites to promote the oxidation, further lowering the oxidation resistance at higher temperatures <ref type="bibr" target="#b16">[17]</ref>.</p><p>Recent studies on the oxidation behavior of FCC-HEAs focused on heavy concentrated HEAs in which one of the multi-component elements will be in high concentration. Kai et al. <ref type="bibr" target="#b69">[70]</ref> investigated the oxidation behavior of Ni 2 FeCoCrAl x (x = 0, 0.5, 1) in the temperature range between 873 and 1173 K up to 48 h in dry air. The HEAs with Al-free and low Al concentrations have a single FCC structure, while the HEA with the highest Al content has FCC + BCC phase because Al acts as a strong BCC stabilizer. The microstructural characterization affirmed that the FCC phase is enriched in Fe, Co, Cr while the BCC phase is enriched in Ni and Al. Oxidation resistance increased as the oxidation temperature lowers from 1173 to 873 K, while Al-free Ni 2 FeCoCr HEA evidenced poor oxidation resistance among the three HEAs investigated. The oxidation resistance of the HEAs in ascending order as follows: Ni 2 FeCoCr &lt; Ni 2 FeCoCrAl 0.5 &lt; Ni 2 FeCoCrAl (Fig. <ref type="figure" target="#fig_9">7a</ref>) that is the alloy with FCC + BCC phase ascribed better oxidation resistance that was explained by the oxidation kinetics and the scales formed on the surfaces of the HEAs. Increasing Al concentration increased the lattice distortion in the matrix and formed the protective Al 2 O 3 layer that consequences in better oxidation resistance. Oxidation kinetics at 873 K is too slow to be determined up to 48 h as the nucleation and growth of oxides were much longer than the exposure. The oxidation kinetics followed parabolic growth law at temperatures greater than or equal to 973 K in the three alloys. However, the parabolic growth law persisted throughout at 973 K, whereas it followed multiplestage growth at higher temperatures (1073 K and 1173 K). Two-stage and three-stage kinetics were observed in Alfree HEA and HEA with Al, respectively, where the solidstate diffusion is the rate-determining step in both the cases. Two-stage kinetics comprised of slow initial growth stage and fast-reaction stage, while three-stage kinetics has an extended stage of steady-state growth region <ref type="bibr" target="#b69">[70]</ref>.</p><p>Oxidation rate constants were calculated in the temperature range between 973 and 1173 K; the effect of Al on the oxidation rate constants also was investigated. In Al-free Ni 2 FeCoCr HEA, the oxidation rate constants in the initial slow growth rate remained nearly constant while decreasing in the fast-reaction stage as temperature increases. In the two alloys with Al content, oxidation rate constants were reduced with increasing temperature in the initial slow growth stage. In contrast, the oxidation rate constants increased with increasing temperature in the steady-state growth stage. Nevertheless, oxidation rate constants decreased with increasing the temperature, as shown in Fig. <ref type="figure" target="#fig_9">7b</ref>, which suggests better oxidation resistance with increasing Al content. The oxidation scales in all the conditions exempting 873 K are revealed to be in good cohesion with the substrate along with numerous pores in the scales. In this study, only one HEA (HEA-1) with higher Cr content and slight additions of Al, Mn exhibited higher activation energies than conventional 304H SS steel and 230 Ni superalloy at 923 K. However, higher activation energies were reported in 304H SS steel and 230 Ni superalloy over HEA-1 at 1023 K. Their study emphasized the effect of Cr on the oxidation behavior of HEAs and conventional FCC alloys. The Cr concentration in 230 Ni superalloy is similar to that of HEA-1, which is the primary reason for better or similar oxidation behavior exhibited by 230 Ni superalloy to that of HEA-1. In the other investigated 7 HEAs, the Cr concentration is lower than that of 230 Ni superalloy and HEA-1 along with higher Mn concentrations. HEAs were reported to perform poor oxidation behavior over 304H SS steel despite having high Cr, Ni contents, and sluggish diffusion effect. Their study acknowledged the reduction in diffusion rate by the early formation of a thin Cr oxide layer due to the addition of Cr in HEAs. They also suggested that the outer layer of Mn-based oxide also improves the oxidation properties of HEAs exclusively in the alloys with lower Mn concentration. Higher Mn concentrations have a detrimental effect on the oxidation behavior of both FCC-based HEAs and conventional FCC alloys due to the formation of a thicker Mn-Spinel oxide scale that significantly enhances outward diffusion of metal cations <ref type="bibr" target="#b71">[72]</ref>. Few other significant oxidation studies on similar HEAs are presented in Table <ref type="table" target="#tab_4">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Few extended miscellaneous works</head><p>On the other hand, few studies on HEAs were also focused on HEAs as binders and coating materials to improve the oxidation resistance of materials. Zhu et al. <ref type="bibr" target="#b80">[81,</ref><ref type="bibr" target="#b81">82]</ref> synthesized dense Ti(C,N) cermets by using Ni/Co bimetallic (conventional) and HEA (AlCoCrFeNi) binders. Their results observed that the cermet synthesized with a HEA binder exhibits appreciable oxidation resistance over the conventional Ni/Co binder. The poor oxidation resistance associated with cermet using a conventional binder is due to inward oxygen diffusion through micro-cracks and pores formed in the oxide scales, as shown in HEAs were also used in coating technology more than a decade ago. Huang et al. <ref type="bibr" target="#b53">[54]</ref> synthesized two of the HEAs coating: AlCrFeMo 0.5 NiSiTi and AlCoCrFeMo 0.5 NiSiTi, on the alumina substrate using a plasma spraying process, and the thickness of the coating layer is 160 microns. The oxidation test was performed on the corresponding coated alumina substrate in order to study oxidation properties. The obtained results demonstrated that both the coating layers demonstrated better oxidation resistance up to 1373 K, which was confirmed by the weight gain values during oxide layer formation and weight gain of the oxide layer approached a constant level after about 50 h of the test, as shown in Fig. <ref type="figure">9</ref>. The protective passive layer formation was detected by EDS mapping, where it was observed that the top protective layer belongs to Ti oxide, whereas the successive layer is composed of Cr oxide. However, the better oxidation resistance was not attributed to the Ti oxide layer instead, Cr presence in the alloy ascertained the oxidation protection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Concluding remarks and future directions</head><p>The expanding applications of HEAs at high temperatures demand higher performance and high-temperature stability at extreme practical conditions. Oxidation behavior is one of the most crucial parameters to consider for hightemperature applications. This article reviews the limitedly available literature on the oxidation behavior of HEAs in  Oxidation mechanisms: higher activation energies (calculated using Eq. 6) in Fe20, Fe40 to MEA due to higher configurational entropies and composition; increase in activation energy for oxidation in HEAs at high temperatures due to sluggish diffusion; the degree of lattice distortion is lower in MEA due to weaker compositional complexity that weakens the cooperative diffusion of elements at higher temperatures  Investigation of the oxidation behavior of HEAs is a budding research topic in the field of high-temperature materials and their applications. There is a much wider scope for extending oxidation studies in HEAs, as its research is very limited so far. The following are the few ideologies on expanding research on the oxidation behavior of HEAs:</p><p>1. In order to meet the demands of high-performance materials at extreme conditions such as high temperature, there is a necessity to investigate the oxidation properties of HEAs by altering alloying additions and tailoring the microstructure. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Compliance with ethical standards</head><p>Conflicts of interest The authors declare that they have no known competing financial or non-financial interests that could have appeared to influence the work reported in this paper.</p><p>Ethical Approval This is the original manuscript that has neither been published nor under any considerations for the publication elsewhere. We do not have any conflicts of interest to disclose. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open Access</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 BSE images of oxide scales formed on the surfaces of HEAs at 1573 K for 10 h. evidencing a Al 0.5 CrNbMoTi (H-Ti), b Al 0.5 CrNbMoV (H-V), c Al 0.5 CrNbMoTiV (H-TiV), d Al 0.5 CrNbMoTiVSi 0.3 (H-TiVSi 0.3 ), and large sized pores in the oxide layers of HEAs e Al 0.5 CrNbMoV (H-V), f Al 0.5 CrNbMoTiV (H-TiV)<ref type="bibr" target="#b32">[33]</ref> </figDesc><graphic coords="6,184.25,57.76,360.00,433.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>2 O 3 and Cr 2 O 3 . The favorable oxide formation in NbZrTiCrAl-HEAs based on the Gibbs free energies of simple oxides' formation (Eq. 7) in ascending order as follows: Cr 2 O 3 &gt; Nb 2 O 5 &gt; TiO 2 &gt; Al 2 O 3 &gt; ZrO 2 . Aforementioned simple oxides at the initial stages of oxidation reacted with complex oxides such as ZrNb 2 O 7 and CrNbO 4 that correspond to the denser and continuous oxidation scales at all three temperatures. Still, the oxide scales have higher porosity at 1473 K though thicker and continuous layers formed. Recent work on MoTaTiCrAl RHEAs proposed the enhanced oxidation resistance after removing Al addition. Li et al. [43] investigated the oxidation behavior of MoTaT-iCrAl-based HEAs over a range of temperatures between 773 and 1273 K for 10 h exposure in the air. MoTaTi, MoTa-TiAl, MoTaTiCr, and MoTaTiCrAl HEAs were prepared by arc melting under Ar atm. MoTaTi alloy initially showed better oxidation resistance at temperatures below 1273 K, but the alloy underwent severe oxidation with the drastic increase in mass gain at 1273 K, as shown in Fig. 4. All the other three alloys exhibited better oxidation resistance at 1273 K compared to that of MoTaTi alloy, as shown in Fig. 4.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>2 and MoTiTa 8 O 25 , which are non-uniform, porous, and non-protective scales. The porosity was created by the evaporation of volatile Mo-based oxides as the temperature increases in the MoTaTi alloy. Al 2 O 3 layer was formed along with the two above mentioned oxide scales in MoTaTiAl alloy due to which oxidation resistance was increased compared to MoTaTi alloy. However, the oxide layers in MoTaTiAl alloy also contained more porosity in the scales enriched with</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Isothermal oxidation plots of mass gain vs. exposure time in the major classes of BCC-HEAs; two plots indicated by red arrows belongs to Bottom X, Left Y-axes</figDesc><graphic coords="7,182.81,57.76,361.44,207.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Oxidation mechanisms: Pesting and formation of mixed layers with low-density in HEA without Al led to lower oxidation resistance. Formation of Al 2 O 3 layer associated with higher oxidation resistance in HEA-Al even though the formed layer was not dense due to the formation of mixed oxide layers AlCrNbMoTaTiSi cold crucible levitation melting method Oxidation tests at 1273 K and 1373 K up to 200 h. Exponential rate law at 1273 K and parabolic rate law at 1373 K Oxidation mechanisms: inward diffusion of oxygen is dominant at 1273 K, formation of Al, Cr depleted zones, and insufficient kinetics to form CrTaO 4 . Heterogenous oxidation due to higher fraction of volume defects limited the oxidation resistance. At 1373 K: hindrance of interdiffusion of oxygen and elements at lower exposure times by the formation of a dense and homogenous CrTaO 4 48 h in air. W, Nb-HEAs: complex and unidentified. Oxidation resistance: Ta-HEA &gt; Nb-HEA &gt; W-HEA [47] NbMoCrTiAl TaMoCrTiAl Oxidation mechanisms: formation of continuous and protective oxide scales, ; Internal oxidation due to the formation of HCP laves phase after oxidation in Nb-HEA; formaall the alloys have BCC except CoCrFeNiTi 0.5 (after oxidation): FCC (rich in Cr, Fe) + sigma phase (rich in Al-Ni-Ti) in HEA without Si and up to 1273 K in HEA-Si Crystal structure: BCC/B2 matrix along with laves phases [49] Oxidation resistance: HEA without Si &gt; HEA-Si Oxidation mechanisms: existence of laves phase along the grain boundaries in HEA-Si deteriorated oxidation performance. Nucleation sites for oxidation in both the alloys: the interfaces between BCC and Laves phases. AlNbTiZr(Al-HEA) Arc melting under Ar atm Oxidations tests were performed by TGA between 873 and 1273 K for 50 h Linear kinetics-Ref HEA Oxidation resistance: Al-HEA &gt; Ref-HEA [50] HfNbTiZr(Ref-HEA) Near parabolic growth-Al-HEA Oxidation mechanisms: metal-gas interface reaction and solid-state diffusion, diffusion through the oxide layer in Ref-HEA and Al-HEA, respectively. The favorable oxide formation in Al-HEA according to Eq. structure: Mn-Free HEA: BCC matrix + Laves phase (Fe 2 Ni); HEA-Mn: BCC1(ordered)mechanisms: detrimental effect of Mn by the formation non-protective Mn 2 O 3 layer and its spallation in HEA-Mn. Formation of protective Al 2 O 3 Mn-free HEA. The favorable oxide formation (Eq. 7) in HEA-Mn (ascending order)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Isothermal oxidation plots of mass gain vs. exposure time in the major classes of FCC-HEAs; plots indicated by red arrows belongs to Top X, Right Y-axes</figDesc><graphic coords="11,182.81,57.76,361.44,208.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>The oxide scales in Al-free HEA and HEA with Al are Cr 2 O3 and Al 2 O 3 , respectively at 873 K. A non-uniform and granular Al 2 O 3 was observed at 973 K for HEAs with Al content while it is the combination of FeCr 2 O 4 and NiCo 2 O 4 as an outer layer and Cr 2 O 3 as an inner layer at 1073 and 1173 K. The outward diffusion of metal cations and inward diffusion of oxygen atoms attribute to the oxidation behavior of the alloys, where the diffusion of cations/anions increased with increasing the oxidation temperature that deteriorated the oxidation behavior at higher temperatures. The study also discussed the diffusivity of Al in two HEAs with Al. The FCC + BCC dual-phase matrix was also prevailed despite the formation of Al scale in Ni 2 FeCoCrAl HEA by the simultaneous oxidation of the BCC phase (Alrich) FCC phase depleted with Al content. Although the two HEAs with Al content have a low concentration of Al, the continuous and uniform Al oxide scale was formed on the surface of both the HEAs that indicates that the diffusivity of Al is much higher than other elements in Ni 2 FeCoCrAl HEA [70]. The results of Holcomb et al. [71] also featured the importance of Cr addition to improving the oxidation resistance of CoCrFeMnNi HEAs. A total of 8 CoCrFeMnNi-based HEAs by varying Cr, Mn compositions were investigated for oxidation behavior at 923 K and 1023 K up to 1100 h in laboratory air. The oxidation behavior of HEAs has been compared with 304H stainless steel and 230 Ni superalloy. Higher diffusion coefficients and lower activation energies in conventional FCC alloys are reported than in CoCrFeMnNi, which is FCC solid solution.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Oxidation scales after oxidation tests at different temperatures for 24 h in CrM-nFeCoNi HEA. a, b 1173 K, c, d 1273 K, e, f 1373 K [17]</figDesc><graphic coords="13,184.25,57.76,360.00,469.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Fig. 8a. The existence of micro-cracks, voids, and pores is much apparent in the enlarged view of the intermediate reaction layer, as shown in Fig. 8c. The cermet with conventional binder contains less protective oxide layers such as inner TiO 2 , Ti 3 O 5 , NiMoO 4 , Outer CoNiO 2 , and NiTiO 3 intermediate layers. Ti-based oxides and a mixture of (Co, Ni) oxides are visible as grey white and bright white scales in Fig. 8c. On the other hand, Cermet with HEA binder consisted of dense, stable, compact, and adherent oxide scales that are an external layer of FeO, CoO, WO 3 , an intermediate layer of NiWO 4 , Cr 2 WO 6 , and an inner layer of TiO 2 along with small amounts of TiMoO 5 , and AlTiO 2 . The formation of dense microstructure was evidenced in cermet with HEA binder, as shown in Figs. 8b, d, which apparently continues higher oxidation resistance.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 7</head><label>7</label><figDesc>Fig. 7 The effect of Al content on the oxidation behavior of Ni 2 FeCoCrAl x alloy. a Parabolic plots of oxidation kinetics at 873 K, b Parabolic rate constants in the steady-state region at different temperatures [70]</figDesc><graphic coords="14,53.14,57.76,489.00,185.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 Cross-sectional images of Ti (C, N) cermet after isothermal oxidation at 1373 K for 4 h in static air with a Ni/Co bimetallic binder and b HEA (AlCoCrFeNi) binder, and intermediate reaction layer formed on cermet c with Ni/Co binder, d with HEA binder<ref type="bibr" target="#b81">[82]</ref> </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>2 .</head><label>2</label><figDesc>As the oxidation study of HEAs is a newly developing research field, comprehending and establishing fundamental theories/mechanisms involved in the oxidation behavior of HEAs is highly encouraged and deemed. 3. The most recent works on the oxidation behavior of HEAs studied by doping reactive elements such as Y/ Hf. There is a great need to investigate the oxidation behavior of HEAs by tailoring constitutive elements and their microstructure in this scenario. 4. The currently available works on oxidation behavior of HEAs mostly used HEAs processed by conventional methods such as arc melting and induction melting. The works can be extended to HEAs processed by other processing methods such as powder metallurgy techniques, additive manufacturing to understand the oxidation mechanisms that differ with processing. 5. The oxidation behavior of single-crystalline HEAs was not yet attempted. In order to investigate the oxidation behavior by eliminating the effect of grain boundaries, which often act as nucleation sites for crack, pits would be a standard and crucial contribution to the field of HEAs in high-temperature applications. 6. The Oxidation behavior of dual-phase HEAs such as eutectic HEAs is worthwhile to be originated and investigated. 7. Most of the available research on the oxidation study of HEAs thus far constrained to the limited compositions such as RHEA, Al/Cr containing HEAs, and limited alloying elements. The field would be extended to wide compositional ranges to understand the effect of alloying additions and to elucidate the oxidation behavior with different HEAs extensively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc></figDesc><table><row><cell>comparison of weight gain per unit surface</cell><cell>Alloy ̸ time</cell><cell>1 h</cell><cell>2 h</cell><cell>4 h</cell><cell>24 h</cell><cell>100 h</cell><cell>References</cell></row><row><cell>area (in mg/cm 2 ) between Mo 0.5 Ta 0.5 TiZrNbCr [10] and Nb-based alloys [28, 29] during isothermal holding at 1273 K</cell><cell>Mo 0.5 Ta 0.5 TiZrNbCr (HEA) Nb Nb-10Si</cell><cell>10 159 37</cell><cell>15 300 -</cell><cell>22 --</cell><cell>50 --</cell><cell>119 --</cell><cell>[10] [28] [28]</cell></row><row><cell>in air</cell><cell>Nb-10.1Si</cell><cell>45</cell><cell>90</cell><cell>170</cell><cell>-</cell><cell>-</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-17.3Al</cell><cell>23</cell><cell>43</cell><cell>65</cell><cell>-</cell><cell>-</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-5Si-9Al</cell><cell>90</cell><cell>160</cell><cell>275</cell><cell>-</cell><cell>-</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-7Si-9Al</cell><cell>69</cell><cell>145</cell><cell>275</cell><cell>-</cell><cell>-</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-8Si-9Al-10Ti</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>182</cell><cell>338</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-10Si-9Al-10Ti</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>95</cell><cell>291</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-6Si-11Al-15Ti</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>51</cell><cell>167</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-8Si-11Al-15Ti</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>51</cell><cell>153</cell><cell>[29]</cell></row><row><cell></cell><cell>Nb-12Si-15Mo</cell><cell>1.3</cell><cell>1.4</cell><cell>4.0</cell><cell>15</cell><cell>-</cell><cell>[28]</cell></row><row><cell></cell><cell>Nb-13Si-4Mo</cell><cell>48</cell><cell>105</cell><cell>166</cell><cell>-</cell><cell>-</cell><cell>[28]</cell></row><row><cell></cell><cell>Nb-18Si-26Mo</cell><cell>9.7</cell><cell>13.8</cell><cell>19.5</cell><cell>45</cell><cell>-</cell><cell>[28]</cell></row><row><cell></cell><cell>Nb-19Si-5Mo</cell><cell>26</cell><cell>53</cell><cell>106</cell><cell>-</cell><cell>-</cell><cell>[28]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Summary of few more oxidation studies in BCC-HEAs</figDesc><table><row><cell>Key findings</cell><cell></cell></row><row><cell>Law(s) that governs Oxida-</cell><cell>tion kinetics</cell></row><row><cell>Oxidation test parameters</cell><cell></cell></row><row><cell>Processing</cell><cell></cell></row><row><cell>BCC-HEA</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 (</head><label>2</label><figDesc>continued) Oxidation mechanisms: Increasing Al and Ti content: suppressed the FCC and sigma phases and increase in sigma phase, respectively that resulted in low oxidation resistance by Ti addition; low Al HEAs: Al and Ti depleted zone beneath oxide scales; medium Al content: preferential oxidation of Al and Cr; high Al content: formation of a duplex Al-based oxide scale acted as a diffusion barrier for inward diffusion of oxygen</figDesc><table><row><cell>Key findings</cell><cell></cell></row><row><cell>Law(s) that governs Oxida-</cell><cell>tion kinetics</cell></row><row><cell>Oxidation test parameters</cell><cell></cell></row><row><cell>Processing</cell><cell></cell></row><row><cell>BCC-HEA</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3</head><label>3</label><figDesc>Gist of few more oxidation studies in FCC-HEAs</figDesc><table><row><cell>References</cell><cell></cell><cell>[73]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>[74]</cell><cell></cell><cell></cell></row><row><cell>Law that governs Key findings</cell><cell>Oxidation kinetics</cell><cell>Parabolic rate law Oxidation resistance: HEAs tested at</cell><cell>low pO 2 &gt; high pO 2</cell><cell>Oxidation mechanisms: spallation or</cell><cell>volatile species' formation at high-</cell><cell>est partial pressures; lower partial</cell><cell>pressures from 10 to 2 × 10 4 : two to</cell><cell>three stage parabolic growth rate:</cell><cell>initial fast reaction stage, gradually</cell><cell>decreasing stage (absent at 2 × 10 4 ),</cell><cell>steady-state stage and formation of</cell><cell>thick and continuous Al 2 O 3 layer. Oxi-</cell><cell>dation kinetics were compared with</cell><cell>the other two HE superalloys and</cell><cell>CM247LC superalloy: oxidation rate</cell><cell>of the investigated HEA is lower than</cell><cell>that of the three superalloys</cell><cell>Parabolic rate law Oxidation resistance:</cell><cell>Fe20 &gt; Fe40 &gt; Fe60 (medium entropy</cell><cell>alloy, MEA)</cell></row><row><cell>Oxidation test parameters</cell><cell></cell><cell>Oxidation study at 1173 K up to 48 h</cell><cell>by varying oxygen partial pressures</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Oxidation test temperatures: 1173 K,</cell><cell>1273 K, 1373 K up to 48 h under air</cell><cell></cell></row><row><cell>Processing</cell><cell></cell><cell>Arc melting in Ar atm followed by</cell><cell>annealing at 1223 K for 24 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Arc melting in Ar atm and homog-</cell><cell>enized at 1373 K for 24 h followed by</cell><cell>water quenching</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>100-x</cell><cell></cell><cell></cell></row><row><cell>FCC-HEA</cell><cell></cell><cell>Ni 2 FeCoCrAl 0.5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Fe x (CoCrMnNi)</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3 (</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell>References</cell><cell></cell><cell>[75]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>[76]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Law that governs Key findings</cell><cell>Oxidation kinetics</cell><cell>Parabolic rate law Oxidation resistance: similar oxidation</cell><cell>behavior despite different oxidation</cell><cell>atmospheres. The oxidation rate con-</cell><cell>stants are also similar, regardless of</cell><cell>atmospheres but yielded in different</cell><cell>oxide scales at different atm</cell><cell>Oxidation mechanisms: the oxide</cell><cell>scales: Cr 2 O 3 , continuous Mn 3 O 4 in</cell><cell>O 2 atm, Cr 2 O 3 , discontinuous Mn 3 O 4</cell><cell>and Mn 2 O 3 in H 2 O atm. Buckling and</cell><cell>spallation of Cr 2 O 3 layer in H 2 O atm,</cell><cell>suggesting prohibition of chromia</cell><cell>layer this HEA under the applications</cell><cell>at high oxygen partial pressures</cell><cell>and humid atm. The comparison</cell><cell>between HEA and CoCrNi MEA:</cell><cell>oxidation resistance of MEA is higher</cell><cell>than HEA due to the faster diffusion</cell><cell>and growth of Mn-rich porous scale</cell><cell>in HEA</cell><cell>Parabolic rate law Oxidation resistance: HEAs tested at</cell><cell>low pO 2 &gt; high pO 2</cell><cell>Oxidation mechanisms: outward</cell><cell>diffusion of cations is dominant</cell><cell>mechanism in all conditions, the</cell><cell>oxide scales exhibit p-type semi-con-</cell><cell>ductivity at high pO 2 ; triplex layers</cell><cell>formed in all conditions: external</cell><cell>layer: Mn 3 O 4 , intermediate layer:</cell><cell>heterophasic layer of Mn 3 O 4 , (Mn,</cell><cell>Cr) 3 O 4 , and Cr 2 O 3 , inner layer: Cr 2 O</cell></row><row><cell></cell><cell>Oxidation test parameters</cell><cell></cell><cell>Oxidation test at 1173 K up to 96 h</cell><cell>at different atmospheres: High</cell><cell>purity Ar gas with impurity levels of</cell><cell>O 2 &lt; 2 ppm, H 2 O &lt; 3 ppm, N 2 &lt; 5 ppm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Oxidation study at 1223 K by varying</cell><cell>oxygen partial pressures</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Processing</cell><cell></cell><cell>Induction melting in Ar atm and</cell><cell>homogenized at 1473 K for 48 h. Fur-</cell><cell>ther recrystallized at 1293 K for 1 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Arc melting in Ar atm followed by</cell><cell>annealing and homogenization at</cell><cell>1223 K for 48 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>continued)</cell><cell>FCC-HEA</cell><cell></cell><cell>CrCoFeNiMn</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>CrCoFeNiMn</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 3 (</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell>References</cell><cell></cell><cell>[77]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>[78]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Law that governs Key findings</cell><cell>Oxidation kinetics</cell><cell>Parabolic rate law Crystal structure: FCC in HEA-L (Co-</cell><cell>rich) with high Co, Cr, low Ni content</cell><cell>&amp; FCC + HCP-L1 2 in HEA-H (Ni-rich)</cell><cell>with high Ni and low Co, Cr concen-</cell><cell>trations</cell><cell>Oxidation resistance: HEA-H &gt; HEA-L.</cell><cell>Oxidation mechanisms: formation</cell><cell>of Cr 2 O 3 layer and thin discontinu-</cell><cell>ous Al 2 O 3 or Al-precipitates in both</cell><cell>alloys. Suggestion from the study:</cell><cell>compositional modification, espe-</cell><cell>cially higher Al, is necessary in both</cell><cell>cases to induce better oxidation</cell><cell>resistance</cell><cell>Parabolic rate law Oxidation resistance: Y/Hf doped</cell><cell>HEA &gt; HEA, oxidation resistance</cell><cell>increased with increasing Al content</cell><cell>Oxidation mechanisms: extremely</cell><cell>low oxidation rates and interfacial</cell><cell>bonding in Y/Hf doped HEA; Stage I:</cell><cell>formation of α-Al 2 O 3 layer in all the</cell><cell>alloys and nanoscale Y/Hf oxides</cell><cell>along the α-Al 2 O 3 grain boundaries</cell><cell>in Y/Hf doped HEAs. After stage</cell><cell>I: outer spinel layer and inner</cell><cell>α-Al 2 O 3 layers in low Al-HEA; single-</cell><cell>layer structure of α-Al 2 O 3 grains in</cell><cell>HEAs with medium and highest Al</cell><cell>content</cell></row><row><cell></cell><cell>Oxidation test parameters</cell><cell></cell><cell>Oxidation tests at 1273 K up to 24 h</cell><cell>under vacuum and up to 48 h in air</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Oxidation test at 1373 K up to 1000 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Processing</cell><cell></cell><cell>Arc melted under Ar atm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Arc melting in Ar atm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>continued)</cell><cell>FCC-HEA</cell><cell></cell><cell>AlCoCrFeNi</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Y/Hf doped Al x CoCrFeNi</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 3 (</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell>References</cell><cell></cell><cell>[79]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>[21]</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Law that governs Key findings</cell><cell>Oxidation kinetics</cell><cell>Parabolic rate law Oxidation resistance: HEA-Nb 0.9 &gt; HEA-</cell><cell>Nb 0</cell><cell>Oxidation mechanisms: initial forma-</cell><cell>tion of non-protective layers of NiO,</cell><cell>TiO 2 , CoO, Fe 2 O 3 , which cannot hin-</cell><cell>der the inward diffusion of Oxygen</cell><cell>in HEA-Nb 0 and lower oxidation rates</cell><cell>after longer exposure due to forma-</cell><cell>tion of denser protective Cr 2 O 3 layer;</cell><cell>formation of Nb-rich oxide layer that</cell><cell>acted as a diffusion barrier in HEA-</cell><cell>Nb 0.9 , restricting inward and outward</cell><cell>diffusions of O 2 and Al, respectively.</cell><cell>Al 2 O 3 layer at 1173 K was reported to</cell><cell>be a non-protective layer</cell><cell>Not available Oxidation mechanisms: HEAs without</cell><cell>Nb and Ti formed α-Al 2 O 3 layer; the</cell><cell>addition of Nb promoted the growth</cell><cell>of α-Al 2 O 3 layer, while oxidation</cell><cell>resistance decreased by adding Ti</cell><cell>due to the formation of less protec-</cell><cell>tive TiO 2 and Fe3O 4 layers</cell><cell>Not available Oxidation mechanisms: The oxidation</cell><cell>results of HEAs were compared with</cell><cell>Ni-based superalloys. The existence</cell><cell>of Cr and Al elements in HEAs led</cell><cell>to forming a protective layer that</cell><cell>resulted in higher oxidation resist-</cell><cell>ance. The formation of Al</cell></row><row><cell></cell><cell>Oxidation test parameters</cell><cell></cell><cell>Oxidation test at 1173 K up to 200 h in</cell><cell>furnace-air</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Oxidation test in steam at 1473 K for</cell><cell>1 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Isothermal oxidation test 1173 K and</cell><cell>1373 K</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>continued)</cell><cell>FCC-HEA Processing</cell><cell></cell><cell>Al 0.2 Co 1.5 CrFeNi 1.5 Ti 0.3 Nb x(x=0, 0.9) Arc melting under Ar atm followed by</cell><cell>solution heat treatment at 1423 K for</cell><cell>6 h and aging at 1023 K for 50 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>AlCrFeNiNb x Ti x Arc melting in Ar atm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>AlCrCoNiFeTi Vacuum arc melting and casting ingot</cell><cell>prepared by vacuum induction</cell><cell>melting</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head></head><label></label><figDesc>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creat iveco mmons .org/licen ses/by/4.0/.</figDesc><table /></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author contributions BRA: Writing-original draft preparation, validation, conceptualization, methodology, Literature search and analysis, visualization, resources, project administration; SS: Writing-original draft preparation, validation, conceptualization, methodology, Literature search and analysis, visualization, resources; MT: Supervision, conceptualization, validation, resources, writing-review and editing; AB: Supervision, conceptualization, validation, writing-review and editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and material</head><p>All data generated or analyzed during this study are included in this published article. Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Cooling rate and size effect on the microstructure and mechanical properties of AlCoCrFeNi high entropy alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Eng Mater Technol</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page">34501</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Nanostructured highentropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Four outstanding researchers in metallurgical history</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">American Society for Testing and Materials</title>
+		<meeting><address><addrLine>Baltimore</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ith</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajb</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Design of a twinning-induced plasticity high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kostka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="124" to="133" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Confusion by design</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Greer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="page" from="303" to="304" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of Cu addition on the microstructure and mechanical properties of AlCoCrFeNiTi0.5 solid-solution alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">466</biblScope>
+			<biblScope unit="page" from="201" to="204" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microstructure and electrochemical properties of high entropy alloys-a comparison with type-304 stainless steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">D</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Shih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="2257" to="2279" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microstructure, hardness, resistivity and thermal stability of sputtered oxide films of AlCoCrCu0.5NiFe high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Lui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">457</biblScope>
+			<biblScope unit="page" from="77" to="83" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Oxidation behavior of a refractory NbCrMo0.5Ta0.5TiZr alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dimiduk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="6522" to="6534" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Pitting corrosion of the high-entropy alloy Co1.5CrFeNi1.5Ti0.5Mo0.1 in chloridecontaining sulphate solutions</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Shih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="3481" to="3491" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="1153" to="1158" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of aging temperature on microstructure and properties of AlCo-CrCuFeNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="266" to="269" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb25Mo25Ta25W25 and V20Nb20Mo20Ta20W20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Synthesis and properties of multiprincipal component AlCoCrFeNiSix alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="page" from="27" to="28" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys: a critical review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Res Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="107" to="123" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation behavior of Cr-Mn-Fe-Co-Ni high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Joo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="45" to="53" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Oxidation behavior of high-entropy alloys AlxCoCrFeNi (x=0.15, 04) in supercritical water and comparison with HR3C steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans Nonferrous Met Soc China</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1341" to="1351" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Oxidation study of CoCrCuFeNiSix high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shaik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chopkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Basu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Res Exp</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">16532</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Pettit</surname></persName>
+		</author>
+		<title level="m">Introduction to the hightemperature oxidation of metals</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Oxidation behavior and microstructure evolution of alumina-forming austenitic and high entropy alloys in steam environment at 1200 °C</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jianu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page">108654</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Wear and oxidation resistances of AlCrFeNiTi-based high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z-S</forename><surname>Nong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y-N</forename><surname>Lei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-C</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="144" to="151" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Oxidation of Ni-Cr-Al Alloys Between 1000° and 1200°C</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Giggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Pettit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Electrochem Soc</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="1782" to="1790" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Some limiting factors in the use of alloys at high temperatures</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Wallwork</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Z</forename><surname>Hed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="171" to="184" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The oxidation behavior of the quinary FeCoNiCrSix high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Kai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Chem Phys</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="362" to="369" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation behavior of an equimolar refractory metal-based alloy 20Nb-20Mo-20Cr-20Ti-20Al with and without Si addition</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-J</forename><surname>Christ</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">688</biblScope>
+			<biblScope unit="page" from="468" to="477" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Structure of the high-entropy alloy AlxCrFeCoNi: fcc versus bcc</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ogura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fukushima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Dederichs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">715</biblScope>
+			<biblScope unit="page" from="454" to="459" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Nonisothermal and isothermal oxidation behavior of Nb-Si-Mo alloys</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chattopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Ray</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall Mater Trans A</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="577" to="592" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">High temperature strength, fracture toughness and oxidation resistance of Nb-Si-Al-Ti multiphase alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Murayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hanada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Technol Adv Mater</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="145" to="156" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Formation of alumina on Nb-Al alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr Metall</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="419" to="424" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effect of lattice distortion on the diffusion behavior of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">825</biblScope>
+			<biblScope unit="page">154099</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Dislocation pipe diffusion</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Love</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="731" to="737" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Microstructure and oxidation behavior of new refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="162" to="169" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Research progress in high temperature oxidation resistance of Nb and Nb-based alloys</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Q</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Prot</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="4" to="8" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Oxidation of Nb-Si-Cr-Al in situ composites with Mo, Ti and Hf additions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Geng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tsakiropoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Shao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">441</biblScope>
+			<biblScope unit="page" from="26" to="38" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Microstructure and oxidation behavior of mechanically alloyed Nb-Based multiphase superalloy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Iron Steel Res Int</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Metallic materials for structural applications beyond nickel-based superalloys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krüger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="61" to="67" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Silicon contamination effects in the oxidation of carbide-containing cobaltchromium alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Durcham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gleeson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Corros</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="855" to="863" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The effect of Si additions on the high-temperature oxidation of a ternary Ni-10Cr-4Al Alloy in 1 ATM O2 AT 900-1000</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gesmundo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Niu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="299" to="315" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Phase equilibria, microstructure, and high temperature oxidation resistance of novel refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="270" to="278" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Mechanism of isothermal oxidation of the intermetallic TiAl and of TiAl alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rahmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schütze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="425" to="464" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Oxidation response of a vacuum arc melted NbZrTiCrAl refractory high entropy alloy at 800-1200</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vacuum</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="20" to="27" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Enhanced oxidation resistance of MoTaTiCrAl high entropy alloys by removal of Al</title>
+		<author>
+			<persName><forename type="first">L-C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40843-020-1332-2</idno>
+		<ptr target="https://doi.org/10.1007/s40843-020-1332-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci China Mater</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">High-temperature oxidation behavior of Al-Co-CrNi-(Fe or Si) multicomponent high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Alfano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Martens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Weaver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="246" to="259" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Oxidation behavior between 700 and 1300 °C of refractory TiZrNbHfTa high-entropy alloys containing aluminum</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Titus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">1700948</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">An oxidation resistant refractory high entropy alloy protected by CrTaO4based oxide</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">7266</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">High-temperature oxidation behavior of refractory high-entropy alloys: effect of alloy composition</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="339" to="349" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Effect of Al and Ti on high-temperature oxidation behavior of CoCrFeNi-based highentropy alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Erdogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Doleker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zaytin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="3499" to="3510" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effect of microalloying with silicon on high temperature oxidation resistance of novel refractory high-entropy alloy Ta-Mo-Cr-Ti-Al</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater High Temp</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="168" to="176" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Microstructure, mechanical and thermal oxidation behavior of AlNbTiZr high entropy alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jayaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thirathipviwat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gebert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="9" to="19" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Oxidation behavior of refractory AlNbTiVZr0.25 highentropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Panina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zherebstov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stepanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">2526</biblScope>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Basel</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Influence of Al content on high temperature oxidation behavior of AlxCoCrFeNiTi05 high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vacuum</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="263" to="268" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Oxidation resistance properties of refractory high-entropy alloys with varied AlxCrTiMo content</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tulugan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Met Corros</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="3551" to="3561" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Multi-principal-element alloys with improved oxidation and wear resistance for thermal spray coating</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="74" to="78" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Formation of simple crystal structures in solid-solution alloys with multi-principal metallic elements</title>
+		<author>
+			<persName><forename type="first">Yeh</forename><surname>Jw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall Mater Trans A</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2533" to="2536" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Microstructure characterization of AlxCoCrCuFeNi high-entropy alloy system with multiprincipal elements</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall Mater Trans A</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="881" to="893" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Atomic packing efficiency and phase transition in a high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Wang</forename><surname>Fj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">478</biblScope>
+			<biblScope unit="page" from="321" to="324" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation behavior of Al0.6CrFeCoNi and Al0.6CrFeCoNiSi0.3 high entropy alloys</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">764</biblScope>
+			<biblScope unit="page" from="845" to="852" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Oxidation behavior of the CrMnFeCoNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">F</forename><surname>Volkert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="629" to="645" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation of iron-manganese-aluminum based alloys</title>
+		<author>
+			<persName><forename type="first">Prs</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Wallwork</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="135" to="170" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Microstructural development in the oxidation-induced phase transformation of Fe-Al-Cr-Mnalloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Duh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2649" to="2660" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">High tempeature oxidation of Fe-31 Mn-9Al-xCr-0.87C alloys (x = 0, 3 and 6)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Duh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="268" to="276" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The oxidation and carburization of Fe-Mn-Al alloys in a carbon-containing atmosphere</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1021" to="1035" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation of austenitic stainless steel in low oxygen pressure</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Wild</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">87-93</biblScope>
+			<biblScope unit="page" from="95" to="104" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The influence of manganese on the High-temperature oxidation of iron-chromium alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Stott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Enahoro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Corros</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="198" to="205" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">The oxidation of Iron-Chromium-Manganese alloys at 900°C</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Marasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="157" to="174" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The air oxidation of an austenitic Fe-Mn-Cr stainless steel for fusion-reactor applications</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Douglass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gesmundo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>De Asmundis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="235" to="268" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The oxidation of Fe-19.6Cr-15.1Mn stainless steel</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Douglass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rizzo-Assuncao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid. Met</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="271" to="287" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The high-temperature oxidation of iron-chromium-nickel alloys containing 0-30% chromium</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Croll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Wallwork</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="121" to="140" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The oxidation behavior of Ni2FeCoCrAlx high-entropy alloys in dry air</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">R</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">836</biblScope>
+			<biblScope unit="page">155518</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Oxidation of CoCrFeMnNi high entropy alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tylczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2326" to="2339" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">The influence of manganese on the High-temperature oxidation of iron-chromium alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Stott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">I</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Enahoro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Met Corros</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="198" to="205" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The oxidation behavior of a Ni2FeCoCrAl0.5 high-entropy superalloy in O2-containing environments</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Chien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page">108093</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Thermal oxidation characteristics of Fex(CoCrMnNi)100-x medium and high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Agustianingrum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Latief</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">106757</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">High-Temperature oxidation in dry and humid atmospheres of the equiatomic CrMnFeCoNi and CrCoNi high-and medium-entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Schreb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schulz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Karafiludis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11085-020-10014-7</idno>
+		<ptr target="https://doi.org/10.1007/s11085-020-10014-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Oxid Met</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">The oxidation behavior of an equimolar FeCoNiCrMn high-entropy alloy at 950•C in various oxygen-containing atmospheres</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="209" to="214" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation behaviour of non-equimolar AlCoCrFeNi high entropy alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gawel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rogal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dabek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W-Baniaprzybylski</forename><surname>Mk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vacuum</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page">109969</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Effect of Al content on the oxidation behavior of Y/Hf-doped AlCoCrFeNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros Sci</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page">108691</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Improvement in oxidation behavior of Al0.2Co1.5CrFeNi1.5Ti0.3 highentropy superalloys by minor Nb addition</title>
+		<author>
+			<persName><forename type="first">J-J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-M</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P-T</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">825</biblScope>
+			<biblScope unit="page">153983</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation and corrosion properties of high entropy superalloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Tsao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murakami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Fabrication and properties of Ti(C, N)based cermets with multi-component AlCoCrFeNi high-entropy alloys binder</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Lett</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="80" to="82" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Early high-temperature oxidation behavior of Ti(C, N)-based cer-mets with multi-component AlCoCrFeNi high-entropy alloy binder</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Refract Met Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="35" to="41" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

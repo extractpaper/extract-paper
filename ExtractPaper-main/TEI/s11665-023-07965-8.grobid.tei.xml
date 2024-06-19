@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve"
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Enhanced Corrosion Resistance of Harmonic Structured Cantor Alloy in Hank’s Simulated Body Fluid</title>
+				<funder ref="#_TbY3X6e #_u27y4Dg">
+					<orgName type="full">JSPS KAKENHI</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Springer Science and Business Media LLC</publisher>
+				<availability status="unknown">
+					<p>Copyright Springer Science and Business Media LLC</p>
+				</availability>
+				<date type="published" when="2023-03-02">2 March 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Debdipta</forename>
+								<surname>Banik</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>208016</postCode>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Characterization Research Group</orgName>
+								<orgName type="institution">R&amp;D Tata Steel Limited</orgName>
+								<address>
+									<postCode>831007</postCode>
+									<settlement>Jamshedpur</settlement>
+									<region>Jharkhand</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Saikat</forename>
+								<surname>Mandal</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>208016</postCode>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Characterization Research Group</orgName>
+								<orgName type="institution">R&amp;D Tata Steel Limited</orgName>
+								<address>
+									<postCode>831007</postCode>
+									<settlement>Jamshedpur</settlement>
+									<region>Jharkhand</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">S</forename>
+								<surname>Mukherjee</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>208016</postCode>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Hiroshi</forename>
+								<surname>Fujiwara</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>208016</postCode>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Science and Engineering</orgName>
+								<orgName type="institution">Ritsumeikan University</orgName>
+								<address>
+									<postCode>525-8577</postCode>
+									<settlement>Kusatsu</settlement>
+									<region>Shiga</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">K</forename>
+								<surname>Ameyama</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>208016</postCode>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Faculty of Science and Engineering</orgName>
+								<orgName type="institution">Ritsumeikan University</orgName>
+								<address>
+									<postCode>525-8577</postCode>
+									<settlement>Kusatsu</settlement>
+									<region>Shiga</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">K</forename>
+								<surname>Mondal</surname>
+							</persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Indian Institute of Technology</orgName>
+								<address>
+									<postCode>208016</postCode>
+									<settlement>Kanpur</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Characterization Research Group</orgName>
+								<orgName type="institution">R&amp;D Tata Steel Limited</orgName>
+								<address>
+									<postCode>831007</postCode>
+									<settlement>Jamshedpur</settlement>
+									<region>Jharkhand</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Enhanced Corrosion Resistance of Harmonic Structured Cantor Alloy in Hank’s Simulated Body Fluid</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Journal of Materials Engineering and Performance</title>
+						<title level="j" type="abbrev">J. of Materi Eng and Perform</title>
+						<idno type="ISSN">1059-9495</idno>
+						<idno type="eISSN">1544-1024</idno>
+						<imprint>
+							<publisher>Springer Science and Business Media LLC</publisher>
+							<biblScope unit="volume">33</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="385" to="397"/>
+							<date type="published" when="2023-03-02">2 March 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E3D9B563A85C64D169567CF3448C42E4</idno>
+					<idno type="DOI">10.1007/s11665-023-07965-8</idno>
+					<note type="submission">Submitted: 15 November 2022 / Revised: 25 January 2023 / Accepted: 1 February 2023 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-28T15:54+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>cantor alloy</term>
+					<term>corrosion</term>
+					<term>harmonic structure</term>
+					<term>polarization</term>
+					<term>simulated body fluid</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>Present study deals with the corrosion behavior of a harmonic structured Cantor alloy (FeCrMnNiCo) in freely aerated HankÕs simulated body fluid. Harmonic structure featuring distinguished core regions containing clusters of coarse grains and shell regions containing a continuous network of fine grains is attained by powder metallurgical route. X-ray diffraction confirmed FCC structure both in the core and shell regions. Corrosion tests were carried out on the harmonic structured Cantor alloy and compared with its conventional counterpart and harmonic structured 316L stainless steel, a well-known biomaterial. The corrosion resistance of the harmonic structured Cantor alloy is found to be better than the conventional one and comparable to the harmonic structured 316L stainless steel. During corrosion, enrichment of Cr at the shell regions of the harmonic structured Cantor alloy allows early passivation, leading to its enhanced corrosion resistance.</p>
+				</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1.">Introduction</head>
+				<p>The grain size is a critical factor for desired mechanical properties (Ref 1). Grain size also modifies the corrosion properties due to the change in the fraction of the high angle grain boundary (HAGB). A higher fraction of HAGB allows better passivation for passivating conditions (Ref 2). To combine the properties of the coarse and fine grains, a novel bimodal microstructure known as harmonic structure, where a continuous network of fine grains (shell) surrounds the clusters of coarse grains (core), is obtained ( <ref type="bibr">Ref 3,</ref>
+					<ref type="bibr" target="#b3">4)</ref>. Harmonic structure can be obtained by deforming the surface of the powder particles, keeping the core undeformed. During sintering, the deformed grains recrystallize to form fine grains, and the grains at the core remain unaltered. Harmonic structured materials have shown improved mechanical properties than their non-harmonic counterparts (Ref 3 <ref type="bibr">-7)</ref>. Harmonic structure of metals like Ni, Ti have shown improved yield strength and ultimate tensile strength without any significant loss in ductility ( <ref type="bibr">Ref 3,</ref>
+					<ref type="bibr" target="#b3">4)</ref>.					<ref type="bibr">Vajpai et al.</ref> have established that uniformly distributed core-shell regions in harmonic structured Co-Cr-Mo alloy provides increased strength as well as ductility due to the suppression of localized plastic deformation (Ref 6). A harmonic structured 316L stainless steel (HS316L) also possesses improved strength and ductility than its conventional counterparts ( <ref type="bibr">Ref 7)</ref>. On the other hand, Rai et al. have found that the HS316L in HankÕs simulated body fluid (SBF) shows better passivation than the conventional and non-harmonic counterparts (Ref 8).</p>
+				<p>Cantor et al. have discovered that equiatomic Cr, Mn, Fe, Co, and Ni form a single face centered cubic (FCC) phase <ref type="bibr">(Ref 9)</ref>. This alloy, known as Cantor alloy, exhibits superior tensile properties at room and cryogenic temperatures ( <ref type="bibr">Ref 10,</ref>
+					<ref type="bibr" target="#b11">11)</ref>. The ultimate tensile strength of 1500 MPa is achieved in Cantor alloy by rolling at 77 K to provide 80% thickness strain ( <ref type="bibr">Ref 11)</ref>. The corrosion properties of Cantor alloy in acidic and neutral media are comparable to that of 304 or 304L stainless steel <ref type="bibr">(Ref 12,</ref>
+					<ref type="bibr" target="#b13">13)</ref>. Recently, the group of Prof. Kei Ameyama have obtained harmonic structure in Cantor alloy and found out that harmonic structured Cantor alloy showed increased yield strength and ultimate tensile strength (unpublished work). The harmonic structured Cantor alloy showed yield strengths of 273.7 and 306.7 MPa at room temperature and at 193 K, respectively. The yield strengths obtained from sintering the initial powder of the Cantor alloy are 246.2 and 257.5 MPa at room temperature and 193 K, respectively. These data indicate an improvement in mechanical strengths due to the attainment of the harmonic structure. Banik et al. have found that the harmonic structed Cantor alloy shows better corrosion resistance than the conventional Cantor alloy and harmonic structured 304L stainless steel (Ref <ref type="figure" target="#fig_4">14</ref>). It would be interesting to understand the corrosion behavior of the conventional and harmonic structured Cantor alloys in HankÕs solution with respect to the 316 L stainless steel, which is considered to be an excellent biomaterial because of its inherent corrosion resistance in human body as well as biocompatibility (Ref 15). However, the corrosion and biocompatibility of the Cantor alloy in HankÕs simulated body fluid (SBF) are yet to be explored in the existing literature. Hence, the harmonic structured Cantor alloy can be taken up for corrosion and bio-compatibility analysis in HankÕs solution because it shows better mechanical properties as compared to the conventional one (unpublished work by the group of Ameyama et al.).</p>
+				<p>In the present context, only the corrosion studies of the harmonic structured Cantor alloy (HSCA) are conducted in freely aerated HankÕs SBF solution using cyclic polarization, linear polarization, and electrochemical impedance spectroscopy tests. The conventional Cantor alloy (CCA) and the harmonic structured 316L stainless steel (HS316L) both made by powder metallurgical route are also employed for comparison. The reason for different corrosion behavior of the three alloys has been analyzed with the help of detailed microstructural and Raman spectroscopic characterization.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.">Materials and Methods</head>
+				<p>The initial powder of the Cantor alloy of mean particle size $ 314 ± 97 lm was made by the Plasma rotating electrode process (Ref <ref type="figure" target="#fig_6">16</ref>). Commercial gas-atomized 316L stainless steel powder of particle sizes 1-20 lm was sourced from Fukuda Metal Foil &amp; Powder Co., Ltd. The composition (wt.%) of these materials is given in Table <ref type="table" target="#tab_1">1</ref>. The powders of Cantor alloy and 316L stainless steels were mechanically milled in Fritch P-5 planetary ball mill in Argon atmosphere for 50 h. The balls (diameter $ 4.8 mm) were made of SUJ2 steel and the ball to power ratio (w:w) was 2:1. The milled powders and initial powder of Cantor alloy were sintered at 950 °C with a heating rate of 50 °C/min and holding time of 1 h using spark plasma sintering technique (LABOX-675, NJS). Vacuum atmosphere (P&lt; 5 Pa) was created inside the furnace and a constant pressure of 100 MPa was applied throughout the holding time. After sintering, the samples were cooled in the furnace. The parameters for the mechanical milling and sintering are also put in tabulated form (Table <ref type="table" target="#tab_2">2</ref>). Thus, the HSCA and HS316L were produced. Initial powder of the Cantor alloy without ball milling was also sintered using the same sintering parameters mentioned. This is termed as the conventional Cantor alloy (CCA). One flat surface of the sintered samples was ground on emery papers (P180-2000 grit). Subsequently, the surface was polished on a selvyt cloth (0.5 lm alumina), and further polished in a vibratory polisher with 50 nm colloidal silica suspended in deionized water for 6 h.</p>
+				<p>The electron backscattered diffraction (EBSD) was executed in a field emission scanning electron microscope (JEOL JSM-7100F). Energy dispersive spectroscopy (EDS) analysis was also performed along with the EBSD scanning. X-ray diffraction (XRD) patterns in the range 20 °-100 °were recorded using an x-ray diffractometer (Panalytical Empyrean) with Cu-K a radiation (wavelength = 1.54 A ˚).</p>
+				<p>The corrosion studies were performed in a flat bottom cell where the sample acted as the working electrode, Pt mesh as counter electrode, saturated calomel electrode as reference electrode, and the HankÕs simulated body fluid (composition (g/ L): NaCl-8, KCl-0.4, CaCl 2 -0. Initially, the open circuit potential (OCP) was recorded for 2 h for arriving at the stable potential. Linear polarization (LP) was performed ((À 20 to + 20) mV vs OCP) at a scan rate of 1/6 mV/s. Subsequently, cyclic polarization (CP) was performed from 0.15 V vs OCP to + 1 V vs reference at a scan rate of 0.5 mV/ s. Electrochemical impedance spectroscopy (EIS) was also performed at OCP (AC amplitude: 10 mV) with a frequency range100 kHz-0.1 Hz.</p>
+				<p>After the CP test, samples were taken out of the cell and dried under an incandescent bulb. Raman spectroscopy was performed on the corrosion product on the surface. The Raman spectra of all the samples were recorded with a Raman spectrophotometer (Acton Spectra Pro -SP 2500). Nd:YAG laser with 532 nm wavelength was used as the light source to generate the Raman spectra. XRD was also performed using the same parameters on the corroded surface to identify the phases formed during corrosion further. Micrographs and elemental mappings were conducted in a tungsten scanning electron microscope (JEOL; JSM-6010LA). Optical profilometry (Bruker contour GTX) was also performed on the corroded surface to check the surface profile after corrosion. The CCA shows almost uniform grains (Fig. <ref type="figure" target="#fig_2">1a</ref>), whereas the HSCA Fig. <ref type="figure" target="#fig_2">1(b</ref>) and HS316L steels (Fig. <ref type="figure" target="#fig_2">1c</ref>) show clearly distinguished fine-grained shell and coarse-grained core regions. The grain size and the grain boundary density are calculated with the help of the inverse pole figure (IPF) maps and image contrast maps (Fig. <ref type="figure" target="#fig_1">2a-f</ref>). Figure <ref type="figure" target="#fig_1">2(a)-(i)</ref> shows the micrographs and data analysis during the characterizations of these three materials by EBSD and XRD. The inverse pole figure (IPF) maps of the CCA, HSCA, and HS316L are put together in Fig. <ref type="figure" target="#fig_1">2(a)-(c</ref>) with the Fe FCC IPF color code is given in the inset of Fig. <ref type="figure" target="#fig_1">2(a)</ref>. Figure <ref type="figure" target="#fig_1">2(d)-(f)</ref> shows the image quality map of the CCA, HSCA, and HS316L with high angle grain boundary colored in blue.    samples. It has already been mentioned that the CCA does not undergo mechanical milling before sintering. Hence, the grain size (30 ± 15 lm) does not differ much in the CCA (Fig. <ref type="figure" target="#fig_1">2a</ref> and<ref type="figure">d</ref>). Prominent core and shell regions are formed in the HSCA and the HS316L (Fig. <ref type="figure" target="#fig_1">2b,</ref>
+					<ref type="figure">c</ref>, e and f) since they have gone for surface deformation and subsequent recrystallization during sintering. The area fraction of the shell region is more for HS316L (55 ± 5%) than HSCA (10 ± 2%). The expanded shell region in the HS316L is achieved due to the decreased size of its initial powder (1-20 lm), which would definitely be deformed at greater depth than that in the HSCA. Hence, recrystallization would also progress to larger region in the former. The plot in Fig. <ref type="figure" target="#fig_1">2</ref>(g) shows that the mean grain size of the CCA (30 ± 15 lm) is much higher than the harmonic structured materials, and it is the lowest for the HS316L (6 ± 3 lm). The core region (20 ± 14 lm) of the HSCA is also greater than that of the HS316L (12 ± 10 lm). However, the grain sizes of both the harmonic structured materials in the shell regions (2.5 ± 1.5 lm) are similar. Due to the presence of more shell regions, the mean grain size of the HS316L is less than that of the HSCA (8 ± 4 lm). The area plots reflecting the fraction of high angle grain boundary (HAGB) are shown in Fig. <ref type="figure" target="#fig_1">2(h</ref>). This also reflects the following trend: HS316L &gt; HSCA &gt; CCA because smaller grains increase the grain boundary fractions. The XRD plots in Fig. <ref type="figure" target="#fig_1">2</ref>(i) show FCC peaks for all materials indicating that no new phase has formed in the core or the shell regions. Figure <ref type="figure" target="#fig_3">3</ref>(a)-(f), 4(a)-(f), and 5(a)-(f) shows the elemental EDS mappings of the major alloying elements in the CCA, HSCA, and HS316L, respectively. No enrichment or depletion of the major alloying elements has been observed in the CCA (Fig. <ref type="figure" target="#fig_3">3a-f</ref>). However, Fe enrichment has been observed in the shell regions of the HSCA as marked with arrowhead in Fig. <ref type="figure" target="#fig_4">4(d)</ref>. The compositional increment of Fe in the shell regions of is $ 4 wt.% from the base compositions. In the HSCA, the composition of Cr does not deviate in the core or shell regions. However, Mn, Ni, and Co get depleted from shell regions by $ 1.5 wt.%. The HSCA has undergone mechanical milling prior to sintering. The deformed grains formed by mechanical milling act as active diffusion sites during sintering. As the components of the Cantor alloy have different diffusivity, compositional fluctuations occur in the used HSCA. This enrichment and depletion show a similar trend in another work of the current authors, where Fe gets enriched in the shell regions of the HSCA and the harmonic structured 304L stainless steel, and Cr only gets depleted in the shell regions of the harmonic structured 304L stainless steel (Ref 14). However, no enrichment or depletion of alloying elements has been observed in the HS316L (Fig. <ref type="figure" target="#fig_5">5a-f</ref>) even though it has gone through the same milling and sintering treatments as the HSCA. A possible explanation for this uniformity in the HS316L can be explained by its size of the initial powder. It is already mentioned that the initial powder of the HS316L has the size of 1-20 lm and the shell is considered where the grain size is &lt; 4 lm. Hence, the shell region is hugely expanded in the HS316L along with even decreased average grain size in the core regions. Hence, the compositional variation is not prominent in the HS316L.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.">Results and Discussions</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.2">Corrosion Studies</head>
+				<p>The plots obtained from the corrosion experiments are put together in Fig. <ref type="figure" target="#fig_6">6(a)-(d)</ref>, and the corresponding data are shown in Tables <ref type="table" target="#tab_3">3</ref> and<ref type="table" target="#tab_4">4</ref>. Table <ref type="table" target="#tab_3">3</ref> shows the data obtained from polarization studies and Table <ref type="table" target="#tab_4">4</ref> shows the data obtained from EIS study. The steady-state OCP value (Table <ref type="table" target="#tab_3">3</ref>) of the HSCA and the HS316L are similar but greater than that of the CCA, indicating high activity of the CCA. From the LP plots   the CCA in our study. It can be recognized that the presence of fine grains in the shell regions are responsible for the increment in R P of the HSCA. Similarly, the obtained E corr and i corr trends (Fig. <ref type="figure" target="#fig_6">6b</ref>) reciprocate the OCP and R P trends. An important observation (Fig. <ref type="figure" target="#fig_6">6b</ref>) is that the HS316L shows prominent passivation up to $ 0.4 V. The anodic curve of the HSCA also shows passivation up to $ À 0.1 V. In contrast, limited passivation is observed for the CCA. It is already mentioned    . In this study, the HS316L provides the highest HAGB/area (Fig. <ref type="figure" target="#fig_1">2h</ref>). Hence, better passivation for this material is obtained. Similarly, the better passivation of the HSCA than the CCA can also be explained by the fact that HAGB/area of HSCA is greater than that of the CCA. However, increased HAGB fraction can have detrimental effects too. Joham et al. have reported that increased HAGB fraction increases the degree of sensitization in the 304 stainless steels (Ref 18). It is also reported that the normalized 316L stainless steel sensitizes when soaked in the temperature range 750-800 °C for more than 30 min (Ref <ref type="figure" target="#fig_9">19</ref>).
+				</p>
+				<p>In our study, the heating rate for sintering was 50 °C/min and during cooling, the mentioned temperature range was covered within 2 min. Hence, sensitization is restricted in the HS316L.</p>
+				<p>For the Cantor alloy samples, the carbon content (&lt; 0.01 wt.%) is less than the HS316L (0.018 wt.%). Hence, the chance of sensitization is even less than the HS316L. It is also observed in the EDS maps (Fig. <ref type="figure" target="#fig_3">3</ref>, 4 and 5) that no Cr segregation or depletion takes place in either of the samples. Thus, it can be confirmed that the detrimental effect of HAGB is not applicable in this study. Another important finding is that the reverse scans of all CP curves show positive loop and follow greater i values than the forward scans indicating the poor re-passivation tendency of the materials. EIS has also been performed to gain knowledge about the alternating current response of the samples. EIS data are analyzed by fitting an equivalent R(Q(R(CR))) circuit given in the inset of Fig. <ref type="figure" target="#fig_6">6(c</ref>). This circuit is mostly suitable for porous corrosion product (Ref 20, 21). Here, R represents resistance, and CPE (constant phase element) signifies a partial capacitance denoted as Q. The relation between CPE and impedance Z Q is mentioned below (Ref 20):</p>
+				<formula xml:id="formula_0">Z Q ¼ 1=Q jx ð Þ n ðEq<label>2Þ</label>
+				</formula>
+				<p>Here Z Q denotes the impedance attained by CPE, j (j = Ö À 1) is the imaginary unit in complex number plane, x signifies angular frequency (2pf), and n is a factor (0 &lt;n&lt;1). The factor n becomes 1 for a purely capacitive circuit and becomes 0 for a purely resistive circuit. Surface inhomogeneity dictates the value of n (Ref 8, 21). In the shown R(Q(R(CR))) circuit in Fig. <ref type="figure" target="#fig_6">6</ref>(c), R S denotes the solution resistance, R f represents the resistance produced by the corrosion product, R C signifies the charge transfer resistance, CPE f is the CPE of the corrosion product, and C dl shows the capacitance offered by the double layer. v 2 (Table <ref type="table" target="#tab_4">4</ref>) is a statistical distribution function. v 2 for all the tested samples are in the order of 10 À3 indicating a good fit of the chosen circuit. The Nyquist (Fig. <ref type="figure" target="#fig_6">6c</ref>) plots indicate that incomplete semi-circles are formed in this study. The values are modeled from the nature of the fitted plots. The R S values are close to each other in all the tested materials. As the materials were tested in same electrolyte, it can be assumed that the properties of the metal ions in the electrolyte are similar at higher frequencies. It is also observed that the R C is highest in the HS316L, and lowest in the CCA. The HSCA has an R C value close to the HS316L. This behavior of the materials is further explained by the Bode plots (Fig. <ref type="figure" target="#fig_6">6d</ref>). The |Z| value and the phase angle values are calculated by the following equations, respectively (Ref 20):</p>
+				<formula xml:id="formula_1">Z j j 2 ¼ R 2 þ Z 2 Q considering no inductance is present ð Þ ðEq 3Þ Phase angle ¼ tan À1 Z Q = R À Á considering no inductance is present ð Þ ðEq<label>4Þ</label>
+				</formula>
+				<p>The final |Z| values from the Bode absolute plots (black colored plots in Fig. <ref type="figure" target="#fig_6">6d</ref>) show a trend of HS316L ($ 65,679 X cm 2 ) &gt; HSCA ($ 58,696 X cm 2 ) &gt; CCA ($ 54,683 X cm 2 ). The |Z| signifies the real-time impedance at corresponding frequencies. It is readily observed in the Nyquist plot in Fig. <ref type="figure" target="#fig_6">6(c</ref>) that the HS316L shows a more ZÕ than HSCA with almost same Z'' value. Hence, the HS316L shows a higher |Z| value than the HSCA. The CCA even with having more ZÕ value than the HSCA in the Nyquist plot, shows less |Z| value because Z'' is significantly less in the CCA than the HSCA. It can be determined from the Bode absolute plots that the HS316L shows better corrosion resistance than the HSCA and the CCA. The time constant from the Bode phase angle plots (blue colored plots in Fig. <ref type="figure" target="#fig_6">6d</ref>) also shows this similar trend of HS316L ($ 70 °) &gt; HSCA ($ 68 °) &gt; CCA ($ 61 °). Greater time constant signifies a better corrosion resistance <ref type="bibr" target="#b12">[12]</ref>. Hence, the trend is also similar to the earlier tests. The time constant for the HS316L (10 Hz) is achieved earlier than the HSCA (1.58 Hz). Since both materials have shown passivation (Fig. <ref type="figure" target="#fig_6">6b</ref>), it can be estimated that HS316L has better passivating tendency than HSCA.</p>
+				<p>From the corrosion studies, it is obvious that the HSCA shows comparable corrosion resistive properties with the HS316L and greater than the CCA. It is also obvious that the presence of fine-grained shell regions is responsible for the betterment of the corrosion resistive properties in HSCA.  The CCA shows more Raman peaks than the HSCA and HS316L samples (Fig. <ref type="figure" target="#fig_8">7a</ref>). Iron rusts like goethite and hematite are also found along with ferrihydrite ( <ref type="bibr">Ref 22)</ref>. Other than iron rusts, Cr oxides like Cr 2 O 3 , CrO 2 , and CrO 3 are also found in the corrosion product (Ref 24). It is evident that more corrosion takes place in the CCA than the HSCA and the HS316L (Fig. <ref type="figure" target="#fig_6">6a-d</ref>). Hence, more constituents are found in the corrosion product. In the HSCA (Fig. <ref type="figure" target="#fig_8">7b</ref>) and the HS316L (Fig. <ref type="figure" target="#fig_8">7c</ref>), the ferrihydrite humps were more prominent than the other Ge ´nin et al. have shown that ferrihydrite formation takes place when iron corrosion is slowed down <ref type="bibr">(Ref 25)</ref>. This result also explains the fact that the HSCA and the HS316L show more corrosion resistance than the CCA. The HSCA also shows peaks of goethite, hematite, and magnetite (Fe 3 O 4 ). The HS316L also shows goethite and hematite peaks. However, magnetite peak is not observed in HS316L. Among the Cr oxides, Cr 2 O 3 peak can be observed in the HSCA and the HS316L. The amount of ferrihydrite is calculated from the intensity of individual Raman spectrum. The presence of ferrihydrite is in the ratio 1:1.4:2 in the CCA, HSCA, and HS316L respectively. Presence of more amount of ferrihydrite can also be correlated to the improved corrosion resistance and passivation of the HS316L.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.3">Post Corrosion Characterizations</head>
+				<p>The XRD patterns (Fig. <ref type="figure">8a-c</ref>) show a-Fe 2 O 3 , Cr 2 O 3 , and Fe peaks. It can be visualized that the Fe peaks in the CCA (Fig. <ref type="figure">8a</ref>) have lower intensity than the HSCA (Fig. <ref type="figure">8b</ref>) and HS316L (Fig. <ref type="figure">8c</ref>). This information indicates that the CCA corrodes more than the other two materials. Along with Fe peaks, coinciding a-Fe 2 O 3 and Cr 2 O 3 peaks are also present. Raman spectra in Fig. <ref type="figure" target="#fig_8">7(a)-(c</ref>) also show Fe and Cr based oxides and hydroxides in the corrosion product. However, the Raman data have been obtained from extremely localized regions on the corrosion product, whereas XRD patterns show an overall distribution of different phases on the corrosion product.</p>
+				<p>The SEM micrographs of all the samples after CP are put together in Fig. <ref type="figure" target="#fig_9">9(a)-(c</ref>). The elemental mapping of the corroded surface of the CCA, HSCA, and HS316L samples are shown in Fig. <ref type="figure" target="#fig_10">10(a</ref>)-(g), 11(a)-(g), and 12(a)-(g), respectively. An abundance of rod-like features as shown by arrowhead is observed in the corrosion product of the CCA (Fig. <ref type="figure" target="#fig_9">9a</ref>). These rod-like features are the prior twin boundaries as these rods do not cross the prior grain boundaries. These rodlike structures and prior grain boundary regions are at an elevated position. However, the prior grain bodies are at a depressed position, indicating that preferential corrosion occurred in the grain body. EDS elemental maps (Fig. <ref type="figure" target="#fig_10">10a-g</ref>) show that the elevated regions are Cr-rich ($ 65 wt.%). As Cr segregation takes place at the grain and twin boundaries, an early passivation takes place in these regions. Hence, preferential corrosion occurred in the grain body forming the depressed regions. Among the other alloying elements, Mn ($ 15 wt.%) remains uniform throughout the corrosion product. The quantities of Fe ($ 8 wt.%), Co ($ 5 wt.%), and Ni ($ 2 wt.%) are low in the corrosion product.</p>
+				<p>Depressed grain body is not observed in the core of the HSCA (Fig. <ref type="figure" target="#fig_9">9b</ref>) even though the prior grain and twin boundaries are Cr rich (Fig. <ref type="figure" target="#fig_11">11b</ref>). The restriction of corrosion in the grain body can be attributed to the presence of finer shell regions. As shell regions contain smaller grains, the grain boundary density in the shell regions is very high (Fig. <ref type="figure" target="#fig_1">2e</ref>). The high grain boundary density indicates that the corrosion takes place in the shell regions initially. Hence, the shell regions which cover about 10% of the total area get passivated early. This early passivation is much more for the HSCA than the CCA. Therefore, the grain body is more protected from corrosion in the HSCA than the CCA. However, some breakage of passive layer is found along the shell regions. This breakage can be attributed to the nature of the cyclic polarization curve of the HSCA (Fig. <ref type="figure" target="#fig_6">6b</ref>). The breakage of passive film takes place in the trans-passive region above $ À 0.1 V. The increased current density in the anodic region of the reverse curve indicates that the broken passive layer does not get repassivated. Thus, the breakages are observed in the corrosion product.</p>
+				<p>The corrosion product of the HS316L (Fig. <ref type="figure" target="#fig_9">9c</ref>) shows some freckles, small pits, and breakage of the surface. This breakage of the surface has also occurred at the high current density at the trans-passive region. However, the presence of Mo ($ 2.1 wt.%) retards the formation of pits and allows better passivation (Ref 26). Thus, the breakage of passive layer for the HS316L is less than the HSCA. Moreover, the core-shell compositional distinction is not observed in the HS316L. The elemental maps (Fig. <ref type="figure" target="#fig_13">12a-g</ref>) on the corrosion product of the HS316L show no chemical segregation during corrosion. This distinction between the corrosion products of the HSCA and the HS316L suggests that very limited corrosion takes place in the HS316L to achieve the passive layer. Hence, the surface features formed during corrosion are less than the CCA and the HSCA.</p>
+				<p>The 3-dimensional optical surface profiles (Fig. <ref type="figure" target="#fig_14">13a-c</ref>) show the variation of depths in the corrosion products of all the tested materials. The color bar beside each figure shows the relation between the color in the profile and variation in depth. The CCA shows a more uneven surface when compared to other materials (Fig. <ref type="figure" target="#fig_14">13a</ref>). The difference between peak ($ 67 lm) and valley ($ À 71 lm) is maximum ($ 138 lm) for the CCA. The profiles of the HSCA (Fig. <ref type="figure" target="#fig_14">13b</ref>) and the HS316L (Fig. <ref type="figure" target="#fig_14">13c</ref>) are similar. The low values of peak ($ 2 lm) and valley ($ À 2lm) show the uniformity of the surface with corrosion product of the HSCA. The breakage of surface in the HS316L is also limited to $ À 5 lm. It is seen in the SEM micrographs (Fig. <ref type="figure" target="#fig_9">9a-c</ref>) that the CCA has corroded more than the HSCA and the HS316L. It can also be found in the SEM images (Fig. <ref type="figure" target="#fig_9">9b,</ref>
+					<ref type="figure">c</ref>) that the corrosion is almost uniform in the HSCA and the HS316L. Hence, the data obtained from optical profilometry reciprocate the details established from SEM micrographs.</p>
+				<p>The as-Cast Cantor alloy shows good amount of ductility but offers limited strength. Yield strength and the ultimate tensile strength of 211.  </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.">Conclusions</head>
+				<p>Corrosion tests were performed on the CCA, HSCA, and HS316L in HankÕs SBF. The conclusions obtained from different experiments are mentioned below:</p>
+				<p>1. Initial characterization shows that prominent core and shell regions feature in the HSCA and HS316L. The HS316L provides $ 55% shell area due to its smaller size (1-20 lm) of initial powder. A small enrichment of Fe is found in the shell region of the HSCA at the expense of Mn, Co, and Ni. This compositional fluctuation is not observed for Cr. However, XRD patterns do not show any separate peaks in either of these materials. 2. Studies confirm that the corrosion resistance of the HSCA and the HS316L are similar and greater than that of the CCA. However, the HS316L shows better passivation than the HSCA. The presence of Mo ($ 2.1 wt.%) and expanded shell region ($ 55%) in the HS316L are responsible for its better passivation. The presence of protective rusts, like goethite and ferrihydrite, is also a factor for the excellent corrosion resistance. 3. In the HSCA, an early passivation occurs in the shell region and provides improved corrosion resistance than the CCA. This distinction is not observed in the HS316L because of very limited corrosion taking place before passivation. </p>
+			</div>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0">
+				<head>3. 1</head>
+				<label>1</label>
+				<figDesc>Figure 1(a)-(c) shows the SEM EBSD band contrast micrographs of (a) CCA, (b) HSCA, and (c) HS316L steels.The CCA shows almost uniform grains (Fig.1a), whereas the HSCA Fig.1(b) and HS316L steels (Fig.1c) show clearly distinguished fine-grained shell and coarse-grained core regions. The grain size and the grain boundary density are calculated with the help of the inverse pole figure (IPF) maps and image contrast maps (Fig.2a-f). Figure2(a)-(i)shows the micrographs and data analysis during the characterizations of these three materials by EBSD and XRD. The inverse pole figure (IPF) maps of the CCA, HSCA, and HS316L are put together in Fig.2(a)-(c) with the Fe FCC IPF color code is given in the inset of Fig.2(a). Figure2(d)-(f)shows the image quality map of the CCA, HSCA, and HS316L with high angle grain boundary colored in blue. Figure 2(g) shows the grain size distribution, Fig. 2(h) shows the high angle grain boundary per unit area and Fig. 2(i) shows the XRD patterns of all the</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1">
+				<head>Figure 2 (</head>
+				<label>2</label>
+				<figDesc>Figure 1(a)-(c) shows the SEM EBSD band contrast micrographs of (a) CCA, (b) HSCA, and (c) HS316L steels.The CCA shows almost uniform grains (Fig.1a), whereas the HSCA Fig.1(b) and HS316L steels (Fig.1c) show clearly distinguished fine-grained shell and coarse-grained core regions. The grain size and the grain boundary density are calculated with the help of the inverse pole figure (IPF) maps and image contrast maps (Fig.2a-f). Figure2(a)-(i)shows the micrographs and data analysis during the characterizations of these three materials by EBSD and XRD. The inverse pole figure (IPF) maps of the CCA, HSCA, and HS316L are put together in Fig.2(a)-(c) with the Fe FCC IPF color code is given in the inset of Fig.2(a). Figure2(d)-(f)shows the image quality map of the CCA, HSCA, and HS316L with high angle grain boundary colored in blue. Figure 2(g) shows the grain size distribution, Fig. 2(h) shows the high angle grain boundary per unit area and Fig. 2(i) shows the XRD patterns of all the</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2">
+				<head>Fig. 1</head>
+				<label>1</label>
+				<figDesc>Fig. 1 (a-c): SEM EBSD band contrast images of the (a) CCA, (b) HSCA, and (c) HS316L steels</figDesc>
+				<graphic coords="3,52.84,157.89,488.38,125.75" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3">
+				<head>Fig. 3</head>
+				<label>3</label>
+				<figDesc>Fig. 3 (a-f): (a) EBSD IPF maps and corresponding (b-f) EDS maps of the CCA steel showing (b) Cr, (c) Mn, (d) Fe, (e) Co, and (f) Ni</figDesc>
+				<graphic coords="4,52.84,31.18,488.38,273.09" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4">
+				<head>Fig. 4</head>
+				<label>4</label>
+				<figDesc>Fig. 4 (a-f): (a) EBSD IPF maps and (b-f) corresponding EDS maps of the HSCA steel showing (b) Cr, (c) Mn, (d) Fe, (e) Co, and (f) Ni</figDesc>
+				<graphic coords="5,52.84,31.18,488.38,270.77" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5">
+				<head>Fig. 5</head>
+				<label>5</label>
+				<figDesc>Fig. 5 (a-f): (a) EBSD IPF maps and (b-f) corresponding EDS maps of the HS316L steel showing (b) Cr, (c) Mn, (d) Fe, (e) Mo, and (f) Ni</figDesc>
+				<graphic coords="5,52.84,343.05,488.38,270.43" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6">
+				<head>Fig. 6</head>
+				<label>6</label>
+				<figDesc>Fig. 6 (a-d): The corrosion experiments showing (a) LP plots, (b) CP plots, (c) EIS Nyquist plots, and (d) EIS Bode plots</figDesc>
+				<graphic coords="6,52.84,31.18,488.38,386.76" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7">
+				<head>Fig. 7</head>
+				<label>7</label>
+				<figDesc>Fig. 7 (a-c): Raman spectra of the corrosion products of the (a) CCA, (b) HSCA, and (c) HS316L steels</figDesc>
+				<graphic coords="7,126.65,31.18,340.76,442.66" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8">
+				<head>Figure 7 (</head>
+				<label>7</label>
+				<figDesc>Figure 7(a)-(c) shows the Raman spectra of all the corroded samples with corrosion product. All the tested materials show major hump of ferrihydrite (Fe 5 HO 8 .4H 2 O) in the range of</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9">
+				<head>Fig. 9</head>
+				<label>9</label>
+				<figDesc>Fig. 9 (a-c): Post-corrosion SEM images of the (a) CCA, (b) HSCA, and (c) 316L steels</figDesc>
+				<graphic coords="8,52.84,31.18,488.38,112.76" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10">
+				<head>Fig. 10 (</head>
+				<label>10</label>
+				<figDesc>Fig. 10 (a-g): (a) Post-corrosion SEM image and (b-g) corresponding EDS maps of the CCA steel showing (b) Cr, (c) Mn, (d) Fe, (e) Co, (f) Ni, and (g) O</figDesc>
+				<graphic coords="9,52.84,31.18,488.38,372.47" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11">
+				<head>Fig. 11 (</head>
+				<label>11</label>
+				<figDesc>Fig. 11 (a-g): (a) Post-corrosion SEM image and (b-g) corresponding EDS maps of the HSCA steel showing (b) Cr, (c) Mn, (d) Fe, (e) Co, (f) Ni, and (g) O</figDesc>
+				<graphic coords="10,52.84,31.18,488.38,370.21" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12">
+				<head></head>
+				<label></label>
+				<figDesc>5 and 410.7 MPa are achieved with 72.7% strain prior to fracture for the as-cast Cantor alloy (Ref 27). However, it is already mentioned that the ultimate tensile strength of 1500 MPa is achieved in the Cantor alloy by cold rolling at 77 K (Ref 11). Hence, it can be established that microstructural modifications and addition of defects can improve its tensile strengths. The HSCA shows a yield strength of 273.4 MPa and ultimate tensile strength of 594.8 along with tensile toughness of 262.3 MJ/m3 (unpublished work by Ameyama et al.). These data indicate that the introduction of $ 10% fine grained shell area in harmonic structure increases the yield strength by $ 25% and the ultimate tensile strength by $ 44% compared to the as cast Cantor alloy. The HS316L shows yield strength of 695 MPa and the ultimate tensile strength of 802 MPa by the introduction of $ 55% of ultra-fine grains (Ref 7). The HS316L shows better mechanical strengths due to the expanded shell regions. On the contrary, it is found in another unpublished study by the authors of this paper that the microhardness values of the HSCA in the shell ($ 550 VHN) region are more than the shell ($ 223 VHN) region of the HS316L as obtained by Rai et al. (Ref 28). Hence, it can be confirmed that increasing the degree of fine grains would improve the mechanical properties of the HSCA. However, corrosion properties of the Cantor alloy with respect to its grain size is also to be considered. Pathak et al. have demonstrated that Cantor alloy shows passivation in acidic (1 N H 2 SO 4 solution) and neutral (3.5 wt.% NaCl solution) media. Although no passivation is obtained in basic media (1 N NaOH solution) (Ref 13). In this study, the pH of the electrolyte is $ 7.4, which is slightly basic. However, it is observed that the Cantor alloy shows passivation in this media. Although the HS316L shows better passivation, the corrosion rate of the</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13">
+				<head>Fig. 12 (</head>
+				<label>12</label>
+				<figDesc>Fig. 12 (a-g): (a) Post-corrosion SEM image and (b-g) corresponding EDS maps of the HS316L steel showing (b) Cr, (c) Mn, (d) Fe, (e) Ni, (f) Mo, and (g) O</figDesc>
+				<graphic coords="11,52.84,31.18,488.38,371.17" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14">
+				<head>Fig. 13 (</head>
+				<label>13</label>
+				<figDesc>Fig. 13 (a-c): 3-dimensional optical profiles of the corrosion product of the (a) CCA, (b) HSCA, and (c) HS316L steels</figDesc>
+				<graphic coords="12,52.84,31.18,488.38,281.48" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1">
+				<head>Table 1</head>
+				<label>1</label>
+				<figDesc>Composition of the materials utilized in the present study</figDesc>
+				<table>
+					<row>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell cols="2">Composition, wt.%</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Materials used</cell>
+						<cell>Cr</cell>
+						<cell>Mn</cell>
+						<cell>Ni</cell>
+						<cell>Co</cell>
+						<cell>Mo</cell>
+						<cell>C</cell>
+						<cell>P</cell>
+						<cell>Si</cell>
+						<cell>Fe</cell>
+					</row>
+					<row>
+						<cell>Cantor alloys</cell>
+						<cell>18.6</cell>
+						<cell>19.3</cell>
+						<cell>20.8</cell>
+						<cell>21.0</cell>
+						<cell>…</cell>
+						<cell>&lt; 0.01</cell>
+						<cell>…</cell>
+						<cell>…</cell>
+						<cell>20.3</cell>
+					</row>
+					<row>
+						<cell>316L stainless steel</cell>
+						<cell>17.3</cell>
+						<cell>1.07</cell>
+						<cell>12.4</cell>
+						<cell>…</cell>
+						<cell>2.1</cell>
+						<cell>0.018</cell>
+						<cell>0.032</cell>
+						<cell>0.9</cell>
+						<cell>66.18</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2">
+				<head>Table 2</head>
+				<label>2</label>
+				<figDesc>Parameters for mechanical milling and spark plasma sintering</figDesc>
+				<table>
+					<row>
+						<cell>Mechanical milling parameters</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3">
+				<head>Table 3</head>
+				<label>3</label>
+				<figDesc>Data obtained from polarization studies</figDesc>
+				<table>
+					<row>
+						<cell>Materials</cell>
+						<cell>OCP, mV</cell>
+						<cell>R</cell>
+					</row>
+				</table>
+				<note>
+					<p>P 3 10 5 , W cm 2 E corr , mV i corr , ma/cm 2 CCA À 402 ± 18 0.3 ± 0.02 À 410 ± 17 0.81 ± 0.04 HSCA À 319 ± 25 3.3 ± 0.21 À 348 ± 18 0.37 ± 0.06 HS316L À 351 ± 12 3.3 ± 0.37 À 377 ± 11 0.33 ± 0.03</p>
+				</note>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4">
+				<head>Table 4</head>
+				<label>4</label>
+				<figDesc>Data obtained from EIS study Materials R S , X cm 2 R f 3 10 3 , X cm 2 CPE f 3 10 25 , X 21 cm 2 s n n C dl , lF cm 22 R C 3 10 5 , X cm 2 v 2</figDesc>
+				<table>
+					<row>
+						<cell>CCA</cell>
+						<cell>57 ± 7</cell>
+						<cell>0.94 ± 0.10</cell>
+						<cell>2.087 ± 0.14</cell>
+						<cell>0.7 ± 0.04</cell>
+						<cell>69 ± 4</cell>
+						<cell>1.9 ± 0.13</cell>
+						<cell>0.0063</cell>
+					</row>
+					<row>
+						<cell>HSCA</cell>
+						<cell>63 ± 5</cell>
+						<cell>1.25 ± 0.16</cell>
+						<cell>2.033 ± 0.22</cell>
+						<cell>0.8 ± 0.05</cell>
+						<cell>55 ± 2</cell>
+						<cell>3.8 ± 0.07</cell>
+						<cell>0.0049</cell>
+					</row>
+					<row>
+						<cell>HS316L</cell>
+						<cell>51 ± 7</cell>
+						<cell>1.58 ± 0.12</cell>
+						<cell>2.55 ± 0.27</cell>
+						<cell>0.8 ± 0.06</cell>
+						<cell>55 ± 4</cell>
+						<cell>4.3 ± 0.15</cell>
+						<cell>0.0066</cell>
+					</row>
+				</table>
+			</figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">
+				<p>386-Volume 33(1) January 2024Journal of Materials Engineering and Performance</p>
+			</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1">
+				<p>388-Volume 33(1) January 2024Journal of Materials Engineering and Performance</p>
+			</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2">
+				<p>390-Volume 33(1) January 2024Journal of Materials Engineering and Performance</p>
+			</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3">
+				<p>392-Volume 33(1) January 2024Journal of Materials Engineering and Performance</p>
+			</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4">
+				<p>394-Volume 33(1) January 2024Journal of Materials Engineering and Performance</p>
+			</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+				<div>
+					<head>Acknowledgments</head>
+					<p>The making of samples provided by <rs type="person">Prof. Kei Ameyama</rs> is supported by <rs type="funder">JSPS KAKENHI</rs> (grant numbers <rs type="grantNumber">18H05256</rs> and <rs type="grantNumber">18H05455</rs>).
+					</p>
+				</div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_TbY3X6e">
+					<idno type="grant-number">18H05256</idno>
+				</org>
+				<org type="funding" xml:id="_u27y4Dg">
+					<idno type="grant-number">18H05455</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>Publisher's Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+					<p>Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.</p>
+				</div>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+					<biblStruct xml:id="b0">
+						<monogr>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">E</forename>
+									<surname>Dieter</surname>
+								</persName>
+							</author>
+							<title level="m">Mechanical Metallurgy, SI Metric Edition</title>
+							<meeting>
+								<address>
+									<addrLine>London</addrLine>
+								</address>
+							</meeting>
+							<imprint>
+								<publisher>McGraw-Hill Book Company</publisher>
+								<date type="published" when="1988">1988</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b1">
+						<analytic>
+							<title level="a" type="main">Effect of Grain Size on Corrosion: A Review</title>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">D</forename>
+									<surname>Ralston</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Birbilis</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion</title>
+							<imprint>
+								<biblScope unit="volume">66</biblScope>
+								<biblScope unit="issue">7</biblScope>
+								<biblScope unit="page" from="75005" to="075005" />
+								<date type="published" when="2010">2010</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b2">
+						<analytic>
+							<title level="a" type="main">Harmonic Structure Design and Mechanical Properties of Pure Ni Compact</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Ota</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Shimojo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Okada</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Vajpai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Powder Metall. Min</title>
+							<imprint>
+								<biblScope unit="page" from="3" to="1000122" />
+								<date type="published" when="2014">2014</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b3">
+						<analytic>
+							<title level="a" type="main">Application of High Pressure Gas Jet Mill Process to Fabricate High Performance Harmonic Structure Designed Pure Titanium</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Ota</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Vajpai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Imao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Kurokawa</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.2320/matertrans.M2014280</idno>
+							<ptr target="https://doi.org/10.2320/matertrans.M2014280" />
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Trans</title>
+							<imprint>
+								<biblScope unit="volume">56</biblScope>
+								<biblScope unit="page" from="154" to="159" />
+								<date type="published" when="2015">2015</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b4">
+						<analytic>
+							<title level="a" type="main">Harmonic Structure, A Promising Microstructure Design</title>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Cazes</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Couque</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Dirras</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Kikuchi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Vajpai</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1080/21663831.2022.2057203</idno>
+							<ptr target="https://doi.org/10.1080/21663831.2022.2057203" />
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Res. Lett</title>
+							<imprint>
+								<biblScope unit="volume">2022</biblScope>
+								<biblScope unit="issue">7</biblScope>
+								<biblScope unit="page" from="440" to="471" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b5">
+						<analytic>
+							<title level="a" type="main">Effect of Bimodal Harmonic Structure Design on the Deformation Behaviour and Mechanical Properties of Co-Cr-Mo Alloy</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Vajpai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Sawangrat</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<surname>Yamaguchi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">P</forename>
+									<surname>Ciuca</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.msec.2015.09.055</idno>
+							<ptr target="https://doi.org/10.1016/j.msec.2015.09.055" />
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng. C</title>
+							<imprint>
+								<biblScope unit="volume">58</biblScope>
+								<biblScope unit="page" from="1008" to="1015" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b6">
+						<analytic>
+							<title level="a" type="main">Enhanced Ductility in Harmonic Structure Designed SUS316L Produced by High Energy Ball Milling and Hot Isostatic Sintering</title>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Zheng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Nakatani</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Ota</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Ma</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.msea.2016.07.048</idno>
+							<ptr target="https://doi.org/10.1016/j.msea.2016.07.048" />
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng. A</title>
+							<imprint>
+								<biblScope unit="volume">674</biblScope>
+								<biblScope unit="page" from="212" to="220" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b7">
+						<analytic>
+							<title level="a" type="main">Corrosion Behavior of Harmonic Structured 316L Stainless Steel in 3.5% NaCl and Simulated Body Fluid Solution</title>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">K</forename>
+									<surname>Rai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Shekhar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Yagi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Mondal</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1007/s11665-019-04428-x</idno>
+							<ptr target="https://doi.org/10.1007/s11665-019-04428-x" />
+						</analytic>
+						<monogr>
+							<title level="j">J. Mater. Eng. Perform</title>
+							<imprint>
+								<biblScope unit="volume">28</biblScope>
+								<biblScope unit="page" from="7554" to="7564" />
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b8">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">T H</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Microstructural Development in Equiatomic Multicomponent Alloys, Mater. Sci. Eng</title>
+							<imprint/>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b9">
+						<monogr>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.msea.2003.10.257</idno>
+							<ptr target="https://doi.org/10.1016/j.msea.2003.10.257" />
+							<imprint>
+								<date type="published" when="2004">2004</date>
+								<biblScope unit="volume">375</biblScope>
+								<biblScope unit="page" from="213" to="218" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b10">
+						<analytic>
+							<title level="a" type="main">The Influences of Temperature and Microstructure on the Tensile Properties of a CoCrFeMnNi High-Entropy Alloy</title>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Otto</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Dlouhy</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">´</forename>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Somsen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Bei</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Eggeler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">P</forename>
+									<surname>George</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.actamat.2013.06.018</idno>
+							<ptr target="https://doi.org/10.1016/j.actamat.2013.06.018" />
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="page" from="5743" to="5755" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b11">
+						<monogr>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Stepanov</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tikhonovsky</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Yurchenko</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Zyabkin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Klimova</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Zherebtsov</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Efimov</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Salishchev</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.intermet.2014.12.004</idno>
+							<ptr target="https://doi.org/10.1016/j.intermet.2014.12.004" />
+							<title level="m">Effect of Cryo-Deformation on Structure and Properties of CoCrFeNiMn High-Entropy Alloy, Intermetallics</title>
+							<imprint>
+								<date type="published" when="2015">2015</date>
+								<biblScope unit="volume">59</biblScope>
+								<biblScope unit="page" from="8" to="17" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b12">
+						<analytic>
+							<title level="a" type="main">Corrosion Behavior of an Equiatomic CoCrFeMnNi High-Entropy Alloy Compared with 304 Stainless Steel in Sulfuric Acid Solution</title>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Luo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">M</forename>
+									<surname>Mingers</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Raabe</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.corsci.2018.02.031</idno>
+							<ptr target="https://doi.org/10.1016/j.corsci.2018.02.031" />
+						</analytic>
+						<monogr>
+							<title level="j">Corr. Sci</title>
+							<imprint>
+								<biblScope unit="volume">134</biblScope>
+								<biblScope unit="page" from="131" to="139" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b13">
+						<analytic>
+							<title level="a" type="main">Aqueous Corrosion Behavior of Cast CoCrFeMnNi Alloy</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Pathak</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Kumar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">S</forename>
+									<surname>Mishra</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">S</forename>
+									<surname>De</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1007/s11665-019-04329-z</idno>
+							<ptr target="https://doi.org/10.1007/s11665-019-04329-z" />
+						</analytic>
+						<monogr>
+							<title level="j">J. Mater. Eng. Perform</title>
+							<imprint>
+								<biblScope unit="volume">28</biblScope>
+								<biblScope unit="page" from="5970" to="5977" />
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b14">
+						<analytic>
+							<title level="a" type="main">Effect of Harmonic Structure on the Electrochemical Behavior of High Entropy Cantor Alloy in NaCl Solution</title>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Banik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Bhushan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Mukherjee</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Fujiwara</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Mondal</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.matchemphys.2023.127414</idno>
+							<ptr target="https://doi.org/10.1016/j.matchemphys.2023.127414" />
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Chem. Phys</title>
+							<imprint>
+								<date type="published" when="2023">2023</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b15">
+						<analytic>
+							<title level="a" type="main">A Review on Parameters Affecting Properties of Biomaterial SS 316L</title>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Morsiya</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1080/14484846.2020.1752975</idno>
+							<ptr target="https://doi.org/10.1080/14484846.2020.1752975" />
+						</analytic>
+						<monogr>
+							<title level="j">Aust. J. Mech. Eng</title>
+							<imprint>
+								<biblScope unit="volume">22</biblScope>
+								<biblScope unit="page" from="803" to="813" />
+								<date type="published" when="2022">2022</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b16">
+						<analytic>
+							<title level="a" type="main">Morphology and Particle Analysis of the Ni3Al-Based Spherical Powders Manufactured by Supreme-Speed Plasma Rotating Electrode Process</title>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Han</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Lei</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Liang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Lai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.jmrt.2020.09.102</idno>
+							<ptr target="https://doi.org/10.1016/j.jmrt.2020.09.102" />
+						</analytic>
+						<monogr>
+							<title level="j">J. Mater. Res. Technol</title>
+							<imprint>
+								<biblScope unit="volume">9</biblScope>
+								<biblScope unit="page" from="13937" to="13944" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b17">
+						<monogr>
+							<title level="m" type="main">Standard Test Method for Conducting Potentiodynamic Polarization Resistance Measurements</title>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Astm</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="2014">2014</date>
+								<publisher>Pennsylvania</publisher>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b18">
+						<analytic>
+							<title level="a" type="main">Low Temperature Cross-Rolling to Modify Grain Boundary Character Distribution and Its Effect on Sensitization of SS304</title>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Joham</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<forename type="middle">K</forename>
+									<surname>Sharma</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Mondal</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Shekhar</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.jmatprotec.2016.10.014</idno>
+							<ptr target="https://doi.org/10.1016/j.jmatprotec.2016.10.014" />
+						</analytic>
+						<monogr>
+							<title level="j">J. Mater. Process. Technol</title>
+							<imprint>
+								<biblScope unit="volume">240</biblScope>
+								<biblScope unit="page" from="324" to="331" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b19">
+						<analytic>
+							<title level="a" type="main">Sensitisation Study of Normalized 316L Stainless Steel</title>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Atanda</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Fatudimu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<surname>Oluwole</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.4236/jmmce.2010.91002</idno>
+							<ptr target="https://doi.org/10.4236/jmmce.2010.91002" />
+						</analytic>
+						<monogr>
+							<title level="j">J. Miner. Mater. Charact. Eng</title>
+							<imprint>
+								<biblScope unit="volume">9</biblScope>
+								<biblScope unit="page" from="13" to="23" />
+								<date type="published" when="2010">2010</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b20">
+						<monogr>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">E</forename>
+									<surname>Orazem</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Tribollet</surname>
+								</persName>
+							</author>
+							<title level="m">Electrochemical Impedance Spectroscopy</title>
+							<meeting>
+								<address>
+									<addrLine>Heidelberg</addrLine>
+								</address>
+							</meeting>
+							<imprint>
+								<publisher>Wiley</publisher>
+								<date type="published" when="2008">2008</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b21">
+						<analytic>
+							<title level="a" type="main">A Generalized Model of the Equivalent Circuits in the Electrochemical Impedance Spectroscopy</title>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Luka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Kristo</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.electacta.2020.137199</idno>
+							<ptr target="https://doi.org/10.1016/j.electacta.2020.137199" />
+						</analytic>
+						<monogr>
+							<title level="j">Electrochim. Acta</title>
+							<imprint>
+								<biblScope unit="page" from="363" to="137199" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b22">
+						<analytic>
+							<title level="a" type="main">An Attempt to Classify the Morphologies Presented by Different Rust Phases Formed During the Exposure of Carbon Steel to Marine Atmospheres</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Alca ´ntara</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Chico</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Simancas</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<surname>Dı ´az</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>De La Fuente</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Morcillo</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.matchar.2016.04.027</idno>
+							<ptr target="https://doi.org/10.1016/j.matchar.2016.04.027" />
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Charact</title>
+							<imprint>
+								<biblScope unit="volume">118</biblScope>
+								<biblScope unit="page" from="65" to="78" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b23">
+						<analytic>
+							<author>
+								<persName>
+									<forename type="first">U</forename>
+									<surname>Schwertmann</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Stanjek</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">H</forename>
+									<surname>Becher</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1180/0009855043940145</idno>
+							<ptr target="https://doi.org/10.1180/0009855043940145" />
+						</analytic>
+						<monogr>
+							<title level="m">Long-Term In Vitro Transformation of 2-Line Ferrihydrite to Goethite/Hematite at 4, 10, 15 and 25°C</title>
+							<imprint>
+								<date type="published" when="2004">2004</date>
+								<biblScope unit="page" from="39" to="433" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b24">
+						<analytic>
+							<title level="a" type="main">The Effect of Deposition Parameters on the Structure and Mechanical Properties of Chromium Oxide Coatings Deposited by Reactive Magnetron Sputtering</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Mohammadtaheri</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Corona-Gomez</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.3390/coatings8030111</idno>
+							<ptr target="https://doi.org/10.3390/coatings8030111" />
+						</analytic>
+						<monogr>
+							<title level="j">Coatings</title>
+							<imprint>
+								<biblScope unit="page" from="8" to="111" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b25">
+						<analytic>
+							<title level="a" type="main">Influence of Phosphate on Corrosion Products of Iron in Chloride-Polluted-Concrete-Simulating Solutions: Ferrihydrite vs Green Rust</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Genin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Dhouibi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Refait</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Abdelmoula</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Triki</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.5006/1.3277637</idno>
+							<ptr target="https://doi.org/10.5006/1.3277637" />
+						</analytic>
+						<monogr>
+							<title level="j">Corrosion</title>
+							<imprint>
+								<biblScope unit="volume">58</biblScope>
+								<biblScope unit="issue">6</biblScope>
+								<biblScope unit="page" from="467" to="478" />
+								<date type="published" when="2002">2002</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b26">
+						<analytic>
+							<title level="a" type="main">Effect of Mo Addition on the Pitting Resistance of TiMn Alloys in HanksÕ Solution</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Tanji</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Gapsari</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Syahrom</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">H</forename>
+									<surname>Idris</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Hermawan</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.jallcom.2021.159582</idno>
+							<ptr target="https://doi.org/10.1016/j.jallcom.2021.159582" />
+						</analytic>
+						<monogr>
+							<title level="j">J. Alloys Compd</title>
+							<imprint>
+								<biblScope unit="page" from="871" to="159582" />
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b27">
+						<analytic>
+							<title level="a" type="main">Microstructure and Mechanical Properties of CoCrFeMnNiSnx High-Entropy Alloys</title>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">N</forename>
+									<surname>Dong</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">X</forename>
+									<surname>Zhuang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1007/s12540-019-00328-w</idno>
+							<ptr target="https://doi.org/10.1007/s12540-019-00328-w" />
+						</analytic>
+						<monogr>
+							<title level="j">Met. Mater. Int</title>
+							<imprint>
+								<biblScope unit="volume">26</biblScope>
+								<biblScope unit="page" from="292" to="301" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b28">
+						<analytic>
+							<title level="a" type="main">Fretting Wear Mechanism for Harmonic, Non-Harmonic and Conventional 316L Stainless Steels</title>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">K</forename>
+									<surname>Rai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Shekhar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Yagi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Ameyama</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Mondal</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.wear.2019.02.005</idno>
+							<ptr target="https://doi.org/10.1016/j.wear.2019.02.005" />
+						</analytic>
+						<monogr>
+							<title level="j">Wear</title>
+							<imprint>
+								<biblScope unit="page" from="23" to="32" />
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

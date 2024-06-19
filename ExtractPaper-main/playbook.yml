@@ -1,0 +1,15 @@
+---
+- name: Convert from PDF -> XML
+  hosts: localhost
+  tasks:
+    - name: Run grobid
+      command: jupyter nbconvert --execute --to html /content/run_grobid.ipynb
+
+- name: Filter & Paginate
+  hosts: localhost
+  tasks:
+    - name: Make directories
+      command: mkdir /content/PAGES
+
+    - name: Run filter & paginate
+      command: jupyter nbconvert --execute --to html /content/filter_paginate.ipynb

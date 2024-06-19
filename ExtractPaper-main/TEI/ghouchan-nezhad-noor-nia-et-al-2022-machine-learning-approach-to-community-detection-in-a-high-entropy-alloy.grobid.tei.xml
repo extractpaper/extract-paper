@@ -1,0 +1,2659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve"
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Machine Learning Approach to Community Detection in a High-Entropy Alloy Interaction Network</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>American Chemical Society (ACS)</publisher>
+				<availability status="unknown">
+					<p>Copyright American Chemical Society (ACS)</p>
+				</availability>
+				<date type="published" when="2022-04-04">April 4, 2022</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Raheleh</forename>
+								<surname>Ghouchan Nezhad Noor Nia</surname>
+							</persName>
+							<idno type="ORCID">0000-0001-5697-9041</idno>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Mehrdad</forename>
+								<surname>Jalali</surname>
+							</persName>
+							<idno type="ORCID">0000-0003-2465-4933</idno>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Matthias</forename>
+								<surname>Mail</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yulia</forename>
+								<surname>Ivanisenko</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Christian</forename>
+								<surname>Kübel</surname>
+							</persName>
+							<idno type="ORCID">0000-0001-5701-4006</idno>
+						</author>
+						<title level="a" type="main">Machine Learning Approach to Community Detection in a High-Entropy Alloy Interaction Network</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">ACS Omega</title>
+						<title level="j" type="abbrev">ACS Omega</title>
+						<idno type="ISSN">2470-1343</idno>
+						<imprint>
+							<publisher>American Chemical Society (ACS)</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<biblScope unit="issue">15</biblScope>
+							<biblScope unit="page" from="12978" to="12992"/>
+							<date type="published" when="2022-04-04">April 4, 2022</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6DF2B410D63DB8417C70F16E9A8DB22F</idno>
+					<idno type="DOI">10.1021/acsomega.2c00317</idno>
+					<note type="submission">Received: January 16, 2022 Accepted: March 7, 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-28T16:04+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>There is a growing trend toward the use of interaction network methods and algorithms, including community-based detection methods, in various fields of science. The approach is already used in many applications, for example, in social sciences and health informatics to analyze behavioral patterns during the COVID-19 pandemic, protein-protein networks in biological sciences, agricultural science, economy, and so forth. This paper attempts to build interaction networks based on high-entropy alloy (HEA) descriptors in order to discover HEA communities with similar functionality. In addition, these communities could be leveraged to discover new alloys not yet included in the data set without any experimental laboratory effort. This research has been carried out using two community detection algorithms, the Louvain algorithm and the enhanced particle swarm optimization (PSO) algorithm. The data set, which is used in this paper, includes 90 HEAs and 6 descriptors. The results reveal 13 alloy communities, and the accuracy of the results is validated by the modularity. The experimental results show that the method with the PSO-based community detection algorithm can achieve alloy communities with an average accuracy improvement of 0.26 compared to the Louvain algorithm. Furthermore, some characteristics of HEAs, for example, their phase composition, could be predicted by the extracted communities. Also, the HEA phase composition has been predicted by the proposed method and achieved about 93% precision.</p>
+				</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1.">INTRODUCTION</head>
+				<p>Since the ancient eras, human civilization has attempted to discover new and unknown materials, for example, metals and alloys that can all play a key role in the overall quality of human life. Since the Bronze Age, alloys have been produced based on a "basic element" pattern containing one principal element. Various elements are added to the basic element to improve selected properties. <ref type="bibr" target="#b0">1</ref> Over the past decades, a new approach has been introduced to design alloys, which involves mixing typically five elements or more in equimolar amounts to produce balanced alloys called high-entropy alloys (HEAs). <ref type="bibr" target="#b0">1</ref> These were initially introduced and developed by Cantor et al. <ref type="bibr" target="#b1">2</ref> and Yeh et al. <ref type="bibr" target="#b2">3</ref> The entropy of mixing for these complex alloys is high. The atoms used to create the alloys have a similar size. <ref type="bibr" target="#b5">6</ref> HEAs have been widely investigated due to their attractive properties, for example, thermal and electrical conductivity, <ref type="bibr" target="#b3">4</ref> high corrosion resistance, <ref type="bibr" target="#b4">5</ref> and high strength in combination with high ductility. A parametric method is commonly used to understand and predict the phase stability, often used in pairs presented by a two-dimensional diagram. <ref type="bibr" target="#b16">17</ref> Although there are many parametric and statistical methods in the field of materials science, machine learning (ML) is considered one of the most effective methods in materials science. <ref type="bibr" target="#b6">7</ref> ML algorithms are capable of learning models to explore communities and provide results effectively.</p>
+				<p>The purpose of the present study is to introduce a new model for the HEA interaction network, which is made based on HEA descriptors. This model measures similarities among HEA descriptors by creating a network of interactions based on similarities. Communities are extracted from the interaction network so that each community comprises similar HEA compounds. These compositions are available for interpretation. The outcomes of this paper are communities that can help anticipate HEA phases and detect HEA functionalities through the ability to better analyze them. With that, it might be possible to suggest more efficient alloys for selected applications.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.">REVIEW OF LITERATURE</head>
+				<p>The HEAs containing at least five elements with equal or similar atomic percentages have high strength. <ref type="bibr">32</ref> These alloys are different from conventional alloys due to four main effects, which include the (1) high-entropy effect, (2) sluggish diffusion effect, (3) lattice distortion effect, and (4) cocktail effect. <ref type="bibr">32</ref> These effects contribute to the ultimate strength or hardness of HEAs. <ref type="bibr">32</ref> In a study carried out by Ye et al., <ref type="bibr" target="#b0">1</ref> the phase formation of HEAs and their new properties are discussed, such as strength, mechanical performance at high and cryogenic temperatures, ductility, hardness, magnetism, and electrical conductivity.</p>
+				<p>By using ML in HEAs, the design of alloys can be facilitated and used to discover new compounds with desirable properties. Dai et al. <ref type="bibr" target="#b7">8</ref> introduced a method that creates a low dimensional descriptor for predicting the phase content of HEAs based on their composition. The process behind their method has several stages: first a coefficient analysis is used to select closely related highly relevant descriptors. It then increases dimensions, which is based on the main structure of primary functions and finally, it is important to select descriptors to explain the material. <ref type="bibr" target="#b7">8</ref> The main focus is on predicting the alloy phase composition. Using a Pearson correlation, the highly correlated descriptors are removed. They created a new nonlinear descriptor, which analyzes the relationship between descriptors to eliminate additional descriptors. <ref type="bibr" target="#b7">8</ref> Based on the study performed, the authors proposed a framework to collect HEAs data for interpretation. <ref type="bibr" target="#b26">27</ref> The features are removed which are causing weak phase predictions. <ref type="bibr" target="#b26">27</ref> The various ML classifiers are used to predict the HEAs phases the HEA interaction network is not created to extract similar compounds as a community. <ref type="bibr" target="#b26">27</ref> In a study performed by Kaufmann and Vecchio, <ref type="bibr" target="#b20">21</ref> a ML method is applied to HEAs to predict solid solution forming ability. Thermodynamic and chemical features are used to do predictions by a random forest model. <ref type="bibr" target="#b20">21</ref> The HEAs descriptors are not used to compute a hybrid similarity to construct a HEA interaction network. <ref type="bibr" target="#b20">21</ref> identify similar Based on another study, the authors presented a structure by using a genetic algorithm to choose an effective ML model and features for HEAs phase forecast. <ref type="bibr" target="#b21">22</ref> The content and structural similarity are not considered by the proposed technique to make a HEAs interaction network. <ref type="bibr" target="#b21">22</ref> Similar HEAs compositions are not detected as a cluster. <ref type="bibr" target="#b21">22</ref> To the best of our knowledge, a full interaction network of HEAs has not yet been created to analyze it by social network tools. One of the social network analysis tools is community detection. Communities are a group of compounds that can be used to improve functionality, new compound, and new descriptor discovery. Most studies are about phase detection of alloys by ML methods, which predict the phase composition of a compound, HEA communities can be extracted to predict phases more accurately. In addition, each community consists of HEAs with a similar descriptor and behavior.</p>
+				<p>In a study, carried out by M'Barek et al., <ref type="bibr" target="#b25">26</ref> biological interaction networks have explored such as genes or proteins. The communities extracted from these biological networks are a set of proteins or genes that collaborate on a similar cellular functionality. By using a genetic algorithm, they presented a specific fitness function based on the amount of similarity and interaction between genes. <ref type="bibr" target="#b25">26</ref> They have used the semantic similarity in a KEGG data set, which they have taken as score for the structure of communities. It is calculated according to the semantic similarity method based on a genetic ontology. <ref type="bibr" target="#b25">26</ref> Based on another study, a modified Deepwalk algorithm is presented by the authors, which predicted a link in the proteinprotein interaction network. <ref type="bibr" target="#b29">31</ref> The feature dimensions are reduced to integrate the network structure and features for link prediction, <ref type="bibr" target="#b29">31</ref> an HEA network by using their descriptors that is used to detect community for similar nodes. <ref type="bibr" target="#b29">31</ref> In another study, the authors proposed a new tool named MOFSocialNet based on creating social networks using a metal-organic framework (MOF) database. MOFSocialNet is able to guide MOF researchers through the vast chemical space of existing and hypothetical MOFs. For a demonstration, they used social network analysis to identify the most representative MOFs in this research data set and to detect MOF communities. <ref type="bibr" target="#b30">33</ref> In another study carried out by Ahajjam et al., <ref type="bibr" target="#b24">25</ref> a scalable and deterministic approach is proposed to identify communities using leader nodes called the community leader recognition approach. Their approach has two main steps: the first step is to retrieve the leaders and the second step is to identify the community using the similarities between the nodes. Two important issues in their work are community recognition and leader detection in complex networks. <ref type="bibr" target="#b24">25</ref> The network leader nodes are responsible for disseminating the influence and then, using the similarities between the nodes, the communities around the leader are formed. In social networks, the central nodes are responsible for spreading the intrusion. The advantage of this method is that there is no need for prior knowledge of the number of leaders and communities. They start by finding a leader to identify the most effective nodes and then extract the communities. For each leader, a community is obtained by calculating the similarity between the nodes. <ref type="bibr" target="#b24">25</ref> They distinguish communities based on the similarities of the nodes with the leader, who are all in the leader's neighborhood. They used real social network data sets and used the Jaccard, Salton, Human Development Index (HDI) and Human Poverty Index (HPI) to calculate the similarity for finding out which works best in finding the leader of their method. <ref type="bibr" target="#b24">25</ref> In a study carried out by Zhao et al., <ref type="bibr">28</ref> a community detection algorithm based on graph compression is introduced, which is effective in large networks. The compressed graph is first obtained by repeatedly merging nodes of degree one or two with their bigger degree neighbors. Then, two indexes, namely, the density and quality of nodes, are defined to evaluate the probability of nodes as the seed of a community. With these two criteria in a compressed social network, the number of communities and the initial members of the related community are determined. <ref type="bibr">28</ref> They use the real social network data set to evaluate their method. There is no similarity computation between nodes to create a HEA interaction network.</p>
+				<p>In a study conducted by Rostami et al., <ref type="bibr" target="#b28">30</ref> a community detection based on a genetic algorithm is presented for feature selection, which has three steps. It first calculates the similarities of the features, then the features are classified into clusters by community detection algorithms, and finally the features are selected by a genetic algorithm with repair operation based on a new community. A community detection method is used in their approach to divide features into different groups. Using Pearson correlation similarity, the similarity of the features is examined. <ref type="bibr" target="#b28">30</ref> Clustering is performed on features, and a threshold is set for determining the number of features in each cluster to reach that number using random repair or score repair. Their proposed method selects the optimal number of features, which is automatically determined based on the overall feature structure and their internal similarities. <ref type="bibr" target="#b28">30</ref> They achieved accurate results in community detection by the genetic algorithm. <ref type="bibr" target="#b28">30</ref> In a study conducted by Ozaki et al., <ref type="bibr" target="#b19">20</ref> the pruning method was added to the Louvain algorithm to optimize computational time while maintaining the quality of the community detection and its process. Using this method simplifies the entire process as calculations on the quality of the clusters do not occur at each phase for all nodes, but instead, such calculations are done for nodes that are used in the next phase of the community detection. Ozaki et al. <ref type="bibr" target="#b19">20</ref> have applied the Louvain algorithm to network that have similarity among nodes calculated based on a Cosine similarity. <ref type="bibr" target="#b19">20</ref> The novelty of this paper lies in establishing an interaction network for HEAs that has not been implemented in the field of alloy metallurgy so far. In addition, an interaction network analysis method has been used to analyze the HEAs. This particular method uses ML algorithms for the alloy community detection, along with the Louvain algorithm and the particle swarm optimization algorithm.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.">PROPOSED METHOD</head>
+				<p>In this section, we present our approach for community detection based on interaction networks of HEAs, using the concepts of Louvain and modified particle swarm optimization (PSO) algorithms. The community members are HEAs that are merged to find the best community number by the Louvain method and by the modified PSO, which are considered the node connections. Our method solves the community detection problem by maximizing an objective function called modularity.</p>
+				<p>Initially, a descriptor for HEAs is selected and a preprocessing is carried out. Communities are extracted by Louvain and by modified PSO algorithms. Our approach is based on the following five steps:</p>
+				<p>• Data set was preprocessed to perform ML algorithms.</p>
+				<p>• Descriptor content similarity was calculated.</p>
+				<p>• Interaction network of HEAs was created.</p>
+				<p>• Descriptor structural similarity was calculated.</p>
+				<p>• Communities that maximize the objective function were extracted</p>
+				<p>The data set used in this paper contains 90 HEA alloys, as listed in Table <ref type="table" target="#tab_0">1</ref> in ref 1, each of which is characterized by six descriptors (Appendix A). 1 δ is the atomic size difference. <ref type="bibr" target="#b8">9</ref> ΔH mix (in kJ/mol) is the mixing enthalpy, calculated using eq 1: <ref type="bibr" target="#b0">1</ref> ∑ ∑
+				</p>
+				<formula xml:id="formula_0">Δ = Ω = Δ = ≠ = ≠ H c c H c c 4 i i j n ij i j i i j n ij i j mix 1, 1, mix<label>(1)</label>
+				</formula>
+				<p>S c (in k B /atom, where k B is Boltzmann's constant) is the configurational entropy of mixing for an ideal solid solution. <ref type="bibr" target="#b0">1</ref> φ is a single dimensionless thermodynamic parameter for designing HEAs. <ref type="bibr" target="#b5">6</ref> ε RMS is the root-mean-square residual strain, usually measured through the energy storage density of the elastic pressure. <ref type="bibr" target="#b9">10</ref> VEC is considered an important parameter in the selection of the valence electron concentration of the alloys due to the lack of robust atomic size difference. <ref type="bibr" target="#b0">1</ref> It should be noted that the data class label can also be called phase, which is not considered in these calculations, and the most important challenge in the current article is to find the relationship among similar alloy types. The six descriptors and a portion of the data set are listed in Table <ref type="table" target="#tab_4">A1</ref> in Appendix A, the first column of which contains the number for each chemical composition of the HEA alloy used in the results in Section 5. The second column in Table <ref type="table" target="#tab_4">A1</ref> gives the HEA chemical composition, and the other six columns show the values of the six descriptors for each composition.</p>
+				<p>Algorithm 1 shows the pseudocode of the proposed method that detects communities using Louvain and PSO algorithms:</p>
+				<p>The flowchart of the proposed method is shown in Figure <ref type="figure" target="#fig_0">1</ref>. There are three stages in the proposed method. The first stage is preparing the data, which consists of three steps including HEA feature selection, feature vector creation, and normalization. The second stage is creating an HEA interaction network by using similarity and pruning graph methods. The third step is to apply a ML algorithm that extracts communities from the network. Finally, the modularity is measured, which shows the quality of the communities.</p>
+				<p>3.1. Data Normalization. Normalization is used when the provided data values are not in the same range and have different intervals to prevent properties and descriptors that contain large values to dominate the overall performance of the system. Additionally, the normalization can potentially minimize the impact of out-of-range scales and maintains all inputs in a single interval. In the present article, min-max normalization was used for property values to normalize the property values to the interval [0, 1] using eq 2: 13 </p>
+				<formula xml:id="formula_1">′ = - - v v min max min A A A<label>(2)</label>
+				</formula>
+				<p>where min A and max A indicate the current minimum and maximum values of the properties found in A. The original values and the normalized values of the properties are presented as v and v′, respectively. As can be seen in eq 2 used above, the maximum and minimum values are 1 and 0. 13 3.2. Content Cosine Similarity Criteria. Content cosine similarity is measured based on the internal angle between two vectors and determines whether the selected vectors are considered codirectional. <ref type="bibr" target="#b10">11</ref> As shown in the data set in Appendix A, each property of a single composition can be analyzed and compared to another compound. 1 Equation <ref type="formula" target="#formula_2">3</ref>shows the content cosine similarity as follows <ref type="bibr" target="#b10">11</ref> = ∑ ∑ ∑
+				</p>
+				<p>x y x y</p>
+				<p>x y content cosine similarity ( , ) ( )</p>
+				<formula xml:id="formula_2">i i i i i i i 2 2<label>(3)</label>
+				</formula>
+				<p>where x i represents the ith property of the first compound and y i is the ith property of the second compound.</p>
+				<p>3.3. Structural Jaccard Similarity Criteria. The Jaccard index is mainly used for a comparison of the structural similarity of a data set. <ref type="bibr" target="#b11">12</ref> The value of the Jaccard similarity coefficient between two data sets is usually obtained by dividing the number of common properties of the two available sets by the total properties of the two sets. <ref type="bibr" target="#b11">12</ref> Because the input of the interaction network graphical structure is required for the calculation of the Jaccard criterion, the matrix obtained by content cosine similarity must be examined first with different thresholds to find the appropriate value and create the desired graphical representation of the network, so that structural similarities can be measured using the established graph. The threshold to obtain a graph for the content cosine similarity analysis was set at 0.98 in the current study.</p>
+				<p>The description of the structural Jaccard similarity criteria is shown in eq 4: 12</p>
+				<formula xml:id="formula_3">= | ∩ | | ∪ | v v N N N N structural Jaccard similarity ( , ) i j i j i j (4)</formula>
+				<p>where v i and v j are the two nodes representing the compounds of HEAs, |N i ∩ N j | denotes the common properties of the two compounds v i and v j , and |N i ∪ N j | are all the properties of v i and v j . It is also important to note that this particular criterion can be applied to all common pairs of attributes.</p>
+				<p>3.4. α Coefficient. The calculation of the parameters for content and structural similarity results in two matrices with similarity values. To detect communities, a hybrid similarity matrix is needed as input that contains similar properties. The α coefficient determines the effect of each of the similarities. The α coefficient also determines the possible effect of each of these common similarities as well as the effect of structural Jaccard similarity. The α coefficient also determines the proper effect of each of content and structural similarities. The output of this phase is a hybrid similarity matrix as required for the community detection algorithm.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.">COMMUNITY DETECTION</head>
+				<p>Each community in the interaction network shows the alloys that have dependencies between each other to perform the same functionality in an equal community.</p>
+				<p>4.1. Theoretical Notation Definitions. A complex network can be mapped to the graph G(V,E), where V is the node set and E is the edge set. A network C(v,e) is said to be subnetwork, if v is the subset of V and e is the subset of E.</p>
+				<p>Let A be the adjacency matrix; two nodes are adjacent if they have an edge between them. If there exists a link between vertex i and vertex j, then A ij = 1; otherwise A ij = 0. A weighted network has weight w joined to the edges, where w is a real number.</p>
+				<p>Communities in networks are the groups of nodes, which are more profoundly connected to each other than to the rest of the nodes within the network. Community detection is the key characteristic, which may well be utilized to extract valuable information from networks. <ref type="bibr" target="#b27">29</ref> 4.2. Louvain Algorithm. The content of science studies can usually be represented as complex networks, in which the topology of interconnected vertices is obtained from either an organized or random compound. <ref type="bibr" target="#b13">14</ref> The Louvain algorithm is a metaheuristic method that is introduced to identify and detect communities and groups within the provided graph. In addition, each extracted group represents a community, and this type of algorithm is considered to be an ascending clustering method. <ref type="bibr" target="#b14">15</ref> Furthermore, a parameter called modularity is used to determine the quality of the obtained communities in this algorithm, and the maximization of this particular parameter is considered to be of great importance. This specific parameter selects the type of communities that are integrated with the target vertex and creates highly modular communities. <ref type="bibr" target="#b14">15</ref> Despite difficulties in the calculation of modularity in large graphs, the Louvain algorithm can overcome this issue by speeding up the processing of large graphs. <ref type="bibr" target="#b14">15</ref> This unique property of the algorithm led to its popularity. <ref type="bibr" target="#b15">16</ref> It is also essential to add that the Louvain algorithm is considered the fastest and most effective algorithm for community detection that tends to operate tirelessly to achieve maximum modularity. The implemented algorithm is divided into two phases that are alternately repeated. Imagine that the procedure begins through a weighted interaction network with N nodes. It first places each node in a separate community, which has just as many nodes as the current network, and then examines the possible neighbors for each node and evaluates the precise rate of modularity, which is accomplished through the removal of the nodes from its related community and transfering them to its neighboring community. Finally, the targeted nodes are placed within the community with the highest possible modularity rate (positive rate); otherwise, it will remain in the current community. Afterward, this process is repeated alternately for all the interaction network nodes of HEAs until no new enhancements are achieved and the first stage of the process is essentially completed. <ref type="bibr" target="#b16">17</ref> Although this process is repeated several times for each node, the first stage is completed when a local maximum modularity is reached and the rate of modularity remains stable. Examining the order of the nodes in the output of the algorithm may affect the computational load that requires further study.</p>
+				<p>The overall performance quality of the Louvain algorithm for the community detection can be obtained using the modularity rate ΔQ, which is calculated through transferring isolated node i to the C community via eq 5: 17</p>
+				<formula xml:id="formula_4">Δ = Σ + - Σ + - Σ - Σ - Ä Ç Å Å Å Å Å Å Å Å Å Å Å i k j j j j y { z z z z É Ö Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ä Ç Å Å Å Å Å Å Å Å Å Å Å i k j j j y { z z z i k j j j j y { z z z z É Ö Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Q k m k m m m k m 2 2 2 2 2 in i in tot i in tot i , 2<label>2 2 (5)</label>
+				</formula>
+				<p>where Σ in is the sum of the links found within the community C, Σ tot is the total weight of the links connected to the nodes within the community C, k i is the total weight of links associated with node i, k i,in is the sum of the weights of the links connected from node i within the community C, and m is the total weight of all the network links. When node i is transferred from its related community, a similar term is often used to evaluate the modularity changes and adjustments, and the modularity changes can be measured through the removal of node i from its related community and its replacement in the neighboring community. <ref type="bibr" target="#b16">17</ref> The second stage of this particular algorithm involves establishing a new network of nodes that have previously found their community during the first phase. The weight of the links among new nodes is reached through the total weight of the links between nodes in two respective communities, and the links between the nodes in the same community can potentially lead to an inner circle of the community in the newly established networks. After the second phase is completed, the initial phase of the algorithm can then be reapplied in the previously created weighted network to evaluate the obtained results more accurately, and the combination of these two phases is is termed as a pass. As a result, the overall number of meta-communities decreases with each iteration, and its highest computational load occurs in the initial phase. In fact, these phases are to be continued until the maximum modularity is reached and no further changes occur. This particular algorithm can represent highly complex networks and often operates hierarchically so that the final obtained communities are created and established through an iterative process of integration.</p>
+				<p>Moreover, the height of the hierarchy is determined through the number of iterations, which is usually discovered to be small; take note that this algorithm can possibly have various advantages, such as the visibility of courses that can easily be conducted as well as reaching the targeted outcome without a need for individual attendance or any type of monitoring. Next, it should also be added that the algorithm operates quite as fast and can calculate the modularity rate simply based on Formula 5, which after several repeated courses tends to reduce the number of obtained communities through the integration method. The maximum conduction period of this particular method is related to the initial iteration in the first phase. <ref type="bibr" target="#b16">17</ref> Also, the qualitative limitations and boundaries of modularity have been eliminated, due to the multilevel nature of the algorithm. Finally, it is also worth mentioning that the isolated nodes are transferred from one community to another, in the first phase of the algorithm. <ref type="bibr" target="#b16">17</ref> The probability of merging two separate communities through transfer of nodes one-by-one is considered extremely low. However, take note that these communities can very well be merged later, after the consolidation of the nodes is complete. <ref type="bibr" target="#b16">17</ref> 4.3. Community Detection Based on the Particle Swarm Optimization Algorithm. Kennedy and Eberhart initially introduced the PSO algorithm in 1995, which was inspired by the characteristics and behavior of birds. <ref type="bibr" target="#b23">24</ref> The PSO algorithm is considered to be one of the most important and useful swarm intelligence algorithms, which frequently offers better overall solutions compared to other available algorithms. The mobility found within the particles, which is an array (90 × 1) of nodes, is potentially the best possible way to update each particle for community detection. <ref type="bibr" target="#b18">19</ref> Optimization of the algorithm may lead to rapid convergence as well as a reduction in the rate of references to the proportionality function, which is directly related to the modularity criterion of community quality. <ref type="bibr" target="#b18">19</ref> For example, suppose there is a major optimization issue found in the dimensional space of d, where X i = (X i1 , X i2 , ..., X id ) and V i = (V i1 , V i2 , ..., V id ) are the position and velocity vectors, respectively. Let pbest i be the best possible solution for particle i (i = 1, 2, ..., P size ) and gbest be the best possible solution among any type of particle. Furthermore, collaborative and ML of particles are also conducted in each update of pbest i and gbest. Besides, with each iteration of the PSO algorithm, the current velocity and position of the particles can also be updated using eqs 6-8 as follows: 23</p>
+				<formula xml:id="formula_5">+ = + + [ - ] + + [ - ] V t wV t c rand pbest X t c rand gbest X t ( 1) ( ) (<label>)</label>
+				</formula>
+				<formula xml:id="formula_6">( ) i i i i i 1 1 2 2 (6) ρ + = &lt; + l m o o o n o o o X t sig V t ( 1) 1, if ( ( 1)) 0, otherwise ij ij<label>(7)</label>
+				</formula>
+				<formula xml:id="formula_7">+ = [ + + ] sig V t V t ( (<label>1</label>
+				</formula>
+				<formula xml:id="formula_8">)) 1/ 1 exp( (<label>1)</label>
+				</formula>
+				<p>) ij ij (8)   in which the parameter t represents the iteration of the conducted algorithm, w is essentially the inertia coefficient, c 1 and c 2 are the learning rates, rand 1 and rand 2 are random numbers that are uniformly generated in the interval [0, 1], and ρ generally functions as a predefined threshold. <ref type="bibr" target="#b22">23</ref> 4.3.1. Optimal PSO Algorithm and Group Learning. Given that independent communities are obtained by sorting the set of HEA compounds in the interaction network of L(G) materials, they are optimal communities and smaller than G. To identify independent communities in a network, there is a need to discover independent communities in the corresponding line graph. The developed PSO algorithm is used along with group learning techniques resulting in LEPSO, which can be used to optimize the results obtained by linear graph segmentation. <ref type="bibr" target="#b22">23</ref> 4.3.2. Presentation of Community Detection Using Optimal PSO. The linear graph for the chemical composition of alloys is represented as L(G) = ⟨N, E⟩, where N = (n 1 , n 2 , ..., n k ), in which a part of L(G) can be presented as X i = (X i1 , X i2 , ..., X id ) and k = |N|. In the case where the initial value was assumed to be X ij = m, then the results may indicate that there is a relationship between the two compounds e = ⟨n j , n m ⟩ and the X i particles, specifically when n j and n m are found within the same communities as L(G). In order to determine the initial community as the optimal type, each PSO must first be considered as an array of alloy compounds. In this regard, the matrix proximity of the primary interaction network gains the materials using the connected and linked nodes. Some of the potential drawbacks of this design include random initialization of the particles and frequent updates of the particle locations. Moreover, this issue is often so major that the particle components may potentially display links that have never existed before. To solve such problems, particles are recommended to be presented on a list of regular neighbors. <ref type="bibr" target="#b22">23</ref> The foundation of this particular design is essentially based on the use of data distribution of the neighbors for each node as a representative of an alloy composition, which potentially ensures that newly entered particles used in the process of transference or initialization are all allowed. However, the complete removal of unauthorized particles as well as the prevention of the production of local optimal communities, with the use of repetitive binary division and automated community detection methods, are all considered some of the potential advantages of this optimization method in PSO. <ref type="bibr" target="#b22">23</ref> 4.3.3. Particle Fitness Function in the Optimal PSO. The comprehensible definition of community can encourage researchers to introduce new and different types of quality indicators to evaluate the possible benefits of a partition. The main assumption behind modularity is that the edge density of a cluster should be higher than the predicted density of the sub-graph, so the nodes can randomly be linked. In order to complete the discretization process of the provided algorithm, each node and its relationship with the other available nodes has to be individually analyzed and checked. Therefore, the link between the initial compound and the other compositions is obtained first, and the adjacency matrix is established subsequently. Finally, the particle fitness function that can determine the quality of final-phase communities, also known as modularity is shown in eq 9 <ref type="bibr" target="#b22">23</ref> :
+				</p>
+				<formula xml:id="formula_9">∑ = = | | - | | = Ä Ç Å Å Å Å Å Å Å Å Å Å Å i k j j j j y { z z z z É Ö Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ Ñ fit P Q C l E d E ( ) ( ) 2 i c m c c 1 2<label>(9)</label>
+				</formula>
+				<p>In this equation, fit(P i ) is the particle proportionality and fitness value of P i , m is the number of communities found in the C partition of the network as G = ⟨N, E⟩, l c is the number of edges that link the vertices in the community, which is Particle Speed Update. An optimal particle velocity updating algorithm called GbestGenerator is used to avoid the local optimization method, which applies a voting-based clustering technique to take full advantage of valuable hidden community patterns found in less efficient particles and gbest values. In case the proportion of gbest does not improve in T max consecutive iterations, meaning that if the swarm particles are trapped in, member particle clusters MPS are created through the selection of all available gbest particles within the T max and its consecutive iteration particles leading to the combination of the right MPS particles to produce new gbest particles. Accordingly, each particle can potentially have a minimum and a maximum speed for velocity. <ref type="bibr" target="#b22">23</ref> Equation 6 suggests that the inertia coefficient shown as w is considered extremely significant in the implementation of particle velocity updates. The adjustment strategy of w can be well expressed using eq 10, which is described as follows   (10)   where w max and w min are the initial and final inertia coefficients, respectively, t max is the representation of the maximum iteration, and t indicates the current iteration. As can be seen in eq 10, in the initial stage (t = 0), the parameters w max and w t are both considered correspondence of each other. When t is too close to t max , w t gradually decreases toward w min . Furthermore, due to the algorithm converges in the early stages, larger coefficient values are needed for the particles to be faster in velocity, while in later stages, much smaller coefficient values are provided to the particles to gradually enhance their overall stability. 4.3.4.2. Positional Particle Update. Based on the previously provided Formula 7, the positional vector components are assigned to either particles 0 or 1, which is not very suitable for the display of particles with respect to the neighbor. Accordingly, the previous position of the particles is related to the previous community and the current new position can be related to the final community. Therefore, the value of X ij as a part of i is obtained from an integer within the range from 1 to deg(n i ), meaning that X ij ∈ {1, 2, ..., deg(n i )} can essentially improve the PSO and the searching abilities of the system. The particle positional updates are shown in great detail using following eqs 11 and 12: 23</p>
+				<formula xml:id="formula_10">ρ + = [ &lt; + ] ∧ [ &gt; ] l m o o o o n o o o o X t k s i gVt d e gn X t ( 1) , if ( ( 1)) ( ) 1 ( ), otherwise ij ij j ij (11) = - - + - sig V V V ( ) 1 exp( ) 1 exp( ) ij ij ij (<label>12</label>
+				</formula>
+				<formula xml:id="formula_11">)</formula>
+				<p>where k = rand × deg(n j ), k ≠ X ij (t), deg(n j ) is the degree of the vertex found in n j , and ρ is the threshold set by the user. Another noteworthy point to mention involves the generated positional value based on the distribution degree, which indicates that if the value of node v j is greater than those of its surrounding neighbors or if sig(V ij (t + 1)) is ever greater than the value of ρ, the neighbors of the nodes must then be transferred to the currently selected neighbors. Therefore, the sigmoid function sig() function found within eq 11 is modified to solve this issue. The particle position is very likely to change through the particle velocity reduction procedure, causing the PSO to gradually converge in the global optimization. <ref type="bibr" target="#b22">23</ref>
+				</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.">RESULTS AND DISCUSSION</head>
+				<p>In view of the novelty of this study, several experiments were carried out to evaluate the efficiancy of the proposed method. In order to detect the HEA interaction network, the similarity of alloy features must be addressed. The weighted interaction network of the HEAs is shown in Figure <ref type="figure" target="#fig_2">2</ref>, where the weight of the links between the compounds determines the degree of similarity among them. This particular interaction network was initially formed based on the content and structural similarity of the alloy descriptors. Besides, all compositions were linked leading to the formation of a complete graph. The primary interaction network had 90 sets of nodes corresponding to the HEA compounds, and each compound is shown by the number presented in results as defined in Appendix A. As shown in Figure <ref type="figure" target="#fig_2">2</ref>, every compound was linked to every other compound using 3968 edges. The interaction network is an undirected graph where all compounds are connected to each other. The degree of each node in the HEA interaction network is the number of edges that it has to other nodes. The  degree distribution shows the probability distribution of degrees over the whole network. The degree distribution diagram for the graph constructed is shown in Figure <ref type="figure" target="#fig_3">3</ref>. As shown in Figure <ref type="figure" target="#fig_3">3</ref>, the average degree based on the diagram is 14.20, which is the probability distribution of these degrees over the network. The next step is illustrated in Figure <ref type="figure" target="#fig_4">4</ref>, an α coefficient value of 0.9 and a threshold of 0.6 are both applied to the network, which eliminates less similar nodes and weak connections. As shown in Figure <ref type="figure" target="#fig_4">4</ref>, the resulting interaction network contains 632 edges to maintain the communications among all 90 nodes. In Figure <ref type="figure" target="#fig_4">4</ref>, the nodes are drawn with the size reflecting the degree of each node.</p>
+				<p>As presented in Figure <ref type="figure" target="#fig_5">5</ref>, the Louvain algorithm has been applied to the HEA interaction network, which extracts 13 communities with an overall quality of approximately 0.71. For these 13 communities shown in Figure <ref type="figure" target="#fig_5">5</ref>, each community is indicated by a unique color, and the compounds in every community are fully connected. As shown in Figure <ref type="figure" target="#fig_6">6</ref>, the communities are also extracted with the optimal PSO algorithm using the HEA interaction network in 100 iterations. The 13 optimal communities by PSO are displayed with an enhanced quality of approximately 0.89 shown in Figure <ref type="figure" target="#fig_6">6</ref>. Because the compositions of each community are not connected to the other communities' compounds, the communities obtained from the optimal PSO algorithm have a higher quality modularity parameter. The analysis of each community shows that the neighbors of every compound have the same phase label and include similar elements.</p>
+				<p>In this paper, the measurement criteria for both community recognition algorithms are the main parameters for assessing the quality of communities. <ref type="bibr" target="#b13">14</ref> If the number of edges found in a community is not more than a random diagram, it can be concluded that the modularity is zero. Another point to note is the maximum modular value, which is basically obtained when all the internal nodes within a community are connected and there is no external edge to other communities. <ref type="bibr" target="#b13">14</ref> One of the basic features of modularity is the ability to compare different communities with various methods. Because other algorithms  do not necessarily extract the same results, many existing criteria cannot assess the quality of communities. Therefore, using the Louvain's hierarchical bottom-up method, analysis of modularity trends in the process of dividing or merging communities can be investigated. The maximum value of this parameter is considered as the best outcome. Moreover, the  modularity of each community is a scalar value between -1 and 1, which essentially measures the density of the community's internal links in comparison with the links found between communities; <ref type="bibr" target="#b14">15,</ref>
+					<ref type="bibr" target="#b15">16</ref> a modularity between 0.3 and 0.7 indicates a strong community. <ref type="bibr" target="#b17">18</ref> Because this criterion is closer to 1, the communities are high quality. According to the experimental result, the modularity of both optimal algorithms in this paper is upper than 0.7 (Table <ref type="table" target="#tab_0">1</ref>).
+				</p>
+				<p>The four communities are, as an example, shown in Figure <ref type="figure" target="#fig_7">7</ref>, for communities extracted based on the developed Louvain algorithm. For example, in the blue community (Figure <ref type="figure" target="#fig_7">7</ref>), SrCaYbMgZn, SrCaYbMgZn 0 . 5 Cu 0 . 5 , and SrCaY-bLi 0.55 Mg 0.45 Zn are in a single community with similar elements including Sr, Ca, Yb, Mg, and Zn which are found in these alloys with equal functionality. The number of elements in the blue community (Figure <ref type="figure" target="#fig_7">7</ref>) is five and six, where two alloys SrCaYbMgZn 0.5 Cu 0.5 and SrCaY-bLi 0.55 Mg 0.45 Zn have the same number of elements and contain common elements. The alloys in the blue community (Figure <ref type="figure" target="#fig_7">7</ref>) are amorphous. The descriptor values for the alloys in the blue community (Figure <ref type="figure" target="#fig_7">7</ref> The four communities are illustrated in Figure <ref type="figure" target="#fig_8">8</ref>, which is obtained based on the PSO algorithm. As an example, the yellow community included FeCoNiCrCuAl, AlCrCuFeMnNi, NiCoFeCrAl 0.375 , MnCrFe 1.5 Ni 0.5 Al 0.3 , and CoCrFeNiPd compounds. The common elements in a community are Fe, Ni, and Cr. The alloys in the yellow community (Figure <ref type="figure" target="#fig_8">8</ref>) contain five and six elements. Two alloys FeCoNiCrCuAl and AlCrCuFeMnNi have the same number of elements and contain five common elements. Some alloys in the yellow community (Figure <ref type="figure" target="#fig_8">8</ref>) are multiphase, and some of them are single phase (FCC). The descriptor values for the alloys in the yellow community (Figure <ref type="figure" target="#fig_8">8</ref>) vary δ in the range [4.12, 5.39], ΔH mix in the range [-7.99, -4.78], S c in the range [1.48, 1.79], φ in the range [13.54, 16.16], ε RMS in the range [0.0406, 0.0536], and VEC in the range [7.19, 8.8]. The blue community included SrCaYbLi 0.55 M g0.45 Zn, SrCaYbMgZn, and SrCaYbMgZn 0.5 Cu 0.5 , which is the same as in the blue community (Figure <ref type="figure" target="#fig_7">7</ref>) extracted by the Louvain method. The green community (Figure <ref type="figure" target="#fig_8">8</ref>) included 14 HEA compounds, such as AlCo 3 CrCu 0.5 FeNi, CoCrCuFeNiTi 0.8 , CoCrCuFeNi-Ti, CuNi 2 FeCrAl 0.9 , CuNi 2 FeCrAl 1.  the same as the red community (Figure <ref type="figure" target="#fig_7">7</ref>) extracted by the Louvain method.</p>
+				<p>Considering the communities in the present article, it can be concluded that these clusters essentially have high quality and accuracy, which can be shown through the modularity criterion. Table <ref type="table" target="#tab_0">1</ref> shows the obtained results of the modularity criterion of community quality using the developed Louvain algorithm and optimal PSO method. As is shown in Table <ref type="table" target="#tab_0">1</ref>, the modularity criteria in the developed Louvain algorithm is a constant value equal to 0.71, and it has not changed. Also, in optimal PSO, the modularity parameter is started from 0.87 and after 30 iterations, it increased up to 0.89 and after 60 iterations until 150 iterations, it did not change any more. Therefore, the modularity value by optimal PSO is about 0.89. Finally, the benefits of HEA community detection are discussed. In the field of biology and proteins, the analysis of protein networks is useful because proteins that are in a community have common behaviors and properties. This means that proteins of the same community behave similarly. Therefore, it can be concluded that the purpose of community detection is to have HEAs with similar elements in their composition and phases, such as colored community alloys (Figure <ref type="figure" target="#fig_7">7</ref>). Considering the fact that HEAs in a community have similar properties, one can recognize the properties of HEAs as soon as the community of alloys is determined. For example, the maximal number of elements in the alloy could be predicted according to the communities extracted.</p>
+				<p>Another advantage of community detection in HEA interaction networks is the phase prediction using ML techniques, which is presented in this paper. Because the most extracted communities have the same phase in the HEA network, the phase composition of each compound, which is indistinct, can be anticipated. The unseen compound's phase can be identified by the other compounds that are in the same community. As shown in Table <ref type="table" target="#tab_3">2</ref>, we looked at the number of phases in the same community. In addition, the precision of phase prediction is shown in Table <ref type="table" target="#tab_3">2</ref> showing the phase forecast by Leuven and PSO, which is approximately 88% and approximately 93%, respectively.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="6.">DATA AND SOFTWARE AVAILABILITY</head>
+				<p>In this study, we have used MATLAB software version R2019a, which has been referred in https://www.mathworks.com/. As described and referenced in Section 3, the data set and source code for this paper are located at the GitHub. The data set referred https://github.com/rghoochannejad/HEAs-Community-Detection/tree/Dataset and the source code is referred at https://github.com/rghoochannejad/HEAs-Community-Detection/tree/main. The data set to this article can be found online at https://doi.org/10.1016/j.mattod.2015. 11.026.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="7.">CONCLUSIONS AND SUGGESTIONS FOR FUTURE</head>
+				<p>RESEARCH The present study aimed to present a novelty for community detection based on ML to detect HEA compounds that behave similarly to each other. At first, the descriptors of each compound are analyzed, and then the similarities among the alloys in terms of phase composition are calculated accordingly. Second, an interaction network of HEAs is established, which could very well be linked to the interaction network. Additionally, both the quality and accuracy of extractive communities and their modularity criteria have been analyzed and investigated thoroughly using two methods of Louvain and PSO algorithms, indicating that the proposed method has a high quality in community detection. This evaluation shows that the detected clusters potentially have robust internal connections among the compounds. Although the obtained results of the current method were indicative of high quality and precision, it does not mean that it cannot be further developed. It is also important to mention that other methods can be implemented very well in future studies to determine the more advanced properties of alloys. The present method can also be developed in larger data sets with maintaining the quality. The use of other ML methods still have great potential for obtaining better results, although these statistical methods and ML algorithms do in fact enhance the speed of the research conduction in the field of materials science. The introduced method is not considered as the only efficient way for community detection, but it can be applied in other areas of materials science leading to the detection of other beneficial alloy compositions that can be used in the industry. Finally, the HEA community detection is useful to finding new common features of similar alloys. Moreover, phase prediction is an action, which can be performed by community detection in this study with a good precision rate.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head>■ APPENDIX A</head>
+				<p>The HEA alloy compositions and descriptors of HEAs are given in Table <ref type="table" target="#tab_4">A1</ref>. 
+				</p>
+			</div>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0">
+				<head>Figure 1 .</head>
+				<label>1</label>
+				<figDesc>Figure1. Flowchart of the proposed method with details. The process is done in three phases including the preprocess, creation of the HEA interaction network, and ML algorithms.</figDesc>
+				<graphic coords="4,122.74,60.44,361.42,459.21" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1">
+				<head></head>
+				<label></label>
+				<figDesc>shown as c ∈ C, d c is the sum of the nodes within C, and |E| is the total number of edges found in G. 4.3.4. Update of Particle Speed and Position. 4.3.4.1.</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2">
+				<head>Figure 2 .</head>
+				<label>2</label>
+				<figDesc>Figure 2. Weighted interaction network of 90 HEAs, where all compounds are connected to each other. The HEA interaction network is fully connected before applying the threshold.</figDesc>
+				<graphic coords="7,99.21,60.44,408.47,279.33" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3">
+				<head>Figure 3 .</head>
+				<label>3</label>
+				<figDesc>Figure 3. Degree distribution of the HEA interaction network. The degree distribution presents the probability distribution of degrees over the whole network. The degree of each compound is the number of edges that it has to other compounds.</figDesc>
+				<graphic coords="8,53.41,60.44,500.15,239.75" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4">
+				<head>Figure 4 .</head>
+				<label>4</label>
+				<figDesc>Figure 4. Impact of threshold and α on the HEA interaction network. The threshold prunes the weak connection in the HEA network. The α coefficient determines the value of content and structural similarity.</figDesc>
+				<graphic coords="8,144.11,341.46,318.67,246.22" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5">
+				<head>Figure 5 .</head>
+				<label>5</label>
+				<figDesc>Figure 5. Community detection with the use of the developed Louvain algorithm. Any colored community shows a community and the compounds have similar functionality and descriptors.</figDesc>
+				<graphic coords="9,129.09,60.44,348.72,199.67" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6">
+				<head>Figure 6 .</head>
+				<label>6</label>
+				<figDesc>Figure 6. Community detection with the use of an optimal PSO algorithm. Any colored community presents a community of HEA compound that is extracted by the PSO algorithm.</figDesc>
+				<graphic coords="9,99.21,301.49,408.47,204.72" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7">
+				<head>Figure 7 .</head>
+				<label>7</label>
+				<figDesc>Figure 7. Four community samples obtained through the developed Louvain algorithm. These four communities are selected as an example from the results that present the functionality of the proposed method.</figDesc>
+				<graphic coords="10,53.41,60.44,500.15,270.20" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8">
+				<head>Figure 8 .</head>
+				<label>8</label>
+				<figDesc>Figure 8. Four community samples obtained through the PSO method. These four communities are selected as an example from the results that present the functionality of the proposed method.</figDesc>
+				<graphic coords="10,53.41,371.45,500.15,307.67" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9">
+				<head></head>
+				<label></label>
+				<figDesc>) vary in ranges: δ [15.25,  16.37], ΔH mix[-10.6, -13.12], S c [1.61, 1.75], φ [-0.017, 0.61], ε RMS [0.1565, 0.1699], and VEC[4.09, 4.2]. The yellow community (Figure7) included nine HEA compounds, such as C o C r F e N i A l N b 0 . 7 5 , Al 0 . 5 C o C r C u F e N i T i 1 . 2 , Al 0.5 CoCrCuFeNiTi 1.4 , Al 0.5 CoCrCuFeNiTi 1.6 , CuAlNiCoCr-FeSi, Al 0 . 5 CoCrCuFeNiTi 1 . 8 , CoCrFeNiAlNb 0 . 2 5 , Al 0.5 CoCrCuFeNiTi 2.0 , and FeCoNiCrCuAl 3.0 . They have five common elements including Al, Co, Cr, Fe, and Ni. The HEA compounds in the yellow community are multiphase alloys. They contain six and seven elements and their descriptors have a similar range for three compounds. The δ parameter is in the range [6.1, 7.31], ΔH mix in the range [-18.86, -10.56], S c in the range [1.67, 1.95], φ in the range [3.91, 6.26], ε RMS in the range [0.0605, 0.0729], and VEC in the range [6.63, 7.51]. The green community included nine HEA compounds, such as Al 0.5 CrFeNiCoCuTi 0.8 , CuCoNiCrAlFeTiV, FeCoNiCrCu A l 2 . 0 , FeCoNiCrCuAl 2 . 3 , FeCoNiCrCuAl 2 . 8 , Al 0.5 CoCrCuFeNiTi 1.0 , CoCrFeNiTi 0.5 , CuNi 2 FeCrAl 1.5 , and Cu 0.5 Ti 0.5 CrFeCoNiAl 0.5 . They have three common elements including Cr, Fe, and Ni. The HEA compounds in the green community are multiphase alloys. The δ parameter is in the range [5.33, 6.57], ΔH mix in the range [-13.94, -8.05], S c in the range [1.57, 2.08], φ in the range [5.53, 8.79], ε RMS in the range [0.0525, 0.0656], and VEC in the range [6.71, 7.78]. The red community (Figure 7) included PdPtCuNiP, TiZrCuNiBe, ZrHfTiCuCo, ErTbDyNiAl, and ZrHfTiCuNi alloys. All alloys within a red community consist of five elements. Furthermore, ZrHfTiCuNi and ZrHfTiCuCo have common elements such as Zr, Hf, Ti, and Cu. All the alloys within that community are amorphous. The descriptor values for alloys in the red community are in the range δ [9.29, 13.74], ΔH mix [-23.52, -37.6], φ [-2.24, 0.42], ε RMS [0.0952, 0.1429], VEC [4.4, 9.2], and S c is 1.61, equal for all alloys in the red cluster.</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10">
+				<head>2 ,</head>
+				<label>2</label>
+				<figDesc>MnCrFe 1.5 Ni 0.5 Al 0.5 , FeCoNiCrCuAl 1.5 , FeCoNiCuAl, FeNi 2 CrCuAl, Fe-Ni 2 CrCuAl 1.2 , Al 0.5 CrFeNiCoCuTi 0.6 , Al 0.5 CoCrCuFeNiTi 0.4 , Al 0.5 CoCrFeNi, and AlCo 2 CrCu 0.5 FeNi. They have common elements, such as Fe and Ni. The HEAs contain five and six elements. All the HEA compounds in the green community (Figure 8) are multiphase. The δ parameter is in the range [4.6, 6.12], ΔH mix in the range [-9.09, -5.22], S c in the range [1.52, 1.92], φ in the range [8.92, 13.02], ε RMS in the range [0.0454, 0.0605], and VEC in the range [7.0, 8.2]. The red community (Figure 8) included PdPtCuNiP, TiZrCuNiBe, ZrHfTiCuCo, ErTbDyNiAl, and ZrHfTiCuNi alloys, which is</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0">
+				<head></head>
+				<label></label>
+				<figDesc></figDesc>
+				<graphic coords="3,315.44,332.79,239.98,215.83" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0">
+				<head>Table 1 .</head>
+				<label>1</label>
+				<figDesc>Comparison of Quality of Community Detection and Extraction Using Modularity Criteria with the Developed Louvain Algorithm and the Particle Swarm Optimization Algorithm</figDesc>
+				<table>
+					<row>
+						<cell>community detection algorithm</cell>
+						<cell>modularity criteria</cell>
+					</row>
+					<row>
+						<cell>developed Louvain algorithm</cell>
+						<cell>0.7130</cell>
+					</row>
+					<row>
+						<cell>PSO algorithm</cell>
+						<cell>0.8912</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1">
+				<head></head>
+				<label></label>
+				<figDesc>
+					<ref type="bibr" target="#b22">23</ref>
+				</figDesc>
+				<table />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3">
+				<head>Table 2 .</head>
+				<label>2</label>
+				<figDesc>Precision of Louvain and PSO Algorithms in the Phase Prediction of HEA Alloys Indicates That Communities Can Improve the Phase Prediction Precision</figDesc>
+				<table>
+					<row>
+						<cell>community</cell>
+						<cell>compound phase</cell>
+						<cell>community prediction</cell>
+						<cell>precision by</cell>
+						<cell>compound phase by</cell>
+						<cell>community prediction phase</cell>
+						<cell>precision by</cell>
+					</row>
+					<row>
+						<cell>number</cell>
+						<cell>by PSO</cell>
+						<cell>phase by PSO</cell>
+						<cell>PSO %</cell>
+						<cell>Louvain</cell>
+						<cell>by Louvain</cell>
+						<cell>Louvain %</cell>
+					</row>
+					<row>
+						<cell>1</cell>
+						<cell>3 8</cell>
+						<cell>3 0</cell>
+						<cell>7 8</cell>
+						<cell>1 9</cell>
+						<cell>1 8</cell>
+						<cell>9 4</cell>
+					</row>
+					<row>
+						<cell>2</cell>
+						<cell>19</cell>
+						<cell>17</cell>
+						<cell>89.5</cell>
+						<cell>18</cell>
+						<cell>13</cell>
+						<cell>2</cell>
+					</row>
+					<row>
+						<cell>3</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+						<cell>5</cell>
+						<cell>2</cell>
+						<cell>40</cell>
+					</row>
+					<row>
+						<cell>4</cell>
+						<cell>2</cell>
+						<cell>1</cell>
+						<cell>50</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>5</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+						<cell>2</cell>
+						<cell>1</cell>
+						<cell>50</cell>
+					</row>
+					<row>
+						<cell>6</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>7</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>8</cell>
+						<cell>9</cell>
+						<cell>9</cell>
+						<cell>100</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>9</cell>
+						<cell>9</cell>
+						<cell>9</cell>
+						<cell>100</cell>
+						<cell>14</cell>
+						<cell>14</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>10</cell>
+						<cell>5</cell>
+						<cell>5</cell>
+						<cell>100</cell>
+						<cell>18</cell>
+						<cell>18</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>11</cell>
+						<cell>3</cell>
+						<cell>3</cell>
+						<cell>100</cell>
+						<cell>5</cell>
+						<cell>5</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell>12</cell>
+						<cell>1</cell>
+						<cell>1</cell>
+						<cell>100</cell>
+						<cell>3</cell>
+						<cell>3</cell>
+						<cell>100</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell cols="2">total average precision</cell>
+						<cell>93.125</cell>
+						<cell cols="2">total average precision</cell>
+						<cell>88.019</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4">
+				<head>Table A1 .</head>
+				<label>A1</label>
+				<figDesc>Precision of Louvain and PSO Algorithms in the Phase Prediction of HEA Alloys Indicates That Communities Can Improve the Phase Prediction Precision</figDesc>
+				<table>
+					<row>
+						<cell>compound number</cell>
+						<cell>HEA alloy composition</cell>
+						<cell>δ (%)</cell>
+						<cell>ΔH mix (kJ/mol)</cell>
+						<cell>S c (k B /atom)</cell>
+						<cell>φ</cell>
+						<cell>ε RMS</cell>
+						<cell>VEC</cell>
+					</row>
+					<row>
+						<cell>1</cell>
+						<cell>A l 0.5 CoCrCuFeNiTi 0.2</cell>
+						<cell>4.93</cell>
+						<cell>-4.15</cell>
+						<cell>1.86</cell>
+						<cell>17.41</cell>
+						<cell>0.0487</cell>
+						<cell>8.12</cell>
+					</row>
+					<row>
+						<cell>2</cell>
+						<cell>A l 0.3 CoCrFeNi</cell>
+						<cell>3.76</cell>
+						<cell>-7.27</cell>
+						<cell>1.54</cell>
+						<cell>19.99</cell>
+						<cell>0.037</cell>
+						<cell>7.88</cell>
+					</row>
+					<row>
+						<cell>3</cell>
+						<cell>A l 0.5 CrCuFeNi 2</cell>
+						<cell>4.2</cell>
+						<cell>-2.51</cell>
+						<cell>1.52</cell>
+						<cell>20.44</cell>
+						<cell>0.0414</cell>
+						<cell>8.45</cell>
+					</row>
+					<row>
+						<cell>4</cell>
+						<cell>CoCrFeNi</cell>
+						<cell>0.3</cell>
+						<cell>-3.75</cell>
+						<cell>1.39</cell>
+						<cell>3583.31</cell>
+						<cell>0.0039</cell>
+						<cell>8.25</cell>
+					</row>
+					<row>
+						<cell>5</cell>
+						<cell>CoFeMnNi</cell>
+						<cell>3.55</cell>
+						<cell>-4</cell>
+						<cell>1.39</cell>
+						<cell>24.51</cell>
+						<cell>0.0353</cell>
+						<cell>8.5</cell>
+					</row>
+					<row>
+						<cell>6</cell>
+						<cell>CoCrMnNi</cell>
+						<cell>3.45</cell>
+						<cell>-5.5</cell>
+						<cell>1.39</cell>
+						<cell>23.99</cell>
+						<cell>0.0343</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>7</cell>
+						<cell>CoCrFeNiPd</cell>
+						<cell>4.46</cell>
+						<cell>-7.04</cell>
+						<cell>1.61</cell>
+						<cell>15.95</cell>
+						<cell>0.0446</cell>
+						<cell>8.8</cell>
+					</row>
+					<row>
+						<cell>8</cell>
+						<cell>CoCrCu 0.5 FeNi</cell>
+						<cell>0.84</cell>
+						<cell>0.49</cell>
+						<cell>1.58</cell>
+						<cell>627.5</cell>
+						<cell>0.0083</cell>
+						<cell>8.56</cell>
+					</row>
+					<row>
+						<cell>9</cell>
+						<cell>CuNiCoFeCrAl 0.5 V 0.2</cell>
+						<cell>4.15</cell>
+						<cell>-2.5</cell>
+						<cell>1.86</cell>
+						<cell>26.49</cell>
+						<cell>0.0409</cell>
+						<cell>8.16</cell>
+					</row>
+					<row>
+						<cell>10</cell>
+						<cell>CuNiFeCrMo</cell>
+						<cell>3.58</cell>
+						<cell>4.64</cell>
+						<cell>1.61</cell>
+						<cell>28.97</cell>
+						<cell>0.0356</cell>
+						<cell>8.2</cell>
+					</row>
+					<row>
+						<cell>11</cell>
+						<cell>CuNiCoFe</cell>
+						<cell>1.14</cell>
+						<cell>5</cell>
+						<cell>1.39</cell>
+						<cell>223.55</cell>
+						<cell>0.0114</cell>
+						<cell>9.5</cell>
+					</row>
+					<row>
+						<cell>12</cell>
+						<cell>CuNiCoFeMn</cell>
+						<cell>3.18</cell>
+						<cell>1.76</cell>
+						<cell>1.61</cell>
+						<cell>41.04</cell>
+						<cell>0.0316</cell>
+						<cell>9</cell>
+					</row>
+					<row>
+						<cell>13</cell>
+						<cell>CuNi 2 FeMn 2 Cr</cell>
+						<cell>3.57</cell>
+						<cell>-0.49</cell>
+						<cell>1.55</cell>
+						<cell>33.58</cell>
+						<cell>0.0356</cell>
+						<cell>8.43</cell>
+					</row>
+					<row>
+						<cell>14</cell>
+						<cell>CuNi 2 FeCrAl 0.2</cell>
+						<cell>2.94</cell>
+						<cell>0.12</cell>
+						<cell>1.44</cell>
+						<cell>44.59</cell>
+						<cell>0.0289</cell>
+						<cell>8.77</cell>
+					</row>
+					<row>
+						<cell>15</cell>
+						<cell>CuNi 2 FeCrAl 0.4</cell>
+						<cell>3.86</cell>
+						<cell>-1.7</cell>
+						<cell>1.5</cell>
+						<cell>24.87</cell>
+						<cell>0.0381</cell>
+						<cell>8.56</cell>
+					</row>
+					<row>
+						<cell>16</cell>
+						<cell>CuNi 2 FeCrAl 0.5</cell>
+						<cell>4.2</cell>
+						<cell>-2.51</cell>
+						<cell>1.52</cell>
+						<cell>20.44</cell>
+						<cell>0.0414</cell>
+						<cell>8.45</cell>
+					</row>
+					<row>
+						<cell>17</cell>
+						<cell>Cu 0.75 NiCoFeCrAl 0.25</cell>
+						<cell>3.25</cell>
+						<cell>-0.71</cell>
+						<cell>1.72</cell>
+						<cell>42.39</cell>
+						<cell>0.032</cell>
+						<cell>8.4</cell>
+					</row>
+					<row>
+						<cell>18</cell>
+						<cell>Cu 0.5 NiCoFeAl 0.5 Cr</cell>
+						<cell>4.37</cell>
+						<cell>-4.6</cell>
+						<cell>1.75</cell>
+						<cell>20.16</cell>
+						<cell>0.0431</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>19</cell>
+						<cell>Cu 0.5 NiCoCrAl 0.5 Fe 2</cell>
+						<cell>4.08</cell>
+						<cell>-3.53</cell>
+						<cell>1.68</cell>
+						<cell>23.06</cell>
+						<cell>0.0403</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>20</cell>
+						<cell>Cu 0.5 NiCoCrAl 0.5 Fe 3</cell>
+						<cell>3.84</cell>
+						<cell>-2.84</cell>
+						<cell>1.57</cell>
+						<cell>24.99</cell>
+						<cell>0.0379</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>21</cell>
+						<cell>Cu 0.5 NiCoCrAl 0.5 Fe 3.5</cell>
+						<cell>3.74</cell>
+						<cell>-2.58</cell>
+						<cell>1.52</cell>
+						<cell>25.76</cell>
+						<cell>0.0368</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>22</cell>
+						<cell>FeCoNiCrCu</cell>
+						<cell>1.03</cell>
+						<cell>3.2</cell>
+						<cell>1.61</cell>
+						<cell>369.34</cell>
+						<cell>0.0103</cell>
+						<cell>8.8</cell>
+					</row>
+					<row>
+						<cell>23</cell>
+						<cell>FeNi 2 CrCuAl 0.2</cell>
+						<cell>2.94</cell>
+						<cell>0.12</cell>
+						<cell>1.44</cell>
+						<cell>44.59</cell>
+						<cell>0.0289</cell>
+						<cell>8.77</cell>
+					</row>
+					<row>
+						<cell>24</cell>
+						<cell>FeCrMnNiCo</cell>
+						<cell>3.27</cell>
+						<cell>-4.16</cell>
+						<cell>1.61</cell>
+						<cell>34.71</cell>
+						<cell>0.0325</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>25</cell>
+						<cell>FeCoNiCrCuAl 0.3</cell>
+						<cell>3.42</cell>
+						<cell>0.16</cell>
+						<cell>1.79</cell>
+						<cell>44.96</cell>
+						<cell>0.0337</cell>
+						<cell>8.47</cell>
+					</row>
+					<row>
+						<cell>26</cell>
+						<cell>FeCoNiCrCuAl 0.5</cell>
+						<cell>4.17</cell>
+						<cell>-1.52</cell>
+						<cell>1.77</cell>
+						<cell>25.77</cell>
+						<cell>0.0411</cell>
+						<cell>8.27</cell>
+					</row>
+					<row>
+						<cell>27</cell>
+						<cell>FeNi 2 CrCuAl 0.6</cell>
+						<cell>4.49</cell>
+						<cell>-3.27</cell>
+						<cell>1.53</cell>
+						<cell>17.39</cell>
+						<cell>0.0443</cell>
+						<cell>8.36</cell>
+					</row>
+					<row>
+						<cell>28</cell>
+						<cell>NiCoFeCrMo 0.3</cell>
+						<cell>2.38</cell>
+						<cell>-4.15</cell>
+						<cell>1.54</cell>
+						<cell>62.1</cell>
+						<cell>0.0235</cell>
+						<cell>8.09</cell>
+					</row>
+					<row>
+						<cell>29</cell>
+						<cell>NiCoFeCrMo 0.1 Al 0.3</cell>
+						<cell>3.9</cell>
+						<cell>-7.26</cell>
+						<cell>1.62</cell>
+						<cell>20.05</cell>
+						<cell>0.0385</cell>
+						<cell>7.84</cell>
+					</row>
+					<row>
+						<cell>30</cell>
+						<cell>NiCoFeCrAl 0.25</cell>
+						<cell>3.48</cell>
+						<cell>-6.75</cell>
+						<cell>1.53</cell>
+						<cell>23.78</cell>
+						<cell>0.0342</cell>
+						<cell>7.94</cell>
+					</row>
+					<row>
+						<cell>31</cell>
+						<cell>NiCoFeCrAl 0.3</cell>
+						<cell>3.76</cell>
+						<cell>-7.27</cell>
+						<cell>1.54</cell>
+						<cell>19.99</cell>
+						<cell>0.037</cell>
+						<cell>7.88</cell>
+					</row>
+					<row>
+						<cell>32</cell>
+						<cell>NiCoFeCrAl 0.375</cell>
+						<cell>4.12</cell>
+						<cell>-7.99</cell>
+						<cell>1.56</cell>
+						<cell>16.16</cell>
+						<cell>0.0406</cell>
+						<cell>7.8</cell>
+					</row>
+					<row>
+						<cell>33</cell>
+						<cell>VCuFeCoNi</cell>
+						<cell>2.2</cell>
+						<cell>-2.24</cell>
+						<cell>1.61</cell>
+						<cell>84.95</cell>
+						<cell>0.022</cell>
+						<cell>8.6</cell>
+					</row>
+					<row>
+						<cell>34</cell>
+						<cell>TaNbHfZrTi</cell>
+						<cell>4.99</cell>
+						<cell>2.72</cell>
+						<cell>1.61</cell>
+						<cell>16.9</cell>
+						<cell>0.0499</cell>
+						<cell>4.4</cell>
+					</row>
+					<row>
+						<cell>35</cell>
+						<cell>TaNbVTi</cell>
+						<cell>3.93</cell>
+						<cell>-0.25</cell>
+						<cell>1.39</cell>
+						<cell>26.07</cell>
+						<cell>0.0397</cell>
+						<cell>4.75</cell>
+					</row>
+					<row>
+						<cell>36</cell>
+						<cell>TaNbVTiAl 0.25</cell>
+						<cell>3.83</cell>
+						<cell>-4.82</cell>
+						<cell>1.53</cell>
+						<cell>25.84</cell>
+						<cell>0.0387</cell>
+						<cell>4.65</cell>
+					</row>
+					<row>
+						<cell>37</cell>
+						<cell>TaNbVTiAl 0.5</cell>
+						<cell>3.74</cell>
+						<cell>-8.4</cell>
+						<cell>1.58</cell>
+						<cell>24.28</cell>
+						<cell>0.0377</cell>
+						<cell>4.56</cell>
+					</row>
+					<row>
+						<cell>38</cell>
+						<cell>TaNbVTiAl 1.0</cell>
+						<cell>3.57</cell>
+						<cell>-13.44</cell>
+						<cell>1.61</cell>
+						<cell>20.38</cell>
+						<cell>0.036</cell>
+						<cell>4.4</cell>
+					</row>
+					<row>
+						<cell>39</cell>
+						<cell>WNbMoTa</cell>
+						<cell>2.31</cell>
+						<cell>-6.5</cell>
+						<cell>1.39</cell>
+						<cell>60.87</cell>
+						<cell>0.0231</cell>
+						<cell>5.5</cell>
+					</row>
+					<row>
+						<cell>40</cell>
+						<cell>WNbMoTaV</cell>
+						<cell>3.15</cell>
+						<cell>-4.64</cell>
+						<cell>1.61</cell>
+						<cell>41.18</cell>
+						<cell>0.0315</cell>
+						<cell>5.4</cell>
+					</row>
+					<row>
+						<cell>41</cell>
+						<cell>Al 2 0Li 20 Mg 10 Sc 20 Ti 30</cell>
+						<cell>5.16</cell>
+						<cell>-0.4</cell>
+						<cell>1.56</cell>
+						<cell>16.17</cell>
+						<cell>0.0515</cell>
+						<cell>2.8</cell>
+					</row>
+					<row>
+						<cell>42</cell>
+						<cell>GdTbDyTmLu</cell>
+						<cell>5.07</cell>
+						<cell>0</cell>
+						<cell>1.61</cell>
+						<cell>18.76</cell>
+						<cell>0.0515</cell>
+						<cell>3</cell>
+					</row>
+					<row>
+						<cell>43</cell>
+						<cell>HoDyYGdTb</cell>
+						<cell>0.81</cell>
+						<cell>0</cell>
+						<cell>1.61</cell>
+						<cell>701.52</cell>
+						<cell>0.0081</cell>
+						<cell>3</cell>
+					</row>
+					<row>
+						<cell>44</cell>
+						<cell>YgdTbDyLu</cell>
+						<cell>1.37</cell>
+						<cell>0</cell>
+						<cell>1.61</cell>
+						<cell>245.87</cell>
+						<cell>0.0137</cell>
+						<cell>3</cell>
+					</row>
+					<row>
+						<cell>45</cell>
+						<cell>AlCo 3 CrCu 0.5 FeNi</cell>
+						<cell>4.88</cell>
+						<cell>-7.25</cell>
+						<cell>1.62</cell>
+						<cell>12.52</cell>
+						<cell>0.0482</cell>
+						<cell>7.93</cell>
+					</row>
+					<row>
+						<cell>46</cell>
+						<cell>Al 0.8 CrCuFeMnNi</cell>
+						<cell>5.15</cell>
+						<cell>-3.97</cell>
+						<cell>1.79</cell>
+						<cell>15.73</cell>
+						<cell>0.0512</cell>
+						<cell>7.66</cell>
+					</row>
+					<row>
+						<cell>47</cell>
+						<cell>AlCo 2 CrCu 0.5 FeNi</cell>
+						<cell>5.17</cell>
+						<cell>-7.67</cell>
+						<cell>1.71</cell>
+						<cell>11.83</cell>
+						<cell>0.0511</cell>
+						<cell>7.77</cell>
+					</row>
+					<row>
+						<cell>48</cell>
+						<cell>AlCrCuFeMnNi</cell>
+						<cell>5.39</cell>
+						<cell>-5.11</cell>
+						<cell>1.79</cell>
+						<cell>13.54</cell>
+						<cell>0.0536</cell>
+						<cell>7.5</cell>
+					</row>
+					<row>
+						<cell>49</cell>
+						<cell>Al 0.5 CoCrFeNi</cell>
+						<cell>4.6</cell>
+						<cell>-9.09</cell>
+						<cell>1.58</cell>
+						<cell>12.23</cell>
+						<cell>0.0454</cell>
+						<cell>7.67</cell>
+					</row>
+					<row>
+						<cell>50</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 0.4</cell>
+						<cell>5.49</cell>
+						<cell>-6.42</cell>
+						<cell>1.9</cell>
+						<cell>13.02</cell>
+						<cell>0.0543</cell>
+						<cell>7.98</cell>
+					</row>
+					<row>
+						<cell>51</cell>
+						<cell>Al 0.5 CrFeNiCoCuTi 0.6</cell>
+						<cell>5.92</cell>
+						<cell>-8.4</cell>
+						<cell>1.92</cell>
+						<cell>10.36</cell>
+						<cell>0.0586</cell>
+						<cell>7.85</cell>
+					</row>
+					<row>
+						<cell>52</cell>
+						<cell>Al 0.5 CrFeNiCoCuTi 0.8</cell>
+						<cell>6.26</cell>
+						<cell>-10.11</cell>
+						<cell>1.92</cell>
+						<cell>8.54</cell>
+						<cell>0.0621</cell>
+						<cell>7.73</cell>
+					</row>
+					<row>
+						<cell>53</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 1.0</cell>
+						<cell>6.53</cell>
+						<cell>-11.6</cell>
+						<cell>1.93</cell>
+						<cell>7.23</cell>
+						<cell>0.0649</cell>
+						<cell>7.62</cell>
+					</row>
+					<row>
+						<cell>54</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 1.2</cell>
+						<cell>6.76</cell>
+						<cell>-12.89</cell>
+						<cell>1.92</cell>
+						<cell>6.26</cell>
+						<cell>0.0671</cell>
+						<cell>7.51</cell>
+					</row>
+					<row>
+						<cell>55</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 1.4</cell>
+						<cell>6.94</cell>
+						<cell>-14.02</cell>
+						<cell>1.91</cell>
+						<cell>5.47</cell>
+						<cell>0.069</cell>
+						<cell>7.41</cell>
+					</row>
+					<row>
+						<cell>56</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 1.6</cell>
+						<cell>7.09</cell>
+						<cell>-15.01</cell>
+						<cell>1.9</cell>
+						<cell>4.85</cell>
+						<cell>0.0706</cell>
+						<cell>7.31</cell>
+					</row>
+					<row>
+						<cell>57</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 1.8</cell>
+						<cell>7.21</cell>
+						<cell>-15.86</cell>
+						<cell>1.89</cell>
+						<cell>4.34</cell>
+						<cell>0.0719</cell>
+						<cell>7.22</cell>
+					</row>
+					<row>
+						<cell>58</cell>
+						<cell>Al 0.5 CoCrCuFeNiTi 2.0</cell>
+						<cell>7.31</cell>
+						<cell>-16.6</cell>
+						<cell>1.88</cell>
+						<cell>3.91</cell>
+						<cell>0.0729</cell>
+						<cell>7.13</cell>
+					</row>
+					<row>
+						<cell>59</cell>
+						<cell>CoCrFeNiTi 0.5</cell>
+						<cell>5.33</cell>
+						<cell>-11.56</cell>
+						<cell>1.58</cell>
+						<cell>7.91</cell>
+						<cell>0.0525</cell>
+						<cell>7.78</cell>
+					</row>
+					<row>
+						<cell>60</cell>
+						<cell>CoCrFeNiAlNb 0.25</cell>
+						<cell>6.1</cell>
+						<cell>-14.66</cell>
+						<cell>1.72</cell>
+						<cell>5.26</cell>
+						<cell>0.0605</cell>
+						<cell>7.1</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5">
+				<head>Table A1</head>
+				<label>A1</label>
+				<figDesc></figDesc>
+				<table>
+					<row>
+						<cell>. continued</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>compound number</cell>
+						<cell>HEA alloy composition</cell>
+						<cell>δ (%)</cell>
+						<cell>ΔH mix (kJ/mol)</cell>
+						<cell>S c (k B /atom)</cell>
+						<cell>φ</cell>
+						<cell>ε RMS</cell>
+						<cell>VEC</cell>
+					</row>
+					<row>
+						<cell>61</cell>
+						<cell>CoCrFeNiAlNb 0.75</cell>
+						<cell>6.5</cell>
+						<cell>-18.03</cell>
+						<cell>1.79</cell>
+						<cell>3.95</cell>
+						<cell>0.0648</cell>
+						<cell>6.91</cell>
+					</row>
+					<row>
+						<cell>62</cell>
+						<cell>CoCrCuFeNiTi 0.8</cell>
+						<cell>5.7</cell>
+						<cell>-6.75</cell>
+						<cell>1.79</cell>
+						<cell>11.12</cell>
+						<cell>0.0563</cell>
+						<cell>8.14</cell>
+					</row>
+					<row>
+						<cell>63</cell>
+						<cell>CoCrCuFeNiTi</cell>
+						<cell>6.12</cell>
+						<cell>-8.44</cell>
+						<cell>1.79</cell>
+						<cell>8.92</cell>
+						<cell>0.0605</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>64</cell>
+						<cell>CuAlNiCoCrFeSi</cell>
+						<cell>6.13</cell>
+						<cell>-18.86</cell>
+						<cell>1.95</cell>
+						<cell>4.15</cell>
+						<cell>0.061</cell>
+						<cell>7.29</cell>
+					</row>
+					<row>
+						<cell>65</cell>
+						<cell>CuNi 2 FeCrAl 0.9</cell>
+						<cell>5.15</cell>
+						<cell>-5.22</cell>
+						<cell>1.56</cell>
+						<cell>12.08</cell>
+						<cell>0.0509</cell>
+						<cell>8.08</cell>
+					</row>
+					<row>
+						<cell>66</cell>
+						<cell>CuNi 2 FeCrAl 1.2</cell>
+						<cell>5.6</cell>
+						<cell>-6.78</cell>
+						<cell>1.57</cell>
+						<cell>9.25</cell>
+						<cell>0.0556</cell>
+						<cell>7.83</cell>
+					</row>
+					<row>
+						<cell>67</cell>
+						<cell>CuNi 2 FeCrAl 1.5</cell>
+						<cell>5.93</cell>
+						<cell>-8.05</cell>
+						<cell>1.57</cell>
+						<cell>7.47</cell>
+						<cell>0.0589</cell>
+						<cell>7.62</cell>
+					</row>
+					<row>
+						<cell>68</cell>
+						<cell>Cu 0.5 Ti 0.5 CrFeCoNiAl 0.5</cell>
+						<cell>5.97</cell>
+						<cell>-10.84</cell>
+						<cell>1.89</cell>
+						<cell>8.79</cell>
+						<cell>0.0591</cell>
+						<cell>7.64</cell>
+					</row>
+					<row>
+						<cell>69</cell>
+						<cell>CuCoNiCrAlFeTiV</cell>
+						<cell>6.34</cell>
+						<cell>-13.94</cell>
+						<cell>2.08</cell>
+						<cell>7.73</cell>
+						<cell>0.0631</cell>
+						<cell>7</cell>
+					</row>
+					<row>
+						<cell>70</cell>
+						<cell>FeNi 2 CrCuAl</cell>
+						<cell>5.32</cell>
+						<cell>-5.78</cell>
+						<cell>1.56</cell>
+						<cell>10.94</cell>
+						<cell>0.0526</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>71</cell>
+						<cell>FeNi 2 CrCuAl 1.2</cell>
+						<cell>5.6</cell>
+						<cell>-6.78</cell>
+						<cell>1.57</cell>
+						<cell>9.25</cell>
+						<cell>0.0555</cell>
+						<cell>7.84</cell>
+					</row>
+					<row>
+						<cell>72</cell>
+						<cell>FeCoNiCrCuAl 0.8</cell>
+						<cell>4.92</cell>
+						<cell>-3.61</cell>
+						<cell>1.79</cell>
+						<cell>17.15</cell>
+						<cell>0.0487</cell>
+						<cell>8</cell>
+					</row>
+					<row>
+						<cell>73</cell>
+						<cell>FeCoNiCrCuAl</cell>
+						<cell>5.28</cell>
+						<cell>-4.78</cell>
+						<cell>1.79</cell>
+						<cell>14.12</cell>
+						<cell>0.0523</cell>
+						<cell>7.83</cell>
+					</row>
+					<row>
+						<cell>74</cell>
+						<cell>FeCoNiCrCuAl 1.5</cell>
+						<cell>5.89</cell>
+						<cell>-7.05</cell>
+						<cell>1.78</cell>
+						<cell>9.9</cell>
+						<cell>0.0585</cell>
+						<cell>7.46</cell>
+					</row>
+					<row>
+						<cell>75</cell>
+						<cell>FeCoNiCrCuAl 2.0</cell>
+						<cell>6.26</cell>
+						<cell>-8.65</cell>
+						<cell>1.75</cell>
+						<cell>7.62</cell>
+						<cell>0.0623</cell>
+						<cell>7.14</cell>
+					</row>
+					<row>
+						<cell>76</cell>
+						<cell>FeCoNiCrCuAl 2.3</cell>
+						<cell>6.4</cell>
+						<cell>-9.38</cell>
+						<cell>1.73</cell>
+						<cell>6.7</cell>
+						<cell>0.0638</cell>
+						<cell>6.97</cell>
+					</row>
+					<row>
+						<cell>77</cell>
+						<cell>FeCoNiCrCuAl 2.8</cell>
+						<cell>6.57</cell>
+						<cell>-10.28</cell>
+						<cell>1.68</cell>
+						<cell>5.53</cell>
+						<cell>0.0656</cell>
+						<cell>6.71</cell>
+					</row>
+					<row>
+						<cell>78</cell>
+						<cell>FeCoNiCrCuAl 3.0</cell>
+						<cell>6.61</cell>
+						<cell>-10.56</cell>
+						<cell>1.67</cell>
+						<cell>5.17</cell>
+						<cell>0.0661</cell>
+						<cell>6.63</cell>
+					</row>
+					<row>
+						<cell>79</cell>
+						<cell>FeCoNiCuAl</cell>
+						<cell>5.61</cell>
+						<cell>-5.28</cell>
+						<cell>1.61</cell>
+						<cell>10.44</cell>
+						<cell>0.0556</cell>
+						<cell>8.2</cell>
+					</row>
+					<row>
+						<cell>80</cell>
+						<cell>MnCrFe 1.5 Ni 0.5 Al 0.3</cell>
+						<cell>4.7</cell>
+						<cell>-5.51</cell>
+						<cell>1.48</cell>
+						<cell>13.89</cell>
+						<cell>0.047</cell>
+						<cell>7.19</cell>
+					</row>
+					<row>
+						<cell>81</cell>
+						<cell>MnCrFe 1.5 Ni 0.5 Al 0.5</cell>
+						<cell>5.16</cell>
+						<cell>-7.26</cell>
+						<cell>1.52</cell>
+						<cell>10.62</cell>
+						<cell>0.051</cell>
+						<cell>7</cell>
+					</row>
+					<row>
+						<cell>82</cell>
+						<cell>ErTbDyNiAl</cell>
+						<cell>13.74</cell>
+						<cell>-37.6</cell>
+						<cell>1.61</cell>
+						<cell>-2.24</cell>
+						<cell>0.1429</cell>
+						<cell>4.4</cell>
+					</row>
+					<row>
+						<cell>83</cell>
+						<cell>PdPtCuNiP</cell>
+						<cell>9.29</cell>
+						<cell>-23.68</cell>
+						<cell>1.61</cell>
+						<cell>-1.26</cell>
+						<cell>0.0952</cell>
+						<cell>9.2</cell>
+					</row>
+					<row>
+						<cell>84</cell>
+						<cell>SrCaYbMgZn</cell>
+						<cell>15.25</cell>
+						<cell>-13.12</cell>
+						<cell>1.61</cell>
+						<cell>-0.017</cell>
+						<cell>0.1565</cell>
+						<cell>4.2</cell>
+					</row>
+					<row>
+						<cell>85</cell>
+						<cell>SrCaYbMgZn 0.5 Cu 0.5</cell>
+						<cell>16.37</cell>
+						<cell>-10.6</cell>
+						<cell>1.75</cell>
+						<cell>0.61</cell>
+						<cell>0.1699</cell>
+						<cell>4.1</cell>
+					</row>
+					<row>
+						<cell>86</cell>
+						<cell>SrCaYbLi 0.55 Mg 0.45 Zn</cell>
+						<cell>15.71</cell>
+						<cell>-12.15</cell>
+						<cell>1.75</cell>
+						<cell>0.2</cell>
+						<cell>0.1612</cell>
+						<cell>4.09</cell>
+					</row>
+					<row>
+						<cell>87</cell>
+						<cell>TiZrCuNiBe</cell>
+						<cell>12.53</cell>
+						<cell>-30.24</cell>
+						<cell>1.61</cell>
+						<cell>-0.9</cell>
+						<cell>0.1268</cell>
+						<cell>6.2</cell>
+					</row>
+					<row>
+						<cell>88</cell>
+						<cell>ZrHfTiCuNi</cell>
+						<cell>10.34</cell>
+						<cell>-27.36</cell>
+						<cell>1.61</cell>
+						<cell>-0.27</cell>
+						<cell>0.1049</cell>
+						<cell>6.6</cell>
+					</row>
+					<row>
+						<cell>89</cell>
+						<cell>ZrHfTiCuFe</cell>
+						<cell>10.43</cell>
+						<cell>-15.84</cell>
+						<cell>1.61</cell>
+						<cell>1.73</cell>
+						<cell>0.1059</cell>
+						<cell>6.2</cell>
+					</row>
+					<row>
+						<cell>90</cell>
+						<cell>ZrHfTiCuCo</cell>
+						<cell>10.24</cell>
+						<cell>-23.52</cell>
+						<cell>1.61</cell>
+						<cell>0.42</cell>
+						<cell>0.1039</cell>
+						<cell>6.4</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6">
+				<head></head>
+				<label></label>
+				<figDesc>
+					<ref type="bibr" target="#b0">1</ref>
+				</figDesc>
+				<table>
+					<row>
+						<cell>■ AUTHOR INFORMATION Corresponding Author</cell>
+					</row>
+					<row>
+						<cell>Mehrdad Jalali -Department of Computer Engineering,</cell>
+					</row>
+					<row>
+						<cell>Mashhad Branch, Islamic Azad University, Mashhad, Iran;</cell>
+					</row>
+					<row>
+						<cell>Institute of Functional Interfaces (IFG), Karlsruhe Institute of</cell>
+					</row>
+					<row>
+						<cell>Technology (KIT), 76344 Eggenstein-Leopoldshafen,</cell>
+					</row>
+					<row>
+						<cell>Germany; orcid.org/0000-0003-2465-4933;</cell>
+					</row>
+					<row>
+						<cell>Email: Mehrdad.jalali@kit.edu</cell>
+					</row>
+				</table>
+			</figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">
+				<p>https://doi.org/10.1021/acsomega.2c00317 ACS Omega 2022, 7, 12978-12992 Downloaded via UNIV OF NORTH TEXAS on May 22, 2024 at 17:15:37 (UTC).See https://pubs.acs.org/sharingguidelines for options on how to legitimately share published articles.</p>
+			</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1">
+				<p>https://doi.org/10.1021/acsomega.2c00317ACS Omega 2022, 7, 12978-12992</p>
+			</note>
+		</body>
+		<back>
+			<div type="annex">
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>■ ACKNOWLEDGMENTS</head>
+					<p>The authors acknowledge funding by the Federal Ministry of Education and Research of Germany for the project STREAM ("Semantische Repräsentation, Vernetzung und Kuratierung von qualitätsgesicherten Materialdaten", ID: 16QK11C). Furthemore, the authors acknowledge support by the KIT-Publication Fund of the Karlsruhe Institute of Technology. </p>
+				</div>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>Recommended by ACS</head>
+				</div>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+					<biblStruct xml:id="b0">
+						<monogr>
+							<title level="m" type="main">High-entropy alloy: challenges and prospects</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">F</forename>
+									<surname>Ye</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Lu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">T</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.mattod.2015.11.026</idno>
+							<imprint>
+								<date type="published" when="2016">2016</date>
+								<biblScope unit="volume">19</biblScope>
+								<biblScope unit="page" from="349" to="362" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b1">
+						<analytic>
+							<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">T H</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.msea.2003.10.257</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng., A</title>
+							<imprint>
+								<biblScope unit="page" from="213" to="218" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b2">
+						<analytic>
+							<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+							<author>
+								<persName>
+									<forename type="first">J.-W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S.-K</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S.-J</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J.-Y</forename>
+									<surname>Gan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T.-S</forename>
+									<surname>Chin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T.-T</forename>
+									<surname>Shun</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C.-H</forename>
+									<surname>Tsau</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S.-Y</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1002/adem.200300567</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Adv. Eng. Mater</title>
+							<imprint>
+								<biblScope unit="volume">6</biblScope>
+								<biblScope unit="page" from="299" to="303" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b3">
+						<analytic>
+							<title level="a" type="main">Microstructure, thermophysical and electrical properties in Al x CoCrFeNi (0 ≤ x ≤ 2) high-entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">H.-P</forename>
+									<surname>Chou</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y.-S</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S.-K</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J.-W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.mseb.2009.05.024</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng., B</title>
+							<imprint>
+								<biblScope unit="volume">163</biblScope>
+								<biblScope unit="page" from="184" to="189" />
+								<date type="published" when="2009">2009</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b4">
+						<analytic>
+							<title level="a" type="main">Electrochemical kinetics of the high entropy alloys in aqueous environmentsa comparison with type 304 stainless steel</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">Y</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">U</forename>
+									<forename type="middle">T</forename>
+									<surname>Hong</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">C</forename>
+									<surname>Shih</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Duval</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.corsci.2004.09.026</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Corros. Sci</title>
+							<imprint>
+								<biblScope unit="volume">47</biblScope>
+								<biblScope unit="page" from="2679" to="2699" />
+								<date type="published" when="2005">2005</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b5">
+						<analytic>
+							<title level="a" type="main">Design of high entropy alloys: A single-parameter thermodynamic rule</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">F</forename>
+									<surname>Ye</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Lu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">T</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.scriptamat.2015.03.023</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Scr. Mater</title>
+							<imprint>
+								<biblScope unit="volume">104</biblScope>
+								<biblScope unit="page" from="53" to="55" />
+								<date type="published" when="2015">2015</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b6">
+						<analytic>
+							<title level="a" type="main">Machine learning for molecular and materials science</title>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">T</forename>
+									<surname>Butler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">W</forename>
+									<surname>Davies</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Cartwright</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<surname>Isayev</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Walsh</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1038/s41586-018-0337-2</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Nature</title>
+							<imprint>
+								<biblScope unit="volume">559</biblScope>
+								<biblScope unit="page" from="547" to="555" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b7">
+						<analytic>
+							<title level="a" type="main">Using machine learning and feature engineering to characterize limited material datasets of high-entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Dai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Xu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Wei</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Ding</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Xu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.commatsci.2020.109618</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Comput. Mater. Sci</title>
+							<imprint>
+								<biblScope unit="volume">175</biblScope>
+								<biblScope unit="page">109618</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b8">
+						<analytic>
+							<title level="a" type="main">Solidsolution phase formation rules for multi-component alloys</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">J</forename>
+									<surname>Zhou</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">P</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">L</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">K</forename>
+									<surname>Liaw</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1002/adem.200700240</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Adv. Eng. Mater</title>
+							<imprint>
+								<biblScope unit="volume">10</biblScope>
+								<biblScope unit="page" from="534" to="538" />
+								<date type="published" when="2008">2008</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b9">
+						<analytic>
+							<title level="a" type="main">On lattice distortion in high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>He</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.3389/fmats.2018.00042</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Front. Mater</title>
+							<imprint>
+								<biblScope unit="volume">5</biblScope>
+								<biblScope unit="page">42</biblScope>
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b10">
+						<analytic>
+							<title level="a" type="main">Learning similarity with cosine similarity ensemble</title>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Xia</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.ins.2015.02.024</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Inf. Sci</title>
+							<imprint>
+								<biblScope unit="volume">307</biblScope>
+								<biblScope unit="page" from="39" to="52" />
+								<date type="published" when="2015">2015</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b11">
+						<analytic>
+							<title level="a" type="main">Using of Jaccard coefficient for keywords similarity</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Niwattanakul</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Singthongchai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Naenudorn</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Wanapu</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Proceedings of the International Multiconference of Engineers and Computer Scientists</title>
+							<imprint>
+								<biblScope unit="page" from="380" to="384" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b12">
+						<analytic>
+							<title level="a" type="main">Dynamic selection of normalization techniques using data complexity measures</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Jain</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Shukla</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Wadhvani</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.eswa.2018.04.008</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Expert Syst. Appl</title>
+							<imprint>
+								<biblScope unit="volume">106</biblScope>
+								<biblScope unit="page" from="252" to="262" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b13">
+						<analytic>
+							<title level="a" type="main">Fast algorithm for detecting community structure in networks</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">E J</forename>
+									<surname>Newman</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1103/physreve.69.066133</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Phys. Rev. E: Stat., Nonlinear, Soft Matter Phys</title>
+							<imprint>
+								<biblScope unit="page">66133</biblScope>
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b14">
+						<analytic>
+							<title level="a" type="main">Community structure in social and biological networks</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Girvan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">E</forename>
+									<surname>Newman</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1073/pnas.122653799</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+							<imprint>
+								<biblScope unit="volume">99</biblScope>
+								<biblScope unit="page" from="7821" to="7826" />
+								<date type="published" when="2002">2002</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b15">
+						<analytic>
+							<title level="a" type="main">Modularity and community structure in networks</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">E J</forename>
+									<surname>Newman</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1073/pnas.0601602103</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Proc. Natl. Acad. Sci. U.S.A</title>
+							<imprint>
+								<biblScope unit="volume">103</biblScope>
+								<biblScope unit="page" from="8577" to="8582" />
+								<date type="published" when="2006">2006</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b16">
+						<analytic>
+							<title level="a" type="main">Fast unfolding of communities in large networks</title>
+							<author>
+								<persName>
+									<forename type="first">V</forename>
+									<forename type="middle">D</forename>
+									<surname>Blondel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J.-L</forename>
+									<surname>Guillaume</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Lambiotte</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Lefebvre</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1088/1742-5468/2008/10/p10008</idno>
+						</analytic>
+						<monogr>
+							<title level="j">J. Stat. Mech. Theor. Exp</title>
+							<imprint>
+								<biblScope unit="page">10008</biblScope>
+								<date type="published" when="2008">2008. 2008</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b17">
+						<analytic>
+							<title level="a" type="main">Visual analysis of contact patterns in school environments</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Ponciano</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">D G</forename>
+									<surname>Linhares</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">L</forename>
+									<surname>Melo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">V</forename>
+									<surname>Lima</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">A</forename>
+									<surname>Travencolo</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.15388/infedu.2020.20</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Inf. Educ</title>
+							<imprint>
+								<biblScope unit="volume">19</biblScope>
+								<biblScope unit="page" from="455" to="472" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b18">
+						<analytic>
+							<title level="a" type="main">MDPCluster: a swarmbased community detection algorithm in large-scale graphs</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">F</forename>
+									<surname>Shirjini</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Farzi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Nikanjam</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1007/s00607-019-00787-4</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Computing</title>
+							<imprint>
+								<biblScope unit="volume">102</biblScope>
+								<biblScope unit="page">893</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b19">
+						<analytic>
+							<title level="a" type="main">A simple acceleration method for the Louvain algorithm</title>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Ozaki</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Tezuka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Tezuka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Inaba</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.17706/ijcee.2016.8.3.207-218</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Int. J. Electr. Comput. Eng</title>
+							<imprint>
+								<biblScope unit="volume">8</biblScope>
+								<biblScope unit="page">207</biblScope>
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b20">
+						<analytic>
+							<title level="a" type="main">Searching for high entropy alloys: A machine learning approach</title>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Kaufmann</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">S</forename>
+									<surname>Vecchio</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.actamat.2020.07.065</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">198</biblScope>
+								<biblScope unit="page" from="178" to="222" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b21">
+						<analytic>
+							<title level="a" type="main">Phase prediction in high entropy alloys with a rational selection of materials descriptors and machine learning models</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Wen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Antonov</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Xue</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Bai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Su</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.actamat.2019.11.067</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">185</biblScope>
+								<biblScope unit="page" from="528" to="539" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b22">
+						<analytic>
+							<title level="a" type="main">Overlapping community detection for multimedia social networks</title>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Huang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Zhai</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1109/tmm.2017.2692650</idno>
+						</analytic>
+						<monogr>
+							<title level="j">IEEE Trans. Multimed</title>
+							<imprint>
+								<biblScope unit="volume">19</biblScope>
+								<biblScope unit="page" from="1881" to="1893" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b23">
+						<analytic>
+							<title level="a" type="main">A new optimizer using particle swarm theory</title>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Eberhart</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Kennedy</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="m">MHS′95 Proceedings of the Sixth International Symposium on Micro Machine and Human Science</title>
+							<imprint>
+								<publisher>IEEE</publisher>
+								<date type="published" when="1995">1995</date>
+								<biblScope unit="page" from="39" to="43" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b24">
+						<analytic>
+							<title level="a" type="main">A new scalable leadercommunity detection approach for community detection in social networks</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Ahajjam</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>El Haddad</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Badir</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.socnet.2017.11.004</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Soc. Network</title>
+							<imprint>
+								<biblScope unit="volume">54</biblScope>
+								<biblScope unit="page" from="41" to="49" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b25">
+						<analytic>
+							<title level="a" type="main">Genetic algorithm for community detection in biological networks</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">B</forename>
+									<surname>M'barek</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Borgi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Bedhiafi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">B</forename>
+									<surname>Hmida</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.procs.2018.07.233</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Procedia Comput. Sci</title>
+							<imprint>
+								<biblScope unit="volume">126</biblScope>
+								<biblScope unit="page" from="195" to="204" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b26">
+						<analytic>
+							<title level="a" type="main">A community detection algorithm based on graph compression for large-scale social networks</title>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Machaka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Zhao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Liang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.ins.2020.10.057</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Comput. Mater. Sci</title>
+							<imprint>
+								<biblScope unit="volume">2021</biblScope>
+								<biblScope unit="page" from="358" to="372" />
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+						<note>Inf. Sci.</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b27">
+						<monogr>
+							<title level="m" type="main">Network community detection: A review and visual survey</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">S</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Niazi</surname>
+								</persName>
+							</author>
+							<idno type="arXiv">arXiv:1708.00977</idno>
+							<imprint>
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+						<note type="report_type">arXiv preprint</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b28">
+						<analytic>
+							<title level="a" type="main">A novel community detection based genetic algorithm for feature selection</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Rostami</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Berahmand</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Forouzandeh</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1186/s40537-020-00398-3</idno>
+						</analytic>
+						<monogr>
+							<title level="j">J. Big Data</title>
+							<imprint>
+								<biblScope unit="volume">8</biblScope>
+								<biblScope unit="page">2</biblScope>
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b29">
+						<analytic>
+							<title level="a" type="main">A novel link prediction algorithm for protein-protein interaction networks by attributed graph embedding</title>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Nasiri</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Berahmand</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Rostami</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Dabiri</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Risal</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Zhu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Guillen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Sun</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1016/j.commatsci.2021.110389</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Comput. Mater. Sci</title>
+							<imprint>
+								<biblScope unit="volume">192</biblScope>
+								<biblScope unit="issue">32</biblScope>
+								<biblScope unit="page">110389</biblScope>
+								<date type="published" when="2021">2021, 137, 104772. 2021</date>
+							</imprint>
+						</monogr>
+						<note>Comput. Biol. Med.</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b30">
+						<analytic>
+							<title level="a" type="main">Exploiting Metal-Organic Framework Relationships via Social Network Analysis</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Jalali</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tsotsalas</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Wöll</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<surname>Mofsocialnet</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.3390/nano12040704</idno>
+						</analytic>
+						<monogr>
+							<title level="j">Nanomaterials</title>
+							<imprint>
+								<biblScope unit="volume">2022</biblScope>
+								<biblScope unit="page">704</biblScope>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

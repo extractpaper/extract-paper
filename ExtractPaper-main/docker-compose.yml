@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+# Heavyweight grobid client.
+# NOTE: rework if you have non-nvidia gpu. (If you don't know, just run and see if it works)
+  grobid:
+    image: grobid/grobid:0.8.0
+    container_name: grobid
+    init: true
+    ulimits:
+      core: 0
+    ports:
+      - "8070:8070"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+# Lightweight Grobid environment. Run if the other image is giving you issues.
+  # grobid:
+  #   image: lfoppiano/grobid:0.8.0
+  #   container_name: grobid
+  #   init: true
+  #   ulimits:
+  #     core: 0
+  #   ports:
+  #     - "8070:8070"
+
+# This colab instance allows a single Python environment.
+  colab:
+    build: .
+    container_name: colab
+    depends_on:
+      - grobid
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./ALLPDF:/content/ALLPDF
+      - ./run_grobid.ipynb:/content/run_grobid.ipynb
+      - ./filter_paginate.ipynb:/content/filter_paginate.ipynb
+      - ./playbook.yml:/content/playbook.yml
+    environment:
+      - FLAG_EXTRACT_PAPER_IS_DOCKER=true

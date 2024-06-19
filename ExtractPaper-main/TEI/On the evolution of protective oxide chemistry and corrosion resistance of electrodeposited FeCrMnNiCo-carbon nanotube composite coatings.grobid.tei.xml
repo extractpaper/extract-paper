@@ -1,0 +1,2440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve"
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">On the evolution of protective oxide chemistry and corrosion resistance of electrodeposited FeCrMnNiCo-carbon nanotube composite coatings</title>
+				<funder>
+					<orgName type="full">Science and Engineering Research Board</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">SERB Government of India</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Informa UK Limited</publisher>
+				<availability status="unknown">
+					<p>Copyright Informa UK Limited</p>
+				</availability>
+				<date type="published" when="2023-01-10">2023-01-10</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Sujata</forename>
+								<surname>Singh</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Chandan</forename>
+								<surname>Srivastava</surname>
+							</persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Engineering</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<settlement>Bangalore</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Engineering</orgName>
+								<orgName type="institution">Indian Institute of Science</orgName>
+								<address>
+									<postCode>560012</postCode>
+									<settlement>Bangalore</settlement>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">On the evolution of protective oxide chemistry and corrosion resistance of electrodeposited FeCrMnNiCo-carbon nanotube composite coatings</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Philosophical Magazine</title>
+						<title level="j" type="abbrev">Philosophical Magazine</title>
+						<idno type="ISSN">1478-6435</idno>
+						<idno type="eISSN">1478-6443</idno>
+						<imprint>
+							<publisher>Informa UK Limited</publisher>
+							<biblScope unit="volume">103</biblScope>
+							<biblScope unit="issue">6</biblScope>
+							<biblScope unit="page" from="507" to="530"/>
+							<date type="published" when="2023-01-10" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">52DA4C46096FF7B50898928C93CCA0AC</idno>
+					<idno type="DOI">10.1080/14786435.2022.2159091</idno>
+					<note type="submission">Received 6 September 2022 Accepted 11 December 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-28T16:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>FeCrMnNiCo HEA coatings</term>
+					<term>Corrosion</term>
+					<term>Carbon Nanotubes</term>
+					<term>Optimum</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>Reinforcement of carbon nanotube (CNT) into FeCrMnNiCo</head>
+					<p>High Entropy Alloys (HEA) was carried out using electrodeposition method. Different volume fractions of functionalised CNTs (0.5, 1.0, 5.0, 10.0, 20.0, 30.0 mg/L) were dispersed in the aqueous electrolyte bath to synthesise HEA-CNT composite coatings. Effect of CNT addition on the phase constitution, morphology, composition, roughness, contact angle and ultimately on corrosion resistance of the pristine coating was investigated. The study revealed that the corrosion behaviour of the composite coatings was highly sensitive to the volume fraction of CNTs in the coatings. The change in the corrosion rate was, however, not monotonic and it was observed that the corrosion rate decreased progressively with CNT addition reaching a minimum followed by a sharp increase in corrosion rate thereafter. The protection efficiency of pristine coating was enhanced remarkably by 74.27% with the addition of an optimum amount (10 mg/L) of CNTs. The enhanced corrosion resistance was due to fine-grained morphology, reduced surface roughness from 1194. 9 ± 3.6 nm for pristine coating to 721.3 ± 1.8 nm for the highest corrosionresistant coating, enhanced hydrophobicity with a tremendous increase in water contact angle from 85.2°to 152.8°. Additionally, the dominance of more stable oxides of chromium (Cr 2 O 3 ) and nickel (NiO) on the passive oxide layer made the coating less susceptible to corrosive media. Beyond the optimum CNT volume fraction, the drastic deterioration in corrosion-resistance observed beyond the optimum was attributed to increased surface defects in the forms of cracks due to the incorporation of agglomerated CNTs into the coating matrix.</p>
+				</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1.">Introduction</head>
+				<p>High entropy alloys (HEA), comprise of multi-component systems with nearly equiatomic composition <ref type="bibr" target="#b0">[1]</ref>. Of all the HEAs reported, FeCrMnNiCo (cantor alloy) is the most comprehensively studied system due to the extraordinary properties, such as good thermal stability <ref type="bibr" target="#b1">[2]</ref>, high hardness <ref type="bibr" target="#b2">[3]</ref>, high fatigue resistance and fracture toughness <ref type="bibr" target="#b3">[4]</ref>, electrical and magnetic properties <ref type="bibr" target="#b4">[5]</ref> and high corrosion resistance <ref type="bibr" target="#b5">[6]</ref>. HEA samples have been fabricated mostly by processes such as arc-melting, mechanical alloying, and additive manufacturing, laser cladding, magnetron sputtering and electrodeposition <ref type="bibr" target="#b0">[1,</ref>
+					<ref type="bibr" target="#b4">5,</ref>
+					<ref type="bibr" target="#b5">6]</ref>. Particularly for the synthesis of coatings, electrodeposition technique is less equipment-intensive, scalable and cheaper alternative <ref type="bibr" target="#b5">[6]</ref>. However, the process deals with the complexity involved in optimising the operating conditions with multiple elements having widely varying deposition potential. Hence, reports on electrodeposited HEA coatings still remain scarce.</p>
+				<p>Numerous studies have been reported on the microstructure, mechanical properties correlation in HEAs, focus on evaluating the corrosion behaviour of HEA coatings is limited. Few corrosion studies on HEAs spans from the effect of aluminium on the pitting corrosion of Al x CrFe 1.5 MnNi 0.5 alloys in HCl solutions <ref type="bibr" target="#b6">[7]</ref>, impact of inhibitor <ref type="bibr" target="#b7">[8]</ref> and influence of heat treatments and alloying on the and electrochemical behaviour of Cu and Al-containing systems <ref type="bibr" target="#b8">[9]</ref> to pitting potential and corrosion behaviour of AlxCoCrFeNi alloys in H 2 SO 4 solution <ref type="bibr" target="#b9">[10]</ref>. With regard to FeCrMnNiCo system, Rodriguez et al. <ref type="bibr" target="#b10">[11]</ref> studied the effect of various concentration of alloying elements on corrosion behaviour. They reported that Cr addition enhances corrosion resistance in CO 2 containing 3.5 wt% NaCl at a pH of 4 by preventing pitting corrosion. Torbati-Sarraf et al. <ref type="bibr" target="#b11">[12]</ref> investigated the effect of Mn addition on the pitting corrosion of CrMnFeCoNi and CrFeCoNi alloys in chloride bath and concluded that addition of Mn proved detrimental to the protection ability of the passive film.</p>
+				<p>Some of the other published literature reveal that another way of improving the corrosion resistance of HEAs is by incorporation of carbonaceous materials like Carbon-Nanotubes (CNT), Graphene and Graphene-oxide (GO) in the HEA coating matrix. Graphene and Graphene oxide reinforced metallic nanocomposites have been extensively reported <ref type="bibr" target="#b12">[13]</ref>
+					<ref type="bibr" target="#b13">[14]</ref>
+					<ref type="bibr" target="#b14">[15]</ref>
+					<ref type="bibr" target="#b15">[16]</ref>
+					<ref type="bibr" target="#b16">[17]</ref>
+					<ref type="bibr" target="#b17">[18]</ref>
+					<ref type="bibr" target="#b18">[19]</ref>. The effect of incorporation of these additives originates both from their intrinsic properties (impermeability and inertness of Graphene and GO; hydrophobicity of the CNTs) and the microstructural changes (mainly compositional partitioning or homogenisation) due their incorporation into the coating matrix. Another study by Singh et.al <ref type="bibr" target="#b19">[20]</ref> reported that the addition of an optimum amount of CNTs in FeCuCrNiCo HEA led to compositional and phase homogenisation in the HEA matrix which enhanced corrosion resistance followed by deterioration thereafter, for higher CNT volume fraction, owing to the increased surface defects because of agglomeration of CNTs at high concentrations and formation of Cr 23 C 6 phase <ref type="bibr" target="#b19">[20]</ref>.
+				</p>
+				<p>For high corrosion-resistance, hydrophobicity plays a vital role. In the present work, the chemically inert nature of CNTs are employed to achieve high corrosion-resistance composite coatings. To the best of the authors knowledge, the same has not been reported yet using electrodeposition method. So, this current study reports the influence of carbon nanotubes incorporation on the phase constitution, morphology, protective coating constitution and electrochemical behaviour of electrodeposited FeCrMnNiCo-CNT composite coatings. It is shown here that the addition of an optimum amount of CNT enhances the corrosion resistance remarkably.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.">Experimental section</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.1.">Synthesis of carbon nanotubes</head>
+				<p>The CNTs used in this study were synthesised using chemical vapour deposition method. Details on the method of synthesis, functionalisation, purification and characterisation of the as-synthesised CNT is provided in our earlier work <ref type="bibr" target="#b19">[20]</ref>.
+				</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.2.">Electrodeposition of HEA and HEA-CNT composites</head>
+				<p>Electrodeposition of FeCrMnNiCo coating and FeCrMnNiCo-CNT composite coatings were carried out in a conventional two-electrode cell using a DC power source at room temperature. Mild steel (MS) plate, platinum plate and Ag/AgCl were used as cathode, anode and reference electrode, respectively. In order to get smooth and uniform surface for electrodeposition, the mild steel substrate was pickled in 10 wt% HCl solution, followed by polishing with different grit emery papers. The electrochemical bath composition and the operating parameters used for the electrodeposition of all the coatings are provided in Table <ref type="table" target="#tab_0">1</ref>. In our work, for CNT composite coatings, measured amount of CNT was dispersed in de-ionised water while keeping the bath composition and operating conditions the same. Five different HEA-CNT composite coatings were prepared by dispersing five different amounts of CNTs into each electrolyte bath and is referred as HEA(0 mg/L), HEA_C1 (0.50 mg/L), HEA_C2 (1.00 mg/L), HEA_C3 (5.00 mg/L),HEA_C4 (10.00 mg/L), HEA_C5 (20.00 mg/L) and HEA_C6 (30.00 mg/L). pH of the electrolyte was maintained at 1.5 using dil. NaOH solution. The surfactant amounts (gelatin, cetyltri-ammonium bromide, ascorbic acid, ammonium chloride, sulphanilic acid, potassium chloride, and boric acid) were optimised to achieve compact and crack-free coating morphology. Since the reduction potential of the five elements varies widely (Cr = -0.74 V, Fe = -0.44 V, Co = -0.28 V, Ni = -0.25 V, Mn = -1.17 V), the ratio of metal salts were chosen in a way that the precursor salt of the metal which has the lowest reduction potential was taken in the largest amount. After the deposition, the coating surface was rinsed with distilled water and dried at ambient temperature.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.3.">Methods and procedures</head>
+				<p>To identify the crystal structure and phase constitution of the electrodeposited coatings, the X-Ray Diffraction (XRD) patterns were obtained from CuK α (λ = 0.1542 nm) radiation source equipped with Xpert Pro Panalytical instrument.</p>
+				<p>The scan was carried out with operating conditions at 30 mA and 40 kV with a step size (2Θ) of 0.033°. Optical micrographs of the coatings were examined by optical microscope using a Leica DMi8 model optical microscope equipped with a chargecoupled device. FEI ESEM Quanta 200 Scanning Electron Microscope equipped with an energy dispersive X-Ray spectroscopy (EDS) detector was employed to examine the surface morphology and elemental composition of the electrodeposited coatings.</p>
+				<p>Surface roughness measurement was conducted using Vecco Dektak surface profilometer. A 2 µm stylus radius was used at a low scan speed of 10 µm/s over a scan length of 1000 µm. Measurement resolution was 0.33 µ/pt. and scan time was 10 s. The profilometer maintained a constant stylus force of 3 mg as the sample stage moved the sample under the stylus tip to trace a profile.</p>
+				<p>Zeta potential measurement was done using Zetasizer Nanoseries-ZEN 3690 (Malvern Instruments) to understand the interaction of dispersed CNTs with the ions present in the electrolyte. Six sets of electrolytes were prepared by dissolving individual metal salts in separate CNT-dispersed solution. The concentration of metal salts was taken the same as taken in an electrolytic bath for electrodeposition (Table <ref type="table" target="#tab_0">1</ref>). An electrolyte containing only dispersed CNT was taken as a standard solution.</p>
+				<p>The wettability of the coating surface was analysed by calculating the contact angle of a water droplet of 1 μL placed on the coating surface using an OCA 15EC optical contact angle measuring and contour analysis system with the automatic multi-liquid dispenser, monochromatic light source and the accompanying dataphysics software. To ensure that the water droplet reached its equilibrium position, the droplet was allowed to settle for 30 s.</p>
+				<p>All the corrosion measurements were carried out at room temperature using CHI 604E electrochemical set-up. Before Tafel polarisation and impedance analysis, the open circuit potential (OCP) was stabilised for 1 h and recorded. To obtain the potentiodynamic polarisation curves, the working electrode was polarised to ± 200 mV at a scan rate of 1 mV s -1 . All the measurements were done with respect to the OCP values. The frequency range used for electrochemical impedance studies was 1000 kHz to 0.01 Hz with a sinusoidal signal amplitude of 5 mV. The data obtained were analysed using ZSimpWin 3.21 software and equivalent electrical circuits. The surface characterisation of passive oxide film formed on the surface of HEA and HEA_C4 coating by X-ray photoelectron spectroscopy (XPS) was carried out in an ESCA + equipment by Omicron nanotechnology, equipped with a monochromator aluminium source (Al K α radiation at 1486.7 eV). The operating conditions were 15 kV and 15 mA with pass energy 20 and 50 eV for short scan and survey, respectively.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.">Results and discussion</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.1.">Morphology and composition</head>
+				<p>Representative SEM micrographs of FeCrMnNiCo and FeCrMnNiCo-CNT composite coatings are presented in Figure <ref type="figure" target="#fig_0">1</ref>. Inset shows higher magnification images. All the electrodeposited coatings exhibited granular morphology, which progressively transformed into finer and relatively more compact one with the incorporation of CNTs thus decreasing the surface defects. The reason for such improved morphology could be attributed to two factors. The first being the tubular structure of CNTs which tends to bridge up non-uniformities such as cracks, gaps and crevices. The second factor could be an increase in a number of heterogeneous sites for the nucleation of grains leading to finer grains. Beyond HEA_C4 coating, cracked morphology was observed, which aggravated on further addition of CNTs. This degradation in morphology could be because of non-uniform dispersion of agglomerated CNTs at higher concentrations.</p>
+				<p>Carbon contents in the coating, as tabulated in Table <ref type="table" target="#tab_1">2</ref>, show a monotonic rise in the concentration of carbon with an increase in electrolyte's CNT concentration from HEA_C1 to HEA_C5 coatings. The contribution for total carbon content of coatings also comes from the other organic additives used in the electrolytic bath. Since, the concentration of other carbon-containing chemicals were unchanged in a different electrolytic bath and only the CNT concentration was varied, so, instead of absolute values, the trend of relative increase in the carbon wt% in Table <ref type="table" target="#tab_1">2</ref> should be considered.</p>
+				<p>Figure <ref type="figure" target="#fig_1">2</ref> shows the average composition of the coatings (except carbon) as obtained from the elemental compositional analysis. The histogram shows a steady rise in the chromium content and depletion in manganese and iron content, with no substantial change in cobalt and nickel content. The segregation tendency of manganese has been reported previously <ref type="bibr" target="#b3">[4,</ref>
+					<ref type="bibr" target="#b6">7,</ref>
+					<ref type="bibr" target="#b11">12]</ref>.  
+				</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.2.">Phase constitution</head>
+				<p>The X-ray diffraction pattern obtained from the electrodeposited pristine HEA coating and HEA-CNT composite coatings with different concentrations of CNTs (0.5, 1.0, 5, 10, 20, 30 mg/L) is shown in Figure <ref type="figure" target="#fig_2">3</ref>. The diffractograms of all the coatings show the presence of a characteristic BCC phase with all the elements dissolving into the lattice of Fe or Cr due to lower enthalpy of mixing with other elements (Table <ref type="table" target="#tab_2">3</ref>). Since the majority of constituent elements (Cr, Mn and Fe) have the body-centered cubic (BCC) crystalline structure, the solid solution formed also acquired BCC structure. However, the observed single BCC phase in the electrodeposition of CrNi-CoFeMn HEA coating differs from the observed single FCC phase observed by Cantor et al. <ref type="bibr" target="#b1">[2]</ref> for the composition Fe 20 Cr 20 Ni 20 Mn 20 Co 20 alloy. The difference in the phase structure can probably be due to the difference in the relative fraction of the component elements and the non-equilibrium nature of the electrodeposition process used to produce the coatings. A similar phase constitution was also reported by Aliyu et al. <ref type="bibr" target="#b20">[21]</ref> for electrodeposited coating of similar composition.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.3.">Zeta potential</head>
+				<p>Figure <ref type="figure" target="#fig_3">4</ref> shows the zeta potential exhibited by different metal-electrolytes. It is clear that Cr-CNT electrolyte shows the lowest zeta potential, i.e. in the Cr-CNT dispersion, the extent of electrostatic repulsion between similarly charged particles is least, confirming that chromium (among the elements) has more tendency to preferentially adsorb on CNT which is closely followed by nickel. The increasing trend showing preferential adsorption of metal ions on CNT was Cr &gt; Ni &gt; Fe &gt; Co &gt; Mn. This result very well explains why Cr progressively increased and Mn decreased with the incorporation of CNTs in the FeCrMnNiCo matrix.</p>
+				<p>Additionally, It is well known that the higher the zeta potential, the lower the aggregation in the dispersion <ref type="bibr" target="#b21">[22]</ref>. The high Zeta potential value of standard CNT electrolyte (47.2 mV) confirmed excellent dispersion of CNTs in the aqueous solution.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.4.">CNT distribution and surface roughness</head>
+				<p>In order to extract high corrosion resistance potential due to the addition of CNTs, a homogeneous distribution of un-bundled CNTs in the coating matrix is essential. Figure <ref type="figure" target="#fig_4">5</ref> shows the representative SEM micrographs, which reveal homogeneous distribution of CNTs in the matrix of HEA_C4 coating. With higher additions in the case of HEA_C6 coating, CNTs behave as defects and tend to agglomerate as a result of the strong attractive force  owing to their high specific surface area, which decreases the anti-corrosion property of the composite coating. The composition for marked spots in HEA_C6 was observed to be C = 28.1 ± 2.3; Fe = 12 ± 1.8; Cr = 16.4 ± 0.6; Mn = 22.3 ± 1.2; Ni = 12.7 ± 2.7 and Co = 8.5 ± 0.7 wt.% Surface roughness was quantified using profilometer. The quantification of roughness value is done by analysing the deviations of a real surface from its ideal form in the normal vector direction. The average roughness value for HEA, HEA_C4 and HEA_C6 coatings are presented in Figure <ref type="figure" target="#fig_7">6</ref>. Profilometry tests revealed that the addition of optimum CNTs helped in lowering the roughness value from 1194. 94 ± 3.67 nm for HEA coating to 721.36 ± 1.89 nm for HEA_C4 coating, whereas for HEA_C6 surface, roughness value increased again to 2912.19 ± 5.65 nm. Large fraction of irregularities on the surface increases the surface area and form the nucleation sites for cracks or defects aiding corrosion initiation. The reason for such observation can be clearly understood from Figure <ref type="figure" target="#fig_7">6</ref>, which shows uniformly distributed CNTs in HEA_C4 and agglomerated CNTs in HEA_C6 coating.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.5.">Contact angle measurement</head>
+				<p>Figure <ref type="figure" target="#fig_8">7</ref> shows the variation of contact angle with insets showing images of deionised water droplet profile on the electrodeposited coatings. The water contact angles over HEA, HEA_C4 and HEA_C6 coating were found to be 85.2 ± 0.34°, 152.8.0 ± 0.22°and 157.8 ± 0.63°, respectively. It can be noted that the contact angle value increases substantially till HEA_C4 and gradually thereafter.</p>
+				<p>These results indicate that the surface of the HEA coating changed from hydrophilic (10°&lt; θ &lt; 90°) to hydrophobic (θ &gt; 90°) to superhydrophobic (θ &gt; 150°) by the addition of MWCNTs. Hydrophobicity induced by CNTs increases the water repellence and retards the adhesion of water molecules onto the surface which enhances the protective properties of coatings.</p>
+				<p>The fraction of air pockets at the interface was calculated using Equation (1) and was found to be 89.79% for HEA_C4 coating. where Θ = contact angle of HEA coating, Θ r = contact angle of HEA-CNT composite coating, f 1 = fraction of solid and f 2 = fraction of air at the interface The remarkably high hydrophobicity imparted by air (contact angle of 180°), prevents the permeation of the corrosion medium by trapping air at the coating-electrolyte interface and amplifies surface hydrophobicity <ref type="bibr" target="#b22">[23]</ref>. Beyond this optimum, the surface defects play a predominant role and offsets the advantages that hydrophobic surface offers.    coatings to equilibrate until stable potential value was achieved. According to the literature <ref type="bibr" target="#b23">[24]</ref>, for a material with relatively higher corrosion resistance performance, the potential shifts towards higher or more positive value.  <ref type="table" target="#tab_3">4</ref>.
+				</p>
+				<formula xml:id="formula_0">CosQ r = f 1 cosQ-f 2 -1</formula>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.">Corrosion analysis</head>
+				<p>With an increase in the volume fraction of CNTs in the FeCrMnNiCo coatings, the E corr value increased from -0.659 V for pristine coating to -0.488 V for HEA_C4 coating and further decreased to -0.743 V for HEA_C6 coating. I corr values also decreased substantially from 86.22 µA/ cm 2 for HEA to 21.58 µA/cm 2 for HEA_C4 coating and increased abruptly till 148 µA/cm 2 for HEA_C6 coating. Corrosion rate dropped by 75% with the reinforcement of optimum amount of CNT in pristine HEA coating. As it is well established in literature that an increase in E corr with simultaneous decrease in I corr indicates higher corrosion resistance <ref type="bibr" target="#b5">[6,</ref>
+					<ref type="bibr" target="#b23">24]</ref>, the observed electrochemical parameters clearly show that with the reinforcement of optimum amount of CNTs, HEA_C4 coating provides the highest corrosion resistance.</p>
+				<p>Moreover, passivation behaviour was observed in the anodic branch of the polarisation curve, which is indicative of formation of oxides and hydroxides on the surface of the electrodeposited coatings. Therefore, the opposite trend of E corr and I corr is shown in Figure <ref type="figure" target="#fig_11">9</ref> emphasises the importance of the required optimum concentration of CNTs for enhanced corrosion resistance. The protection efficiency of HEA_C4 was found to be 74.27% as compared to HEA coating. </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.2.">Electrochemical impedance spectroscopy</head>
+				<p>Electrochemical impedance spectroscopy (EIS), a non-destructive technique was employed to understand the interaction at coating/electrolyte interface and kinetics involved in the corrosion process <ref type="bibr" target="#b23">[24]</ref>. The recorder EIS data are presented as Nyquist plot for all the electrodeposited coatings in Figure <ref type="figure" target="#fig_12">10</ref>(a). Bode's plot represented as absolute impedance, |Z| vs frequency (Hz) and phase vs frequency (Hz) is shown in Figure <ref type="figure" target="#fig_12">10(b,</ref>
+					<ref type="figure">c</ref>), respectively. As a result of redox reactions, the Nyquist plots are characterised by depressed semi-circular shape. The solid lines represent the measured data and symbols represent the simulated data. Diameter of the semi-circle at high frequencies depicts solution resistance, i.e. electron transfer resistance, which is almost the same for all the coatings, whereas diameter of the semi-circle at lower frequency which represents charge transfer resistance increases progressively with the addition of CNTs and reaches a maximum for HEA_C4 coating following which the diameter becomes smaller than observed for the pristine  FeCrMnNiCo coating. A large capacitive loop diameter depicts high corrosion resistance. The larger radius of the semi-circle signifies lower frequency and longer period, which means slower electrochemical reaction kinetics and lower corrosion rate. The results obtained from the Nyquist curves go handin-hand with the tafel polarisation analysis. In Bode plots, the polarisation resistance (R p ) and solution resistance (R s ), correspond to the values log |Z| at very low frequencies and very high frequencies, respectively. Both of the R p and R s values of the HEA coating are lower than HEA_C4 coating. This indicates that HEA_C4 coating is more corrosion-resistant than pristine HEA coating. The formation of stable passive film is characterised by a high phase angle and broadened plateau of the phase angle at the low-frequency region and the middle frequency region, respectively. The Bode's plot obtained for HEA_C4 coating fulfils both criteria and thus proves that the coating's passive film has relatively higher protection efficiency and is of higher capacity. On further addition of CNTs beyond HEA_C4 coating, a downward shift in log |Z| and phase angle in low-frequency region was observed, which indicates that these coatings are more susceptible to corrosion. All these observations indicate that the coating's corrosion rate is highly dependent on the volume fraction of reinforced CNTs and with an increase in the amount of CNTs up to a particular concentration, a relatively thicker stable protective barrier forms, thus retarding the permeation of electrolyte into the coating surface.</p>
+				<p>In addition, the electrochemical behaviour is also determined by the stability of the passive layer formed. The EIS spectra were analysed by fitting the curves with the electrochemical equivalent circuit (Figure <ref type="figure" target="#fig_13">11</ref>). Table <ref type="table" target="#tab_4">5</ref> lists the numerical values of each circuit element fitted to the model circuit. The very low chisquare value (10 -4 ) proves the excellent fit between the model and the experimental data. Since the electrodeposited coatings contain defects, the ideal capacitive behaviour is replaced by a constant phase element (CPE), which is a function of two parameters: Y and n. The former arises due to dispersion effects, whereas the value of n ranging from 0 to 1 indicates the dispersion index <ref type="bibr" target="#b4">[5,</ref>
+					<ref type="bibr" target="#b23">24]</ref>.
+				</p>
+				<p>The solution resistance offered by aqueous electrolyte is denoted by R s . R 1 and Q 1 in the high-frequency region indicating the resistance offered by the oxide layer and the capacitance due to the ionic leakage through the pores, respectively. The mid-frequency region represented by R 2 and Q 2 arise as a result of redox reactions taking place in the passive oxide layer. In the low-frequency region, resistance offered by charge transfers and the capacitance arising out of the double electric layer is represented by R 3 and Q 3 . The values of Q 1 and Q 2 are indicative of a deformed capacitive semi-circle, which is due to the inhomogeneity of the surface as a result of impurities and roughness. Q 3 is indirectly proportional to electric double-layer thickness and correlates with protective behaviour. The sum of the R 1 , R 2 and R 3 , denoted by polarisation resistance (R p ) is indicative of corrosion rate of samples. It was observed that the oxide layer parameter (R 2 ) as well as charge transfer resistance (R 3 )  </p>
+				<formula xml:id="formula_1">Sample/Parameter R s (Ω/cm 2 ) Q 1 10 -8 (Ω -1 cm -2 S -n ) n 1 R 1 (Ωcm 2 ) Q 2 (Ω -1 cm -2 S -n ) n 2 R 2 (Ωcm 2 ) F(Ω -1 cm -2 S -n ) R 3 (Ωcm 2 ) Rp (Ωcm 2 )</formula>
+				<p>Chi square E progressively increased with the addition of CNTs indicating enhanced corrosion resistance. Also, with CNT addition, the capacitance decreased, signifying lower surface activity arising as a result of decrease in interfacial area. Consequently, the small capacitance was obtained by the decreased active interfacial area between the surface and the electrolyte. As the corrosion progresses, the corrosion products form a thicker protective layer, which acts a barrier between the corrosive media and the coating surface. This leads to a reduction of C 3 (till HEA_C4) and so resistance R 3 increases. From Figure <ref type="figure" target="#fig_14">12</ref>, the variation of C 3 and R 3 against the amount of CNTs in coatings showed an opposite trend, indicating lower surface activity and higher corrosion resistance, respectively.</p>
+				<p>The polarisation resistance, R p , increased from 442 Ωcm -2 for HEA to 1588 Ωcm -2 for HEA_C4 coatings, is in agreement with the potentiodynamic polarisation study and emphasises the fact that that with reinforcement of an optimum amount of CNTs, remarkable corrosion resistance can be achieved.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.">Surface chemistry of passive oxides after corrosion by XPS</head>
+				<p>Tafel polarisation curves showed passivation behaviour. Consequently, a deeper understanding of coating's surface chemistry in terms of chemical oxidation state of the passive films is important. To this end, XPS analysis was performed on pristine HEA coating and the best corrosion-resistant HEA_C4 coating after 48 h exposure in 3.5M NaCl solution.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.1.">Survey spectrum</head>
+				<p>Figure <ref type="figure" target="#fig_15">13</ref> shows the elements survey scans obtained from the surface of FeCrMnNiCo coating and FeCrMnNiCo_C4 coating confirming the presence of all five elements -Fe, Cr, Mn, Ni, Co and a high-intensity oxygen peak in the passive layer of both coatings. The observed peaks correspond to the respective chemical signals <ref type="bibr" target="#b24">[25]</ref>
+					<ref type="bibr" target="#b25">[26]</ref>
+					<ref type="bibr" target="#b26">[27]</ref>
+					<ref type="bibr" target="#b27">[28]</ref>
+					<ref type="bibr" target="#b28">[29]</ref> reported in literature and are tabulated in Table <ref type="table" target="#tab_6">6</ref>.
+				</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.2.">High-resolution XPS spectra</head>
+				<p>The oxidation states of constituent elements were determined by a high-resolution narrow spectrum. The core level spectra for Fe 2p 3/2 , Cr 2p 3/2 , Mn 2p 3/2 , Co 2p 3/2 , Ni 2p 3/2 , and O1s were recorded from HEA and HEA_C4 coatings, carefully fitted for each photo-electron peak and are presented in Figures <ref type="figure" target="#fig_16">14</ref> and<ref type="figure" target="#fig_17">15</ref>, respectively.</p>
+				<p>For both pristine and HEA_C4 coatings, the Cr 2p 3/2 spectra were split into three constituent peaks, i.e. Cr 0 , Cr whereas an additional H 2 O i.e. bound water peak was present for HEA_C4 coating.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.3.">Quantitative analysis -Cationic fraction</head>
+				<p>To understand the corrosion behaviour of HEA and HEA_C4 coatings more deeply, the quantitative analysis of XPS results was performed and is presented in the form of cationic plots in Figure <ref type="figure" target="#fig_18">16</ref>. Table <ref type="table" target="#tab_8">7</ref> presents the relative amounts  of Fe, Cr, Mn, Ni, and Co in various chemical states on the passive surface film.</p>
+				<p>As expected, concentration of the oxides or hydroxides, produced by water ionisation during corrosion, was more than the elemental state.</p>
+				<p>Based on cationic fraction plot, the following sequence shows the decreasing order of concentration of the alloying elements in various oxidation states presents on the surface of coatings in the case of: HEA:</p>
+				<formula xml:id="formula_2">CoO &gt; CrO 3 &gt; Ni(OH) 2 &gt; Fe 2 O 3 &gt; Co 0 &gt; Ni 0 &gt; Mn 2 O 3 &gt; Fe 0 &gt; Cr 2 O 3 &gt; MnO &gt; FeOOH &gt; Co 3 O 4 &gt; NiO &gt; Mn 0 &gt; Cr 0 &gt; MnO 2 &gt; &gt;FeO HEA_C4: Cr 2 O 3 &gt; NiO&gt; FeO &gt; Co 3 O 4 &gt; Ni 0 &gt; CoO &gt; Fe 2 O 3 &gt; MnO &gt; Cr 0 &gt; CrO 3 &gt; Ni (OH) 2 &gt; MnO 2 &gt; Mn 0 &gt;Co 0 &gt; Mn 2 O 3 &gt; Fe 0 &gt;FeOOH</formula>
+				<p>The passive oxide film of the pristine HEA was mostly covered with Cr + 6   FeOOH) ratios were orders of magnitude higher in the case of HEA_C4 coating than HEA coating.</p>
+				<p>HEA_C4 contains a higher volume fraction of Co ox + 3 , while the passive film of HEA was rich in Co ox + 2 . The protective nature of Co 3 O 4 (Co ox + 3 ) against corrosion is well established in literature <ref type="bibr" target="#b25">[26]</ref> and thus aids in improved corrosion resistance of HEA_C4 coating. Since nickel is less prone to oxidation than Fe  , known for unstable porous structure <ref type="bibr" target="#b26">[27]</ref>, is the predominantly present in the oxide film of HEA and Ni ox 2+ ,which has a robust structure and is well known to provide protection against corrosion in ferrous alloys. In the case of HEA_C4, nickel does not decompose as it oxidises but instead forms a stable layer of NiO that prevents further oxidation from occurring.</p>
+				<p>Many studies have reported that the addition of manganese adversely affects the corrosion behaviour <ref type="bibr" target="#b11">[12,</ref>
+					<ref type="bibr" target="#b29">30]</ref>. Larger fractions of Mn + 3 and Mn + 4 oxides, which diminish the chemical stability of the oxide layer, were present in HEA coating than HEA_C4 coating.</p>
+				<p>It is apparent that the surface oxide film of HEA_C4 is enriched with Cr 2 O 3 . The ratio of Cr 2 O 3 and metallic chromium was calculated to be almost three times that of HEA_C4 as compared to HEA. In pristine HEA, chromium was present in Cr + 6 form, which has a defective, porous, unstable structure. The benefit of Cr 2 O 3 to corrosion resistance has been recognised by several authors in different systems <ref type="bibr" target="#b23">[24,</ref>
+					<ref type="bibr" target="#b24">25,</ref>
+					<ref type="bibr" target="#b29">30,</ref>
+					<ref type="bibr" target="#b30">31]</ref>.
+				</p>
+				<p>The additional peak corresponding to bound water (H 2 O), present in HEA_C4 coating acted as an additional barrier against corrosion by forming a new film by capturing the dissolved metal ions acts as an effective species to capture the dissolving metal ions, forming a new film of protection resisting further corrosive attack <ref type="bibr" target="#b27">[28,</ref>
+					<ref type="bibr" target="#b28">29]</ref>. This additional layer of protection was missing in HEA coating.</p>
+				<p>According to the literature <ref type="bibr" target="#b31">[32]</ref>, the corrosion resistance of an alloy is directly proportional to the ratio of relative amounts of corrosion-resistant elements to other elements in its passive oxide film. In the present study, since Cr, Co, and Ni are relatively more corrosion resistant than Fe and Mn, the high atomic ratio of 2.5 obtained for (Cr + Ni + Co) / (Fe + Mn) signifies higher corrosion resistance of HEA_C4 coating.</p>
+				<p>In summary, the enhancement in corrosion resistance observed in the case of HEA_C4 coatings is attributed to the evolution of solid solution of BCC phase, decreased surface roughness, increased hydrophobicity and the synergistic effect of Cr 2 O 3 and NiO phases forming a stable protective oxide layer.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="6">Conclusions</head>
+				<p>In nutshell, electrodeposition method proves to be a viable technique for the synthesis of high entropy alloy-carbon nanotubes composites. Reinforcement of an optimum amount of carbon nanotubes enhanced the protection efficiency of FeCrMnNiCo coating by 74.27%. The well-known bridging effect of CNTs, owing to their tubular structure, proved advantageous in filling gaps and rendered coating with compact and smooth fine-grained morphology. As a result, surface roughness decreased from 1194. 94 ± 3.67 nm (HEA) to 721.36 ± 1.89 nm(HEA_C4) and further increased to 2912.19 ± 5.65 nm for HEA-C6 coating. The sharp increase in roughness value for HEA_C6 coating was because of surface defects arising as a result of agglomerated CNTs at higher concentrations. The cracked morphology of HEA_C5 and HEA_C6 coating could barely prevent the penetration of corrosive media and thus show poor corrosion resistance as observed by immersion test and polarisation tests. Additionally, it was observed that chromium gets preferentially adsorbed on CNTs as compared to other elements in the electrolytic bath and hence shows a steady increase in concentration with CNT addition. Moreover, the coatings surface transition from hydrophilic to superhydrophobic regime in terms of contact angle values rising from 85.2°for HEA to 152.8°f or HEA_C4. Assisted by air pockets at the interface, the tremendous increase in hydrophobicity made the composite coating highly corrosion-resistant. XPS analysis of pristine coating and the one with the highest corrosion resistance after corrosion revealed that the chief components of passive film in HEA are Cr + 6 , Ni hy + 2 , Co + 3 , Fe hy + 3 , Mn + 3 , Mn + 4 as compared to HEA_C4, which have more stable, Cr + 3 , Fe + 2 , Ni ox + 2 , Co + 2 , Fe + 2 , Mn + 2 as primary constituents. The bound water peaks present in HEA_C4 composites acted as an additional barrier against corrosion by forming a new film by capturing the dissolved metal ions. These peaks were absent in HEA coatings which showed higher corrosion rate.</p>
+			</div>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0">
+				<head>Figure 1 .</head>
+				<label>1</label>
+				<figDesc>Figure 1. SEM micrographs showing morphological changes with CNT addition.</figDesc>
+				<graphic coords="6,74.84,499.24,342.26,130.90" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1">
+				<head>Figure 2 .</head>
+				<label>2</label>
+				<figDesc>Figure 2. Histograms showing average elemental composition of HEA and HEA-CNT composites.</figDesc>
+				<graphic coords="7,74.84,372.42,343.22,246.73" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2">
+				<head>Figure 3 .</head>
+				<label>3</label>
+				<figDesc>Figure 3. XRD patterns of HEA and HEA-CNT composite coatings.</figDesc>
+				<graphic coords="8,125.86,431.66,239.98,198.48" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3">
+				<head>Figure 4 .</head>
+				<label>4</label>
+				<figDesc>Figure 4. Zeta potential variation of CNT and Metal-CNT electrolytes.</figDesc>
+				<graphic coords="9,74.84,428.09,343.22,202.05" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4">
+				<head>Figure 5 .</head>
+				<label>5</label>
+				<figDesc>Figure 5. Micrographs showing HEA and CNT distribution in HEA_C4 and HEA_C6 coatings.</figDesc>
+				<graphic coords="10,74.84,53.29,342.94,85.44" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5">
+				<head>4. 1 .</head>
+				<label>1</label>
+				<figDesc>Open circuit potential and Tafel polarisation behaviour</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6">
+				<head>Figure 8 (</head>
+				<label>8</label>
+				<figDesc>Figure 8(a) presents the E ocp values of all the composite coatings plotted against the immersion time. Open Circuit Potential was determined by allowing all the</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7">
+				<head>Figure 6 .</head>
+				<label>6</label>
+				<figDesc>Figure 6. Surface roughness profile as obtained by Dektak profilometer.</figDesc>
+				<graphic coords="11,74.84,53.29,342.03,89.86" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8">
+				<head>Figure 7 .</head>
+				<label>7</label>
+				<figDesc>Figure 7. Variation of water contact angle with CNT addition.</figDesc>
+				<graphic coords="11,97.51,395.32,300.02,234.82" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9">
+				<head>Figure 8 (</head>
+				<label>8</label>
+				<figDesc>b) presents potentiodynamic polarisation curves obtained from FeCrMnNiCo HEA and FeCrMnNiCo-CNT composite coatings measured with respect to their respective OCP values. The corrosion parameters, including E corr , I corr , corrosion rate (CR), Polarisation Resistance (R p ), Tafel slopes (β a and β c ) values obtained from the Tafel polarisation curves are tabulated in Table</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10">
+				<head>Figure 8 .</head>
+				<label>8</label>
+				<figDesc>Figure 8. (a) Open Circuit Potential (b) Tafel Polarisation plots of FeCuCrNiCo and FeCuCrNiCo-CNT coatings.</figDesc>
+				<graphic coords="12,74.84,482.46,342.03,136.69" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11">
+				<head>Figure 9 .</head>
+				<label>9</label>
+				<figDesc>Figure 9. Plot showing variation of Ecorr and Icorr of HEA and HEA-CNT composite coatings.</figDesc>
+				<graphic coords="13,74.84,425.20,342.26,204.95" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12">
+				<head>Figure 10 .</head>
+				<label>10</label>
+				<figDesc>Figure 10. (a) Nquist impedance plots, (b) Bode's impedance plot and (c) Bode's phase angle plot.</figDesc>
+				<graphic coords="14,74.84,339.65,343.22,279.50" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13">
+				<head>Figure 11 .</head>
+				<label>11</label>
+				<figDesc>Figure 11. Electrochemical Equivalent Circuit used to simulate EIS data.</figDesc>
+				<graphic coords="15,97.51,463.24,300.02,166.90" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14">
+				<head>Figure 12 .</head>
+				<label>12</label>
+				<figDesc>Figure 12. Variation of R3 and C3 as obtained from EIS simulation.</figDesc>
+				<graphic coords="17,74.84,355.24,343.22,274.90" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15">
+				<head>Figure 13 .</head>
+				<label>13</label>
+				<figDesc>Figure 13. Survey spectrum of HEA and HEA_C4 coatings showing presence of individual elements after corrosion.</figDesc>
+				<graphic coords="18,74.84,468.57,342.72,150.58" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16">
+				<head>Figure 14 .</head>
+				<label>14</label>
+				<figDesc>Figure 14. High Resolution XPS Spectra of passive film of HEA after corrosion.</figDesc>
+				<graphic coords="19,74.84,423.16,342.94,206.99" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17">
+				<head>Figure 15 .</head>
+				<label>15</label>
+				<figDesc>Figure 15. High Resolution XPS Spectra of passive film of HEA_C4 after corrosion.</figDesc>
+				<graphic coords="20,74.84,53.29,343.23,207.95" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18">
+				<head>Figure 16 .</head>
+				<label>16</label>
+				<figDesc>Figure 16. Cationic fractions in passive film of HEA and HEA_C4 coatings.</figDesc>
+				<graphic coords="21,74.84,53.29,343.22,258.01" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0">
+				<head>Table 1 .</head>
+				<label>1</label>
+				<figDesc>Bath chemistry and optimised parameters.</figDesc>
+				<table>
+					<row>
+						<cell>Sample</cell>
+						<cell>Bath Composition</cell>
+						<cell>Concentration (g L -1 )</cell>
+						<cell>Condition</cell>
+					</row>
+					<row>
+						<cell>HEA</cell>
+						<cell>FeCl 2 .4H 2 O</cell>
+						<cell>0.73</cell>
+						<cell>Current density: 100mAcm -2</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>NiCl 2 .6H 2 O</cell>
+						<cell>2.15</cell>
+						<cell>Temperature: 28 ± 1°C</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>CoCl 2 .6H 2 O</cell>
+						<cell>1.10</cell>
+						<cell>Time of deposition 25 min</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>MnCl 2 .4H 2 O</cell>
+						<cell>2.40</cell>
+						<cell>pH 1.5</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>CrCl 3 .4H 2 O</cell>
+						<cell>2.25</cell>
+						<cell>(with stirring)</cell>
+					</row>
+					<row>
+						<cell>HEA_C1</cell>
+						<cell>FeCrMnNiCo with CNT</cell>
+						<cell>0.50 mg/L</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>HEA_C2</cell>
+						<cell></cell>
+						<cell>1.00 mg/L</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>HEA_C3</cell>
+						<cell></cell>
+						<cell>5.00 mg/L</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>HEA_C4</cell>
+						<cell></cell>
+						<cell>10.00 mg/L</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>HEA_C5</cell>
+						<cell></cell>
+						<cell>20.00 mg/L</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>HEA_C6</cell>
+						<cell></cell>
+						<cell>30.00 mg/L</cell>
+						<cell></cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1">
+				<head>Table 2 .</head>
+				<label>2</label>
+				<figDesc>Quantitative carbon content in electrodeposited coatings obtained by the SEM-EDS.</figDesc>
+				<table>
+					<row>
+						<cell>Element (wt%)/System</cell>
+						<cell>HEA</cell>
+						<cell>HEA_C1</cell>
+						<cell>HEA_C2</cell>
+						<cell>HEA_C3</cell>
+						<cell>HEA_C4</cell>
+						<cell>HEA_C5</cell>
+						<cell>HEA_C6</cell>
+					</row>
+					<row>
+						<cell>C</cell>
+						<cell>1.60±</cell>
+						<cell>1.80±</cell>
+						<cell>2.32±</cell>
+						<cell>4.03±</cell>
+						<cell>6.74±</cell>
+						<cell>7.81±</cell>
+						<cell>10.45±</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>0.08</cell>
+						<cell>0.61</cell>
+						<cell>0.54</cell>
+						<cell>1.28</cell>
+						<cell>0.94</cell>
+						<cell>2.31</cell>
+						<cell>2.02</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2">
+				<head>Table 3 .</head>
+				<label>3</label>
+				<figDesc>Enthalpy of mixing values for different element pairs.</figDesc>
+				<table>
+					<row>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell>ΔH mix AB</cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Elements</cell>
+						<cell>Cr</cell>
+						<cell>Ni</cell>
+						<cell>Co</cell>
+						<cell>Fe</cell>
+						<cell>Mn</cell>
+					</row>
+					<row>
+						<cell>Cr</cell>
+						<cell>-</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Ni</cell>
+						<cell>-7</cell>
+						<cell>-</cell>
+						<cell></cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Co</cell>
+						<cell>-4</cell>
+						<cell>0</cell>
+						<cell>-</cell>
+						<cell></cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Fe</cell>
+						<cell>-1</cell>
+						<cell>-2</cell>
+						<cell>-1</cell>
+						<cell>-</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Mn</cell>
+						<cell>2</cell>
+						<cell>-8</cell>
+						<cell>-5</cell>
+						<cell>0</cell>
+						<cell>-</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3">
+				<head>Table 4 .</head>
+				<label>4</label>
+				<figDesc>Electrochemical parameters derived from Tafel polarisation plot.</figDesc>
+				<table>
+					<row>
+						<cell>Sample/Parameter</cell>
+						<cell>E corr (V)</cell>
+						<cell>I corr (µA/cm 2 )</cell>
+						<cell>Corrosion rate (mil/yr/cm 2 )</cell>
+						<cell>Linear Polarisation(Ω/cm 2 )</cell>
+						<cell>β c (dec/V)</cell>
+						<cell>β a (dec/V)</cell>
+					</row>
+					<row>
+						<cell>HEA</cell>
+						<cell>-0.659</cell>
+						<cell>86.22</cell>
+						<cell>17.98</cell>
+						<cell>442</cell>
+						<cell>6.64</cell>
+						<cell>4.76</cell>
+					</row>
+					<row>
+						<cell>HEA_C1</cell>
+						<cell>-0.676</cell>
+						<cell>61.20</cell>
+						<cell>12.76</cell>
+						<cell>621</cell>
+						<cell>6.73</cell>
+						<cell>4.71</cell>
+					</row>
+					<row>
+						<cell>HEA_C2</cell>
+						<cell>-0.609</cell>
+						<cell>58.21</cell>
+						<cell>12.14</cell>
+						<cell>688</cell>
+						<cell>6.35</cell>
+						<cell>4.51</cell>
+					</row>
+					<row>
+						<cell>HEA_C3</cell>
+						<cell>-0.559</cell>
+						<cell>50.46</cell>
+						<cell>10.52</cell>
+						<cell>760</cell>
+						<cell>4.60</cell>
+						<cell>6.74</cell>
+					</row>
+					<row>
+						<cell>HEA_C4</cell>
+						<cell>-0.488</cell>
+						<cell>21.58</cell>
+						<cell>4.50</cell>
+						<cell>1588</cell>
+						<cell>4.88</cell>
+						<cell>7.80</cell>
+					</row>
+					<row>
+						<cell>HEA_C5</cell>
+						<cell>-0.675</cell>
+						<cell>110.6</cell>
+						<cell>23.06</cell>
+						<cell>327</cell>
+						<cell>8.37</cell>
+						<cell>3.64</cell>
+					</row>
+					<row>
+						<cell>HEA_C6</cell>
+						<cell>-0.743</cell>
+						<cell>148.0</cell>
+						<cell>30.87</cell>
+						<cell>244</cell>
+						<cell>8.65</cell>
+						<cell>3.40</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4">
+				<head>Table 5 .</head>
+				<label>5</label>
+				<figDesc>Fitting parameters values obtained from EEC simulation of EIS data.</figDesc>
+				<table />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6">
+				<head>Table 6 .</head>
+				<label>6</label>
+				<figDesc>Binding energies of deconvoluted XPS spectra of individual elements.</figDesc>
+				<table>
+					<row>
+						<cell></cell>
+						<cell></cell>
+						<cell>HEA</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>Element</cell>
+						<cell>Oxidation State</cell>
+						<cell>Peak Position</cell>
+						<cell>HEA-C4 Peak Position</cell>
+					</row>
+					<row>
+						<cell>Fe</cell>
+						<cell>Fe 0</cell>
+						<cell>706.8</cell>
+						<cell>706.7</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>FeO</cell>
+						<cell>708.8</cell>
+						<cell>708.4</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Fe 2 O 3</cell>
+						<cell>709.9</cell>
+						<cell>709.9</cell>
+					</row>
+					<row>
+						<cell>Cr</cell>
+						<cell>FeOOH Cr 0</cell>
+						<cell>714.7 574.3</cell>
+						<cell>-574.4</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Cr 2 O 3</cell>
+						<cell>575.1</cell>
+						<cell>576.5</cell>
+					</row>
+					<row>
+						<cell>Mn</cell>
+						<cell>CrO 3 Mn 0</cell>
+						<cell>576.1 638.9</cell>
+						<cell>577.7 638.4</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>MnO</cell>
+						<cell>640.9</cell>
+						<cell>641.5</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Mn 2 O 3</cell>
+						<cell>641.2</cell>
+						<cell>643.3</cell>
+					</row>
+					<row>
+						<cell>Ni</cell>
+						<cell>MnO 2 Ni 0</cell>
+						<cell>645.5 852.9</cell>
+						<cell>646.1 852.8</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>NiO</cell>
+						<cell>853.5</cell>
+						<cell>853.8</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Ni(OH) 2</cell>
+						<cell>853.8</cell>
+						<cell>854.4</cell>
+					</row>
+					<row>
+						<cell>Co</cell>
+						<cell>Co</cell>
+						<cell>778.3</cell>
+						<cell>778.2</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>CoO</cell>
+						<cell>779.3</cell>
+						<cell>779.2</cell>
+					</row>
+					<row>
+						<cell>O</cell>
+						<cell>Co 3 O 4 O 2-</cell>
+						<cell>780.5 531.1</cell>
+						<cell>779.7 530.5</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>OH -</cell>
+						<cell>532.1</cell>
+						<cell>531.9</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>H 2 O</cell>
+						<cell>-</cell>
+						<cell>532.0</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7">
+				<head></head>
+				<label></label>
+				<figDesc>compactness of passive film, resulting in better protection against corrosion. The Fe 2+ /Fe 3+ ratios expressed as FeO/(Fe 2 O 3 +</figDesc>
+				<table>
+					<row>
+						<cell>,Fe ox + 3 , Co ox + 2 and Ni hy + 2 while HEA_C4 was predominantly covered</cell>
+					</row>
+					<row>
+						<cell>with Cr + 3 ,Ni ox + 2 ,Co ox + 3 ,Fe ox + 2 .</cell>
+					</row>
+					<row>
+						<cell>The content of Fe ox 3+ and Fe hy + 3 increased in pristine HEA coating,</cell>
+					</row>
+					<row>
+						<cell>whereas HEA_C4 was enriched with Fe ox + 2 . A previous study [25] has</cell>
+					</row>
+					<row>
+						<cell>reported that Fe ox + 2 has a higher density than Fe ox + 3 and is much better</cell>
+					</row>
+					<row>
+						<cell>in terms of</cell>
+					</row>
+				</table>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8">
+				<head>Table 7 .</head>
+				<label>7</label>
+				<figDesc>Relative contents of Fe, Cr,Mn, Ni, Co in various states on passive film formed on surface of HEA and HEA_C4.</figDesc>
+				<table>
+					<row>
+						<cell>Element</cell>
+						<cell>Oxidation State</cell>
+						<cell>HEA %Concentration</cell>
+						<cell>HEA_C4 % Concentration</cell>
+					</row>
+					<row>
+						<cell>Fe</cell>
+						<cell>Fe 0</cell>
+						<cell>5.40</cell>
+						<cell>1.42</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>FeO</cell>
+						<cell>1.83</cell>
+						<cell>13.29</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Fe 2 O 3</cell>
+						<cell>11.22</cell>
+						<cell>4.00</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>FeOOH</cell>
+						<cell>3.46</cell>
+						<cell>0.96</cell>
+					</row>
+					<row>
+						<cell>Cr</cell>
+						<cell>Cr 0</cell>
+						<cell>2.17</cell>
+						<cell>3.05</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Cr 2 O 3</cell>
+						<cell>4.16</cell>
+						<cell>22.67</cell>
+					</row>
+					<row>
+						<cell>Mn</cell>
+						<cell>CrO 3 Mn 0</cell>
+						<cell>12.45 2.30</cell>
+						<cell>3.01 1.84</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>MnO</cell>
+						<cell>3.52</cell>
+						<cell>3.15</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Mn 2 O 3</cell>
+						<cell>5.87</cell>
+						<cell>1.54</cell>
+					</row>
+					<row>
+						<cell>Ni</cell>
+						<cell>MnO 2 Ni 0</cell>
+						<cell>2.11 7.05</cell>
+						<cell>2.24 8.03</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>NiO</cell>
+						<cell>2.49</cell>
+						<cell>17.02</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Ni(OH) 2</cell>
+						<cell>11.35</cell>
+						<cell>2.49</cell>
+					</row>
+					<row>
+						<cell>Co</cell>
+						<cell>Co</cell>
+						<cell>8.90</cell>
+						<cell>1.74</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>CoO</cell>
+						<cell>12.46</cell>
+						<cell>4.26</cell>
+					</row>
+					<row>
+						<cell></cell>
+						<cell>Co 3 O 4</cell>
+						<cell>2.80</cell>
+						<cell>9.28</cell>
+					</row>
+				</table>
+			</figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+				<div>
+					<head>Acknowledgement</head>
+					<p>The authors acknowledge the funding received from the <rs type="funder">SERB Government of India</rs>. The Electron Microscopy facilities in AFMM <rs type="institution">IISc</rs> are also acknowledged.</p>
+				</div>
+			</div>
+			<div type="funding">
+				<div>
+					<head>Funding</head>
+					<p>This work was supported by <rs type="funder">Science and Engineering Research Board</rs> [grant number SERB].</p>
+				</div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>Disclosure statement</head>
+					<p>No potential conflict of interest was reported by the author(s).</p>
+				</div>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+					<biblStruct xml:id="b0">
+						<analytic>
+							<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">J</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">S</forename>
+									<surname>Chin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">T</forename>
+									<surname>Shun</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">H</forename>
+									<surname>Tsau</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">Y</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Adv. Eng. Mater</title>
+							<imprint>
+								<biblScope unit="volume">6</biblScope>
+								<biblScope unit="page" from="299" to="303" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b1">
+						<analytic>
+							<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">T H</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng. A</title>
+							<imprint>
+								<biblScope unit="volume">375</biblScope>
+								<biblScope unit="issue">377</biblScope>
+								<biblScope unit="page" from="213" to="218" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b2">
+						<analytic>
+							<title level="a" type="main">A superior combination of strengthductility in CoCrFeNiMn high-entropy alloy induced by asymmetric rolling and subsequent annealing treatment</title>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<forename type="middle">H</forename>
+									<surname>Han</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Liang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<surname>Wei</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">J</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Char</title>
+							<imprint>
+								<biblScope unit="volume">145</biblScope>
+								<biblScope unit="page" from="619" to="626" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b3">
+						<analytic>
+							<title level="a" type="main">Fatigue behavior of CoCrFeMnNi highentropy alloy under fully reversed cyclic deformation</title>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Tian</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">J</forename>
+									<surname>Sun</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">R</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<forename type="middle">F</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Mater. Sci. Technol</title>
+							<imprint>
+								<biblScope unit="volume">35</biblScope>
+								<biblScope unit="page" from="334" to="340" />
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b4">
+						<analytic>
+							<title level="a" type="main">Production, properties and practical application of high-entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">A</forename>
+									<surname>Rempel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">R</forename>
+									<surname>Gelchinski</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Steel Transl</title>
+							<imprint>
+								<biblScope unit="volume">50</biblScope>
+								<biblScope unit="page" from="243" to="247" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b5">
+						<analytic>
+							<title level="a" type="main">Corrosion-Resistant high-entropy alloys: A review</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">S</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">K</forename>
+									<surname>Liaw</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Metals</title>
+							<imprint>
+								<biblScope unit="volume">7</biblScope>
+								<biblScope unit="issue">43</biblScope>
+								<biblScope unit="page" from="1" to="18" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b6">
+						<analytic>
+							<title level="a" type="main">Enhancing pitting corrosion resistance of AlxCrFeMnNi0.5 high entropy alloys by anodic treatment in sulphuric acid</title>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">P</forename>
+									<surname>Lee</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y.-Y</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">Y</forename>
+									<surname>Hsu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J.-W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Thin Solid Films</title>
+							<imprint>
+								<biblScope unit="volume">517</biblScope>
+								<biblScope unit="page" from="1301" to="1305" />
+								<date type="published" when="2008">2008</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b7">
+						<analytic>
+							<title level="a" type="main">Effect of inhibitors on the critical pitting temperature of the high-entropy alloy Co1.5CrFeNi1.5Ti0.5Mo0.1</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">L</forename>
+									<surname>Chou</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">C</forename>
+									<surname>Shih</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Electrochem. Soc</title>
+							<imprint>
+								<biblScope unit="volume">158</biblScope>
+								<biblScope unit="page" from="C246" to="C251" />
+								<date type="published" when="2011">2011</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b8">
+						<analytic>
+							<title level="a" type="main">Alloying and processing effects on the aqueous corrosion behaviour of high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Tang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Huang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>He</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">K</forename>
+									<surname>Liaw</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Entropy</title>
+							<imprint>
+								<biblScope unit="volume">16</biblScope>
+								<biblScope unit="page" from="895" to="911" />
+								<date type="published" when="2014">2014</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b9">
+						<analytic>
+							<title level="a" type="main">Electrochemical passive properties of Al x CoCrFeNi (x = 0, 0.25, 0.50, 1.00) alloys in sulfuric acids</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">F</forename>
+									<surname>Kao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">D</forename>
+									<surname>Lee</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">S</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corros. Sci</title>
+							<imprint>
+								<biblScope unit="volume">52</biblScope>
+								<biblScope unit="page" from="1026" to="1034" />
+								<date type="published" when="2010">2010</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b10">
+						<analytic>
+							<title level="a" type="main">Corrosion behavior of CoCrFeMnNi high-entropy alloys (HEAs) under aqueous acidic conditions</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Rodriguez</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">H</forename>
+									<surname>Tylczak</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Ziomek-Moroz</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">ECS Trans</title>
+							<imprint>
+								<biblScope unit="volume">77</biblScope>
+								<biblScope unit="page" from="741" to="752" />
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b11">
+						<analytic>
+							<title level="a" type="main">The influence of incorporation of Mn on the pitting corrosion performance of CrFeCoNi high entropy alloy at different temperatures</title>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Torbati-Sarraf</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Shabani</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">D</forename>
+									<surname>Jablonski</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">J</forename>
+									<surname>Pataky</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Poursaee</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Des</title>
+							<imprint>
+								<biblScope unit="volume">184</biblScope>
+								<biblScope unit="page">108170</biblScope>
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b12">
+						<analytic>
+							<title level="a" type="main">Construction of NiCo/ graphene nanocomposite coating with bulges-like morphology of enhanced mechanical properties and corrosion resistance performance</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tabish</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tabish</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">U</forename>
+									<surname>Malik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">M</forename>
+									<surname>Asif</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">J</forename>
+									<surname>Anjum</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Ibraheem</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">A</forename>
+									<surname>Nguyen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Slimani</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">T</forename>
+									<surname>Nazir</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Alloys Compd</title>
+							<imprint>
+								<biblScope unit="volume">867</biblScope>
+								<biblScope unit="page">159138</biblScope>
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b13">
+						<analytic>
+							<title level="a" type="main">Revealing the erosion-corrosion performance of sphere-shaped morphology of nickel matrix nanocomposite strengthened with reduced graphene oxide nanoplatelets</title>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">J</forename>
+									<surname>Anjum</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">U</forename>
+									<surname>Malik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Arif</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Mehtab</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">A</forename>
+									<surname>Nguyen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Slimani</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tabish</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Ali</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zuo</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Diamond Relat. Mater</title>
+							<imprint>
+								<biblScope unit="volume">104</biblScope>
+								<biblScope unit="page">107763</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b14">
+						<analytic>
+							<title level="a" type="main">Electroless codeposition of GO incorporated silane nanocomposite coating onto AZ91 Mg alloy: effect of GO content on its morphology, mechanical and corrosion protection properties</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">U</forename>
+									<surname>Malik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tabish</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">J</forename>
+									<surname>Anjum</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Jameel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Tang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Manzoor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Ibraheem</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Alloys Compd</title>
+							<imprint>
+								<biblScope unit="volume">883</biblScope>
+								<biblScope unit="page">160790</biblScope>
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b15">
+						<analytic>
+							<title level="a" type="main">Synthesis of spheres-like Ni/graphene nanocomposite as an efficient anti-corrosive coating; effect of graphene content on its morphology and mechanical properties</title>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Arif</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Shakeel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">M</forename>
+									<surname>Hassan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">M</forename>
+									<surname>Korai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Abbas</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zuo</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Alloys Compd</title>
+							<imprint>
+								<biblScope unit="volume">755</biblScope>
+								<biblScope unit="page" from="79" to="88" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b16">
+						<analytic>
+							<title level="a" type="main">Exploring the nickel-graphene nanocomposite coatings for superior corrosion resistance: manipulating the effect of deposition current density on its morphology, mechanical properties and erosion-corrosion performance</title>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Arif</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Shakeel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Dun</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zuo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Tang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Nadeem</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Adv. Eng. Mater</title>
+							<imprint>
+								<biblScope unit="volume">20</biblScope>
+								<biblScope unit="page">1701166</biblScope>
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b17">
+						<monogr>
+							<title level="m" type="main">Electrochemical deposition of nickel graphene composite coatings: effect of deposition temperature on its surface morphology and corrosion resistance</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Jabbar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">Y</forename>
+									<surname>Anwar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">M</forename>
+									<surname>Korai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">N</forename>
+									<surname>Nizam</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Muhyodin</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="2017">2017</date>
+								<publisher>RSC Adv</publisher>
+								<biblScope unit="volume">7</biblScope>
+								<biblScope unit="page" from="31100" to="31109" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b18">
+						<monogr>
+							<title level="m" type="main">Chapter 14metallic nanocomposite coatings</title>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Yasin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Arif</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Mehtab</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Shakeel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">Q</forename>
+									<surname>Khan</surname>
+								</persName>
+							</author>
+							<editor>S. Rajendran, T.A.N.H. Nguyen, S. Kakooei, M. Yeganeh and Y. Li</editor>
+							<imprint>
+								<date type="published" when="2020">2020</date>
+								<publisher>Elsevier</publisher>
+								<biblScope unit="page" from="245" to="274" />
+							</imprint>
+						</monogr>
+						<note>in Corrosion protection at the nanoscale</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b19">
+						<analytic>
+							<title level="a" type="main">Chandan Srivastava microstructural homogenization and substantial improvement in corrosion resistance of mechanically alloyed FeCoCrNiCu high entropy alloys by incorporation of carbon nanotubes</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Singh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">M</forename>
+									<surname>Shaikh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">K</forename>
+									<surname>Punith Kumar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">S</forename>
+									<surname>Murty</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Materialia</title>
+							<imprint>
+								<biblScope unit="volume">14</biblScope>
+								<biblScope unit="page">100917</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b20">
+						<analytic>
+							<title level="a" type="main">Microstructure and corrosion properties of MnCrFeCoNi high entropy alloy-graphene oxide composite coatings</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Aliyu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Srivastava</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Materialia</title>
+							<imprint>
+								<biblScope unit="volume">5</biblScope>
+								<biblScope unit="page">100249</biblScope>
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b21">
+						<analytic>
+							<title level="a" type="main">Graphene oxide interactions with co-existing heavy metal cations: adsorption, colloidal properties and joint toxicity</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Gao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Ren</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Wu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Hayat</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Alsaedi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Cheng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Environ. Sci. Nano</title>
+							<imprint>
+								<biblScope unit="volume">5</biblScope>
+								<biblScope unit="page" from="362" to="371" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b22">
+						<analytic>
+							<title level="a" type="main">Corrosion behavior of superhydrophobic surfaces: A review</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A M</forename>
+									<surname>Adel</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">A</forename>
+									<surname>Aboubakr</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<forename type="middle">A</forename>
+									<surname>Younan</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Arabian J. Chem</title>
+							<imprint>
+								<biblScope unit="volume">8</biblScope>
+								<biblScope unit="page" from="749" to="765" />
+								<date type="published" when="2015">2015</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b23">
+						<analytic>
+							<title level="a" type="main">Study of the surface oxides and corrosion behaviour of an equiatomic CoCrFeMnNi high entropy alloy by XPS and ToF-SIMS</title>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Mercier</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Zanna</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Seyeux</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Laurentbrocq</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Perrière</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<surname>Guillot</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Marcus</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corros. Sci</title>
+							<imprint>
+								<biblScope unit="volume">167</biblScope>
+								<biblScope unit="page">108507</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b24">
+						<analytic>
+							<title level="a" type="main">Study of the surface oxides and corrosion behaviour of an equiatomic CoCrFeMnNi high entropy alloy by XPS and ToF-SIMS</title>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Mercier</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Zanna</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Seyeux</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Laurentbrocq</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Perrière</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<surname>Guillot</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Marcus</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corros. Sci</title>
+							<imprint>
+								<biblScope unit="volume">167</biblScope>
+								<biblScope unit="page">108507</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b25">
+						<analytic>
+							<title level="a" type="main">Electrochemical behavior and properties of passive films on 304 stainless steel under high temperature and stress conditions</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>He</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Jiang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Int. J. Electrochem. Sci</title>
+							<imprint>
+								<biblScope unit="volume">13</biblScope>
+								<biblScope unit="page" from="5832" to="5849" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b26">
+						<analytic>
+							<title level="a" type="main">Electrochemical behaviour of cobalt in aqueous solutions of different pH</title>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">A</forename>
+									<surname>Badawy</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<forename type="middle">M</forename>
+									<surname>Al-Kharafi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">R</forename>
+									<surname>Al-Ajmi</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Appl. Electrochem</title>
+							<imprint>
+								<biblScope unit="volume">30</biblScope>
+								<biblScope unit="page" from="693" to="704" />
+								<date type="published" when="2000">2000</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b27">
+						<analytic>
+							<title level="a" type="main">Higher-Valent nickel oxides with improved oxygen evolution activity and stability in alkaline media prepared by high temperature treatment of Ni(OH) 2</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Steimecke</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Seiffarth</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Schneemann</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Oehler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Förster</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Bron</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">ACS Catal</title>
+							<imprint>
+								<biblScope unit="volume">10</biblScope>
+								<biblScope unit="page" from="13595" to="13603" />
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b28">
+						<analytic>
+							<title level="a" type="main">Corrosion resistance enhancement of CoCrFeMnNi high entropy alloy fabricated by additive manufacturing</title>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Luo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Song</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Mao</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Zhou</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corros. Sci</title>
+							<imprint>
+								<biblScope unit="volume">177</biblScope>
+								<biblScope unit="page">108954</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b29">
+						<analytic>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Kuo-Min</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S.-H</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C.-S</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="m">Microstructure and corrosion behavior of FeCrNiCoMnx</title>
+							<imprint>
+								<date type="published" when="2021">2021</date>
+								<biblScope unit="volume">190</biblScope>
+								<biblScope unit="page">109694</biblScope>
+							</imprint>
+						</monogr>
+						<note>x = 1.0,0.6,0.3,0) high entropy alloys in 0.5M H2SO4</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b30">
+						<analytic>
+							<title level="a" type="main">Effect of Cr on the passive film formation mechanism of steel rebar in saturated calcium hydroxide solution</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Cheng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Pan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Appl. Surf. Sci</title>
+							<imprint>
+								<biblScope unit="volume">389</biblScope>
+								<biblScope unit="page" from="1182" to="1191" />
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b31">
+						<analytic>
+							<title level="a" type="main">Corrosion behavior of an equiatomic CoCrFeMnNi high-entropy alloy compared with 304 stainless steel in sulfuric acid solution</title>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Luo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Li</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">M</forename>
+									<surname>Mingers</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Raabe</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Corros. Sci</title>
+							<imprint>
+								<biblScope unit="volume">134</biblScope>
+								<biblScope unit="page" from="131" to="139" />
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

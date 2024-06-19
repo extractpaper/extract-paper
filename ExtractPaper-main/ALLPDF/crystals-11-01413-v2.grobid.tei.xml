@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of V and Zn in FeCrCuMnTi High-Entropy Alloys on Microstructures and Uniaxial Compaction Behavior Prepared by Mechanical Alloying</title>
+				<funder ref="#_vqVZkwD">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Qassim University</orgName>
+				</funder>
+				<funder ref="#_NDzXKaV #_qCUb5TH">
+					<orgName type="full">Deanship of Scientific Research</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability status="unknown"><p>Copyright MDPI AG</p>
+				</availability>
+				<date type="published" when="2021-11-19">19 November 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Subbarayan</forename><surname>Sivasankaran</surname></persName>
+							<email>sivasankaran@qec.edu.sa</email>
+							<idno type="ORCID">0000-0002-7456-375X</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mechanical Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">Qassim University</orgName>
+								<address>
+									<postCode>51452</postCode>
+									<settlement>Buraydah</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fahad</forename><forename type="middle">A</forename><surname>Al-Mufadi</surname></persName>
+							<email>almufadi@qec.edu.sa</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mechanical Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">Qassim University</orgName>
+								<address>
+									<postCode>51452</postCode>
+									<settlement>Buraydah</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hany</forename><forename type="middle">R</forename><surname>Ammar</surname></persName>
+							<email>hanyammar@qec.edu.sa</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Mechanical Engineering</orgName>
+								<orgName type="department" key="dep2">College of Engineering</orgName>
+								<orgName type="institution">Qassim University</orgName>
+								<address>
+									<postCode>51452</postCode>
+									<settlement>Buraydah</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Metallurgical and Materials Engineering Department</orgName>
+								<orgName type="department" key="dep2">Faculty of Petroleum and Mining Engineering</orgName>
+								<orgName type="institution">Suez University</orgName>
+								<address>
+									<postCode>43721</postCode>
+									<settlement>Suez</settlement>
+									<country key="EG">Egypt</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of V and Zn in FeCrCuMnTi High-Entropy Alloys on Microstructures and Uniaxial Compaction Behavior Prepared by Mechanical Alloying</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Crystals</title>
+						<title level="j" type="abbrev">Crystals</title>
+						<idno type="eISSN">2073-4352</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">11</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<biblScope unit="page">1413</biblScope>
+							<date type="published" when="2021-11-19">19 November 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EF74D6FCB8DDBB32FEB8A175F78BF617</idno>
+					<idno type="DOI">10.3390/cryst11111413</idno>
+					<note type="submission">Received: 1 October 2021 Accepted: 17 November 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-06-13T14:49+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>high-entropy alloys</term>
+					<term>microstructures</term>
+					<term>powder particle size</term>
+					<term>densification</term>
+					<term>compaction models</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The densification behavior of FeCrCuMnTi (HEA1), FeCrCuMnTiV (HEA2), and FeCr-CuMnTiVZn (HEA3) equiatomic high-entropy alloys (HEAs) was explored using different uniaxial quasi-static controlled compaction (1 mm/min). These HEAs were synthesized by mechanical alloying (MA, speed: 300 rpm, BPR: 10:1, time: 25 h). Various phase formations, structural characteristics (crystallite size, lattice strain, and lattice constant), thermo-dynamic calculations, powder surface morphologies, detailed microstructural evolutions, and chemical compositions were examined using X-ray diffraction, high-resolution scanning electron microscopy, and high-resolution transmission electron microscopy. The XRD results revealed the formation of multiple solid solutions (FCC, BCC, and HCP) due to the variation in entropy, and the presence of high-strength elements (Cr, Ti, and V) in the developed HEA alloys. The synthesized powders were consolidated into bulk green samples with different compaction pressures starting from 25 to 1100 MPa under as-milled and milled under stress recovery conditions (150 • C, 1 h). The incorporation of V in the FeCrCuMnTi HEA resulted in improved densification due to a greater reduction in particle size, and high configurational entropy. Furthermore, the stress-recovered powder samples produced more relative density owing to the elimination of lattice strain. Several linear and non-linear compaction models were applied to predict densification behavior. The non-linear Cooper and Eaton model produced the highest regression coefficients compared to the other models.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High-entropy alloys (HEAs) have recently attracted all materials scientists and materials engineers as several new alloys could be developed through this concept. HEAs exhibit extensive properties owing to the mixing of high-configurational entropy and solid solutions with severe lattice distortion which cannot be obtained by conventional alloys <ref type="bibr" target="#b0">[1]</ref>. In conventional alloys, one metallic element acts as a major constituent (solvent atom), and the other metallic elements (solute atoms) contribute to the improvement of their properties <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b4">[4]</ref>. However, it is very difficult to achieve the expected properties (strength, wear and corrosion resistance, high temperature withstanding properties, magnetic properties, superconductivity, and anti-radiation properties) in conventional alloys. However, these properties can be achieved in HEAs recommended for use in aircraft, space, defense, automotive, molding tool and die making parts, electrical and electronic parts, chemical engineering industries, and so on <ref type="bibr" target="#b5">[5]</ref>. In HEAs, a minimum of five metallic elements can be added in equal molar ratios or non-equal molar ratios exhibiting improved properties <ref type="bibr" target="#b6">[6,</ref><ref type="bibr" target="#b7">7]</ref>. Major futuristic characteristics such as cocktail effect, severe lattice distortion effect, highentropy effect, and sluggish effect from the HEAs could be obtained, which are the main contributors to enhancing the properties <ref type="bibr" target="#b8">[8]</ref>.</p><p>Crystals 2021, 11, 1413 2 of <ref type="bibr" target="#b28">28</ref> Cantor et al. <ref type="bibr" target="#b9">[9]</ref> explored the microstructural characteristics of FeCrMnNiCo multicomponent alloys. The authors have manufactured alloys through casting and melt spinning techniques. These alloys exhibited a single FCC high stability phase structure and produced extensive strength with more ductility at room temperature. It was found that the observed strength was greater than that of steel. Fazakas et al. <ref type="bibr" target="#b10">[10]</ref> investigated the influence of the addition of Fe in AlTiNiCuFe HEAs prepared by arc melting under an argon atmosphere. The manufactured alloys were heat-treated by varying the temperature to examine the effect of aging on their mechanical behavior. The authors found higher ductility with high strength in these alloys. In addition, the authors explored that Al 22.5 Ti 22.5 Ni 20 Cu 20 Fe 15 HEA heat-treated at 973 K exhibited outstanding deformation behavior during compression. Hemphill et al. <ref type="bibr" target="#b11">[11]</ref> examined the fatigue behavior of the AlCoCrCuFeNi HEA manufactured by the arc melting method. The authors found that the developed AlCoCrCuFeNi HEAs exhibited high fatigue resistance even at high stress, which was considerably higher than that of steel, bulk metallic glass, and titanium alloy.</p><p>Schuh et al. <ref type="bibr" target="#b12">[12]</ref> studied the mechanical and thermal stabilities of CoCrFeMnNi HEAs manufactured by arc melting. The CoCrFeMnNi HEAs were plastically deformed by high-pressure torsion (HPT) to refine their internal structure. The authors reported that the manufactured HEAs produced an ultimate strength of approximately 2 GPa with a hardness of approximately 5 GPa. AlCoCrCuNiFeZn high-entropy alloy was synthesized by Babu et al. <ref type="bibr" target="#b13">[13]</ref> by a mechanical alloying (MA) route; which is a solid-state powder metallurgy process. It was found that this alloy exhibited a single-phase BCC structure with excellent chemical resistance, and the authors achieved a stable alloy with a crystallite size of 15 nm. It was found that the produced alloy retained its properties even at 1023 K and produced a hardness strength of approximately 8 GPa with a modulus of elasticity of 0.16 TPa. Maulik and Kumar <ref type="bibr" target="#b2">[3]</ref> developed AlFeCuCrMg HEAs processed via MA. The synthesized AlFeCuCrMg HEA powders exhibited a larger BCC structure with a small amount of FCC structure. It was found that the incorporated Mg elemental powders enhanced the formation of a stable single BCC structure even at 500 • C.</p><p>Fang et al. <ref type="bibr" target="#b14">[14]</ref> studied the microstructure and mechanical behavior of AlCrFeNiCoC HEAs synthesized by the MA process and consolidated via spark plasma sintering (SPS). The authors achieved a supersaturated solid solution after 38 h of MA with a regular crystal system. Furthermore, the alloy exhibited a compressive strength of 2.1 GPa with a hardness strength of approximately 6 GPa strength, which is 14 times higher than that of conventional Al-based high strength alloys. Chen et al. <ref type="bibr" target="#b15">[15]</ref> examined the mechanical behavior of AlCoNiCrFe HEAs processed by MA and reported that the produced alloy retained its crystallite size at the nano-level even after the sintering process. Wang et al. <ref type="bibr" target="#b16">[16]</ref> developed NiCoCuFeCr HEAs in which the Ni-to-Cr content ratio was determined. These HEAs were synthesized using MA followed by SPS. The authors found that the formation of a single-phase FCC structure increased with increasing Ni/Cr ratio. In addition, the samples produced a tensile yield strength of 1 GPa with a considerable amount of ductility. Avila-Rubio et al. <ref type="bibr" target="#b17">[17]</ref> developed three equiatomic AlCoFeNiZn, AlCoFeNiMoTi, and AlCoFeNiMoTiZn HEAs and the results indicated that the incorporation of Zn atoms promoted the BCC structure, decreased the crystallite size much, and introduced more lattice distortions. Pan et al. <ref type="bibr" target="#b18">[18]</ref> synthesized FeCoNi(MoW)x (x = 0.2, 0.3, 0.5) HEAs using the vacuum arc melting method. The bulk samples exhibited improved ultimate compressive strength with increasing Mo, and W contents in the alloys. However, the formation of µ phase (due to Mo, and W) decreased the ductility and increased the brittleness. Son et al. <ref type="bibr" target="#b19">[19]</ref> developed a CoCrFeMnNi HEA through a vacuum induction melting furnace and the results showed that the CoCrFeMnNi HEA exhibited improved antifouling properties compared to 304 stainless steel. The mechanical behavior of most HEAs is affected by the presence of hydrogen embrittlement in the grain boundaries, which was recently studied by Zhu et al. <ref type="bibr" target="#b20">[20]</ref> who developed FeCrNiMnCo HEA. Daryoush et al. <ref type="bibr" target="#b21">[21]</ref> studied the crystallization kinetics and amorphization of both equiatomic and non-equiatomic AlFeCuZnTi HEAs synthesized by high-energy ball milling. Liang et al. <ref type="bibr" target="#b22">[22]</ref> investigated the phase stability performance of aged (Co1.5FeNi)90Ti6Al4 HEA produced through vacuum arc melting followed by aging at 1073 K. Xia et al. <ref type="bibr" target="#b23">[23]</ref> synthesized FeCrCuTiV HEAs using two different methods (through vacuum arc melting and laser melting deposition), and the results demonstrated that the HEA produced from laser melting deposition retained the grains under fine size. Furthermore, the HEA produced BCC and FCC phases. Liu et al. <ref type="bibr" target="#b24">[24]</ref> developed a non-equiatomic FeMnCrNiAl HEA via arc melting followed by cold rolling and annealing. The sample exhibited a heterogeneous structure (matrix and precipitate phases) which promoted strength and ductility. Garlapati et al. <ref type="bibr" target="#b25">[25]</ref> studied the thermal stability of Al content in AlxCoCrFeNi HEA powders at low and intermediate temperatures. A mixture of FCC and BCC structures was also observed. Ammar et al. <ref type="bibr" target="#b26">[26]</ref> investigated the influence of milling time on Al 0.3 CrFeNiCo 0.3 Si 0.4 HEAs (1, 5, 15, and 25 h). The results revealed that the formation of a solid solution with BCC and FCC structures was obtained in a 25 h HEA sample. Alshataif et al. <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b27">27]</ref>  HEAs can be easily synthesized by MA without any detrimental effects as obtained from the arc melting route. Mane et al. <ref type="bibr" target="#b28">[28]</ref> synthesized CoFeNi, CoFeNiCr, CoFeNiCrMn, and CoFeNiCrMnAl alloys and studied the densification rate with an increase in the number of elements during non-isothermal sintering. The results explained that the densification rate decreased with an increase in configurational entropy. Uniaxial compaction is an important process for producing bulk green samples before sintering in powder metallurgy industries <ref type="bibr" target="#b29">[29]</ref>. The chemical composition, powder particle size, particle size distribution, powder surface morphology, applied compaction pressure, lubricant, and die wall friction, etc., are the major influencing parameters affecting the densification of bulk green products before sintering <ref type="bibr" target="#b30">[30]</ref>. The densification behavior and its mechanisms have been studied by several authors in the past decades using various empirical models <ref type="bibr" target="#b26">[26,</ref><ref type="bibr" target="#b31">31,</ref><ref type="bibr" target="#b32">32]</ref>. However, the influence of high configurational entropy, various phase formations, the presence of multi-phase solid solutions, and structural refinement on the densification behavior of HEAs have not been studied. Hence, the present study was conducted. The metallic element of Zn has a crystalline nature possessing high ductility and malleable properties operating at elevated temperatures. Furthermore, most parts of the die-casting industry are produced through Zn based alloys. The metallic element of V also possesses high strength with good ductile characteristics acting as an effective alloying element in more steel products. Therefore, in the present work, the incorporation of Zn and V was introduced in an equiatomic FeCrCuMnTi high entropy alloy. The main objectives of the present study are to: synthesize equiatomic FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs, study the structural characteristics (phase formations, crystallite size, lattice strain, and lattice constant), powder morphology examination, powder particle size analysis, study the various powder densities, and investigate the densification behavior of HEA powders under different compaction pressures (25-1100 MPa) under as-milled and milled with stress-recovered conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and Methods</head><p>Three equiatomic HEA powders of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMn-TiVZn were synthesized by MA. Metallic elemental powders (Fe, Cr, Cu, Mn, Ti, V, and Zn) with &gt;99.5% purity as per chemical composition (Table <ref type="table" target="#tab_1">1</ref>) were purchased from M/S Nanografi, Germany. The average particle size of the as-received elemental powders was less than 44 µm (-325 mesh size). The powders were weighed in an electronic balance at an equiatomic ratio and charged into a high-energy ball mill for the MA process. The MA was carried out at a speed of 300 rpm, BPR of 10:1, and milling time of 25 h <ref type="bibr" target="#b26">[26]</ref> in a Pulverisette 5/2 classic line (two stations) ball mill under toluene (wet milling to minimize cold welding). Tungsten carbide (WC) vials (250 mL capacity of each vial) and WC balls (Ø10 mm) were used. A total of 100 milling cycles were set and the MA was carried out automatically with 15 min forward, 15 min pause, 15 min reverse, and 15 min pauses to minimize the heating effect. Some of the HEA powders were stress-relieved at 150 • C for 1 h in a vacuum tube furnace (M/S N Nabatherm, Germany). LECO CS 744 and ONH 836 gas analyzers were used to determine the presence of O, C, H, N, and S contents in the synthesized HEAs after 25 h MA in toluene (Table <ref type="table" target="#tab_1">1</ref>). The synthesized equiatomic HEA powders were scanned using an X-ray diffractometer (XRD, Empyrean, Malvern Panalytical, source: CuKa = 1.54 Å) at a scanning speed of 0.6 • /min with a step of 0.01 • , and X'Pert High Score Plus software was used to examine the obtained XRD peaks. The Debye-Scherrer formula (Equation ( <ref type="formula">1</ref>)) was used to determine crystallite size <ref type="bibr" target="#b33">[33]</ref>.</p><formula xml:id="formula_0">t = kλ βcosθ (1)</formula><p>where 't' is the crystal size, 'λ' is X-ray wave-length, 'θ' is Bragg's angle, and 'β' is full-width half-maximum. Instrumental broadening was corrected using Equation (2).</p><formula xml:id="formula_1">β hkl = (β hkl ) 2 Measured -(β hkl ) 2 Instrumental 1/2<label>(2)</label></formula><p>Apreo FEG-HR-SEM (30 keV, 1.3 nm resolution at 1 keV) was used to examine the powder surface morphology of the as-received powders and milled powders. The lattice constant for the cubical phases ('a' for BCC and FCC) and HCP phase ('a' and 'c') was calculated based on Bragg's law. The strongest peaks were used to determine the lattice constants as per Equations ( <ref type="formula" target="#formula_2">3</ref>)-( <ref type="formula" target="#formula_4">5</ref>) <ref type="bibr" target="#b33">[33,</ref><ref type="bibr" target="#b34">34]</ref>:</p><p>For cubical systems,</p><formula xml:id="formula_2">a = λ 2sinθ h 2 + k 2 + l 2<label>(3)</label></formula><p>For the HCP system,</p><formula xml:id="formula_3">1 d 2 hkl = 4 3 h 2 + k 2 + hk + l 2 a c 2 1 a 2<label>(4)</label></formula><p>For ideal, c = 1.633a;</p><formula xml:id="formula_4">a 2 = d 2 hkl 4 3 h 2 + k 2 + hk + 0.375l 2<label>(5)</label></formula><p>The chemical composition of the milled powders was checked using an EDAX detector at three different locations and the average was used for interpretation. HRTEM of JEOL 3010 was used to investigate the synthesized HEA powders. The powders were dissolved in an ethanol solution, poured into a copper grid, and placed inside the machine. A Zetasizer (Malvern Panalytical) was used to measure the powder particle size and distribution. The apparent density and tap density of the synthesized powders were measured using a tap density meter (M/S DongGuan HongTuo Instrument Co., Ltd., Dongguan, China) according to ISO3923 and ETD1020 standards, respectively. The true density of the powder was also determined using a pycnometer (true density meter, DongGuan HongTuo Instrument Co., Ltd., Dongguan, China) as per the DIN51057 standard. The densification behavior of powders (as-milled and with stress-relieved conditions) was experimentally investigated at different compaction pressures from 25 to 1100 MPa. Uniaxial compaction was performed in cylindrical die-sets made of H13 steel at 1 mm/min in a universal testing machine (MTS, New York, NY, USA). The diameter of the inner die was 15 mm. Approximately 10 g of milled powder was poured into the die-set for compaction. A solid lubricant (zinc stearate) mixed with lubricating oil was used inside the die wall and punch before pouring the powders. Four replicates were performed at each compaction pressure and the average was used to examine the densification performance. The density of the green compacts/pellets was determined using Archimedes' principle. Several empirical formulae were used to predict the densification behavior and determine the best model for predicting the relative density of the developed powders. Figure <ref type="figure" target="#fig_0">1</ref> shows a schematic representation of the synthesis of nanostructured HEA powders by MA and the densification behavior used in the present study.    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Phase Evolutions and Structural Characterization Using XRD</head><p>Figure <ref type="figure" target="#fig_3">2a</ref> shows the XRD patterns of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMn-TiVZn HEAs after 25 h of MA. The results revealed that three phases, namely, BCC, FCC, and HCP were obtained in all the developed HEAs. More peak broadening (full-width half-maximum, FWHM) and a lower peak intensity were obtained for all the samples indicating the formation of a multi-phase solid solution. This was attributed to more crystallite fragmentation, severe lattice distortion, presence of lattice strain, cocktail effect, high entropy effect, and sluggish effect occurring in the MA process <ref type="bibr" target="#b8">[8,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b35">35]</ref>. Figure <ref type="figure" target="#fig_3">2b</ref> shows the XRD patterns of 0 h blended samples for comparing the solid solution formation in the developed nanocrystalline HEAs. As shown in Figure <ref type="figure" target="#fig_3">2b</ref> that more intense peaks corresponding to incorporated elements were observed indicating no solid solution formation. However, after 25 h MA, more elemental peaks disappeared; the peak intensity decreased drastically, and; the peak width increased considerably confirming the formation of a solid solution. The value of FWHM in each phase and peak intensity values varied with increasing entropy (number of elements) and depended on the melting point of the incorporated elements. Among the three developed HEAs, FeCrCuMnTiVZn HEA3 exhibited a higher FWHM due to the easy dissolution of low-melting Zn atoms and hence this HEA3 produced more crystallite size reduction and more lattice strain (Table <ref type="table" target="#tab_1">1</ref>) compared to other HEAs. The order of dissolution of atoms depends on the melting point of each incorporated element <ref type="bibr" target="#b0">[1]</ref>. The expected dissolution series of the three developed HEAs were Cu→Mn→Fe→Ti→Cr, Cu→Mn→Fe→Ti→Cr→V, and Zn→Cu→Mn→Fe→Ti→Cr→V for FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs, respectively. The incorporated elements of Fe, Cr, and Cu almost merged in all samples and produced a major FCC phase. more crystallite fragmentation, severe lattice distortion, presence of lattice strain, cocktai effect, high entropy effect, and sluggish effect occurring in the MA process <ref type="bibr" target="#b8">[8,</ref><ref type="bibr" target="#b27">27,</ref><ref type="bibr" target="#b35">35]</ref>. Figure <ref type="figure" target="#fig_3">2b</ref> shows the XRD patterns of 0 h blended samples for comparing the solid solution formation in the developed nanocrystalline HEAs. As shown in Figure <ref type="figure" target="#fig_3">2b</ref> that more intense peaks corresponding to incorporated elements were observed indicating no solid solution formation. However, after 25 h MA, more elemental peaks disappeared; the peak intensity decreased drastically, and; the peak width increased considerably confirming the formation of a solid solution. The value of FWHM in each phase and peak intensity values varied with increasing entropy (number of elements) and depended on the melting point of the incorporated elements. Among the three developed HEAs, FeCrCuMnTiVZn HEA3 exhibited a higher FWHM due to the easy dissolution of low-melting Zn atoms and hence this HEA3 produced more crystallite size reduction and more lattice strain (Table <ref type="table" target="#tab_1">1</ref>) compared to other HEAs. The order of dissolution of atoms depends on the melting point of each incorporated element <ref type="bibr" target="#b0">[1]</ref>. The expected dissolution series of the three developed HEAs were Cu→Mn→Fe→Ti→Cr, Cu→Mn→Fe→Ti→Cr→V, and Zn→Cu→Mn→Fe→Ti→Cr→V for FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs, respectively. The incorporated elements of Fe, Cr, and Cu almost merged in al samples and produced a major FCC phase.</p><p>The incorporation of Mn atoms promoted the formation of the BCC phase in HEA1 and a higher peak intensity of the BCC phase was observed in HEA2 owing to the incorporation of V atoms. Moreover, the incorporation of Zn atoms suppressed the formation of the BCC phase and promoted the formation of the FCC phase in HEA3. The HCP phase formation in HEA1 and HEA2 was attributed to the incorporation of Ti atoms and this HCP phase was suppressed in HEA3 because Zn atoms formed more FCC phases. The calculated lattice constants (Equations ( <ref type="formula" target="#formula_2">3</ref>)-( <ref type="formula" target="#formula_4">5</ref>), Table <ref type="table" target="#tab_1">1</ref>) in each phase of all the samples were determined and it was observed that the lattice constant increased due to high configurational entropy in addition to structural refinement. For instance, the lattice constants for the FCC phase were 0.361, 0.363, and 0.365 nm for HEA1, HEA2, and HEA3, respectively indicating that more structural refinement and lattice distortion occurred in HEA3  The incorporation of Mn atoms promoted the formation of the BCC phase in HEA1, and a higher peak intensity of the BCC phase was observed in HEA2 owing to the incorporation of V atoms. Moreover, the incorporation of Zn atoms suppressed the formation of the BCC phase and promoted the formation of the FCC phase in HEA3. The HCP phase formation in HEA1 and HEA2 was attributed to the incorporation of Ti atoms and this HCP phase was suppressed in HEA3 because Zn atoms formed more FCC phases. The calculated lattice constants (Equations ( <ref type="formula" target="#formula_2">3</ref>)-( <ref type="formula" target="#formula_4">5</ref>), Table <ref type="table" target="#tab_1">1</ref>) in each phase of all the samples were determined and it was observed that the lattice constant increased due to high config-Crystals 2021, 11, 1413 7 of 28 urational entropy in addition to structural refinement. For instance, the lattice constants for the FCC phase were 0.361, 0.363, and 0.365 nm for HEA1, HEA2, and HEA3, respectively indicating that more structural refinement and lattice distortion occurred in HEA3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microstructural Examinations Using HRSEM and HRTEM</head><p>The microstructural examinations for the three developed equiatomic HEAs were carried out using HRSEM and HRTEM. Figure <ref type="figure" target="#fig_5">3</ref> shows the HRSEM microstructure of as-received elemental powders showing an irregular shape of Fe, platelet shape of Cr, different sizes in the spherical shape of Cu, different sizes in the polygonal shape of Mn, irregular cum polygonal shape of Ti, irregular flaky shape of V, and spherical shape with satellite shape of Zn. All as-received powder particles had different shape morphologies, sizes before processing and the average particle size was less than 44 µm. The top right inset of each image in Figure <ref type="figure" target="#fig_5">3</ref> explains the powder surface morphology of the as-received powders at higher magnification. Further, HRSEM-EDS spot analyses of the as-received individual powder particles were also carried out to ensure the purity and confirm the name of the metallic elements, which are illustrated on the right side of Figure <ref type="figure" target="#fig_5">3</ref>. Figure <ref type="figure" target="#fig_6">4</ref> shows the HRSEM powder surface morphologies of 25 h MAed HEAs powders exhibiting an almost equiaxed particle shape representing the attainment of a steady-state <ref type="bibr" target="#b27">[27]</ref>.</p><p>Some agglomerated large powder particles were observed in all the samples owing to the MA process and the high-entropy effect. Severe plastic deformation, cold-welding, and fracturing of powder particles occur in the MA process leading to the production of agglomerated particles during the domination of cold-welding and fine particles during the domination of fracturing. These phenomena occur because of more kinetic mechanical collisions produced by milling time, milling speed, ball-to-powder ratio (BPR), and milling media (vials and balls). ImageJ software was used to measure the particle size of each sample from the different HRSEM images. The average particle size of HEA1, HEA2, and HEA3 was around 38.47 ± 2.56 (Figure <ref type="figure" target="#fig_7">4a</ref>), 24.56 ± 1.85 (Figure <ref type="figure" target="#fig_7">4c</ref>), and 39.45 ± 2.1 µm (Figure <ref type="figure" target="#fig_7">4e</ref>), respectively. These results indicate that more fracturing mechanism was dominant in HEA2 owing to the incorporation of V atoms (increasing the entropy effect) compared to HEA1.</p><p>However, with the incorporation of Zn atoms, the observed powder particle size increased indicating the domination of cold-welding. The introduced Zn atoms were expected to dissolve more structural refinement and agglomeration of particles was expected to occur (Table <ref type="table" target="#tab_1">1</ref>). As a result, more peak broadening occurred in the HEA3 sample than in the other samples (Table <ref type="table" target="#tab_1">1</ref> and Figure <ref type="figure" target="#fig_2">2</ref>). The high-magnification in Figure <ref type="figure" target="#fig_7">4b,</ref><ref type="figure">d,</ref><ref type="figure">e</ref> shows the formation of multi-phase solid solutions which were expected to produce improved mechanical properties. Multi-phase solid solution formation at lower magnification was confirmed by the HRSEM EDAX elemental map of all the samples which is illustrated in Figure <ref type="figure" target="#fig_8">5</ref>. From Figure <ref type="figure" target="#fig_8">5</ref>, the homogeneous distribution and solid solution formation were confirmed. The EDAX spectrum was used to check the chemical composition and the results are given in Table <ref type="table" target="#tab_5">2</ref>. The EDAX spectrum was obtained in three different places and the average was used to verify the elemental composition as shown in Table <ref type="table" target="#tab_1">1</ref>. The chemical composition measured by EDS was well correlated with the theoretical composition (Table <ref type="table" target="#tab_1">1</ref>) representing the absence of any intermetallic compounds and no segregation of any elements <ref type="bibr" target="#b36">[36]</ref>. However, based on the gas analyzer (LECO CS 744 and ONH 836), a small amount of O, C, and H atoms due to wet milling medium (toluene), a negligible quantity of N due to contact with air during material transfer, and a negligible quantity of S due to impurities from the as-received powders were observed. HRSEM with EDS elemental mapping at higher magnification (a small area of a particle was scanned, Figure <ref type="figure" target="#fig_10">6</ref>) was performed to confirm the multiple solid solutions and distribution of each element. The corresponding covered area spectra were also obtained. Based on the results shown in Figure <ref type="figure" target="#fig_10">6</ref>, it is obvious that the attainment of multiple phase solid solutions has a uniform distribution of incorporated metallic elements. The formation of nanostructures and various phases of BCC, FCC, and HCP was examined using HRTEM (Figure <ref type="figure">7</ref>). Figure <ref type="figure">7a,</ref><ref type="figure">c,</ref><ref type="figure">e</ref> show the bright-field images (BFIs) of HEA1, HEA2, and HEA3, respectively. The presence of BCC, FCC, and HCP was confirmed in the BFIs. The crystallite size was measured from several BFIs of each alloy using ImageJ software (the encircled areas in Figure <ref type="figure">7a</ref> represent the crystallites). The average crystallite sizes of FeCrCuMnTi were 19.5 ± 2.1, 8.6 ± 3.4, and 29.7 ± 1.8 nm for the BCC, FCC, and HCP phases, respectively. FeCrCuMnTiV HEA produced average crystallite sizes of 22.7 ± 3.8, 11.1 ± 1.5, and 42.4 ± 4.7 nm for BCC, FCC, and HCP phases, respectively. The crystallite sizes of the BCC, FCC, and HCP phases of FeCrCuMnTiVZn HEA were 13.7 ± 2.5, 7.8 ± 1.4, and 20.5 ± 3.7 nm, respectively. The crystallite size measured from the HRTEM BFIs correlated well with the XRD results as shown in Table <ref type="table" target="#tab_1">1</ref>. The observed crystal structures (BCC, FCC, and HCP) were also confirmed by selective area diffraction (SAED) patterns which are shown in Figure <ref type="figure">7b,</ref><ref type="figure">d,</ref><ref type="figure">f</ref> for FeCrCuM-nTi, FeCrCuMnTiV, and FeCrCuMnTiVZn alloys, respectively. Further, SAED patterns of all samples produced continuous rings with halo patterns confirming the nanostructured formation as more nanocrystallites were covered in the SAED patterns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Examination of Powder Particle Size, Distribution, Apparent Density, Tap Density, and True Density</head><p>The exact powder particle size and particle size distribution were examined using a particle size analyzer (Figure <ref type="figure" target="#fig_12">8</ref> and Table <ref type="table" target="#tab_6">3</ref>). Figure <ref type="figure" target="#fig_12">8</ref> shows the powder particle size distribution with fraction and cumulative distribution. The powder particle sizes of FeCr-CuMnTi HEA at D10, D50, D90, and Davg were 24.5, 37, 53.9, and 40.79 µm, respectively. The powder particle sizes of FeCrCuMnTiV HEA were 16, 23.9, 37.9, and 26.78 µm at D10, D50, D90, and Davg. FeCrCuMnTiVZn HEA produced powder particles with sizes of 24.6, 37.7, 54.7, and 41.39 mm at D10, D50, D90, and Davg. These results demonstrate that HEA2 exhibits a smaller particle size compared to other alloys (HEA1 and HEA3) owing to more fracturing mechanisms. HEA1 and HEA3 produced a broader powder particle size distribution due to the presence of large agglomerated particles (Figure <ref type="figure" target="#fig_6">4</ref>). These results were expected to be due to the domination of cold-welding phenomena for the same 25 h MA. A narrow powder particle size was obtained for HEA2. However, all the powder particles exhibited a uniform size distribution which is an important characteristic required for further processing. The surface area of all the developed alloys was also measured using the same particle size analyzer which were 16.35, 24.75, and 16.14 m 2 /kg (Table <ref type="table" target="#tab_6">3</ref>) for HEA1, HEA2, and HEA3, respectively. The value of the surface area of the powder particles depends on the particle size and hence, HEA2 has a higher surface area value compared to other powders (HEA1, and HEA3).</p><p>The apparent density, tap density, and true density of developed HEAs are listed in Table <ref type="table" target="#tab_6">3</ref>. The results revealed that all the densities decreased significantly with increasing high-configurational entropy effects indicating that more structural refinement occurred in HEA3 due to more dissolution of Zn atoms (more FCC phase) leading to a smaller crystallite size and more lattice strain (Table <ref type="table" target="#tab_5">2</ref> and Figure <ref type="figure" target="#fig_2">2</ref>). Furthermore, the stress recovered powder samples produced more density values (both apparent, and tap) compared to the as-milled powder samples because of the elimination of stored strain (obtained from severe plastic deformation of powder particles during 25 h MA) in the powders after 150 • C for 1 h. These results demonstrate that the stress-recovered powders are expected to have a higher green density value after uniaxial compaction. It was noted that the true density values obtained using a pycnometer were close to the theoretical density. powders at higher magnification. Further, HRSEM-EDS spot analyses of the as-re individual powder particles were also carried out to ensure the purity and confi name of the metallic elements, which are illustrated on the right side of Figure <ref type="figure" target="#fig_5">3</ref>. F shows the HRSEM powder surface morphologies of 25 h MAed HEAs powders exh an almost equiaxed particle shape representing the attainment of a steady-state [27   Some agglomerated large powder particles were observed in all the samples owing to the MA process and the high-entropy effect. Severe plastic deformation, cold-welding, and fracturing of powder particles occur in the MA process leading to the production of agglomerated particles during the domination of cold-welding and fine particles during the domination of fracturing. These phenomena occur because of more kinetic mechanical collisions produced by milling time, milling speed, ball-to-powder ratio (BPR), and milling media (vials and balls). ImageJ software was used to measure the particle size of each sample from the different HRSEM images. The average particle size of HEA1, HEA2, and HEA3 was around 38.47 ± 2.56 (Figure <ref type="figure" target="#fig_7">4a</ref>), 24.56 ± 1.85 (Figure <ref type="figure" target="#fig_7">4c</ref>), and 39.45 ± 2.1 μm (Figure <ref type="figure" target="#fig_7">4e</ref>), respectively. These results indicate that more fracturing mechanism was dominant in HEA2 owing to the incorporation of V atoms (increasing the entropy effect) compared to HEA1.</p><p>However, with the incorporation of Zn atoms, the observed powder particle size increased indicating the domination of cold-welding. The introduced Zn atoms were expected to dissolve more structural refinement and agglomeration of particles was expected to occur (Table <ref type="table" target="#tab_1">1</ref>). As a result, more peak broadening occurred in the HEA3 sample than in the other samples (Table <ref type="table" target="#tab_1">1</ref> and Figure <ref type="figure" target="#fig_2">2</ref>). The high-magnification in Figure <ref type="figure" target="#fig_7">4b,</ref><ref type="figure">d,</ref><ref type="figure">e</ref> shows the formation of multi-phase solid solutions which were expected to produce improved mechanical properties. Multi-phase solid solution formation at lower magnification was confirmed by the HRSEM EDAX elemental map of all the samples which is illustrated in Figure <ref type="figure" target="#fig_8">5</ref>. From Figure <ref type="figure" target="#fig_8">5</ref>, the homogeneous distribution and solid solution formation were confirmed. The EDAX spectrum was used to check the chemical composition and the results are given in Table <ref type="table" target="#tab_5">2</ref>. The EDAX spectrum was obtained in three different places and the average was used to verify the elemental composition as shown in Table <ref type="table" target="#tab_1">1</ref>.</p><p>The chemical composition measured by EDS was well correlated with the theoretical composition (Table <ref type="table" target="#tab_1">1</ref>) representing the absence of any intermetallic compounds and no segregation of any elements <ref type="bibr" target="#b36">[36]</ref>. However, based on the gas analyzer (LECO CS 744 and ONH 836), a small amount of O, C, and H atoms due to wet milling medium (toluene), a negligible quantity of N due to contact with air during material transfer, and a negligible quantity of S due to impurities from the as-received powders were observed. HRSEM with EDS elemental mapping at higher magnification (a small area of a particle was scanned, Figure <ref type="figure" target="#fig_10">6</ref>) was performed to confirm the multiple solid solutions and distribution of each element. The corresponding covered area spectra were also obtained. Based on the results shown in Figure <ref type="figure" target="#fig_10">6</ref>, it is obvious that the attainment of multiple phase solid solutions has a uniform distribution of incorporated metallic elements. The formation of nanostructures and various phases of BCC, FCC, and HCP was examined using HRTEM (Figure <ref type="figure">7</ref>). Figure <ref type="figure">7a</ref>,c,e show the bright-field images (BFIs) of HEA1, HEA2, and HEA3, respectively. The presence of BCC, FCC, and HCP was confirmed in the BFIs. The crystallite size was measured from several BFIs of each alloy using ImageJ software (the encircled areas in Figure <ref type="figure">7a</ref> represent the crystallites). The average crystallite sizes of FeCrCuMnTi were 19.5 ± 2.1, 8.6 ± 3.4, and 29.7 ± 1.8 nm for the BCC, FCC, and HCP phases, respectively. FeCrCuMnTiV HEA produced average crystallite sizes of 22.7 ± 3.8, 11.1 ± 1.5, and 42.4 ± 4.7 nm for BCC, FCC, and HCP phases, respectively. The crystallite sizes of the BCC, FCC, and HCP phases of FeCrCuMnTiVZn HEA were 13.7 ± 2.5, 7.8 ± 1.4, and 20.5 ± 3.7 nm, respectively. The crystallite size measured from the HRTEM BFIs correlated well with the XRD results as shown in Table <ref type="table" target="#tab_1">1</ref>. The observed crystal structures (BCC, FCC, and HCP) were also confirmed by selective area diffraction (SAED) patterns which are shown in Figure <ref type="figure">7b</ref>,d,f for FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn alloys, respectively. Further, SAED patterns of all samples produced continuous rings with halo patterns confirming the nanostructured formation as more nanocrystallites were covered in the SAED patterns.     results were expected to be due to the domination of cold-welding phenomena for the same 25 h MA. A narrow powder particle size was obtained for HEA2. However, all the powder particles exhibited a uniform size distribution which is an important characteristic required for further processing. The surface area of all the developed alloys was also measured using the same particle size analyzer which were 16.35, 24.75, and 16.14 m 2 /kg (Table <ref type="table" target="#tab_6">3</ref>) for HEA1, HEA2, and HEA3, respectively. The value of the surface area of the powder particles depends on the particle size and hence, HEA2 has a higher surface area value compared to other powders (HEA1, and HEA3).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Densification Behavior of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs</head><p>The densification behavior of the three developed equiatomic HEAs under as-milled and milled under stress recovery conditions was investigated to explore the powder particle packing performance during its consolidation. The densification behavior was experimentally studied with respect to the applied pressure. Five linear compaction equations and three non-linear compaction equations were applied to the experimental data to determine the best model for predicting the relative density <ref type="bibr" target="#b37">[37]</ref>. For instance, the theoretical density, green density, and the relative density of green pellets at 1100 MPa are listed in Table <ref type="table" target="#tab_7">4</ref>. The results demonstrated that HEA2 exhibited a higher value of relative density in both conditions compared to other samples (HEA1 and HEA3) because of the greater particle size reduction, less structural refinement, and domination of fracturing phenomena in addition to high-configurational entropy, cocktail effect, and sluggish effect. HEA3 produced a lower value of relative density in both conditions due to more structural refinement, presence of more lattice strain, formation of more FCC refined phases, and a lower amount of HCP and BCC phases. The stress-recovered powder samples produced an improved relative density compared to the as-milled powder samples. For example, the HEA2 sample exhibited a relative density of 0.8284, which was approximately 11.105% higher than that of the as-milled HEA2 sample. These results demonstrated that the elimination of internal stresses stored and lattice strain during long 25 h MA in the powder samples was expected to occur after stress recovery at 150 • C for 1 h. Because of this, the powders were offered a lower amount of resistance during packing/compaction leading to improved densification. The HRSEM secondary electron (SE) microstructures with EDS elemental overlay maps of the stress-recovered green pellets compacted at 1100 MPa are shown in Figure <ref type="figure" target="#fig_14">9</ref>. The HRSEM-SE microstructure was taken at two different magnifications (low and high). The presence of BCC, FCC, and HCP phases with porosity was observed in all the stress-recovered samples. From the high-magnification images in Figure <ref type="figure" target="#fig_14">9</ref> (right side), it was observed that more porosity was observed in HEA1 and HEA3 samples compared to HEA2. This was attributed to less structural refinement, and a large particle size reduction in the HEA2 sample. Figure <ref type="figure" target="#fig_15">9c,</ref><ref type="figure">f,</ref><ref type="figure">i</ref> shows the HRSEM EDS elemental overlay maps of the green compacts after stress recovery. These results demonstrate a homogeneous structure with an effective solid solution of incorporated elements in the developed alloys.</p><p>The compressibility/densification performance of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs are shown in Figure <ref type="figure" target="#fig_17">10a</ref>,b for no stress recovery and stress recovered powders respectively on the same scale of the x-and y-axis. Increasing the compaction pressure increased the relative density. The densification curves in both conditions exhibit three stages: powder particle rearrangement, plastic deformation, and powder particle impingement. The stress recovered powder samples reached the highest relative density early compared to the sample without stress recovery. The elimination of internal stresses in the powders accelerated all three stages. During the first stage (powder particle rearrangement), the as-milled powder samples had a compaction pressure range of 1100 MPa, whereas the stress recovered samples exhibited a compaction pressure range of 0-95 MPa which was almost the same. For the as-milled condition, the relative densities obtained at the end of this stage were approximately 0.478, 0.518, and 0.4665 for HEA1, HEA2, and HEA3, respectively. The relative densities of the stress-recovered conditions were approximately 0.510, 0.528, and 0.480 for HEA1, HEA2, and HEA3, respectively. However, during the second stage (plastic deformation), 110-510 MPa and 95-275 MPa were the compaction pressure ranges for the as-milled powder samples and stress recovered samples respectively. At the end of this stage, the densities of the as-milled powders were approximately 0.508, 0.525, and 0.478 for HEA1, HEA2, and HEA3, respectively. The relative densities of the stress-recovered powders were 0.573, 0.591, and 0.547 for the HEA1, HEA2, and HEA3, respectively. Similarly, during particle impingement (third stage), the powder compaction ranges for as-milled samples and stress-recovered samples were 510-1100 MPa and 275-1100 MPa, respectively. At the end of this stage, the relative densities of the as-milled powders were 0.685, 0.745, and 0.676 for HEA1, HEA2, and HEA3, respectively. The relative densities of the stress-recovered powders were 0.788, 0.828, and 0.754, respectively. These results revealed that stress-relieving accelerated the densification, and consequently the stress-relieved samples exhibited a higher relative density. In addition, FeCrCuMnTiV HEA produced a higher relative density compared to other samples due to greater particle size reduction, less structural refinement, and a lower amount of dislocation density, high-configurational entropy, and a lower amount of sluggish and cocktail effects.</p><p>The densification behavior of all the developed alloys under both conditions was investigated using various linear and non-linear empirical models. These models provide a relationship between compaction pressure and relative density. The relative densities of all samples can be easily predicted using these theoretical models based on the experimental results. Five linear models (Balshin's <ref type="bibr" target="#b38">[38]</ref>, Heckel's <ref type="bibr" target="#b39">[39]</ref>, Ge's <ref type="bibr" target="#b40">[40]</ref>, Panelli and Ambrosio Filho's <ref type="bibr" target="#b41">[41]</ref>, Kawakita's <ref type="bibr" target="#b42">[42]</ref>) and three non-linear models (Shapiro's <ref type="bibr" target="#b43">[43]</ref>, Cooper and Eaton's <ref type="bibr" target="#b44">[44]</ref>, and Van Der Zwan and Siskens <ref type="bibr" target="#b45">[45]</ref>) were used in this study.</p><p>Linear models (Equations ( <ref type="formula" target="#formula_5">6</ref>)-( <ref type="formula" target="#formula_9">10</ref>)): Balshin's <ref type="bibr" target="#b38">[38]</ref>:</p><formula xml:id="formula_5">1 D R = K ln P + A<label>(6)</label></formula><p>Heckel's <ref type="bibr" target="#b39">[39]</ref>:   The compressibility/densification performance of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs are shown in Figure <ref type="figure" target="#fig_17">10a</ref>,b for no stress recovery and stress recovered powders respectively on the same scale of the x-and y-axis. Increasing the compaction pressure increased the relative density. The densification curves in both conditions exhibit three stages: powder particle rearrangement, plastic deformation, and powder particle impingement. The stress recovered powder samples reached the highest relative density early compared to the sample without stress recovery. The elimination of internal stresses in the powders accelerated all three stages. During the first stage (powder particle rearrangement), the as-milled powder samples had a compaction pressure range of 1100 MPa, whereas the stress recovered samples exhibited a compaction pressure range of 0-95 MPa which was almost the same. For the as-milled condition, the relative densities obtained at the end of this stage were approximately 0.478, 0.518, and 0.4665 for HEA1, HEA2, and HEA3, respectively. The relative densities of the stress-recovered conditions were approximately 0.510, 0.528, and 0.480 for HEA1, HEA2, and HEA3, respectively. However, during the second stage (plastic deformation), 110-510 MPa and 95-275 MPa Ge's <ref type="bibr" target="#b40">[40]</ref>:</p><formula xml:id="formula_6">ln 1 1 -D R = KP + A (7)</formula><formula xml:id="formula_7">log ln 1 1 -D R = K log P + A<label>(8)</label></formula><p>Panelli and Ambrosio Filho's <ref type="bibr" target="#b41">[41]</ref>:</p><formula xml:id="formula_8">ln 1 1 -D R = K √ P + A<label>(9)</label></formula><p>Kawakita's <ref type="bibr" target="#b42">[42]</ref>:</p><formula xml:id="formula_9">D R D R -D o = K P + A<label>(10)</label></formula><p>Non-linear models (Equations ( <ref type="formula" target="#formula_10">11</ref>)-( <ref type="formula" target="#formula_12">13</ref>)): Shapiro's <ref type="bibr" target="#b43">[43]</ref>:  Cooper and Eaton's <ref type="bibr" target="#b44">[44]</ref>:</p><formula xml:id="formula_10">ln(1 -D R ) = ln(1 -D o ) -CP -B √ P + A<label>(11)</label></formula><formula xml:id="formula_11">D R -D o D R (1 -D o ) = a 1 exp -k 1 P + a 2 exp -k 2 P<label>(12)</label></formula><p>Van Der Zwan and Sisken's <ref type="bibr" target="#b45">[45]</ref>:</p><formula xml:id="formula_12">D R -D o (1 -D o ) = a exp -k P (<label>13</label></formula><formula xml:id="formula_13">)</formula><p>where P is the applied compaction pressure in MPa, and D R is the relative density. Other symbols (A, a, a 1 , a 2, K, k 1 , and k 2 ) used in these models are parameters that depend on each model. The numeric value of each parameter was determined by curve fitting technique and these parameters can help us to investigate and predict the densification of the powder samples. Figures <ref type="figure" target="#fig_1">11</ref> and<ref type="figure" target="#fig_20">12</ref> show the densification behavior of the three developed HEAs fitted by linear and non-linear models, respectively. Table <ref type="table" target="#tab_11">5</ref> lists the coefficients and intercepts corresponding to each model. Based on Table <ref type="table" target="#tab_11">5</ref> and Figure <ref type="figure" target="#fig_1">11</ref>, Balshin's Equation ( <ref type="formula" target="#formula_5">6</ref>) and Heckel's Equation ( <ref type="formula">7</ref>) are well-fitted linear models as these two models exhibit a regression coefficient of more than 0.97. Whereas Shapiro's Equation <ref type="bibr" target="#b11">(11)</ref> and Cooper and Eaton's Equation ( <ref type="formula" target="#formula_11">12</ref>) have produced regression coefficients greater than 0.99 indicating the good accuracy of non-linear models compared to linear models. Hence, Balshin's Equation ( <ref type="formula" target="#formula_5">6</ref>), Heckel's Equation ( <ref type="formula">7</ref>), Shapiro's Equation <ref type="bibr" target="#b11">(11)</ref>, and Cooper and Eaton's Equation ( <ref type="formula" target="#formula_11">12</ref>) can be used to predict the densification behavior of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs.    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Three nanostructured HEAs, namely, FeCrCuMnTi (HEA1), FeCrCuMnTiV (HEA2), and FeCrCuMnTiVZn (HEA3) were synthesized by MA at 25 h in this study. The solid solution formation of each alloy was confirmed by XRD patterns (Figure <ref type="figure" target="#fig_2">2</ref>) and the higher magnification of the HRSEM images (Figures <ref type="figure" target="#fig_7">4</ref> and<ref type="figure" target="#fig_10">6</ref>) represents the presence of BCC, FCC, and HCP phases. FCC was found to be the major phase in each alloy. The densification behavior of the developed HEAs was highly influenced by the incorporated elements, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Three nanostructured HEAs, namely, FeCrCuMnTi (HEA1), FeCrCuMnTiV (HEA2), and FeCrCuMnTiVZn (HEA3) were synthesized by MA at 25 h in this study. The solid solution formation of each alloy was confirmed by XRD patterns (Figure <ref type="figure" target="#fig_2">2</ref>) and the higher magnification of the HRSEM images (Figures <ref type="figure" target="#fig_7">4</ref> and<ref type="figure" target="#fig_10">6</ref>) represents the presence of BCC, FCC, and HCP phases. FCC was found to be the major phase in each alloy. The densification behavior of the developed HEAs was highly influenced by the incorporated elements, solid solution formation, amount of structural refinements (crystallite size reduction, lattice strain, lattice parameters), and powder conditions (as-milled and stress-recovered). In addition, thermodynamic parameters (free energy, ∆G mix , amount of mixing entropy, ∆S mix , and melting point of incorporated elements), and several physio-chemical parameters (atomic radius, valence electrons, and electronegativity) were expected to influence the densification behavior and hence, these values were determined based on several equations (Equations ( <ref type="formula" target="#formula_15">14</ref>)-( <ref type="formula" target="#formula_23">22</ref>)) <ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref><ref type="bibr" target="#b48">[48]</ref>. The calculated values of the physio-chemical and thermodynamic parameters are illustrated in Table <ref type="table" target="#tab_12">6</ref>. The enthalpy of mixing (H AB mix ) of each pair of elements corresponding to the design of the developed HEAs is given in Table <ref type="table" target="#tab_13">7</ref> which was obtained based on Miedema's model <ref type="bibr" target="#b49">[49]</ref>.  </p><formula xml:id="formula_14">- - - - -8 -1 -6 Ti (0.14) - - - - - -2 -15 V (0.135) - - - - - - -2 Zn (0.135) - - - - - - -</formula><p>Gibbs free energy (Equation ( <ref type="formula" target="#formula_8">9</ref>)):</p><formula xml:id="formula_15">∆G mix = ∆H mix -T∆S mix<label>(14)</label></formula><p>'T' indicates the temperature in K.</p><p>Mixing entropy (Equation ( <ref type="formula" target="#formula_9">10</ref>)):</p><formula xml:id="formula_16">∆S mix = -R N ∑ i=1 (C i lnC i )<label>(15)</label></formula><p>'R' represents the gas constant in J/kgK, 'N' represents the number of elements, and C i indicates the atomic fraction of ith elements.</p><p>Mixing enthalpy (Equation ( <ref type="formula" target="#formula_10">11</ref>)):</p><formula xml:id="formula_17">∆H mix = N ∑ i=1, i =j 4∆H AB mix C i C j<label>(16)</label></formula><p>C j denotes the atomic fraction of the jth elements, H AB mix represents the enthalpy of mixing between pairs of elements according to Miedema's model <ref type="bibr" target="#b38">[38]</ref>.</p><p>Thermodynamic parameter (Ω) (Equation ( <ref type="formula" target="#formula_11">12</ref>)):</p><formula xml:id="formula_18">Ω = T m ∆S mix ∆H mix<label>(17)</label></formula><p>T m denotes the alloy melting point. The deviation in atomic radius (δ) (Equation ( <ref type="formula" target="#formula_12">13</ref>)):</p><formula xml:id="formula_19">δ = N ∑ i=1 C i 1 - r i r 2<label>(18)</label></formula><p>r i represents the atomic radius of ith element.</p><p>Crystals</p><note type="other">2021, 11, 1413 24 of 28</note><p>The mean value of atomic radius (r) (Equation ( <ref type="formula" target="#formula_15">14</ref>)):</p><formula xml:id="formula_20">r = N ∑ i=1 C i r i<label>(19)</label></formula><p>Valence electron concentration (VEC) (Equation ( <ref type="formula" target="#formula_16">15</ref>)):</p><formula xml:id="formula_21">VEC = N ∑ i=1 C i (VEC) i<label>(20)</label></formula><p>The difference in the Pauling electronegativity difference (PED), ∆x, (Equation ( <ref type="formula" target="#formula_17">16</ref>)):</p><formula xml:id="formula_22">∆X = N ∑ i=1 C i X i -X 2<label>(21)</label></formula><p>X i represents the Pauling electronegativity of the ith element and X denotes the mean of Pauling electronegativity (Equation ( <ref type="formula" target="#formula_18">17</ref>)):</p><formula xml:id="formula_23">X = N ∑ i=1 C i X i<label>(22)</label></formula><p>In general, the Gibbs free energy (∆G mix ) should be minimized to obtain a solid solution and phase stability in HEAs <ref type="bibr" target="#b39">[39]</ref>. Based on the calculated physio-chemical and thermodynamic values listed in Table <ref type="table" target="#tab_12">6</ref>, the values of ∆G mix are -5747.50, -6439.21, and -7353.93 J/mol for HEA1, HEA2, and HEA3, respectively, indicating the possibility of a solid solution owing to the -ve values. The value of the thermo-dynamic parameter (Ω) also represents the solid solution formation and the condition is Ω &gt; 10 <ref type="bibr" target="#b40">[40]</ref>. Where, all three HEAs possessed more than 10, representing the highest possible solid solution. In addition, the atomic radius deviation (δ) of the incorporated elements should be less than 6.67% which is another condition for solid solution formation <ref type="bibr" target="#b41">[41]</ref>. As shown in Table <ref type="table" target="#tab_12">6</ref>, the values of δ are 1.44%, 1.70%, and 1.79% for HEA1, HEA2, and HEA3, respectively, indicating a greater potential for solid solution formation. The VEC value predicted the type of phase formation. If VEC &gt; 8, a stable FCC phase and unstable BCC phase can be expected, whereas, a stable BCC phase and unstable FCC phase can be expected if VEC &lt; 6.8. In the present work, all the alloys possessed VEC values greater than 6.8 and less than 8, indicating the possible formation of mixed BCC and FCC phases. The value of PED (∆x) defines the phase stability of HEAs with ∆x ≥ 0.13 <ref type="bibr" target="#b48">[48]</ref>. Here, all the developed alloys possessed a PED greater than 0.13 (Table <ref type="table" target="#tab_12">6</ref>), indicating the achievement of phase stability. These results are consistent with the XRD, HRSEM, and HRTEM results (Figure <ref type="figure" target="#fig_2">2</ref>, Figure <ref type="figure" target="#fig_6">4</ref>, and Figure <ref type="figure">7</ref>) except for the formation of the HCP phase. The formed HCP phase was expected to incorporate Ti elements which might have boosted HCP phase formation. The conditions based on empirical formulae are an assumption and it is not necessary to apply strictly to predict the crystal structures in HEAs. However, these empirical equations can be used to identify the possibility of solid solution formation and not for crystal structure determination <ref type="bibr" target="#b36">[36]</ref>. The obtained results demonstrate the formation of multiple solid solutions with three crystal structures (BCC, FCC, and HCP, Figure <ref type="figure" target="#fig_22">13</ref>). Figure <ref type="figure" target="#fig_22">13</ref> shows the possible mixing phases in the equiatomic FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuM-nTiVZn HEAs as evidenced by XRD, HRSEM, and HRTEM (Figure <ref type="figure" target="#fig_2">2</ref>, Figure <ref type="figure" target="#fig_6">4</ref>, Figure <ref type="figure" target="#fig_10">6</ref>, and Figure <ref type="figure">7</ref>). In general, the number of elements, concentrations, and types of elements define the alloy formations. The stability and type of phase formation mainly depend on the Gibbs free energy which has to be more or less negative values of ∆G mix . Otherwise, the possibility of intermetallic compound formation exists. Four possible reactions usually occur during the mixing of metallic elements in an equiatomic ratio, namely, a single solid solution, multiple solid solutions, intermetallic with a solid solution, and spinodal decomposition <ref type="bibr" target="#b50">[50]</ref><ref type="bibr" target="#b51">[51]</ref><ref type="bibr" target="#b52">[52]</ref><ref type="bibr" target="#b53">[53]</ref>. The formation of single solid solutions or multiple solid solutions offers several features, such as high mechanical properties in terms of strength and ductility, a stable phase at elevated temperature, and, more wear and corrosion resistance, suitable for various applications, including, but not limited to, aerospace, structural, nuclear, space, and automotive parts. The formation of intermetallic compounds promotes their brittle characteristics. Based on the observed results for the three newly-developed nanostructured HEAs (FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn), all the alloys produced multiple solid solutions (Figure <ref type="figure" target="#fig_10">6</ref>) and no intermetallic compounds were observed in any of the results. Figure <ref type="figure" target="#fig_22">13</ref> shows the possibility of multiple solid solutions from the mixing of equiatomic metallic elements. Several researchers have observed multiple solid solutions during the development of HEAs <ref type="bibr" target="#b54">[54]</ref><ref type="bibr" target="#b55">[55]</ref><ref type="bibr" target="#b56">[56]</ref>. Hence, these three HEAs can be suggested for potential applications in various fields.</p><p>Crystals 2021, 11, x FOR PEER REVIEW 27 of 30 compound formation exists. Four possible reactions usually occur during the mixing of metallic elements in an equiatomic ratio, namely, a single solid solution, multiple solid solutions, intermetallic with a solid solution, and spinodal decomposition <ref type="bibr" target="#b50">[50]</ref><ref type="bibr" target="#b51">[51]</ref><ref type="bibr" target="#b52">[52]</ref><ref type="bibr" target="#b53">[53]</ref>. The formation of single solid solutions or multiple solid solutions offers several features, such as high mechanical properties in terms of strength and ductility, a stable phase at elevated temperature, and, more wear and corrosion resistance, suitable for various applications, including, but not limited to, aerospace, structural, nuclear, space, and automotive parts. The formation of intermetallic compounds promotes their brittle characteristics. Based on the observed results for the three newly-developed nanostructured HEAs (FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn), all the alloys produced multiple solid solutions (Figure <ref type="figure" target="#fig_10">6</ref>) and no intermetallic compounds were observed in any of the results. Figure <ref type="figure" target="#fig_22">13</ref> shows the possibility of multiple solid solutions from the mixing of equiatomic metallic elements. Several researchers have observed multiple solid solutions during the development of HEAs <ref type="bibr" target="#b54">[54]</ref><ref type="bibr" target="#b55">[55]</ref><ref type="bibr" target="#b56">[56]</ref>. Hence, these three HEAs can be suggested for potential applications in various fields. The effect of the incorporation of V and Zn in the base FeCrCuMnTi can be explained based on the diffusion rate of the incorporated elements (Figure <ref type="figure" target="#fig_7">14</ref>). HEA1 consists of one low melting element (Cu), two intermediate melting elements (Mn and Fe), and two higher melting elements (Cr and Ti). The medium diffusion rate was expected to occur in HEA1 and hence, HEA1 produced the average densification behavior compared to the other two alloys (Figures <ref type="figure" target="#fig_16">10</ref><ref type="figure" target="#fig_1">11</ref><ref type="figure" target="#fig_20">12</ref>). However, the incorporation of the higher melting element of V in the base FeCrCuMnTi alloy termed as FeCrCuMnTiV HEA2 was expected to decrease the diffusion rate during the MA process leading to less structural refinement, and consequently increasing the densification behavior of the other two alloys (Figures <ref type="figure" target="#fig_16">10</ref><ref type="figure" target="#fig_1">11</ref><ref type="figure" target="#fig_20">12</ref>). The addition of the low melting element of Zn in FeCrCuMnTiV termed as FeCrCuMnTiVZn HEA3 was expected to increase the diffusion rate during the MA process leading to more structural refinement and hence, HEA3 produced less densification behavior between the two alloys. The effect of the incorporation of V and Zn in the base FeCrCuMnTi can be explained based on the diffusion rate of the incorporated elements (Figure <ref type="figure" target="#fig_7">14</ref>). HEA1 consists of one low melting element (Cu), two intermediate melting elements (Mn and Fe), and two higher melting elements (Cr and Ti). The medium diffusion rate was expected to occur in HEA1 and hence, HEA1 produced the average densification behavior compared to the other two alloys (Figures <ref type="figure" target="#fig_16">10</ref><ref type="figure" target="#fig_1">11</ref><ref type="figure" target="#fig_20">12</ref>). However, the incorporation of the higher melting element of V in the base FeCrCuMnTi alloy termed as FeCrCuMnTiV HEA2 was expected to decrease the diffusion rate during the MA process leading to less structural refinement, and consequently increasing the densification behavior of the other two alloys (Figures <ref type="figure" target="#fig_16">10</ref><ref type="figure" target="#fig_1">11</ref><ref type="figure" target="#fig_20">12</ref>). The addition of the low melting element of Zn in FeCrCuMnTiV termed as FeCrCuMnTiVZn HEA3 was expected to increase the diffusion rate during the MA process leading to more structural refinement and hence, HEA3 produced less densification behavior between the two alloys. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>O Three nanostructured equiatomic FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs exhibited multiple solid solutions with major FCC phases, minor BCC, and HCP phases evidenced through XRD, HRSEM, and HRTEM. O XRD results revealed that FeCrCuMnTiVZn HEA produced more crystallite size reduction, more lattice strain, and a high value of lattice constants due to more structural refinements and high configurational entropy due to incorporation Zn. O A greater powder particle size reduction (24.56 ± 1.85 µm) occurred in FeCrCuMnTiV HEA due to the domination of fracturing mechanisms produced by the addition of V atoms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>O</head><p>The densification performance indicates that the FeCrCuMnTiV HEA produced a higher relative density of 0.7456 in the as-milled condition and 0.8284 in the stressrecovered conditions. The stress-relieved powder samples exhibited a higher relative density compared to the as-milled powders owing to the elimination of lattice strain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>O</head><p>Based on the applied linear and non-linear models, Balshin's Equation ( <ref type="formula">1</ref>) and Heckel's Equation ( <ref type="formula" target="#formula_1">2</ref>) linear models are well-fitted linear models. Whereas, Shapiro's Equation ( <ref type="formula" target="#formula_5">6</ref>), and Cooper and Eaton's Equation ( <ref type="formula">7</ref>) non-linear models have produced regression coefficients of more than 0.99 indicating the good accuracy of non-linear models compared to linear models.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic showing the present research work to synthesize and investigate the densification behavior of three high entropy alloys.Figure 1. Schematic showing the present research work to synthesize and investigate the densification behavior of three high entropy alloys.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic showing the present research work to synthesize and investigate the densification behavior of three high entropy alloys.Figure 1. Schematic showing the present research work to synthesize and investigate the densification behavior of three high entropy alloys.</figDesc><graphic coords="5,94.59,270.45,650.40,140.64" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. XRD patterns of different equiatomic high-entropy alloys powders of FeCrCuMnTi (HEA1), FeCrCuMnTiV (HEA2), and FeCrCuMnTiVZn (HEA3) synthesized by MA: (a) 25 h; (b) 0 h blended samples for comparison.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. XRD patterns of different equiatomic high-entropy alloys powders of FeCrCuMnTi (HEA1), FeCrCuMnTiV (HEA2), and FeCrCuMnTiVZn (HEA3) synthesized by MA: (a) 25 h; (b) 0 h blended samples for comparison.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 . 30 Figure 3 .</head><label>3303</label><figDesc>Figure 3. Cont.</figDesc><graphic coords="9,43.70,258.78,507.00,483.13" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. HRSEM powder surface morphology of as-received elemental powders: (a) Fe-irregular shape; (b) Cr-Platelet shape; (c) Cu-different size spherical shape; (d) Mn-different size polygonal shape; (e) Ti-irregular cum polygonal shape; (f) V-irregular; (g) Zn-spherical with satellite. Top right inset images describing the morphology of as-received particles at higher magnification. Right side of each image illustrating the EDS spot analyses for checking the purity of as-received elemental powders.</figDesc><graphic coords="10,43.50,220.22,507.29,362.80" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. HRSEM BSE images over the powder surface morphology of three developed high entropy alloy powders: (a,b) FeCrCuMnTi; (c,d) FeCrCuMnTiV; and (e,f) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. HRSEM BSE images over the powder surface morphology of three developed high entropy alloy powders: (a,b) FeCrCuMnTi; (c,d) FeCrCuMnTiV; and (e,f) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. HRSEM elemental overlay map of three developed high entropy alloys: (a) FeCrCuMnTi; (b) FeCrCuMnTiV; and (c) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. HRSEM elemental overlay map of three developed high entropy alloys: (a) FeCrCuMnTi; (b) FeCrCuMnTiV; and (c) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. HRSEM EDS elemental mapping at high magnification showing multiple solid solutions and elemental analyses of three high-entropy alloys: (a) FeCrCuMnTi; (b) FeCrCuMnTiV; and (c) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 6 .Figure 7 . 2 .Figure 7 .</head><label>6727</label><figDesc>Figure 6. HRSEM EDS elemental mapping at high magnification showing multiple solid solutions and elemental analyses of three high-entropy alloys: (a) FeCrCuMnTi; (b) FeCrCuMnTiV; and (c) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Particle size distribution of three developed high entropy alloy powders: (a) HEA1-FeCrCuMnTi; (b) HEA2-FeCrCuMnTiV; and (c) HEA3-FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Particle size distribution of three developed high entropy alloy powders: (a) HEA1-FeCrCuMnTi; (b) HEA2-FeCrCuMnTiV; and (c) HEA3-FeCrCuMnTiVZn.</figDesc><graphic coords="15,40.40,201.68,515.04,272.64" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. HRSEM SE microstructures and EDS overlay map of green compacts pressed at 1100 MPa of three developed HEAs after stress recovery: (a-c) FeCrCuMnTi; (d-f) FeCrCuMnTiV; and (g-i) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. HRSEM SE microstructures and EDS overlay map of green compacts pressed at 1100 MPa of three developed HEAs after stress recovery: (a-c) FeCrCuMnTi; (d-f) FeCrCuMnTiV; and (g-i) FeCrCuMnTiVZn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Compaction behavior of three developed high entropy alloy powders of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn with different conditions: (a) without stress recovery and (b) with stress recovery.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Compaction behavior of three developed high entropy alloy powders of FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn with different conditions: (a) without stress recovery and (b) with stress recovery.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 11 .Figure 11 .</head><label>1111</label><figDesc>Figure 11. Cont.</figDesc><graphic coords="20,39.59,98.11,520.32,574.80" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 11 . 30 Figure 12 .</head><label>113012</label><figDesc>Figure 11. Densification behavior fitted by various linear models for the three developed nanostructured HEAs for as-milled and stress recovered conditions: (a,b) Balshin's Equation (6); (c,d) Heckel's Equation (7); (e,f) Ge's Equation (8); (g,h) Panelli and Ambrosio Filho's Equation (9); (i,j) Kawakita's Equation (10). Crystals 2021, 11, x FOR PEER REVIEW 24 of 30</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Densification behavior fitted by various non-linear models for the three developed nanostructured HEAs for as-milled and stress recovered conditions: (a,b) Shapiro's Equation (11); (c,d) Cooper and Eaton's Equation (12); (e,f) Van Der Zwan and Sisken's Equation (13).</figDesc><graphic coords="22,41.84,136.39,515.84,340.20" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Densification behavior fitted by various non-linear models for the three developed nanostructured HEAs for as-milled and stress recovered conditions: (a,b) Shapiro's Equation (11); (c,d) Cooper and Eaton's Equation (12); (e,f) Van Der Zwan and Sisken's Equation (13).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Possible mixing phases among the incorporated equiatomic metallic elements to form multiple solid solutions occurred in the three developed nanostructured HEAs.</figDesc><graphic coords="25,65.61,255.52,466.49,140.62" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Possible mixing phases among the incorporated equiatomic metallic elements to form multiple solid solutions occurred in the three developed nanostructured HEAs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_24"><head>Crystals 2021 , 30 Figure 14 .FeCrCuMnTiVZnFigure 14 .</head><label>2021301414</label><figDesc>Figure 14. Schematic representing the diffusion rate of each HEAs defining their densification performances.5. Conclusions Three nanostructured equiatomic FeCrCuMnTi, FeCrCuMnTiV, and FeCrCuMnTiVZn HEAs exhibited multiple solid solutions with major FCC phases,</figDesc><graphic coords="25,77.95,685.89,440.14,86.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,83.47,98.49,428.69,213.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,83.47,311.59,428.69,213.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="13,83.47,524.68,428.69,212.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>reported the entropy effect on nonequimolar ratios of Cr 0.26 Fe 0.24 Al 0.5 , Cr 0.21 Fe 0.20 Al 0.41 Cu 0.18 , Cr 0.15 Fe 0.14 Al 0.30 Cu 0.13 Si 0.28 , and Cr 0.14 Fe 0.13 Al 0.26 Cu 0.11 Si 0.25 Zn 0.11 HEAs prepared by MA. The literature explains that</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Chemical composition, the crystallite size, lattice strain, and lattice constant of three developed high entropy alloys.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Alloy Code Alloy Composition (Atomic Fraction of Each Element) LECO CS 744 and ONH 836 Analyzers (wt.%) Crystallite Size (t), nm Lattice Strain, % Lattice Constant, nm</head><label></label><figDesc></figDesc><table><row><cell cols="2">Crystals 2021, 11, x FOR PEER REVIEW</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>6 of 30</cell></row><row><cell></cell><cell></cell><cell>O</cell><cell>C</cell><cell>H</cell><cell>N</cell><cell>S</cell><cell>BCC</cell><cell>FCC</cell><cell>HCP</cell><cell>BCC</cell><cell>FCC</cell><cell>HCP</cell><cell>BCC</cell><cell>FCC</cell><cell cols="2">HCP</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>'a'</cell><cell>'a'</cell><cell>'a'</cell><cell>'c'</cell></row><row><cell>HEA1</cell><cell>FeCrCuMnTi (0.2)</cell><cell>0.68</cell><cell>0.45</cell><cell>0.08</cell><cell>0.09</cell><cell>0.005</cell><cell>18</cell><cell>9</cell><cell>31</cell><cell>0.97</cell><cell>0.95</cell><cell>1.5</cell><cell>0.485</cell><cell>0.361</cell><cell>0.296</cell><cell>0.483</cell></row><row><cell>HEA2</cell><cell>FeCrCuMnTiV (0.167)</cell><cell>0.75</cell><cell>0.62</cell><cell>0.09</cell><cell>0.10</cell><cell>0.004</cell><cell>24</cell><cell>10</cell><cell>48</cell><cell>0.96</cell><cell>0.92</cell><cell>2.9</cell><cell>0.491</cell><cell>0.363</cell><cell>0.300</cell><cell>0.490</cell></row><row><cell>HEA3</cell><cell>FeCrCuMnTiVZn (0.143)</cell><cell>0.82</cell><cell>0.74</cell><cell>0.12</cell><cell>0.09</cell><cell>0.001</cell><cell>14</cell><cell>6</cell><cell>22</cell><cell>1.1</cell><cell>0.98</cell><cell>5.6</cell><cell>0.502</cell><cell>0.365</cell><cell>0.308</cell><cell>0.503</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 1 .</head><label>1</label><figDesc>Chemical composition, the crystallite size, lattice strain, and lattice constant of three developed high entropy alloys.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Alloy Code Alloy Composition (Atomic Fraction of Each Element) LECO CS 744 and ONH 836 Analyzers (wt.%) Crystallite Size (t), nm Lattice Strain, % Lattice Constant, nm</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell>O</cell><cell>C</cell><cell>H</cell><cell>N</cell><cell>S</cell><cell>BCC</cell><cell>FCC</cell><cell>HCP</cell><cell>BCC</cell><cell>FCC</cell><cell>HCP</cell><cell>BCC 'a'</cell><cell>FCC 'a'</cell><cell>'a'</cell><cell>HCP</cell><cell>'c'</cell></row><row><cell>HEA1</cell><cell>FeCrCuMnTi (0.2)</cell><cell>0.68</cell><cell>0.45</cell><cell>0.08</cell><cell>0.09</cell><cell>0.005</cell><cell>18</cell><cell>9</cell><cell>31</cell><cell>0.97</cell><cell>0.95</cell><cell>1.5</cell><cell>0.485</cell><cell>0.361</cell><cell>0.296</cell><cell></cell><cell>0.483</cell></row><row><cell>HEA2</cell><cell>FeCrCuMnTiV (0.167)</cell><cell>0.75</cell><cell>0.62</cell><cell>0.09</cell><cell>0.10</cell><cell>0.004</cell><cell>24</cell><cell>10</cell><cell>48</cell><cell>0.96</cell><cell>0.92</cell><cell>2.9</cell><cell>0.491</cell><cell>0.363</cell><cell>0.300</cell><cell></cell><cell>0.490</cell></row><row><cell>HEA3</cell><cell>FeCrCuMnTiVZn (0.143)</cell><cell>0.82</cell><cell>0.74</cell><cell>0.12</cell><cell>0.09</cell><cell>0.001</cell><cell>14</cell><cell>6</cell><cell>22</cell><cell>1.1</cell><cell>0.98</cell><cell>5.6</cell><cell>0.502</cell><cell>0.365</cell><cell>0.308</cell><cell></cell><cell>0.503</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 2 .</head><label>2</label><figDesc>Chemical composition in at. wt.% of three developed HEAs taken in several regions by HRSEM-EDS.</figDesc><table><row><cell>Alloy Code</cell><cell>Equiatomic Composition</cell><cell>Fe</cell><cell>Cr</cell><cell>Cu</cell><cell>Mn</cell><cell>Ti</cell><cell>V</cell><cell>Zn</cell></row><row><cell>HEA1</cell><cell>FeCrCuMnTi</cell><cell>20.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>75 ± 0.06 19.95 ± 0.22 19.61 ± 0.20 19.95 ± 0.05 19.79 ± 0.06 --HEA2 FeCrCuMnTiV 20.47 ± 0.29 16.52 ± 0.41 16.23 ± 0.65 15.89 ± 0.04 14.94 ± 0.15 15.95 ± 0.42 HEA3 FeCrCuMnTiVZn 14.27 ± 0.11 15.16 ± 0.39 13.02 ± 0.38 14.19 ± 0.01 14.59 ± 0.22 15.59 ± 0.50 13.16 ± 0.60 Crystals 2021, 11, 1413 9 of 28</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 3 .</head><label>3</label><figDesc>Powder particle size, surface area, apparent density, tap density, packing at apparent density, and packing at a tapped density of three developed high entropy alloy powders.</figDesc><table><row><cell></cell><cell></cell><cell cols="3">Powder Particle Size</cell><cell>Surface Area</cell><cell cols="4">Apparent Density</cell><cell cols="4">Tap Density</cell><cell>True Density</cell><cell cols="3">Packing at Apparent Density</cell><cell cols="2">Packing at Tapped Density (150 No. of Taps)</cell></row><row><cell>High Entropy Alloy Powders</cell><cell>D 10 (µm)</cell><cell>D 50 (µm)</cell><cell>D 90 (µm)</cell><cell>D avg (µm)</cell><cell>m 2 /kg</cell><cell>As-Milled</cell><cell cols="2">g/cm 3</cell><cell>Stress Recovered</cell><cell>As-Milled</cell><cell cols="2">g/cm 3</cell><cell>Stress Recovered</cell><cell>g/cm 3</cell><cell>As-Milled</cell><cell>%</cell><cell>Stress Recovered</cell><cell>As-Milled</cell><cell>%</cell><cell>Stress Recovered</cell></row><row><cell>FeCrCuMnTi</cell><cell>24.5</cell><cell>37</cell><cell>53.9</cell><cell>40.79 ± 1.84</cell><cell>16.35</cell><cell cols="2">2.60 ± 0.045</cell><cell cols="2">2.73 ± 0.053</cell><cell cols="2">3.30 ± 0.032</cell><cell cols="2">3.47 ± 0.028</cell><cell>6.22 ± 0.011</cell><cell cols="5">41.69 ± 0.563 43.68 ± 0.489 52.88 ± 0.657 55.52 ± 0.258</cell></row><row><cell>FeCrCuMnTiV</cell><cell>16</cell><cell>23.9</cell><cell>37.9</cell><cell>26.78 ± 2.89</cell><cell>24.75</cell><cell cols="2">2.62 ± 0.015</cell><cell cols="2">2.75 ± 0.023</cell><cell cols="2">3.40 ± 0.013</cell><cell cols="2">3.58 ± 0.031</cell><cell>6.52 ± 0.018</cell><cell cols="5">39.98 ± 0.687 41.92 ± 0.202 51.96 ± 0.326 54.57 ± 0.272</cell></row><row><cell>FeCrCuMnTiVZn</cell><cell>24.6</cell><cell>37.7</cell><cell>54.7</cell><cell>41.39 ± 1.20</cell><cell>16.14</cell><cell cols="2">2.49 ± 0.017</cell><cell cols="2">2.62 ± 0.032</cell><cell cols="2">3.08 ± 0.012</cell><cell cols="2">3.24 ± 0.024</cell><cell>6.64 ± 0.014</cell><cell cols="5">37.47 ± 0.723 39.39 ± 0.277 46.40 ± 0.468 49.08 ± 0.240</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 4 .</head><label>4</label><figDesc>Theoretical density, green density, and relative density of three developed HEAs measured at 1100 MPa.</figDesc><table><row><cell>Alloy Composition</cell><cell>Theoretical Density (g/</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>cm 3 ) Green Density (g/cm 3 ) Relative Density (%) No Stress Recovery Stress Recovered No Stress Recovery Stress Recovered</head><label></label><figDesc></figDesc><table><row><cell cols="2">Crystals 2021, 11, x FOR PEER REVIEW</cell><cell></cell><cell></cell><cell></cell><cell>17 of 30</cell></row><row><cell>FeCrCuMnTi</cell><cell>6.25</cell><cell>4.29</cell><cell>4.93</cell><cell>68.56</cell><cell>78.85</cell></row><row><cell>FeCrCuMnTiV</cell><cell>6.56</cell><cell>4.89</cell><cell>5.43</cell><cell>74.56</cell><cell>82.84</cell></row><row><cell>FeCrCuMnTiVZn</cell><cell>6.65</cell><cell>4.50</cell><cell>5.01</cell><cell>67.65</cell><cell>75.45</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>Table 4 .</head><label>4</label><figDesc>Theoretical density, green density, and relative density of three developed HEAs measured at 1100 MPa.</figDesc><table><row><cell>Alloy Composition</cell><cell>Theoretical Density (g/</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_10"><head>cm 3 ) Green Density (g/cm 3 ) Relative Density (%) No Stress Recovery Stress Recov- ered No Stress Recov- ery Stress Recovered</head><label></label><figDesc></figDesc><table><row><cell>FeCrCuMnTi</cell><cell>6.25</cell><cell>4.29</cell><cell>4.93</cell><cell>68.56</cell><cell>78.85</cell></row><row><cell>FeCrCuMnTiV</cell><cell>6.56</cell><cell>4.89</cell><cell>5.43</cell><cell>74.56</cell><cell>82.84</cell></row><row><cell>FeCrCuMnTiVZn</cell><cell>6.65</cell><cell>4.50</cell><cell>5.01</cell><cell>67.65</cell><cell>75.45</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_11"><head>Table 5 .</head><label>5</label><figDesc>Various parameters associated with the linear and non-linear compaction equations obtained for quinary thermoelectric compacts.</figDesc><table><row><cell>Compaction Equation</cell><cell>Parameter</cell><cell cols="2">FeCrCuMnTi (HEA1)</cell><cell cols="2">FeCrCuMnTiV (HEA2)</cell><cell cols="2">FeCrCuMnTiVZn (HEA3)</cell></row><row><cell></cell><cell></cell><cell>WOS</cell><cell>WS</cell><cell>WOS</cell><cell>WS</cell><cell>WOS</cell><cell>WS</cell></row><row><cell></cell><cell>A</cell><cell>3.09845</cell><cell>3.06949</cell><cell>2.95709</cell><cell>2.99541</cell><cell>3.34952</cell><cell>3.27144</cell></row><row><cell>Balshin Equation (6)</cell><cell>K</cell><cell>-0.22402</cell><cell>-0.24659</cell><cell>-0.22102</cell><cell>-0.24461</cell><cell>-0.25754</cell><cell>-0.26668</cell></row><row><cell></cell><cell>R 2</cell><cell>0.97874</cell><cell>0.97134</cell><cell>0.97807</cell><cell>0.96946</cell><cell>0.98668</cell><cell>0.97168</cell></row><row><cell></cell><cell>A</cell><cell>0.59261</cell><cell>0.61384</cell><cell>0.64873</cell><cell>0.64299</cell><cell>0.5524</cell><cell>0.57058</cell></row><row><cell>Heckel's Equation (7)</cell><cell>K</cell><cell>0.00050</cell><cell>0.00081</cell><cell>0.00062</cell><cell>0.00095</cell><cell>0.00051</cell><cell>0.00073</cell></row><row><cell></cell><cell>R 2</cell><cell>0.98885</cell><cell>0.99439</cell><cell>0.98671</cell><cell>0.98705</cell><cell>0.98654</cell><cell>0.99573</cell></row><row><cell></cell><cell>A</cell><cell>-0.54121</cell><cell>-0.61291</cell><cell>-0.54458</cell><cell>-0.62799</cell><cell>-0.59842</cell><cell>-0.63899</cell></row><row><cell>Ge's Equation (8)</cell><cell>K</cell><cell>0.18382</cell><cell>0.24233</cell><cell>0.20618</cell><cell>0.26160</cell><cell>0.19908</cell><cell>0.23788</cell></row><row><cell></cell><cell>R 2</cell><cell>0.93834</cell><cell>0.90832</cell><cell>0.93080</cell><cell>0.89714</cell><cell>0.94849</cell><cell>0.91319</cell></row><row><cell>Panelli and Ambrosio Filho Equation (9)</cell><cell>A K R 2</cell><cell>0.4522 0.01950 0.98261</cell><cell>0.39226 0.03141 0.95769</cell><cell>0.45956 0.02485 0.97648</cell><cell>0.37035 0.03703 0.94458</cell><cell>0.40766 0.02003 0.98531</cell><cell>0.37123 0.02817 0.96354</cell></row><row><cell>Kawakita's Equation (10)</cell><cell>A K R 2</cell><cell>2.71834 135.8672 0.90689</cell><cell>2.4562 120.53758 0.88789</cell><cell>2.54322 107.0222 0.88034</cell><cell>2.40788 112.97297 0.8753</cell><cell>2.54003 185.8354 0.96324</cell><cell>2.48555 146.22189 0.9095</cell></row><row><cell></cell><cell>A</cell><cell>-0.81222</cell><cell>-0.90605</cell><cell>-0.89129</cell><cell>-0.98031</cell><cell>-0.74443</cell><cell>-0.8176</cell></row><row><cell>Shapiro Equation (11)</cell><cell>B C</cell><cell>-6.89 × 10 -4 -1.55 × 10 -7</cell><cell>-6.468 × 10 -4 -1.013 × 10 -6</cell><cell>-8.507 × 10 -4 -3.736 × 10 -7</cell><cell>-4.75 × 10 -4 -1.663 × 10 -6</cell><cell>-6.970 × 10 -4 -1.342 × 10 -7</cell><cell>-6.342 × 10 -4 -7.2824 × 10 -7</cell></row><row><cell></cell><cell>R 2</cell><cell>0.99059</cell><cell>0.99532</cell><cell>0.99021</cell><cell>0.99386</cell><cell>0.99002</cell><cell>0.99608</cell></row><row><cell></cell><cell>a 1</cell><cell>0.32711</cell><cell>0.34005</cell><cell>0.4907</cell><cell>0.57359</cell><cell>0.49666</cell><cell>0.5512</cell></row><row><cell>Cooper and Eaton's Equation (12)</cell><cell>a 2 k 1 k 2 R 2</cell><cell>0.49837 79.0513 961.5384 0.9992</cell><cell>0.55277 72.8862 793.6507 0.9994</cell><cell>0.3198 826.446 71.9424 0.99806</cell><cell>0.34613 800.000 74.96251 0.99938</cell><cell>0.38257 961.5384 77.16049 0.9993</cell><cell>0.34836 787.4015 76.2195 0.99946</cell></row><row><cell>Van Der Zwan and Sisken's Equation (13)</cell><cell>a k R 2</cell><cell>0.46183 384.6153 0.95966</cell><cell>0.71326 505.0505 0.96511</cell><cell>0.54438 401.6064 0.95371</cell><cell>0.79743 526.3157 0.96607</cell><cell>0.46777 348.4320 0.95918</cell><cell>0.67931 500.000 0.96667</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 6 .</head><label>6</label><figDesc>Calculated physio-chemical and thermodynamic values for the three developed nanostructured HEAs.</figDesc><table><row><cell>Equiatomic Alloy Composition</cell><cell>∆Hmix, kJ/mol</cell><cell>∆smix, J/mol•k</cell><cell>Melting Temp, • C</cell><cell>Ω</cell><cell>Atomic Radius Difference (δ), %</cell><cell>∆G mix , J/mol</cell><cell>VEC</cell><cell>Expected Phases</cell><cell>Actual Observed Phases</cell><cell>PED (∆x)</cell></row><row><cell>FeCrCuMnTi</cell><cell>-1.76</cell><cell>13.38</cell><cell>1488</cell><cell>13.3930</cell><cell>1.44%</cell><cell>-5747.50</cell><cell>7.20</cell><cell>BCC, FCC</cell><cell>BCC, FCC, HCP</cell><cell>0.15</cell></row><row><cell>FeCrCuMnTiV</cell><cell>-2.00</cell><cell>14.90</cell><cell>1588</cell><cell>13.6441</cell><cell>1.70</cell><cell>-6439.21</cell><cell>6.83</cell><cell>BCC, FCC</cell><cell>BCC, FCC, HCP</cell><cell>0.14</cell></row><row><cell>FeCrCuMnTiVZn</cell><cell>-2.53</cell><cell>16.18</cell><cell>1396</cell><cell>10.6883</cell><cell>1.79</cell><cell>-7353.93</cell><cell>7.57</cell><cell>BCC, FCC</cell><cell>BCC, FCC, HCP</cell><cell>0.13</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 7 .</head><label>7</label><figDesc>Chemical mixing enthalpy (∆H mix ij , kJ/mol) of three developed equiatomic high entropy alloys determined by Miedema's approach<ref type="bibr" target="#b34">[34]</ref>.</figDesc><table><row><cell>Element (Atomic Size, nm)</cell><cell>Fe</cell><cell>Cr</cell><cell>Cu</cell><cell>Mn</cell><cell>Ti</cell><cell>V</cell><cell>Zn</cell></row><row><cell>Fe (0.14)</cell><cell>-</cell><cell>-1</cell><cell>13</cell><cell>0</cell><cell>-17</cell><cell>-7</cell><cell>4</cell></row><row><cell>Cr (0.14)</cell><cell>-</cell><cell>-</cell><cell>12</cell><cell>2</cell><cell>-7</cell><cell>-2</cell><cell>5</cell></row><row><cell>Cu (0.135)</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>4</cell><cell>-9</cell><cell>5</cell><cell>1</cell></row><row><cell>Mn (0.14)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments:</head><p>The authors gratefully acknowledge <rs type="funder">Qassim University</rs>, represented by the <rs type="funder">Deanship of Scientific Research</rs>, for the financial support for this research under the number (<rs type="grantNumber">5573qec-2019-2-2-I</rs>) during the academic year <rs type="grantNumber">1440 AH/2019 AD</rs>.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Funding: This research was funded by <rs type="funder">Qassim University</rs>, represented by the <rs type="funder">Deanship of Scientific Research</rs>, grant number (<rs type="grantNumber">5573-qec-2019-2-2-I</rs>).</p></div>
+<div><head>Institutional Review Board Statement: Not applicable.</head><p>Informed Consent Statement: Not applicable.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NDzXKaV">
+					<idno type="grant-number">5573qec-2019-2-2-I</idno>
+				</org>
+				<org type="funding" xml:id="_vqVZkwD">
+					<idno type="grant-number">1440 AH/2019 AD</idno>
+				</org>
+				<org type="funding" xml:id="_qCUb5TH">
+					<idno type="grant-number">5573-qec-2019-2-2-I</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement:</head><p>The experimental datasets obtained from this research work and the analyzed results during the current study are available from the corresponding author on reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Crystals 2021, <ref type="bibr" target="#b11">11,</ref><ref type="bibr">1413</ref> Author Contributions: S.S., conceptualization, methodology, formal analysis, data curation, writingoriginal draft preparation; H.R.A., conceptualization, formal analysis, writing-review and editing; F.A.A.-M., data curation, resources, writing-review and editing. All authors have read and agreed to the published version of the manuscript.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest:</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fe0.13Al0.26Cu0.11Si0.25Zn0.11 Nanocrystallite Entropy Alloys Prepared by Mechanical Alloying and Hot-Pressing</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Alshataif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivasankaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Al-Mufadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Alaboodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Ammar</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Synthesis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12540-020-00660-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Microstructures and Mechanical Behaviour of Cr</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page" from="139" to="155" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Met. Mater. Int.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An assessment on the future development of high-entropy alloys: Summary from a recent workshop</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Nieh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2015.06.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="67" to="76" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ping</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2013.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Advanced Technology in High-Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Chemical Industry Press</publisher>
+			<pubPlace>Beijing, China</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1254581</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="1153" to="1158" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Compositional dependence of phase formation and mechanical properties in three CoCrFeNi-(Mn/Al/Cu) high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Shek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2016.09.003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Tensile properties of high-and medium-entropy alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2013.03.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="74" to="78" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2003.10.257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of iron content on the structure and mechanical properties of Al25Ti25Ni25Cu25 and (AlTi) 60-xNi20Cu20Fex (x = 15, 20) high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fazakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zadorozhnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Louzguine-Luzgin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2015.07.207</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="549" to="555" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Fatigue behavior of Al0. 5CoCrCuFeNi high entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hemphill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2012.06.046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="5723" to="5734" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mechanical properties, microstructure and thermal stability of a nanocrystalline CoCrFeMnNi high-entropy alloy after severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mendez-Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Völker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pippan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.06.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="258" to="268" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Characterization of nanocrystalline AlCoCrCuNiFeZn high entropy alloy produced by mechanical alloying</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sivaprasad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Muthupandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Szpunar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1020" to="1026" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of twinned Al0. 5CrFeNiCo0. 3C0. 2 high entropy alloy processed by mechanical alloying and spark plasma sintering</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2013.08.099</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="973" to="979" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of Co and Ti on microstructure and mechanical behavior of Al0. 75FeNiCrCo high entropy alloy prepared by mechanical alloying and spark plasma sintering</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.08.056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page" from="217" to="224" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effect of Ni/Cr ratio on phase, microstructure and mechanical properties of NixCoCuFeCr2-x (x = 1.0, 1.2, 1.5, 1.8 mol) high entropy alloys</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2015.11.205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">662</biblScope>
+			<biblScope unit="page" from="20" to="31" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microstructure and microhardness of high entropy alloys with Zn addition: AlCoFeNiZn and AlCoFeNiMoTiZn</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Avila-Rubio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carreño-Gallardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Herrera-Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>García-Grajeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Pérez-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ramirez-Ramirez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Garza-Montes-De-Oca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Baldenebro-Lopez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apt.2021.10.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Powder Technol</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of FeCoNi (MoW) x high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2021.131250</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="page">131250</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Superior antifouling properties of a CoCrFeMnNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kwak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2021.130130</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">300</biblScope>
+			<biblScope unit="page">130130</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Influence of hydrogen behaviors on tensile properties of equiatomic FeCrNiMnCo high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H W</forename><surname>Ngan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2021.162260</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">892</biblScope>
+			<biblScope unit="page">162260</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">mechano-crystallization, and crystallization kinetics of mechanically alloyed AlFeCuZnTi high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Daryoush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mirzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ataie</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Amorphization</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2021.131098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page">131098</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of different aging time on the microstructure and tribological behavior of (Co1. 5FeNi) 90Ti6Al4 high entropy alloy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vacuum.2021.110677</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Vacuum</title>
+		<imprint>
+			<biblScope unit="page">110677</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Microstructure formation mechanism and corrosion behavior of FeCrCuTiV two-phase high entropy alloy prepared by different processes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.fusengdes.2021.112792</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Fusion Eng. Des</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page">112792</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Non-equiatomic FeMnCrNiAl high-entropy alloys with heterogeneous structures for strength and ductility combination</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2021.141386</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">818</biblScope>
+			<biblScope unit="page">141386</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>CrossRef</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Influence of Al content on thermal stability of nanocrystalline AlxCoCrFeNi high entropy alloys at low and intermediate temperatures</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Garlapati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vaidya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apt.2020.02.032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1985" to="1993" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Synthesis, microstructural investigation and compaction behavior of Al0. 3CrFeNiCo0. 3Si0. 4 nanocrystalline high entropy alloy</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Ammar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivasankaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Alaboodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Al-Mufadi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apt.2020.12.016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="398" to="412" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">structure, and mechanical response of Cr0. 26Fe0. 24Al0. 5 and Cr0. 15Fe0. 14Al0. 30Cu0. 13Si0. 28 nanocrystallite entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Alshataif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivasankaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Al-Mufadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Alaboodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Ammar</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Synthesis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apt.2020.03.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="2161" to="2177" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effect of alloying order on non-isothermal sintering kinetics of mechanically alloyed high entropy alloy powders</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Mane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Panigrahi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2018.01.092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A model for the simulation of powder compaction processes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Alves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Al-Qureshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jmatprotec.2006.08.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="286" to="296" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Compaction behavior of water-atomized CoCrFeMnNi high-entropy alloy powders</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2017.06.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="95" to="102" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Constitutive modelling of powder compaction and sintering</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C F</forename><surname>Cocks</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0079-6425(00)00017-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="201" to="229" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Simulation of metal powder compaction, for the development of a knowledge based powder metallurgy process advisor</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Midha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Graham</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0924-0136(97)00387-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Technol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="94" to="100" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A novel study on mechanically alloyed nanocrystalline Ti-6Al-4V alloy fabricated by spark plasma sintering</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Karunanithi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prashanth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sivasankaran</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00325899.2020.1867391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Metall</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="149" to="164" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Materials Science and Engineering: An Introduction</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Callister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Rethwisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blicblau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bruggeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cortie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Marceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Parvizi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A differential scanning calorimetric investigation of precipitation kinetics in the Al-1.53 wt% Cu-0.79 wt% Mg alloy</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Chaturvedi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(89)90015-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="885" to="895" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Phase Evolution and Thermal Stability of Mechanically Alloyed AlCrFeCoNiZn High-Entropy Alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Shivam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sanjana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">K</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12666-020-01892-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Indian Inst. Met</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="821" to="830" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">On the formation of disordered solid solutions in multi-component alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subramaniam</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.10.133</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">587</biblScope>
+			<biblScope unit="page" from="113" to="119" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Theory of compacting</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Balshin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vestnik Metalloprom</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="124" to="137" />
+			<date type="published" when="1938">1938</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Density-pressure relationships in powder compaction</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Heckel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans Metall. Soc AIME</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page" from="671" to="675" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A new powder compaction equation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rong-De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Powder Metall</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="211" to="216" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A study of a new phenomenological compacting equation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Panelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ambrozio Filho</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0032-5910(00)00207-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="255" to="261" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Some considerations on powder compression equations</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kawakita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Lüdde</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0032-5910(71)80001-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Powder Technol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="61" to="68" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Compaction of powders XII. Evaluation of published compaction equations for modeling purposes</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Shapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Powder Metall. Part. Mater</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="2" to="97" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Compaction behavior of several ceramic powders</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R J</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Eaton</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1151-2916.1962.tb11092.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="97" to="101" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The compaction and mechanical properties of some spray-dried ceramic materials</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A N</forename><surname>Der Zwan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 10th International Conference of Ceramics</title>
+		<meeting>the 10th International Conference of Ceramics<address><addrLine>Berchtesgaden, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1979-09-04">1-4 September 1979</date>
+			<biblScope unit="page">159</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200700240</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">High-entropy alloy: Challenges and prospects</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mattod.2015.11.026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Today</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="349" to="362" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">More than entropy in high-entropy alloys: Forming solid solutions or amorphous phase</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2013.05.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="96" to="103" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The electronegativity parameter for transition metals: Heat of formation and charge transfer in alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Miedema</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0022-5088(73)90078-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Less Common Met</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="117" to="136" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Effects of Al addition on microstructure and mechanical properties of AlxCoCrFeNi High-entropy alloy</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.09.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page" from="15" to="22" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Prediction of high-entropy stabilized solid-solution in multi-component alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2011.11.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">thermal stability and strengthening in spark plasma sintered AlxCoCrCuFeNi high entropy alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sriharitha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kottada</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Alloying</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.08.176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="419" to="426" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41578-019-0121-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="515" to="534" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Decomposition in multi-component AlCoCrCuFeNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wanderka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glatzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2010.09.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="182" to="190" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Formation of ordered/disordered nanoparticles in FCC high entropy alloys</title>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-F</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2009.12.071</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">493</biblScope>
+			<biblScope unit="page" from="105" to="109" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Effect of Co addition on crystal structure and mechanical properties of Ti0. 5CrFeNiAlCo high entropy alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2008.05.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">496</biblScope>
+			<biblScope unit="page" from="214" to="216" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

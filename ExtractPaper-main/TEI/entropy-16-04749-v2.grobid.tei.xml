@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve"
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Multicomponent and High Entropy Alloys</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>MDPI AG</publisher>
+				<availability status="unknown">
+					<p>Copyright MDPI AG</p>
+				</availability>
+				<date type="published" when="2014-08-26">26 August 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName>
+								<forename type="first">Brian</forename>
+								<surname>Cantor</surname>
+							</persName>
+							<email>vcp@bradford.ac.uk</email>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Bradford</orgName>
+								<address>
+									<postCode>BD7 1DP</postCode>
+									<settlement>Bradford</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Multicomponent and High Entropy Alloys</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Entropy</title>
+						<title level="j" type="abbrev">Entropy</title>
+						<idno type="ISSN">1099-4300</idno>
+						<imprint>
+							<publisher>MDPI AG</publisher>
+							<biblScope unit="volume">16</biblScope>
+							<biblScope unit="issue">9</biblScope>
+							<biblScope unit="page" from="4749" to="4768"/>
+							<date type="published" when="2014-08-26">26 August 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">26D9A882E3417660DC9E5E7C8E33C131</idno>
+					<idno type="DOI">10.3390/e16094749</idno>
+					<note type="submission">Received: 4 February 2014; in revised form: 31 July 2014 / Accepted: 12 August 2014 /</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-28T15:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>alloying strategy</term>
+					<term>amorphous alloys</term>
+					<term>fcc single phase</term>
+					<term>Gibbs phase rule</term>
+					<term>high entropy alloys</term>
+					<term>icosahedral phase</term>
+					<term>multicomponent alloys</term>
+					<term>quasicrystals</term>
+					<term>solid solubility</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>This paper describes some underlying principles of multicomponent and high entropy alloys, and gives some examples of these materials. Different types of multicomponent alloy and different methods of accessing multicomponent phase space are discussed. The alloys were manufactured by conventional and high speed solidification techniques, and their macroscopic, microscopic and nanoscale structures were studied by optical, X-ray and electron microscope methods. They exhibit a variety of amorphous, quasicrystalline, dendritic and eutectic structures.</p>
+				</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1.">Multicomponent Alloys</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1.1.">Alloying Strategies</head>
+				<p>The conventional way of developing a new material is to select the main component based upon some primary property requirement, and to use alloying additions to confer secondary properties. This strategy has led to many successful multicomponent materials with a good balance of engineering properties. Typical examples include high-temperature nickel superalloys and corrosion-resistant stainless steels. In some cases two principal components are used, such as in copper-zinc brasses or alumino-silicate refractories.</p>
+				<p>Cantor <ref type="bibr" target="#b0">[1]</ref> was the first to point out that this kind of conventional alloying strategy leads to an enormous amount of knowledge about materials based on one or sometimes two components, but little or no knowledge about materials containing several main components in approximately equal proportions. Information and understanding about alloys close to the corners and edges of a OPEN ACCESS multicomponent phase diagram is well developed, with much less known about alloys in the centre of the diagram. This is shown schematically for ternary and quaternary systems in Figure <ref type="figure">1</ref>. In fact, information about alloys in the centre of the phase diagram is limited for most ternary systems, and virtually non-existent for quaternary and higher order systems.</p>
+				<p>Figure <ref type="figure">1</ref>. Schematic ternary and quaternary systems, showing regions of the phase diagram which are relatively well known (green) near the corners, and relatively less well known (white) near the centre <ref type="bibr" target="#b1">[2]</ref>.
+				</p>
+				<p>Conventional alloying strategy has been very restrictive in exploring the full range of possible materials, since there are many more compositions at the centre of a phase diagram than at the corners and edges. One method of exploring multicomponent phase space is to extend the conventional method and make more alloying additions in larger quantities <ref type="bibr" target="#b2">[3]</ref>. A second method is to use equiatomic substitution, i.e., to begin with a material of interest, and replace individual components with multicomponent equiatomic or near-equiatomic mixtures of chemically similar species <ref type="bibr" target="#b3">[4]</ref>. Both these methods have been shown to lead to unusual and interesting new material structures and properties <ref type="bibr" target="#b0">[1,</ref>
+					<ref type="bibr" target="#b2">3,</ref>
+					<ref type="bibr" target="#b3">4]</ref>.
+				</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1.2.">Multicomponent and High Entropy Alloys</head>
+				<p>The first detailed study of multicomponent alloys consisting of a large number of constituents in equal or near-equal proportions was undertaken in 1981 by Vincent <ref type="bibr" target="#b4">[5]</ref> and followed up in 1997 by Knight <ref type="bibr" target="#b5">[6]</ref>, as reported in 2002 by Cantor <ref type="bibr" target="#b6">[7]</ref> at the RQ11 conference in Oxford and then published in 2004 by Cantor et al. <ref type="bibr" target="#b0">[1]</ref>. Ranganathan <ref type="bibr" target="#b7">[8]</ref> discussed similar types of alloys in 2003, describing them as multimaterial cocktails, and Yeh et al. <ref type="bibr" target="#b8">[9]</ref> did likewise in 2004, describing them as high entropy alloys (see also Yeh et al. <ref type="bibr" target="#b9">[10,</ref>
+					<ref type="bibr" target="#b10">11]</ref>). Recently, there has been a growing number of studies of multicomponent and high entropy alloys, as investigators have realised the potential for discovering new materials with valuable properties in the uncharted phase space in the middle of multicomponent systems.</p>
+				<p>Yeh et al.'s term <ref type="bibr" target="#b8">[9]</ref>
+					<ref type="bibr" target="#b9">[10]</ref>
+					<ref type="bibr" target="#b10">[11]</ref> "high entropy alloys" has become accepted to refer to multicomponent alloys consisting of a large number of constituents in equal or near-equal proportions. Multicomponent alloys, however, do not in general exhibit particularly high entropy <ref type="bibr" target="#b11">[12]</ref>, or even high configurational entropy (Yeh et al.'s original concept). They often exhibit a surprisingly small number of phases with wide solubility ranges <ref type="bibr" target="#b1">[2]</ref>, caused partly by high entropy effects. In fact there are many different kinds of multicomponent alloys, whether or not they have a large number of components in equal or near-equal proportions, depending on their development method (conventional alloying, extended alloying, ternary quaternary equiatomic substitution, etc.), constituent species (metallic, non-metallic, semi-metal, compound, etc.), manufacturing method (casting, rapid solidification, vapour deposition, co-sputtering, etc.), and resulting phase structure and microstructure (single phase solid solution, dendritic, duplex eutectic or peritectic, multiphase, amorphous, etc.).</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.">Underlying Principles</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.1.">Gibbs Phase Rule</head>
+				<p>The Gibbs phase rule gives the relationship between the number of components c and the number of phases p in a material under equilibrium conditions. At constant pressure (e.g., at atmospheric pressure), the Gibbs phase rule is:</p>
+				<formula xml:id="formula_0">1 + = + c n p</formula>
+				<p>where n is the number of thermodynamic degrees of freedom in the system. The minimum number of degrees of thermodynamic freedom is n = 0, so the maximum number of phases in the alloy under equilibrium conditions pmax is:</p>
+				<formula xml:id="formula_1">1 max + = c p</formula>
+				<p>For instance, the maximum equilibrium number of phases in a binary system (c = 2) is 3, corresponding to a point (n = 0) in the phase diagram (e.g., a eutectic or eutectoid point). Such 3-phase equilibrium points rarely exist at a given temperature (e.g., at room temperature), so binary alloys under conditions of room temperature equilibrium almost always consist of 1 or 2 phases. Similarly, the maximum number of phases in a ternary system (c = 3) is 4, again corresponding to a point (n = 0) in the phase diagram, and ternary alloys under conditions of room temperature equilibrium almost always consist of 1, 2 or 3 phases.</p>
+				<p>Most materials processing and manufacturing methods operate under conditions far removed from equilibrium, and the maximum number of phases can then be greater than that indicated by the Gibbs phase rule, i.e.,:</p>
+				<formula xml:id="formula_2">1 max + &gt; c p</formula>
+				<p>This allows high temperature, off-stoichiometric and/or transitionary phases to develop and be retained during non-equilibrium cooling or non-equilibrium segregation of alloying elements. Thus, binary alloys often consist of three or, sometimes, four phases at room temperature, and ternary alloys often consist of four or, sometimes, five phases at room temperature.</p>
+				<p>As seen in the examples discussed below, the number of phases found in a wide variety of multicomponent alloys is often well below the maximum equilibrium number allowed by the Gibbs phase rule, and even further below the maximum number allowed under non-equilibrium conditions. The reasons for this are not well understood.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.2.">How Many Possible Alloys Are There?</head>
+				<p>Consider an alloy system containing c components. The number of independent components is c -1. Let different materials be specified to a tolerance of x%, i.e., two alloys are distinct if they differ by at least x% in at least one component. Each component can take on (100/x) different possible compositions and the total number of different possible alloys N is: The periodic table contains over 100 different elements which can act as components in an alloy system. Excluding elements which are too radioactive, toxic, rare and/or otherwise difficult to use, a maximum of perhaps c = 60 is available to be used as components in realistic materials. Engineering material compositions are typically specified to within at least 0.1%, although a much tighter specification is often needed to prevent variations in properties, so x ≤ 0.1. The total number of possible alloys N is therefore of the order: which is still an enormous number of materials. For comparison, there are ~10 66 atoms in the galaxy, and the size of the universe is ~10 34 nm</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.3.">How Many Alloys Have Been Investigated?</head>
+				<p>All unitary, most binary, and a few ternary and other alloy systems have been studied to some extent. The number of alloys which have been investigated NI is, therefore: which is vanishingly small. Putting this result another way, there is a remarkably large number of exciting new materials yet to be discovered.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2.4.">How Many Alloys Are Expected to Be Single Phase?</head>
+				<p>Consider a multicomponent system in which the only single phase regions are the terminal solid solutions based on the elements at the corners of the phase diagram. The number of single phase regions is then equal to the number of components c. This is shown schematically for a ternary system in Figure <ref type="figure" target="#fig_4">2a</ref>.
+				</p>
+				<p>Let the average solubility limit be y%, as also shown in Figure <ref type="figure" target="#fig_4">2a</ref>. The total number of different single phase alloys NS is then:</p>
+				<formula xml:id="formula_3">1 ) / ( - = c S x y c N</formula>
+				<p>A scan through one of the well-known compilations of binary phase diagrams <ref type="bibr" target="#b12">[13]</ref>, analysing (for example) 50 binary Ag alloy systems, shows that at room temperature equilibrium ~10% of the alloys are single phase, and ~90% are two-phase. On average, therefore, y ~ 5. For c = 60 and y = 5, the total number of single phase alloys is:  From the above equations, the probability of an alloy being single phase in a multicomponent system is expected to decrease sharply with increasing number of components. As discussed below, however, the number of single phase alloys found in a wide variety of multicomponent alloys is well above the predicted probability. Large numbers of new phases (and crystal structures) are not found in multicomponent alloys, i.e., ternary (and higher order) systems such as shown schematically in Figure <ref type="figure" target="#fig_4">2b</ref> are not found experimentally. In other words, the intersolubility between different alloying elements must increase strongly with increasing number of components.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.">Chill Cast and Rapidly Solidified CrMnFeCoNi-NbGeVTiCuMoAlSnZnSiZrNd Alloys</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.1.">Chill Cast CrMnFeCoNi-NbGeVTi Alloys</head>
+				<p>Using equiatomic substitution, Vincent, Knight, Chang and Cantor <ref type="bibr" target="#b0">[1,</ref>
+					<ref type="bibr" target="#b4">5,</ref>
+					<ref type="bibr" target="#b5">6]</ref> investigated the structure of a wide range of chill cast alloys in the CrMnFeCoNiNbGeVTi system. The alloys were based on the generic formula CrxMnxFexCoxNixNbxGexVxTix. There is a large single phase field of fcc alloys based on the composition Cr20Mn20Fe20Co20Ni20 with considerable solubility for the other components. Beyond the boundaries of this single phase field, there is another large two phase field of fcc + bcc alloys. As shown in Table <ref type="table" target="#tab_0">1</ref>, the 5-component Cr20Mn20Fe20Co20Ni20 alloy and the 6-component Cr16.7Mn16.7Fe16.7Co16.7Ni16.7X16.7 alloys with X=Nb, Cu and V were all single phase fcc, and the 6-component alloys with X=Ge and Ti were two-phase fcc + bcc.     The scanning electron microscope X-ray maps in Figures <ref type="figure" target="#fig_6">3</ref> and<ref type="figure" target="#fig_7">4</ref> show as-solidified cored dendrites in a chill cast single phase fcc 5-component Cr20Mn20Fe20Co20Ni20 alloy, with Cr and Fe segregated into the dendrite spines and Mn segregated into the interdendritic spaces. The scanning electron microscope X-ray maps in Figure <ref type="figure" target="#fig_8">5</ref> show as-solidified cored dendrites in a more complex chill cast 7-component Cr14.3Mn14.3Fe14.3Co14.3Ni14.3V14.3Ti14.3 alloy, with Cr and Mn segregated in the dendrite spines and V and Ti segregated into the interdendritic spaces.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.2.">Other Modifications to CrMnFeCoNi</head>
+				<p>A wide range of other multicomponent alloys based on fcc CrMnFeCoNi have been studied. In some cases the single phase fcc structure is altered significantly. For instance, replacing one or other of the components with other transition metals leads to two phase or three phase structures <ref type="bibr" target="#b11">[12]</ref>. Cr20Mn20Fe20Cu20Ni20, Mo20Mn20Fe20Co20Ni20, Cr20Mn20Fe20Ti20Ni20, V20Mn20Fe20Co20Ni20, and Cr20Mn20V20Co20Ni20 consist typically of two phase-separated fcc phases, sometimes with small amounts of topologically close-packed (TCP) intermetallic compound phases such as σ, μ or χ.</p>
+				<p>However, significant amounts of Al can be added with the single phase fcc structure retained <ref type="bibr" target="#b13">[14,</ref>
+					<ref type="bibr" target="#b14">15]</ref>. For x ≤ 11at% in the 5-component system (Cr25Fe25Co25Ni25)1-xAlx the structure is single phase fcc; for x = 11-18at%, it is fcc + bcc; and for x ≥ 18at% it is single phase bcc <ref type="bibr" target="#b13">[14]</ref>. Similarly, for x ≤ 8at% in the 6-component system (Cr20Mn20Fe20Co20Ni20)1-xAlx the structure is single phase fcc; for x = 8-16at%, it is fcc + bcc; and for x ≥ 16at% it is single phase bcc <ref type="bibr" target="#b14">[15]</ref>. A single phase fcc structure is retained <ref type="bibr" target="#b15">[16]</ref> up to almost x = 1at% Sn in (Fe25Co25Ni25Cu25)1-xSnx, but intermetallic compounds are formed at low levels of Mo and Zn additions <ref type="bibr" target="#b16">[17,</ref>
+					<ref type="bibr" target="#b17">18]</ref>. Replacing Cr and Mn with Cu and Al to form Cu20Al20Fe20Co20Ni20 gives a two phase fcc + bcc structure <ref type="bibr" target="#b18">[19]</ref>, which is retained with additions of Si, Cr or Ti, but is disrupted by the appearance of intermetallic compounds with additions of Zr or Nd.</p>
+				<p>There has also been considerable study of early transition metal refractory multicomponent single and dual phase bcc alloys <ref type="bibr" target="#b19">[20,</ref>
+					<ref type="bibr" target="#b20">21]</ref>. A large number of other 5-7 component alloys have been investigated, with a variety of different structures <ref type="bibr" target="#b21">[22,</ref>
+					<ref type="bibr" target="#b22">23]</ref>. Two conclusions are clear. First, there are large single phase fcc and bcc phase fields in multicomponent transition metal phase space. And secondly, there are usually many fewer phases present than allowed by the equilibrium Gibbs Phase rule.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.">Melt Spun and Chill Cast TiZrHfNbFeCoNiCuAgAl Alloys</head>
+				<p>Using equiatomic substitution, Kim, Zhang, Warren, Eckert and Cantor <ref type="bibr" target="#b2">[3,</ref>
+					<ref type="bibr" target="#b23">[24]</ref>
+					<ref type="bibr" target="#b24">[25]</ref>
+					<ref type="bibr" target="#b25">[26]</ref>
+					<ref type="bibr" target="#b26">[27]</ref>
+					<ref type="bibr" target="#b27">[28]</ref>
+					<ref type="bibr" target="#b28">[29]</ref>
+					<ref type="bibr" target="#b29">[30]</ref>
+					<ref type="bibr" target="#b30">[31]</ref>
+					<ref type="bibr" target="#b31">[32]</ref>
+					<ref type="bibr" target="#b32">[33]</ref>
+					<ref type="bibr" target="#b33">[34]</ref> investigated the structure of a wide range of melt spun and chill cast alloys in the TiZrHfNbFeCoNiCuAgAl system. The alloys were based on the generic formula ETM100-x-yLTMxAly where ETM and LTM are early and late transition metals respectively. Typical compositions are (Ti25Zr25Hf25Nb25)100-x-y(Fe20Co20Ni20Cu20Ag20)xAly.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.1.">(Ti,Zr,Hf)-(Ni,Cu)-Al Alloys</head>
+				<p>A series of (Ti33Zr33Hf33)100-x-y(Ni50Cu50)xAly glassy alloys were melt spun with compositions in the range x = 10-70at% and y = 10-30at%. Figure <ref type="figure" target="#fig_9">6</ref> shows typical X-ray diffractograms and Figure <ref type="figure" target="#fig_10">7</ref> shows the resulting ternary phase diagram, containing a large amorphous phase field.    Heat treatment of different alloys showed large single phase icosahedral and Laves phase fields. Figure <ref type="figure">9</ref> shows a single Laves phase microstructure in (Ti33Zr33Hf33)50(Ni50Cu50)40Al10 after heat treatment for 1 h at 620 °C, and Figure <ref type="figure">10</ref> shows a single icosahedral phase microstructure in (Ti33Zr33Hf33)70(Ni50Cu50)20Al10 after heat treatment for 5 min at 590 °C.  </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.2.">Melt Spun (Ti,Zr,Hf)-(Fe,Co)-Al Alloys</head>
+				<p>The effect of using Fe and Co instead of Ni and Cu was studied by melt spinning a series of (Ti33Zr33Hf33)90-x(Fe50Co50)xAl10 alloys with compositions in the range x = 10-40at%. Only</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head>2-fold 3-fold</head>
+				<p>(Ti33Zr33Hf33)70(Fe50Co50)20Al10 formed a fully amorphous phase in the as-melt spun state, indicating poor glass forming ability. No glass transition temperature was detected in (Ti33Zr33Hf33)70(Fe50Co50)20Al10.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.3.">Melt Spun (Ti,Zr,Hf,Nb)-(Ni,Cu)-Al Alloys</head>
+				<p>The effect of adding Nb was studied by melt spinning a series of (Ti25Zr25Hf25Nb25)90-x (Ni50Cu50)xAl10 glassy alloys with compositions in the range x = 10-70at%. Figure <ref type="figure" target="#fig_15">12</ref> shows the resulting X-ray diffractograms and the corresponding ternary phase diagram. The alloys again exhibited broad supercooled liquid regions, in the range ΔT = 35-90 K. Crystallization again took place with a single exothermic reaction for (Ni50Cu50)-rich alloys with x = 60-70at%, and with a series of exothermic reactions for (Ti25Zr25Hf25Nb25)-rich alloys with x = 20-50at%. The thermal stability of the amorphous phase was increased by adding Nb. </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.4">Melt Spun (Ti,Zr,Hf)-(Ni,Cu,Ag)-Al Alloys</head>
+				<p>The effect of adding Ag was studied by melt spinning a series of (Ti33Zr33Hf33)90-x-y (Ni33Cu33Ag33)xAl10 alloys with compositions in the range x = 10-70at%. Figure <ref type="figure" target="#fig_16">13</ref> shows the resulting X-ray diffractograms and the corresponding ternary phase diagram. Compositions in the range x = 20-40 at% again exhibited broad supercooled liquid regions, ΔT = 40-100 K. However, no fully amorphous phase was obtained with compositions in the range x = 50-60at%. Adding Nb and Ag together reduced the amorphous region even further, as shown in Figure <ref type="figure" target="#fig_17">14</ref>.  
+				</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.">Melt Spun AlFeCrTiVNbTa Alloys</head>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5.1.">Melt Spun Microstructures</head>
+				<p>Galano, Audebert, Stone, Prima, Tomut and Cantor <ref type="bibr" target="#b34">[35]</ref>
+					<ref type="bibr" target="#b35">[36]</ref>
+					<ref type="bibr" target="#b36">[37]</ref>
+					<ref type="bibr" target="#b37">[38]</ref>
+					<ref type="bibr" target="#b38">[39]</ref>
+					<ref type="bibr" target="#b39">[40]</ref>
+					<ref type="bibr" target="#b40">[41]</ref>
+					<ref type="bibr" target="#b41">[42]</ref>
+					<ref type="bibr" target="#b42">[43]</ref>
+					<ref type="bibr" target="#b43">[44]</ref>
+					<ref type="bibr" target="#b44">[45]</ref> investigated the structure of a wide range of melt spun alloys in the AlFeCrTiVNbTa system. The alloys were based on the generic formula Al93Fe3Cr2ETM2 where ETM is an early transition metal. The as-melt spun alloys consisted mainly of nanoscale icosahedral particles embedded in an fcc Al matrix, as shown in Figures <ref type="figure" target="#fig_19">15</ref> and<ref type="figure" target="#fig_20">16</ref>    Figure <ref type="figure" target="#fig_22">17</ref> shows a more detailed (a) transmission electron micrograph; (b) selected area electron diffraction pattern and (c) energy dispersive X-ray analysis from an icosahedral particle embedded in melt spun Al93Fe3Cr2Nb2. The as-melt spun microstructures were quite stable and resistant to heat treatment, decomposing to form intermetallic particles embedded in an fcc Al matrix after heat treatment at 450-550 °C, as described below.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="6.2.">Heat Treated Microstructures</head>
+				<p>The ternary Al93(Fe3Cr2)7 alloy microstructure was stable up to 450 °C, when Al6(Cr,Fe) and Al13(Cr,Fe)2 precipitated. Grain boundary precipitates and small particles inside the Al grains were observed. As shown in Figure <ref type="figure" target="#fig_23">18</ref>, the icosahedral particles exhibited rosette shapes and increased in size by about 150%, before decomposing into intermetallic particles after heat treatment at 550 °C.</p>
+				<p>The Al93Fe3Cr2Ti2 alloy microstructure was stable up to 450 °C when small Al3Ti particles precipitated. The icosahedral particles maintained near-spherical shapes regardless of heat treatment temperature, but the icosahedral particles formed clusters during heat treatment. Similar clusters were seen in all the alloys. EDX showed that Ti was present in the icosahedral particles as well as in the Al3Ti precipitates. Icosahedral particles disappeared after heat treatment at 550 °C, and different intermetallic particles appeared with varying morphologies and size. The Al93Fe3Cr2V2 alloy microstructure was stable up to 450 °C, when intermetallic particles precipitated. The V alloy showed the highest fraction of intermetallic particles, with V remaining mainly in the icosahedral particles. No icosahedral particles were present after heat treatment at 550 °C.</p>
+				<p>The Al93Fe3Cr2Nb2 alloy microstructure was stable up to 450 °C, when small Al-Nb rich dendrites precipitated. EDX mapping indicated Fe segregation towards icosahedral particle boundaries during heat treatment, as shown in Figure <ref type="figure" target="#fig_23">18</ref>. Al-Fe, Al-Cr and Al-Nb rich particles precipitated in the Al grain boundaries, and the icosahedral particle size increased by about 50% with no change in shape. The icoshedral phase was still present after heat treatment at 550 °C.</p>
+				<p>The Al93Fe3Cr2Ta2 alloy microstructure was stable to even higher heat treatment temperatures. No precipitates were seen after heat treatment at 450 °C. The icosahedral particles remained near-spherical, with relatively little increase in size compared with the other alloys, as shown in Figure <ref type="figure" target="#fig_23">18</ref>. The icosahedral phase was still present after heat treatment at 550 °C, but disappeared after heat treatment at 600 °C, when different intermetallic precipitates were found. </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="6.">Conclusions</head>
+				<p>A wide range of multicomponent alloys can be manufactured by conventional, extended conventional and equiatomic substitution alloying strategies. The total number of possible materials is enormous, and only a tiny fraction have been manufactured or investigated, almost all close to the corners and edges of the multicomponent phase diagram. Multicomponent alloys show surprisingly few phases, often only one or two and rarely more than three or four, well below the maximum equilibrium number of phases pmax = c + 1 allowed by the Gibbs phase rule, and even further below the maximum number allowed under non-equilibrium conditions. Similarly, large single phase fields are surprisingly common. These results are associated with increased intersolubility in multicomponent systems and a paucity of new multicomponent compounds.</p>
+				<p>Chill cast equiatomic substituted CrMnFeCoNiNbGeVTi alloys exhibit single phase fcc and two phase fcc and bcc microstructures. Melt spun equiatomic substituted TiZrHfFeCoNiCuAgAl alloys exhibit fully amorphous microstructures over a wide range of compositions, and often crystallize with single phase icosahedral and intermetallic crystalline microstructures. Melt spun AlFeCrTiVNbTa alloys consist of icosahedral particles embedded in an fcc α-Al matrix, and are resistant to heat treatment, crystallizing to form intermetallic particles embedded in an fcc α-Al matrix.</p>
+			</div>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1">
+				<head></head>
+				<label></label>
+				<figDesc>enormous number of possible materials. A more restricted alloying range, c = 40, and a looser material specification, x = 1, gives a more (probably overly) conservative estimate:</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2">
+				<head></head>
+				<label></label>
+				<figDesc>of all materials that have been investigated is:</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3">
+				<head></head>
+				<label></label>
+				<figDesc>of all alloys which are single phase is: is again vanishingly small.</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4">
+				<head>Figure 2 .</head>
+				<label>2</label>
+				<figDesc>Figure 2. (a) Schematic ternary system in which the only single phase regions are the terminal solid solutions, with a solubility limit of y%. (b) Increased number of single phase regions (not usually seen in ternary or multicomponent systems)[2].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6">
+				<head>Figure 3 .</head>
+				<label>3</label>
+				<figDesc>Figure 3. Scanning electron microscope X-ray maps showing Fe and Cr distributions in an as-solidified cored dendritic structure in chill cast single phase fcc Cr20Mn20Fe20Co20Ni20 [2].</figDesc>
+				<graphic coords="6,189.36,259.02,111.30,103.26" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7">
+				<head>Figure 4 .</head>
+				<label>4</label>
+				<figDesc>Figure 4. Scanning electron microscope X-ray maps<ref type="bibr" target="#b1">[2]</ref> showing Fe and Mn distributions in an as-solidified cored dendritic structure in chill cast single phase fcc Cr20Mn20Fe20Co20Ni2.</figDesc>
+				<graphic coords="6,180.72,437.04,235.44,126.72" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8">
+				<head>Figure 5 .</head>
+				<label>5</label>
+				<figDesc>Figure 5. Scanning electron microscope X-ray maps showing Cr, Mn, V and Ti distributions in an as-solidified cored dendritic structure in chill cast Cr14.3Mn14.3Fe14.3Co14.3Ni14.3V14.3Ti14.3 [2].</figDesc>
+				<graphic coords="6,188.88,626.16,218.88,158.88" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9">
+				<head>Figure 6 .</head>
+				<label>6</label>
+				<figDesc>Figure 6. X-ray diffractograms from melt spun amorphous (Ti33Zr33Hf33)100-x-y(Ni50Cu50)xAly alloys: (a) y = 0at%; (b) y = 10at%; and (c) y = 20at%; and (d) y = 30at% [27].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10">
+				<head>Figure 7 .</head>
+				<label>7</label>
+				<figDesc>Figure 7. Ternary phase diagram for melt spun (Ti33Zr33Hf33)100-x-y(Ni50Cu50)xAly alloys, showing a large amorphous phase region [27].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11">
+				<head>Figure 8</head>
+				<label>8</label>
+				<figDesc>Figure 8 shows typical differential scanning calorimeter traces from different alloys obtained during heating at 20 K/min. The alloys exhibited broad supercooled liquid regions, in the range ΔT = Tx -Tg = 40-124 K, where Tx = crystallization onset temperature and Tg = glass transition temperature. For (Ni50Cu50)-rich alloys with x = 50-70at%, crystallization took place with a single exothermic reaction, and for (Ti33Zr33Hf33)-rich alloys with x = 20-40at%, crystallization took place</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12">
+				<head>Figure 8 .</head>
+				<label>8</label>
+				<figDesc>Figure 8. DSC traces from melt spun amorphous (Ti33Zr33Hf33)100-x-y(Ni50Cu50)xAly alloys, obtained during heating at 20 K/min: (a-c) y = 0, 10 and 20at% respectively [27].</figDesc>
+				<graphic coords="9,194.16,219.12,208.32,429.60" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13">
+				<head>Figure 9 .Figure 10 .</head>
+				<label>910</label>
+				<figDesc>Figure 9. Single Laves phase microstructure in melt spun amorphous (Ti33Zr33Hf33)50(Ni50Cu50)40Al10 after heat treatment for 1 h at 620 °C: (a) bright field TEM; (b) dark field TEM; and (c) selected area diffraction patterns [25].</figDesc>
+				<graphic coords="10,301.26,162.48,183.60,193.74" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14">
+				<head>Figure 11 .</head>
+				<label>11</label>
+				<figDesc>Figure 11. Mixture of nanoscale Zr2Cu-type crystalline, amorphous and icosahedral phases in chill cast (Ti33Zr33Hf33)70(Ni50Cu50)20Al10: (a-c) bright field TEM; and (d-g) selected area diffraction patterns [25].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15">
+				<head>Figure 12 .</head>
+				<label>12</label>
+				<figDesc>Figure 12. X-ray diffractograms and corresponding ternary phase diagram from melt spun (Ti25Zr25Hf25Nb25)90-x(Ni50Cu50)xAl10 alloys [28].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16">
+				<head>Figure 13 .</head>
+				<label>13</label>
+				<figDesc>Figure 13. X-ray diffractograms and corresponding ternary phase diagram from melt spun (Ti33Zr33Hf33)90-x(Ni33Cu33Ag33)xAl10 alloys [28].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17">
+				<head>Figure 14 .</head>
+				<label>14</label>
+				<figDesc>Figure 14. X-ray diffractograms and corresponding ternary phase diagram from melt spun (Ti25Zr25Hf25Nb25)90-x(Ni33Cu33Ag33)xAl10 alloys [28].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18">
+				<head></head>
+				<label></label>
+				<figDesc>for (a) Al93(Fe3Cr2)7, (b) Al93Fe3Cr2Ti2, (c) Al93Fe3Cr2V2, (d) Al93Fe3Cr2Nb2 and (e) Al93Fe3Cr2Ta2. The Ti, V and Ta alloys also contained a few small particles of crystalline intermetallic Al13Cr2, and the Nb alloy contained a small fraction of Al3Nb. The ternary alloy had the largest icosahedral particle size, ~200 nm, which reduced to 70-100 nm for the Ti, V, Nb and Ta alloys.</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19">
+				<head>Figure 15 .</head>
+				<label>15</label>
+				<figDesc>Figure 15. X-ray diffractograms from melt-spun Al93(Fe3Cr2)7; Al93Fe3Cr2Nb2 and Al93Fe3Cr2Ta2 alloys [35].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20">
+				<head>Figure 16 .</head>
+				<label>16</label>
+				<figDesc>Figure 16. Transmission electron micrographs of icosahedral particles embedded in an fcc Al matrix in melt spun (a) Al93(Fe3Cr2)7; (b) Al93Fe3Cr2Ti2; (c) Al93Fe3Cr2V2; (d) Al93Fe3Cr2Nb2 and (e) Al93Fe3Cr2Ta2 alloys [35].</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22">
+				<head>Figure 17 .</head>
+				<label>17</label>
+				<figDesc>Figure 17. Icosahedral particle embedded in an fcc Al matrix in melt spun Al93Fe3Cr2Nb2: (a) transmission electron micrograph; (b) electron diffraction pattern; and (c) energy dispersive X-ray analysis [37].</figDesc>
+				<graphic coords="15,158.94,219.48,123.00,144.00" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23">
+				<head>Figure 18 .</head>
+				<label>18</label>
+				<figDesc>Figure 18. Bright field STEM images and corresponding EDX maps from: (a) Al93(Fe3Cr2)7; (b) Al93Fe3Cr2Nb2; and (c) Al93Fe3Cr2Ta2 alloys after heat treatment for 30 min at 450 °C [42].</figDesc>
+				<graphic coords="16,100.92,139.50,129.00,125.28" type="bitmap" />
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0">
+				<head>Table 1 .</head>
+				<label>1</label>
+				<figDesc>Lattice parameters of dendritic fcc and interdendritic bcc phases (nm)<ref type="bibr" target="#b0">[1]</ref>.
+				</figDesc>
+				<table>
+					<row>
+						<cell>Alloy</cell>
+						<cell>fcc</cell>
+						<cell>bcc</cell>
+					</row>
+					<row>
+						<cell>FeCrMnNiCo</cell>
+						<cell>0.359</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>FeCrMnNiCoNb</cell>
+						<cell>0.362</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>FeCrMnNiCoGe</cell>
+						<cell>0.358</cell>
+						<cell>0.229</cell>
+					</row>
+					<row>
+						<cell>FeCrMnNiCoCu</cell>
+						<cell>0.359</cell>
+						<cell></cell>
+					</row>
+					<row>
+						<cell>FeCrMnNiCoTi</cell>
+						<cell>0.364</cell>
+						<cell>0.482</cell>
+					</row>
+					<row>
+						<cell>FeCrMnNiCoV</cell>
+						<cell>0.358</cell>
+						<cell></cell>
+					</row>
+				</table>
+			</figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">
+				<p>© 2014 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (http://creativecommons.org/licenses/by/3.0/).</p>
+			</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+				<div>
+					<head>Acknowledgments</head>
+					<p>I would like to thank <rs type="person">Isaac Chang</rs>,						<rs type="person">Marina Galano</rs>,						<rs type="person">Ki-Buem Kim</rs>,						<rs type="person">Peter Knight</rs>,						<rs type="person">Francisco Prima</rs>,						<rs type="person">Ian Stone</rs>,						<rs type="person">Marina Tomut</rs>,						<rs type="person">Alain Vincent</rs>,						<rs type="person">Paul Warren</rs> and <rs type="person">Yuan Zhang</rs> for their help in working with me over the years to study multicomponent alloys in my research group at the <rs type="institution">Department of Materials at the University of Oxford</rs>. I would like to thank the <rs type="institution">Indian Institute of Sciences, Bangalore</rs> for the award of a Distinguished Centenary Visiting Professorship, which gave me the time to do much of the work to prepare the manuscript. This review is an extended and updated version of an earlier article [2]. I would particularly like to thank <rs type="person">Marina Galano</rs> at the <rs type="institution">University of Oxford</rs> and <rs type="person">Ki-Buem Kim</rs> at <rs type="institution">Sejong University</rs> for supplying some of their recent results, and <rs type="person">Kirsty Dales</rs> at the <rs type="affiliation">University of Bradford</rs> for help in preparing the manuscript.</p>
+				</div>
+			</div>
+			<div type="annex">
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>Conflicts of Interest</head>
+					<p>The authors declare no conflicts of interest.</p>
+				</div>
+			</div>
+			<div type="references">
+
+				<listBibl>
+
+					<biblStruct xml:id="b0">
+						<analytic>
+							<title level="a" type="main">Microstructure development in equiatomic multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">T H</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng. A</title>
+							<imprint>
+								<biblScope unit="volume">375</biblScope>
+								<biblScope unit="page" from="213" to="218" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b1">
+						<analytic>
+							<title level="a" type="main">Stable and metastable multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Ann. Chim.-Sci. Mater</title>
+							<imprint>
+								<biblScope unit="volume">32</biblScope>
+								<biblScope unit="page" from="245" to="256" />
+								<date type="published" when="2007">2007</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b2">
+						<analytic>
+							<title level="a" type="main">Bulk amorphous, nanocrystalline and nanoquasicrystalline aluminium alloys</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Inoue</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Kimura</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="m">Aerospace Materials</title>
+							<editor>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</editor>
+							<editor>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Assender</surname>
+								</persName>
+							</editor>
+							<editor>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">S</forename>
+									<surname>Grant</surname>
+								</persName>
+							</editor>
+							<meeting>
+								<address>
+									<addrLine>London, UK</addrLine>
+								</address>
+							</meeting>
+							<imprint>
+								<publisher>IOP Press</publisher>
+								<date type="published" when="2001">2001</date>
+								<biblScope unit="page" from="150" to="169" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b3">
+						<analytic>
+							<title level="a" type="main">Novel multicomponent amorphous alloys</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">B</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">J</forename>
+									<surname>Warren</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Forum</title>
+							<imprint>
+								<biblScope unit="volume">386</biblScope>
+								<biblScope unit="page" from="27" to="32" />
+								<date type="published" when="2002">2002</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b4">
+						<monogr>
+							<title level="m" type="main">A study of three multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="1981">1981</date>
+							</imprint>
+							<respStmt>
+								<orgName>University of Sussex, UK</orgName>
+							</respStmt>
+						</monogr>
+						<note type="report_type">BSc Part II Thesis</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b5">
+						<monogr>
+							<title level="m" type="main">Multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="1995">1995</date>
+								<pubPlace>Oxford, UK</pubPlace>
+							</imprint>
+							<respStmt>
+								<orgName>University of Oxford</orgName>
+							</respStmt>
+						</monogr>
+						<note type="report_type">BSc Part II Thesis</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b6">
+						<analytic>
+							<title level="a" type="main">Microstructure development in equiatomic multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">I</forename>
+									<forename type="middle">T H</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Knight</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<forename type="middle">J B</forename>
+									<surname>Vincent</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="m">Rapidly Quenched and Metastable Materials</title>
+							<meeting>
+								<address>
+									<addrLine>Oxford, UK</addrLine>
+								</address>
+							</meeting>
+							<imprint>
+								<date type="published" when="2002-08">August 2002</date>
+								<biblScope unit="page" from="25" to="30" />
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b7">
+						<analytic>
+							<title level="a" type="main">Multimaterial cocktails</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Ranganathan</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Curr. Sci</title>
+							<imprint>
+								<biblScope unit="volume">85</biblScope>
+								<biblScope unit="page">1404</biblScope>
+								<date type="published" when="2003">2003</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b8">
+						<analytic>
+							<title level="a" type="main">Nanostructured high entropy alloys with multiple principal elements: Novel alloy design concepts and outcomes</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">K</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">J</forename>
+									<surname>Lin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">Y</forename>
+									<surname>Gan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">S</forename>
+									<surname>Chin</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">T</forename>
+									<surname>Shun</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Adv. Eng. Mater</title>
+							<imprint>
+								<biblScope unit="volume">6</biblScope>
+								<biblScope unit="page" from="299" to="303" />
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b9">
+						<analytic>
+							<title level="a" type="main">Recent progress in high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Ann. Chim.-Sci. Mater</title>
+							<imprint>
+								<biblScope unit="volume">31</biblScope>
+								<biblScope unit="page" from="633" to="648" />
+								<date type="published" when="2006">2006</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b10">
+						<analytic>
+							<title level="a" type="main">Sluggish diffusion in Co-Cr-Fe-Mn-Ni high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">Y</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">H</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">61</biblScope>
+								<biblScope unit="page" from="4887" to="4897" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b11">
+						<analytic>
+							<title level="a" type="main">Relative effects of enthalpy and entropy on the phase stability of equiatomic high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Otto</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Bei</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">P</forename>
+									<surname>George</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">61</biblScope>
+								<biblScope unit="page" from="2628" to="2638" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b12">
+						<monogr>
+							<title level="m" type="main">Binary Alloy Phase Diagrams</title>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">B</forename>
+									<surname>Massalski</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">L</forename>
+									<surname>Murray</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">H</forename>
+									<surname>Bennett</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Baker</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="1986">1986</date>
+								<publisher>American Society for Microbiology</publisher>
+								<pubPlace>Washington, DC, USA</pubPlace>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b13">
+						<analytic>
+							<title level="a" type="main">Effects of Al addition on the microstructure and mechanical properties of AlxCoCrFeNi high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">R</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">L</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<forename type="middle">C</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">C</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">H</forename>
+									<surname>Lai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Intermetallics</title>
+							<imprint>
+								<biblScope unit="volume">26</biblScope>
+								<biblScope unit="page" from="44" to="51" />
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b14">
+						<analytic>
+							<title level="a" type="main">Effects of Al addition on structural evolution and tensile properties of the FeCoNiCrMn high entropy alloy system</title>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">Y</forename>
+									<surname>He</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">H</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Wang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Wu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<forename type="middle">J</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">G</forename>
+									<surname>Nieh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<forename type="middle">P</forename>
+									<surname>Lu</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">62</biblScope>
+								<biblScope unit="page" from="105" to="113" />
+								<date type="published" when="2014">2014</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b15">
+						<analytic>
+							<title level="a" type="main">Microstructure and properties of FeCoCuNiSnx high entropy alloys</title>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">B</forename>
+									<surname>Zhu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">C</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Jiang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng. A</title>
+							<imprint>
+								<biblScope unit="volume">548</biblScope>
+								<biblScope unit="page" from="64" to="68" />
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b16">
+						<analytic>
+							<title level="a" type="main">Microstructure and mechanical properties of multiprincipal component CoCrFeNiMox alloys</title>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">T</forename>
+									<surname>Shun</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">Y</forename>
+									<surname>Chang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">H</forename>
+									<surname>Shiu</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Charact</title>
+							<imprint>
+								<biblScope unit="volume">70</biblScope>
+								<biblScope unit="page" from="63" to="67" />
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b17">
+						<analytic>
+							<title level="a" type="main">Atomic scale characterization of nanocrystalline AlCrCuFeNiZn high entropy alloy using atom probe tomography</title>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">G</forename>
+									<surname>Pradeep</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<surname>Wanderka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Choi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Banhart</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">S</forename>
+									<surname>Murty</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Raabe</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">61</biblScope>
+								<biblScope unit="page" from="4696" to="4706" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b18">
+						<analytic>
+							<title level="a" type="main">Effect of elemental interaction on microstructure and mechanical properties of FeCoNiCuAl alloys</title>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">X</forename>
+									<surname>Zhuang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<forename type="middle">J</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<forename type="middle">Y</forename>
+									<surname>Chen</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">D</forename>
+									<surname>Xue</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">C</forename>
+									<surname>He</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Sci. Eng. A</title>
+							<imprint>
+								<biblScope unit="volume">556</biblScope>
+								<biblScope unit="page" from="395" to="399" />
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b19">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">N</forename>
+									<surname>Senkov</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">B</forename>
+									<surname>Wilks</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">B</forename>
+									<surname>Miracle</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">P</forename>
+									<surname>Chuang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">K</forename>
+									<surname>Liaw</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Refractory high entropy alloys. Intermetallics</title>
+							<imprint>
+								<biblScope unit="volume">18</biblScope>
+								<biblScope unit="page" from="1758" to="1765" />
+								<date type="published" when="2010">2010</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b20">
+						<analytic>
+							<title level="a" type="main">Modeling of high entropy alloys of refractory elements</title>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">F</forename>
+									<surname>Del Grosso</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Bozzolo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">O</forename>
+									<surname>Mosca</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Phys. B</title>
+							<imprint>
+								<biblScope unit="volume">407</biblScope>
+								<biblScope unit="page" from="3285" to="3287" />
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b21">
+						<analytic>
+							<title level="a" type="main">Prediction of high entropy stabilized solid solution in multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">X</forename>
+									<surname>Yang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Chem. Phys</title>
+							<imprint>
+								<biblScope unit="volume">132</biblScope>
+								<biblScope unit="page" from="233" to="238" />
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b22">
+						<analytic>
+							<title level="a" type="main">More than entropy in high entropy alloys: Forming solid solutions or amorphous phase</title>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Guo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Q</forename>
+									<surname>Hu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Ng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">T</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Intermetallics</title>
+							<imprint>
+								<biblScope unit="volume">41</biblScope>
+								<biblScope unit="page" from="96" to="103" />
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b23">
+						<monogr>
+							<title level="m" type="main">Formation of amorphous and nanocrystalline phases in novel multicomponent alloys</title>
+							<author>
+								<persName>
+									<forename type="first">K.-B</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="2004">2004</date>
+								<pubPlace>Oxford, UK</pubPlace>
+							</imprint>
+							<respStmt>
+								<orgName>University of Oxford</orgName>
+							</respStmt>
+						</monogr>
+						<note type="report_type">Ph.D Thesis</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b24">
+						<analytic>
+							<title level="a" type="main">Crystallization behaviour in a new multicomponent Ti16.6Zr16.6Hf16.6Ni20Cu20Al10 metallic glass developed by the equiatomic substitution technique</title>
+							<author>
+								<persName>
+									<forename type="first">K.-B</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Zhang</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">J</forename>
+									<surname>Warren</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Philos. Mag</title>
+							<imprint>
+								<biblScope unit="volume">83</biblScope>
+								<biblScope unit="page" from="2371" to="2381" />
+								<date type="published" when="2003">2003</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b25">
+						<analytic>
+							<title level="a" type="main">Glass forming ability and crystallization behaviour of new multicomponent (Ti33Zr33Hf33)60(Ni50Cu50)20Al20 alloy developed by equiatomic substitution</title>
+							<author>
+								<persName>
+									<forename type="first">K.-B</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<forename type="middle">J</forename>
+									<surname>Warren</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="m">Proceedings of the 9th International Symposium on Metastable, Mechanically Alloyed and Nanocrystalline Materials ISMANAM-2002</title>
+							<editor>
+								<persName>
+									<forename type="first">J.-H</forename>
+									<surname>Ahn</surname>
+								</persName>
+							</editor>
+							<editor>
+								<persName>
+									<forename type="first">Y.-D</forename>
+									<surname>Hahn</surname>
+								</persName>
+							</editor>
+							<meeting>the 9th International Symposium on Metastable, Mechanically Alloyed and Nanocrystalline Materials ISMANAM-2002<address>
+								<addrLine>Seoul, Korea; Switzerland</addrLine>
+							</address>
+						</meeting>
+						<imprint>
+							<publisher>Zurich-Durnten</publisher>
+							<date type="published" when="2002-08-12">2002. 8-12 September 2002. 2003</date>
+							<biblScope unit="page" from="143" to="148" />
+						</imprint>
+					</monogr>
+					<note>Metastable</note>
+				</biblStruct>
+
+				<biblStruct xml:id="b26">
+					<analytic>
+						<title level="a" type="main">Formation of metallic glasses in novel (Ti33Zr33Hf33)100-x-y (Ni50Cu50)xAly Alloys</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Trans</title>
+						<imprint>
+							<biblScope unit="volume">44</biblScope>
+							<biblScope unit="page" from="411" to="413" />
+							<date type="published" when="2003">2003</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b27">
+					<analytic>
+						<title level="a" type="main">Metallic glass formation in multicomponent</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">J. Non-Cryst. Solids</title>
+						<imprint>
+							<biblScope unit="volume">317</biblScope>
+							<biblScope unit="page" from="17" to="22" />
+							<date type="published" when="2003">2003</date>
+							<pubPlace>Ti, Zr, Hf, Nb)-(Ni, Cu</pubPlace>
+						</imprint>
+					</monogr>
+					<note>Ag)-Al alloys</note>
+				</biblStruct>
+
+				<biblStruct xml:id="b28">
+					<analytic>
+						<title level="a" type="main">Glass-forming ability of novel multicomponent (Ti33Zr33Hf33)-(Ni50Cu50)-Al alloys developed by equiatomic substitution</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Sci. Eng. A</title>
+						<imprint>
+							<biblScope unit="volume">375</biblScope>
+							<biblScope unit="page" from="317" to="321" />
+							<date type="published" when="2004">2004</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b29">
+					<analytic>
+						<title level="a" type="main">Crystallization behaviour of Novel (Ti33Zr33Hf 33)100-x(Ni50Cu50)x alloys with x = 48 to 55</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<surname>Eckert</surname>
+							</persName>
+						</author>
+						<idno>ISMANAM-2004</idno>
+					</analytic>
+					<monogr>
+						<title level="j">J. Metastable Nanocryst. Mater</title>
+						<imprint>
+							<biblScope unit="page" from="657" to="660" />
+							<date type="published" when="2005">2005</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b30">
+					<analytic>
+						<title level="a" type="main">Enhanced thermal stability of the devitrified nanoscale icosahedral phase in novel multicomponent amorphous alloys</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<surname>Eckert</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">J. Mater. Res</title>
+						<imprint>
+							<biblScope unit="volume">21</biblScope>
+							<biblScope unit="page" from="823" to="831" />
+							<date type="published" when="2006">2006</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b31">
+					<analytic>
+						<title level="a" type="main">Structural evolution of nano-scale icosahedral phase in novel multicomponent amorphous alloys</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<surname>Eckert</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Philos. Mag</title>
+						<imprint>
+							<biblScope unit="volume">86</biblScope>
+							<biblScope unit="page" from="281" to="286" />
+							<date type="published" when="2006">2006</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b32">
+					<analytic>
+						<title level="a" type="main">Devitrification of nano-scale icosahedral phase in multicomponent alloys</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">J</forename>
+								<surname>Eckert</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Sci. Eng. A</title>
+						<imprint>
+							<biblScope unit="volume">449</biblScope>
+							<biblScope unit="page" from="983" to="986" />
+							<date type="published" when="2007">2007</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b33">
+					<analytic>
+						<title level="a" type="main">Structural relaxation and glass transition behavior of novel (Ti33Zr33Hf33)50(Ni50Cu50)40Al10 alloy developed by equiatomic substitution</title>
+						<author>
+							<persName>
+								<forename type="first">K.-B</forename>
+								<surname>Kim</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">J. Non-Cryst. Solids</title>
+						<imprint>
+							<biblScope unit="volume">353</biblScope>
+							<biblScope unit="page" from="3338" to="3341" />
+							<date type="published" when="2007">2007</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b34">
+					<analytic>
+						<title level="a" type="main">Structural characterisation and mechanical properties of nanocomposite Al-based alloys</title>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Prima</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Tomut</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">J</forename>
+								<surname>Warren</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Trans</title>
+						<imprint>
+							<biblScope unit="volume">43</biblScope>
+							<biblScope unit="page" from="2017" to="2025" />
+							<date type="published" when="2002">2002</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b35">
+					<monogr>
+						<title/>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Prima</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Tomut</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<surname>Nano-Al</surname>
+							</persName>
+						</author>
+						<imprint>
+							<date type="published" when="2003">2003</date>
+							<publisher>European Union: Brussels</publisher>
+							<pubPlace>Belgium</pubPlace>
+						</imprint>
+						<respStmt>
+							<orgName>EU TMR</orgName>
+						</respStmt>
+					</monogr>
+					<note type="report_type">Report</note>
+				</biblStruct>
+
+				<biblStruct xml:id="b36">
+					<analytic>
+						<title level="a" type="main">Structural characterisation and stability of new nanoquasicrystalline Al-based alloys</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Sci. Eng. A</title>
+						<imprint>
+							<biblScope unit="volume">375</biblScope>
+							<biblScope unit="page" from="1206" to="1211" />
+							<date type="published" when="2004">2004</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b37">
+					<analytic>
+						<title level="a" type="main">In situ resistometric investigation of phase transformations in rapidly solidified Al-based alloys containing dispersed nanoscale particles</title>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Prima</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Tomut</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">D</forename>
+								<surname>Janickovic</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">G</forename>
+								<surname>Vlasak</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<surname>Svec</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Sci. Eng. A</title>
+						<imprint>
+							<biblScope unit="page" from="772" to="775" />
+							<date type="published" when="2004">2004</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b38">
+					<analytic>
+						<title level="a" type="main">Microstructure evolution of high strength AlFeVTi nanoquasicrystalline alloys at elevated temperature</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Tomut</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Prima</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">G</forename>
+								<surname>Huenen</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">G</forename>
+								<surname>Vaughan</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">R</forename>
+								<surname>Yavari</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<surname>Svec</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Mater. Sci. Eng. A</title>
+						<imprint>
+							<biblScope unit="page" from="1239" to="1245" />
+							<date type="published" when="2004">2004</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b39">
+					<monogr>
+						<title level="m" type="main">Nanoquasicrystalline alloys</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<imprint>
+							<date type="published" when="2006">2006</date>
+							<pubPlace>Oxford, UK</pubPlace>
+						</imprint>
+						<respStmt>
+							<orgName>University of Oxford</orgName>
+						</respStmt>
+					</monogr>
+					<note type="report_type">Ph.D Thesis</note>
+				</biblStruct>
+
+				<biblStruct xml:id="b40">
+					<analytic>
+						<title level="a" type="main">Effect of Nb on nanoquasicrystalline Al-based alloys</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Philos. Mag. Lett</title>
+						<imprint>
+							<biblScope unit="volume">88</biblScope>
+							<biblScope unit="page" from="269" to="278" />
+							<date type="published" when="2008">2008</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b41">
+					<analytic>
+						<title level="a" type="main">Nanoquasicrystalline Al-Fe-Cr-based alloys. Part I: Phase transformations</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Acta Mater</title>
+						<imprint>
+							<biblScope unit="volume">57</biblScope>
+							<biblScope unit="page" from="5107" to="5119" />
+							<date type="published" when="2009">2009</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b42">
+					<analytic>
+						<title level="a" type="main">Nanoquasicrystalline Al-Fe-Cr-based alloys. Part II: Mechanical properties</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">G</forename>
+								<surname>Escorial</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">Acta Mater</title>
+						<imprint>
+							<biblScope unit="volume">57</biblScope>
+							<biblScope unit="page" from="5120" to="5130" />
+							<date type="published" when="2009">2009</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b43">
+					<analytic>
+						<title level="a" type="main">Nanoquasicrystalline Al-Fe-Cr-based alloys with high strength at elevated temperature</title>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">A</forename>
+								<forename type="middle">G</forename>
+								<surname>Escorial</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">I</forename>
+								<forename type="middle">C</forename>
+								<surname>Stone</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Cantor</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">J. Alloys Compd</title>
+						<imprint>
+							<biblScope unit="volume">495</biblScope>
+							<biblScope unit="page" from="372" to="376" />
+							<date type="published" when="2010">2010</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+
+				<biblStruct xml:id="b44">
+					<analytic>
+						<title level="a" type="main">The use of niobium in rapidly solidified aluminium alloys and composites</title>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Audebert</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">M</forename>
+								<surname>Galano</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">F</forename>
+								<surname>Saporiti</surname>
+							</persName>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j">J. Alloys Compd</title>
+						<imprint>
+							<date type="published" when="2014">2014</date>
+						</imprint>
+					</monogr>
+					<note>to be published</note>
+				</biblStruct>
+
+			</listBibl>
+		</div>
+	</back>
+</text>
+</TEI>

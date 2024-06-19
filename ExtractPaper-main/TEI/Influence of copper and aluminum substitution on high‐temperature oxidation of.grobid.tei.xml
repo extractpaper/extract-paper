@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve"
+	xmlns="http://www.tei-c.org/ns/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Influence of copper and aluminum substitution on high‐temperature oxidation of the FeCoCrNiMn “Cantor” alloy</title>
+				<funder ref="#_xRKmBsd">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_vNNqWhu">
+					<orgName type="full">U.S.DOE-EERE-AMO</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Wiley</publisher>
+				<availability status="unknown">
+					<p>Copyright Wiley</p>
+				</availability>
+				<date type="published" when="2022-09-06">2022-09-06</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Mary‐lee</forename>
+								<surname>Bürckner</surname>
+							</persName>
+							<idno type="ORCID">0000-0002-5820-9806</idno>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Lukas</forename>
+								<surname>Mengis</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Emma</forename>
+								<forename type="middle">M H</forename>
+								<surname>White</surname>
+							</persName>
+							<idno type="ORCID">0000-0002-0246-6256</idno>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Mathias</forename>
+								<forename type="middle">C</forename>
+								<surname>Galetz</surname>
+							</persName>
+							<idno type="ORCID">0000-0001-6847-2053</idno>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Corrosion Division</orgName>
+								<orgName type="institution">DECHEMA Research Institute</orgName>
+								<address>
+									<settlement>Frankfurt am Main</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Correspondence Mary-Lee Bürckner</orgName>
+								<address>
+									<postCode>65, 60486</postCode>
+									<settlement>Voltastraße, Frankfurt am Main</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Influence of copper and aluminum substitution on high‐temperature oxidation of the FeCoCrNiMn “Cantor” alloy</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Materials and Corrosion</title>
+						<title level="j" type="abbrev">Materials &amp; Corrosion</title>
+						<idno type="ISSN">0947-5117</idno>
+						<idno type="eISSN">1521-4176</idno>
+						<imprint>
+							<publisher>Wiley</publisher>
+							<biblScope unit="volume">74</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="79" to="90"/>
+							<date type="published" when="2022-09-06" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">FEA7AC35375E9331EF26A860E81B0296</idno>
+					<idno type="DOI">10.1002/maco.202213382</idno>
+					<note type="submission">Received: 23 June 2022 | Accepted: 2 August 2022</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0" ident="GROBID" when="2024-05-28T15:56+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<p>In this study, the oxidation behavior of FeCoCrNiMn (HEA + Mn) is compared to three modified HEAs manufactured by substituting Mn with Al, Cu, or Al + Cu.</p>
+					<p>Oxidation tests were conducted between 600°C and 800°C for up to 500 h in synthetic air. Substitution of Mn leads to a significant improvement in the oxidation resistance for the three modified HEAs. For FeCoCrNiCu (HEA + Cu), a local attack of a Cu-rich phase was observed, leading to the formation of CuO blisters on the surface. The FeCoCrNiAl (HEA + Al) alloy was characterized by the formation of a thin Al 2 O 3 surface layer for all temperatures. However, for the HEA + Al alloy the formation of AlN was observed after 300 h at 800°C, leading to a partial breakdown of the protective scale. FeCoCrNiCuAl (HEA + Cu + Al) by far showed the best oxidation resistance, characterized by the formation of a highly protective Al 2 O 3 scale that effectively inhibited nitrogen penetration into the metal subsurface and local attack of the Cu-rich phase.</p>
+				</div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="1">| INTRODUCTION</head>
+				<p>High-entropy alloys (HEAs) have experienced a massive increase in popularity among scientists during the last decade. Pioneering work has been done by Cantor et al. <ref type="bibr" target="#b0">[1]</ref> and Yeh et al. <ref type="bibr" target="#b1">[2]</ref> who worked with FeNiCo-based alloys, among others. One of the most famous HEAs is FeCoCr-NiMn (known as "Cantor"), which has been extensively examined in regard to its mechanical, corrosive, and oxidation behavior. <ref type="bibr" target="#b2">[3]</ref>
+					<ref type="bibr" target="#b3">[4]</ref>
+					<ref type="bibr" target="#b4">[5]</ref> Although the original definition of HEAs relies on the formation of a single-phased solid solution, stabilized by a high configurational entropy, more recent classifications broadened the definition to include multiphase HEAs based on five or more elements in similar proportions. Many of these compositions were found not to be single phase. <ref type="bibr" target="#b2">[3]</ref> Despite its high Cr content, the oxidation behavior of the Cantor alloy is determined by Mn as it forms several unprotective oxides which have a fast growth rate due to their high vacancy density. <ref type="bibr" target="#b3">[4,</ref>
+					<ref type="bibr" target="#b5">6]</ref> Recent research conducted by Stephan-Scherb et al. <ref type="bibr" target="#b6">[7]</ref> compares FeCoCr-NiMn to the oxidation behavior of a CoCrNi model alloy at 800°C. In dry air, only Mn 3 O 4 can be detected, while in wet air α-Mn 2 O 3 is additionally present. The composition of the oxide is in accordance with Holcomb et al., <ref type="bibr" target="#b7">[8]</ref> who conducted exposures at 650°C and 750°C in synthetic air. The oxidation resistance of CoCrFeNi was found to be comparable to that of 304H, while the addition of Mn led to higher mass gains and oxide spallation at 750°C. Laplanche et al. <ref type="bibr" target="#b3">[4]</ref> found that a high temperature (900°C) enhances the formation of Mn 3 O 4 , while for lower temperatures, Mn 2 O 3 growth dominates.</p>
+				<p>To date, limited research has been published focusing on the oxidation resistance of HEAs with different compositions. Two descriptive reviews were recently published by Gorr et al. <ref type="bibr" target="#b8">[9]</ref> and Anne et al., <ref type="bibr" target="#b5">[6]</ref> revealing that besides Cantor, Al-containing HEAs are the second most investigated alloys, as Al is known to improve high-temperature oxidation resistance. Butler et al. <ref type="bibr" target="#b9">[10]</ref> conducted oxidation studies on the Al x CoCrFeNi system at 1050°C for 100 h. Parabolic kinetics were observed, while a double-layered oxide structure (Al 2 O 3 , Cr 2 O 3 ) formed, as well as AlN below the Cr 2 O 3layer. Al 2 O 3 was only prevalent if the Al content was sufficient. In addition, theoretical studies on the Al 0.3 CoCr-CuFeNi alloy, performed by Hong et al., <ref type="bibr" target="#b10">[11]</ref> underline the importance of the respective Al content to selectively form Al 2 O 3 (and not Cr 2 O 3 ) to provide the highest oxidation resistance. They found that oxygen was preferably bound at Cr-rich areas, while Al 2 O 3 only developed subsequently.</p>
+				<p>A previous study on FeCoCrNiMn, FeCoCrNiCu, FeCoCrNiAl, and FeCoCrNiCuAl was conducted by Galetz et al. <ref type="bibr" target="#b11">[12]</ref> on the metal dusting resistance at 620°C of these alloys as Cu and a thermally grown Al 2 O 3 scale are known to inhibit carbon ingress into the metal subsurface. It was found that these alloys had significant metal dusting resistance, which makes them promising candidates for high-temperature applications in atmospheres with high carbon activities. However, in addition to their metal dusting resistance, their performance in oxidizing atmospheres at even higher temperatures needs to be investigated to prove their broader industrial viability.</p>
+				<p>In the framework of this study, isothermal oxidation tests were performed on FeCoCrNiMn, FeCoCrNiCu, FeCoCrNiAl, and FeCoCrNiCuAl at 600-800°C for up to 500 h in dry synthetic air. The primary focus was on the oxide composition, morphology, and subsurface phenomena at 800°C in direct contrast to the well-known FeCoCrNiMn alloy.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="2">| EXPERIMENTAL METHODS</head>
+				<p>FeCoCrNiMn (HEA + Mn), FeCoCrNiCu (HEA + Cu), FeCoCrNiAl (HEA + Al), and FeCoCrNiCuAl (HEA + Cu + Al) samples were produced by the US Department of Energy's (DOE) Ames National Laboratory (Ames, IA, USA) using an electric arc melting furnace on a watercooled Cu hearth. The ingots were remelted three times to ensure melt homogenization.</p>
+				<p>The ingots were wire cut into coupon samples with a size of 3 × 4 × 7 mm, followed by grinding to a P800 grit finish using SiC paper and then cleaned with acetone in an ultrasonic bath. The samples were placed in a quartz glass tube (diameter 4.5 cm) and exposed at 600°C, 700°C, and 800°C for up to 500 h in synthetic air with a flow rate of 4.8 L/h. After exposure, samples were cleaned, sputtered with gold, electrochemically plated with nickel, and embedded in epoxy for further characterization. Some samples showing very porous oxide scales that were prone to spallation were chemically, instead of hot, embedded to ensure the adherence of the oxide scales. Beyond optical microscope investigations, quantitative and qualitative characterization of the oxide layers and the bulk structures was conducted using electron probe microanalysis (EPMA; JXA-8100 manufactured by Jeol) as well as scanning electron microscopy (SEM; SU1000 manufactured by HITACHI equipped with energy-dispersive X-ray spectroscopy [EDS] detector). X-ray diffraction (XRD) measurements with both Cu and Co sources were performed to identify the thermally grown oxide scales of all HEAs, however, the results were unsatisfactory due to the high fluorescence of the bulk materials and were not included.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3">| RESULTS</head>
+				<p>Alloy chemical compositions were already reported in previous work <ref type="bibr" target="#b11">[12]</ref> and can be obtained from Table <ref type="table">1</ref>. HEA + Mn exhibits a single-phase FCC microstructure (Mn segregations are visible only locally) in the as-cast condition at room temperature. In the HEA + Cu alloy substitution of Mn by Cu leads to a two-phase microstructure due to the precipitation of an FCC Cu-rich (45 at%) phase. HEA + Al is characterized by an interdendritic microstructure, which consists of a BCC (19 at% Al/24 at% Cr) and an FCC (13 at% Al/29 at% Cr) phase. For the HEA + Cu + Al alloy, a two-phase BCC + FCC microstructure is observed with Cu preferentially segregating to the FCC phase (up to 66 at%).</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.1">| HEA + Mn</head>
+				<p>The HEA + Mn alloy showed pronounced oxide formation over the entire temperature range which increased with increasing temperature and exposure duration. Figure <ref type="figure">1</ref> exemplarily shows a cross section of the HEA + Mn alloy after oxidation at 700°C for 500 h, as well as the corresponding EPMA element maps. The oxide is up to 40 μm thick, porous, and tends to spall off locally while cracks run parallel to the initial surface of the samples. The oxide layer consists of three components: an exterior Mn-rich oxide, followed by a Cr/Co/Fe-rich spinel-type oxide interlayer and a thin Cr 2 O 3 layer at the oxide/ substrate interface. Several Mn-rich oxide nodules penetrate internally into the substrate leading to an Figure <ref type="figure">2</ref> shows the corresponding EPMA linescan for the area shown in Figure <ref type="figure">1</ref>. Mn is heavily depleted for up to 50 µm in the metal subsurface due to fast Mn outward diffusion and Mn oxide formation. In these regions, Kirkendall voids start to form as highlighted in Figure <ref type="figure">1</ref>. The described oxide morphology and subsurface characteristics accompanied all temperatures/durations and are generally representative of the oxidation behavior of the HEA + Mn alloy.</p>
+				<formula xml:id="formula_0">F I G U R E 1 Cross-sectional EPMA</formula>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.2">| HEA + Cu</head>
+				<p>At 600°C and 700°C, the HEA + Cu alloy formed a rather thin oxide scale (not shown), however, a selective attack of the Cu-rich phase became evident for all temperatures with longer durations. Using light microscopy, the formation of blisters on top of the surface is apparent, exemplarily shown in the cross section in Figure <ref type="figure">3</ref> for the exposure at 800°C. Although most of the surface was covered by a thin scale, blisters exhibiting a metallic appearance were already visible after 100 h and changed color during continued exposure. They preferably grew in areas where the Cu-rich phase had direct contact with the surrounding atmosphere. Their formation was associated with a selective attack of the Cu-rich phase extending into the metal subsurface within approximately the first 20 µm. After 500 h of oxidation, the metallic appearance disappeared, making it difficult to differentiate between the blisters and the "regular" oxide scale.</p>
+				<p>Figure <ref type="figure">4a</ref> includes the backscatter electron (BSE) image as well as the corresponding EPMA element maps of the HEA + Cu alloy after oxidation at 800°C for 100 h. Regions in which there was no direct contact between the Cu-rich phase and the atmosphere were covered by a very thin Cr-rich oxide scale, effectively protecting the substrate from further oxidation. Blisters on top of the surface appeared very bright in BSE mode and showed very low oxygen contents (up to 17.2 at%, EPMA) as well as high Cu contents (up to 84.0 at%, EPMA) leading to the conclusion that they consisted of metallic Cu or Cu 2 O. On top of the blisters, as well as in between, darker layers were defined with higher Co-, Cr-and oxygen intensities. Below the blisters, Cu is fully depleted within the former Cu-rich phase and replaced by a Cr/ Co/Fe/Ni-rich spinel-type oxide which formed a rather continuous, thin layer between the blisters and the internal Cr 2 O 3 . After 500 h (Figure <ref type="figure">4b</ref>) the bright contrast of the blister was no longer detectable, and the oxygen intensity increased as can be seen in the corresponding EPMA map. Additionally, EPMA spot measurements within the blisters (up to 52.0 at% Cu) showed rather high oxygen contents (up to 47.3 at%). Regions of the surface without direct contact with the Cu-rich phase were still covered by a rather thin Cr-rich oxide scale, that was partially overgrown by a Fe-/Co-/Cu-rich scale. The internal oxidation proceeded up to about 50 µm deep in the metal subsurface and was characterized by severe Cu-depletion. Cr 2 O 3 formed at the interface between the former Cu-rich phase, hindering oxygen penetration further into the base material.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.3">| HEA + Al</head>
+				<p>For the HEA + Al alloy, a homogenous Al 2 O 3 -layer formed for all temperatures and times. An increase in temperature led to a slight increase in oxide thickness, however, the oxide layer remained significantly thinner than for the previously described HEA + Mn or HEA + Cu alloys for all exposures. The protective nature of the Al oxide was clearly visible after oxidation for 100 h at 800°C (Figure <ref type="figure">5</ref>). Below the Al 2 O 3 scale, an Al-depleted region was even more pronounced after oxidation for 300 h and contained internal nitridation. There was not a significant difference in the appearance of the external and internal scale formation between 300 and 500 h. The respective EPMA element maps in Figure <ref type="figure">6</ref> revealed internal AlN nitride formation in the Aldepleted subsurface zone although the external Al 2 O 3scale seemed to be rather homogeneous and protective. Higher Cr-and Fe-intensities in the external oxide scale were only seen locally in regions where the AlN formation was even more pronounced. There was no evidence for AlN-formation at 600°C and 700°C for the entire duration of exposure.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="3.4">| HEA + Cu + Al</head>
+				<p>Similar to the HEA + Al alloy, a protective Al 2 O 3 layer with a subsurface Al-depletion zone formed on the HEA + Cu + Al alloy for all temperatures and exposure durations. The oxide layer was very homogeneous, crackfree, and thin, even after exposure at 800°C for 500 h (Figure <ref type="figure">7</ref>). The local attack of the Cu-rich phase was greatly inhibited, occurring only infrequently and not extending deep into the material, as was the case for the HEA + Cu alloy.</p>
+				<p>The Al depletion was also prevalent for the HEA + Cu + Al samples and increased with increasing time and/ or temperature. In contrast to the HEA + Al alloy, the formation of AlN was never observed as can be seen in Figure <ref type="figure">7</ref> for exposure at 800°C for 500 h. In the cross section in Figure <ref type="figure">8</ref>, microstructural changes occurred in the bulk which became even more pronounced with increasing temperature. These changes were clearly visible in the Cr, Ni, and Al maps in Figure <ref type="figure" target="#fig_5">9</ref> and similarly occurred for the HEA + Al alloy (not shown).</p>
+				<p>In the given temperature range, the formation of the γ'-phase is expected. <ref type="bibr" target="#b12">[13]</ref> However, for both alloys, it could not be observed based on stochiometric analysis due to the small diameter of the γ'-phase. For nickel-based alloys such as alloy 263, y' precipitates have diameters below 100 nm when heat treatment is below 800°C, which cannot be resolved by the methods used in this study. <ref type="bibr" target="#b12">[13]</ref> Between 300°C and 850°C, the presence of σ-phase has been found for Al 0.5 CoCrCuFeNi. <ref type="bibr" target="#b13">[14]</ref> For the alloy composition used in this study, the formation of the σ-phase could also be confirmed previously by XRD. <ref type="bibr" target="#b11">[12]</ref> However, both microstructural changes are finely phase dispersed and thus do not appear to have a significant influence on the oxidation behavior in this study. </p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.1">| HEA + Mn</head>
+				<p>The oxidation behavior of the HEA + Mn ("Cantor") alloy has been studied extensively in literature as described previously. <ref type="bibr" target="#b3">[4,</ref>
+					<ref type="bibr" target="#b6">7,</ref>
+					<ref type="bibr" target="#b7">8,</ref>
+					<ref type="bibr" target="#b14">15]</ref> The observations from this study align well with the results described in the literature. <ref type="bibr" target="#b3">[4,</ref>
+					<ref type="bibr" target="#b6">7,</ref>
+					<ref type="bibr" target="#b7">8,</ref>
+					<ref type="bibr" target="#b14">15]</ref> The poor oxidation resistance is primarily caused by fast Mn oxide growth rates which are already prevalent at 600°C. The Mn outward diffusion is much higher than for Cr, Ni, and Co. <ref type="bibr" target="#b15">[16]</ref> Besides a Mn oxide, an Fe/Co/Cr spinel with a rather high oxidation rate was formed, resulting in a complex intermixed outer oxide scale as can be seen in Figure <ref type="figure">1</ref>. The fast diffusion of Mn leads to severe Mn depletion (Figure <ref type="figure">2</ref>) and the formation of Kirkendall voids in the metal subsurface. Kirkendall voids form in the case of differences in the diffusion rates of the alloying elements and can cause the preliminary delamination of thermally grown oxide scales. <ref type="bibr" target="#b16">[17]</ref> A proposed schematic illustration of the oxidation process in dry synthetic air is shown in Figure <ref type="figure" target="#fig_5">9</ref>. The exact composition of the spinel is difficult to determine since it varies locally and the atomic radii of the included elements (Fe, Cr, Mn) are similar. The basic oxide composition as well as the respective oxidation state of the Mn oxide might also vary under the influence of water vapor or temperature as has been recently proposed by Stephan-Scherb et al. <ref type="bibr" target="#b6">[7]</ref> It is important to note the process of Cr 2 O 3 formation in the HEA + Mn alloy. As Mn, as well as Fe and Co, are successively consumed due to their higher outward diffusion and thus external oxide scale formation, Cr enriches in the inner part of the oxide scale over time, similar to 9 wt% Cr steel after breakaway. <ref type="bibr" target="#b17">[18]</ref> However, despite the high Cr content in the alloy, the Cr-rich oxide (composition suggesting Cr 2 O 3 ) layer is interrupted by inner Mn oxide nodules and therefore can only protect the substrate to a certain extent.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.2">| HEA + Cu</head>
+				<p>Substitution of Mn by Cu leads to the formation of a Curich phase (FCC) and, therefore, a two-phase microstructure. <ref type="bibr" target="#b14">[15]</ref> When analyzing the oxidation behavior of the HEA + Cu alloy, one must carefully distinguish between the oxidation resistance of both phases, subsumed as Cu-rich and Cu-lean in the following. For the Cu-lean phase, the oxidation behavior is primarily characterized by the formation of rather thin scales which consist of an outermost Cu oxide, followed by an Fe/Co/Cr-spinel interlayer and a continuous Cr 2 O 3 layer at the interface to the substrate (a triplex oxide). To further clarify this description, Figure <ref type="figure">10</ref> shows a BSE image with corresponding EPMA element maps of the HEA + Cu alloy after oxidation at 800°C for 500 h. The formation of continuous Cr 2 O 3 at the interface effectively protects the alloy from further oxidation.</p>
+				<p>The oxidation behavior of the Cu-rich phase is quite complex and further metallographic investigations (e.g., transmission electron microscopy) would be necessary to fully clarify the occurring phenomena. The proposed oxidation mechanism is shown schematically in Figure <ref type="figure" target="#fig_6">11</ref> as a function of time (constant T) and is representative of the entire temperature range from 600°C to 800°C. Two explanations are conceivable from a thermodynamic and kinetic point of view and are presented in the following.</p>
+				<p>For the first potential explanation, oxidation is theorized to take place in multiple distinctive oxidation-reduction steps. After oxidation for 100 h, a local attack of the Cu-rich phase leads to the formation of blisters with a metallic appearance in the light microscope on top of the surface (Figure <ref type="figure">3</ref>). Due to the low oxygen and high Cu content, in combination with the overall very low oxygen solubility of Cu, <ref type="bibr" target="#b18">[19]</ref> it can be assumed that these blisters are metallic or at least only partially oxidized. As there must be a driving force for Cu to diffuse out of the matrix, intermediate oxidation of Cu presumably leads to the formation of Cu 2 O on the surface. The simultaneous formation of a very thin spinel layer on top of the blister, below, and also in between, in combination with its slightly higher thermodynamic stability, could lead to a partial reduction of Cu 2 O to Cu met. With increasing time, oxidation leads to the formation of CuO which is the most stable Cu oxide. <ref type="bibr" target="#b19">[20]</ref> The successive consumption of Cu leads to an even more pronounced spinel formation below the CuO and, finally, inhibition of further oxidation by protective Cr 2 O 3 . According to the ternary Cu-Cr-O phase diagram, for example in [21], Cr and Cu also form a spinel and inverse spinel, however, they were not detected using EPMA, suggesting that their formation is either kinetically unfavorable or thermodynamically impossible in the complex system with the other elements forming Crspinels, which were found, such as Mn and Co.</p>
+				<p>For the second potential explanation, subsurface Cu is selectively pushed out of the matrix due to internal spinel formation, leading to an increase in volume. Due to the limited space, metallic blisters form on the surface, which eventually oxidize to CuO. Thermodynamically, Cr 2 O 3 , as well as the spinel, are more stable than the Cu oxides, and thus Cr 2 O 3 finally forms below the spinel where the oxygen partial pressure is lower. This aspect highlights the importance of Cr as a protective oxideforming element in this HEA family.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.3">| HEA + Al</head>
+				<p>The two-phase (BCC + FCC) HEA + Al alloy shows significantly better oxidation resistance compared to the previously described alloys. Figure <ref type="figure">12</ref> summarizes the proposed oxidation behavior of HEA + Al schematically. Even after exposure at 800°C for 100 h in synthetic air the extremely thin Al 2 O 3 layer remains stable and protects the base material from severe oxidation (Figure <ref type="figure">5a</ref>). With increasing time at 800°C, the formation of needle-like AlN was observed in the Al-depleted region below the Al 2 O 3 (Figure <ref type="figure">5b,</ref>
+					<ref type="figure">c</ref>). Nitrogen from the atmosphere must have diffused through microcracks or pores of the outer Al 2 O 3 layer to be able to penetrate the metal subsurface and react with Al. The formation of AlN is unsurprising as Al is a strong nitride former. <ref type="bibr" target="#b21">[22]</ref> Thermal stresses in the oxide or ongoing transformation processes from metastable to stable Al 2 O 3 could have caused such defects. For HEA + Al, nitridation was observed also by Butler et al. <ref type="bibr" target="#b9">[10]</ref> as well as Dabrowa et al. <ref type="bibr" target="#b22">[23]</ref> and seems to be a general phenomenon for Al-containing HEAs. As Figure <ref type="figure">6</ref> already implies, Cr, Fe, and Co start to oxidize and grow over the Al 2 O 3 layer in the regions where the AlN formation is most pronounced. As Al is trapped by AlN formation, Cr, Fe, and Co are enriched in the subsurface. The protectiveness of the oxide is weakened since the mixed oxide shows higher oxidation rates compared to Al 2 O 3 at the tested temperatures. The spinel is also susceptible to evaporation due to its Cr content in the form of CrO 3 (at around 1000°C <ref type="bibr" target="#b23">[24]</ref> ) and volatilization in water vapor-containing atmospheres at even lower temperatures. <ref type="bibr" target="#b24">[25]</ref> The investigation of the oxidation behavior for even longer exposure durations (&gt;1000 h) or under the presence of water vapor should be conducted in future work to investigate the long-term stability of the alloy.</p>
+				<formula xml:id="formula_1">F I G U R E</formula>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="4.4">| HEA + Cu + Al</head>
+				<p>The HEA + Cu + Al alloy by far shows the best oxidation behavior among the four HEA alloys due to the selective oxidation of Al over the entire temperature range (Figure <ref type="figure">7</ref>). The proposed oxidation mechanism is schematically shown in Figure <ref type="figure">13</ref>. In comparison to HEA + Cu, the local attack of the Cu-rich phase is negligible since the Al 2 O 3 scale forms before Cu can react. This protection is enhanced by the overall smaller diameter of the Cu-rich phase in the HEA + Cu + Al alloy compared to HEA + Cu (due to the lower Cu content <ref type="bibr" target="#b11">[12]</ref> ) which indicates the initial microstructure is a contributing factor, not only for mechanical purposes but also when it comes to the oxidation behavior at high temperatures. Additionally, the formation of a spinel seems to be effectively suppressed. In comparison to the HEA + Al alloy, there is no evidence for AlN formation below the oxide scale (and, therefore, Cr 2 O 3 growth), even after oxidation at 800°C for 500 h (Figure <ref type="figure">8</ref>). One potential explanation is small amounts of Cu in the Al 2 O 3 scale might minimize thermal stress generation or accelerate the transformation from metastable to stable α-Al 2 O 3 (and therefore reducing the number of microcracks) inducing a so-called "third-element-effect." <ref type="bibr" target="#b25">[26]</ref> Additionally, Cu in a solid solution could affect the diffusion of Al throughout the multiphase microstructure. Detailed investigation of this phenomenon needs further metallographic analysis using highresolution techniques.</p>
+				<p>As is also the case for the HEA + Al alloy, microstructural changes are expected for the HEA + Cu + Al alloy after high-temperature exposure. By increasing the temperature from 600°C to 800°C the phase transformation becomes even more pronounced. The formation of σ-phase, which is typical for austenitic alloys, was previously observed by Galetz et al. <ref type="bibr" target="#b11">[12]</ref> already after exposure at 620°C or by Laplanche <ref type="bibr" target="#b26">[27]</ref> for the CrMnFeCoNi HEA. The precipitation of the σ-phase could generally lead to significant embrittlement of the material as is the case for austenitic Fe-base alloys. <ref type="bibr" target="#b27">[28]</ref> In direct contrast, HEA + Mn, for example, retains a single-phase microstructure during exposure. While structural changes potentially strongly influence the mechanical behavior of the alloy, the oxidation behavior seems to be less affected within this study. This could be due to the sufficient Al content of both Alcontaining HEAs. While Cr is absent in the Cu-rich phase, Al is prevalent in both phases (&gt;5 at% in the Cu-rich phase, up to 15 at% in the Cu-lean phase). It must be mentioned that Cr gets trapped to a large extent within the σ-phase (Figure <ref type="figure">8</ref>) and therefore is no longer available for oxide scale formation in case of detrimental failure of the outer Al 2 O 3 scale. This trapping of a protective oxide former is very similar to the one observed within this study when AlN developed and thus spinels with higher growth rates formed instead.</p>
+			</div>
+			<div xmlns="http://www.tei-c.org/ns/1.0">
+				<head n="5">| CONCLUSIONS</head>
+				<p>The oxidation behavior of FeCrMnNiCo (HEA + Mn) as a reference alloy, as well as FeCrNiCoCu (HEA + Cu), FeCrNiCoAl (HEA + Al), and FeCrNiCoCuAl (HEA + Cu + Al), was investigated in the temperature range of 600-800°C for up to 500 h in synthetic air. The major findings can be summarized as follows:</p>
+				<p>• HEA + Mn showed poor oxidation resistance due to the fast growth of Mn oxide (along with Mn depletion and Kirkendall void formation in the subsurface) and a complex spinel at 600°C. The subscale Cr-rich layer was frequently interrupted by internally growing Mn oxide nodules and therefore cannot effectively protect the alloy from further oxidation. • HEA + Cu had a two-phase microstructure and clearly showed improved oxidation resistance compared to HEA + Mn, characterized by the formation of a triplex oxide scale (CuO/spinel/Cr 2 O 3 ). Selective attack of the Cu-rich phase and the formation of blisters on top of the surface, which fully oxidize to CuO, occurred after longer oxidation times (300-500 h). </p>
+			</div>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0">
+				<head></head>
+				<label></label>
+				<figDesc>element maps of the HEA + Mn alloy after exposure for 500 h at 700°C in synthetic air. EPMA, electron probe microanalysis; HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com] F I G U R E 2 EPMA linescan of the HEA + Mn alloy after exposure for 500 h at 700°C in synthetic air. EPMA, electron probe microanalysis; HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com] interruption of the Cr 2 O 3 layer. The substrate also shows an Mn depletion zone.</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1">
+				<head>F</head>
+				<label></label>
+				<figDesc>I G U R E 3 Cross-sectional light microscope images of the HEA + Cu alloy after exposure at 800°C for 100, 300, and 500 h in synthetic air. HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2">
+				<head>F</head>
+				<label></label>
+				<figDesc>I G U R E 4 Cross-sectional EPMA element maps of the HEA + Cu alloy after exposure for (a) 100 h and (b) 300 h at 800°C in synthetic air. EPMA, electron probe microanalysis; HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3">
+				<head>F</head>
+				<label></label>
+				<figDesc>I G U R E 5 Cross-sectional light microscope images of the HEA + Al alloy after exposure at 800°C for 100, 300, and 500 h in synthetic air. HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com] F I G U R E 6 Cross-sectional EPMA element distribution maps of the HEA + Al alloy after exposure at 800°C for 500 h in synthetic air. EPMA, electron probe microanalysis; HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4">
+				<head>F</head>
+				<label></label>
+				<figDesc>I G U R E 7 BSE image of the HEA + Cu + Al alloy after exposure for 300 h at 800°C in synthetic air. BSE, backscatter electron; HEA, high-entropy alloy. F I G U R E 8 Cross-sectional EPMA element distribution maps of the HEA + Cu + Al alloy after exposure for 500 h at 800°C in synthetic air. EPMA, electron probe microanalysis; HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5">
+				<head>F I G U R E 9</head>
+				<label>9</label>
+				<figDesc>Proposed high-temperature oxidation mechanism of the HEA + Mn alloy as a function of time. HEA, high-entropy alloy. F I G U R E 10 BSE image of a Cu-lean region of the HEA + Cu alloy after oxidation at 800°C for 500 h in synthetic air with corresponding EPMA element maps. BSE, backscatter electron; EPMA, electron probe microanalysis; HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6">
+				<head>11</head>
+				<label>11</label>
+				<figDesc>Proposed high-temperature oxidation mechanism of the HEA + Cu alloy as a function of time. HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7">
+				<head>F</head>
+				<label></label>
+				<figDesc>I G U R E 13 Proposed high-temperature oxidation mechanism of the HEA + Cu + Al alloy as a function of time. Observed microstructural changes in the bulk are neglected. HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com] F I G U R E 12 Proposed high-temperature oxidation mechanism of the HEA + Al alloy as a function of time. HEA, high-entropy alloy. [Color figure can be viewed at wileyonlinelibrary.com]</figDesc>
+			</figure>
+			<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1">
+				<head></head>
+				<label></label>
+				<figDesc>• In the HEA + Al alloy substitution of Mn by Al led to very good oxidation resistance at 600°C and 700°C due to the formation of a protective Al 2 O 3 layer. At 800°C, AlN formation was observed after 300 h below the outer Al 2 O 3 scale. Microcracks within the oxide scale presumably facilitate local nitrogen ingress into the Aldepleted metal subsurface and engender local breakdown of the otherwise very protective scale. • HEA + Cu + Al clearly showed the best oxidation resistance among the four examined alloys due to the formation of a protective Al 2 O 3 layer with long-term stability. No nitridation nor Cu blister formation were observed which makes the HEA + Cu + Al alloy a promising candidate for high-temperature applications in both oxidizing and carbon-containing atmospheres.</figDesc>
+				<table />
+			</figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0">
+				<p>15214176, 2023, 1, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/maco.202213382 by University Of North Texas, Wiley Online Library on [22/05/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p>
+			</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+				<div>
+					<p>ACKNOWLEDGMENTS EPMA measurements were conducted by <rs type="person">Dr. Gerald Schmidt</rs> at DECHEMA DFI. Materials for this study were provided by the "<rs type="projectName">Science-based Acceleration of the Full Value Stream for Metal Additive Manufacturing: Expedited AM Powder Development</rs> (						<rs type="grantNumber">X-P4AM</rs>)" project funded by the <rs type="funder">U.S.DOE-EERE-AMO</rs> through <rs type="institution">Ames Lab</rs> contract <rs type="grantNumber">DE-AC02-07CH11358</rs>.
+					</p>
+				</div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_vNNqWhu">
+					<idno type="grant-number">X-P4AM</idno>
+					<orgName type="project" subtype="full">Science-based Acceleration of the Full Value Stream for Metal Additive Manufacturing: Expedited AM Powder Development</orgName>
+				</org>
+				<org type="funding" xml:id="_xRKmBsd">
+					<idno type="grant-number">DE-AC02-07CH11358</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+				<div xmlns="http://www.tei-c.org/ns/1.0">
+					<head>DATA AVAILABILITY STATEMENT</head>
+					<p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p>
+				</div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+					<biblStruct xml:id="b0">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Cantor</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Entropy</title>
+							<imprint>
+								<biblScope unit="volume">16</biblScope>
+								<biblScope unit="page">4749</biblScope>
+								<date type="published" when="2014">2014</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b1">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">JOM</title>
+							<imprint>
+								<biblScope unit="volume">65</biblScope>
+								<biblScope unit="page">1759</biblScope>
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b2">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">B</forename>
+									<surname>Miracle</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">O</forename>
+									<forename type="middle">N</forename>
+									<surname>Senkov</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="volume">122</biblScope>
+								<biblScope unit="page">448</biblScope>
+								<date type="published" when="2017">2017</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b3">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Laplanche</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">U</forename>
+									<forename type="middle">F</forename>
+									<surname>Volkert</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Eggeler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">P</forename>
+									<surname>George</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxid. Met</title>
+							<imprint>
+								<biblScope unit="volume">85</biblScope>
+								<biblScope unit="page">629</biblScope>
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b4">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">P</forename>
+									<surname>George</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Raabe</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">R</forename>
+									<forename type="middle">O</forename>
+									<surname>Ritchie</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Nat. Rev. Mater</title>
+							<imprint>
+								<date type="published" when="2019">2019, 4, 515</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b5">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">R</forename>
+									<surname>Anne</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Shaik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Tanaka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Basu</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">SN Appl. Sci</title>
+							<imprint>
+								<biblScope unit="volume">2021</biblScope>
+								<biblScope unit="page">366</biblScope>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b6">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Stephan-Scherb</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Schulz</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Schneider</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Karafiludis</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Laplanche</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxid. Met</title>
+							<imprint>
+								<biblScope unit="volume">95</biblScope>
+								<biblScope unit="page">105</biblScope>
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b7">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">R</forename>
+									<surname>Holcomb</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Tylczak</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Carney</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">JOM</title>
+							<imprint>
+								<biblScope unit="volume">67</biblScope>
+								<biblScope unit="page">2326</biblScope>
+								<date type="published" when="2015">2015</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b8">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<surname>Gorr</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Schellert</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<surname>Müller</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<forename type="middle">J</forename>
+									<surname>Christ</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Kauffmann</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Heilmaier</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Adv. Eng. Mater</title>
+							<imprint>
+								<biblScope unit="volume">23</biblScope>
+								<date type="published" when="2021">2021. 2001047</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b9">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<forename type="middle">M</forename>
+									<surname>Butler</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">L</forename>
+									<surname>Weaver</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Alloys Compd</title>
+							<imprint>
+								<biblScope unit="volume">674</biblScope>
+								<biblScope unit="page">229</biblScope>
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b10">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<surname>Hong</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Beyramali</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">Asle</forename>
+									<surname>Kivy</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<surname>Zaeem</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Scr. Mater</title>
+							<imprint>
+								<biblScope unit="volume">168</biblScope>
+								<biblScope unit="page">139</biblScope>
+								<date type="published" when="2019">2019</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b11">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">C</forename>
+									<surname>Galetz</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Schlereth</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">M H</forename>
+									<surname>White</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Corros</title>
+							<imprint>
+								<biblScope unit="volume">72</biblScope>
+								<biblScope unit="page">1232</biblScope>
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b12">
+						<monogr>
+							<title level="m" type="main">Materials for Ultra-Supercritical and Advanced Ultra-Supercritical Power Plants</title>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<surname>Gianfrancesco</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="2017">2017</date>
+								<publisher>Woodhead Publishing</publisher>
+								<biblScope unit="page">571</biblScope>
+								<pubPlace>Duxford, UK</pubPlace>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b13">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<surname>Ng</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Guo</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Luan</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">S</forename>
+									<surname>Shi</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">C</forename>
+									<forename type="middle">T</forename>
+									<surname>Liu</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Intermetallics</title>
+							<imprint>
+								<biblScope unit="volume">31</biblScope>
+								<biblScope unit="page">165</biblScope>
+								<date type="published" when="2012">2012</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b14">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">N</forename>
+									<forename type="middle">K</forename>
+									<surname>Adomako</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">H</forename>
+									<surname>Kim</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">Y</forename>
+									<forename type="middle">T</forename>
+									<surname>Hyun</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Therm. Anal. Calorim</title>
+							<imprint>
+								<biblScope unit="volume">133</biblScope>
+								<biblScope unit="page">13</biblScope>
+								<date type="published" when="2018">2018</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b15">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<forename type="middle">Y</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">H</forename>
+									<surname>Tsai</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">W</forename>
+									<surname>Yeh</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<biblScope unit="page">4887</biblScope>
+								<date type="published" when="2013">2013</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b16">
+						<monogr>
+							<title level="m" type="main">High Temperature Oxidation and Corrosion of Metals</title>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">J</forename>
+									<surname>Young</surname>
+								</persName>
+							</author>
+							<imprint>
+								<date type="published" when="2008">2008</date>
+								<publisher>Elsevier</publisher>
+								<biblScope unit="volume">1</biblScope>
+								<pubPlace>Amsterdam, the Netherlands</pubPlace>
+							</imprint>
+						</monogr>
+						<note>st ed.</note>
+					</biblStruct>
+
+					<biblStruct xml:id="b17">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Schütze</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Schorr</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">P</forename>
+									<surname>Renusch</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Donchev</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">P T</forename>
+									<surname>Vossen</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Mater. Res</title>
+							<imprint>
+								<biblScope unit="volume">7</biblScope>
+								<biblScope unit="page">111</biblScope>
+								<date type="published" when="2004">2004</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b18">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Schramm</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Behr</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Löser</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Wetzig</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Phase Equilibria Diffus</title>
+							<imprint>
+								<biblScope unit="volume">26</biblScope>
+								<biblScope unit="page">605</biblScope>
+								<date type="published" when="2005">2005</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b19">
+						<monogr>
+							<author>
+								<persName>
+									<forename type="first">Z</forename>
+									<surname>Grzesik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Migdalska</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">High</forename>
+									<surname>Temp</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<surname>Mater</surname>
+								</persName>
+							</author>
+							<title level="m">Process</title>
+							<meeting>ess</meeting>
+							<imprint>
+								<date type="published" when="2011">2011, 30, 277</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b20">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Hamuyuni</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">P</forename>
+									<surname>Taskinen</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Thermochim. Acta</title>
+							<imprint>
+								<biblScope unit="volume">638</biblScope>
+								<biblScope unit="page">96</biblScope>
+								<date type="published" when="2016">2016</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b21">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<surname>Lewin</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">J. Appl. Phys</title>
+							<imprint>
+								<biblScope unit="page">160901</biblScope>
+								<date type="published" when="2020">2020</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b22">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Dąbrowa</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Cieślak</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Stygar</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Zajusz</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Jawańska</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">A</forename>
+									<surname>Gil</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Jedliński</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Mroczka</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">K</forename>
+									<surname>Matsuda</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">T</forename>
+									<surname>Kulik</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<surname>Danielewski</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxid. Met</title>
+							<imprint>
+								<biblScope unit="volume">96</biblScope>
+								<biblScope unit="page">307</biblScope>
+								<date type="published" when="2021">2021</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b23">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">H</forename>
+									<surname>Asteman</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<forename type="middle">E</forename>
+									<surname>Svensson</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<forename type="middle">G</forename>
+									<surname>Johansson</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxid. Met</title>
+							<imprint>
+								<biblScope unit="volume">57</biblScope>
+								<biblScope unit="page">193</biblScope>
+								<date type="published" when="2002">2002</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b24">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">D</forename>
+									<forename type="middle">J</forename>
+									<surname>Young</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">B</forename>
+									<forename type="middle">A</forename>
+									<surname>Pint</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxid. Met</title>
+							<imprint>
+								<biblScope unit="volume">66</biblScope>
+								<biblScope unit="page">137</biblScope>
+								<date type="published" when="2006">2006</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b25">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">F</forename>
+									<forename type="middle">H</forename>
+									<surname>Stott</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<forename type="middle">C</forename>
+									<surname>Wood</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">J</forename>
+									<surname>Stringer</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Oxid. Met</title>
+							<imprint>
+								<biblScope unit="volume">44</biblScope>
+								<biblScope unit="page">113</biblScope>
+								<date type="published" when="1995">1995</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b26">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">G</forename>
+									<surname>Laplanche</surname>
+								</persName>
+							</author>
+						</analytic>
+						<monogr>
+							<title level="j">Acta Mater</title>
+							<imprint>
+								<date type="published" when="2020">2020, 199, 193</date>
+							</imprint>
+						</monogr>
+					</biblStruct>
+
+					<biblStruct xml:id="b27">
+						<analytic>
+							<title/>
+							<author>
+								<persName>
+									<forename type="first">C.-C</forename>
+									<surname>Hsieh</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">W</forename>
+									<surname>Wu</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">; M.-L</forename>
+									<surname>Bürckner</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">L</forename>
+									<surname>Mengis</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">E</forename>
+									<forename type="middle">M H</forename>
+									<surname>White</surname>
+								</persName>
+							</author>
+							<author>
+								<persName>
+									<forename type="first">M</forename>
+									<forename type="middle">C</forename>
+									<surname>Galetz</surname>
+								</persName>
+							</author>
+							<idno type="DOI">10.1002/maco.202213382</idno>
+							<ptr target="https://doi.org/10.1002/maco.202213382" />
+						</analytic>
+						<monogr>
+							<title level="j">Int. Sch. Res. Notices</title>
+							<imprint>
+								<biblScope unit="volume">16</biblScope>
+								<biblScope unit="page" from="79" to="90" />
+								<date type="published" when="2012">2012. 2012. 2023</date>
+							</imprint>
+						</monogr>
+						<note>Mater. Corros.</note>
+					</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
